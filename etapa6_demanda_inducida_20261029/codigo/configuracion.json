@@ -1,0 +1,22 @@
+{
+  "anios": [2026,2030,2040,2050],
+  "crecimiento": "central_heredado",
+  "captacion": "central_heredada",
+  "operacion": "base_con_buses",
+  "version_informe": "B",
+  "elasticidades": {
+    "VL": {"menor_induccion":-0.254,"central":-0.354,"mayor_induccion":-0.454},
+    "CAM": {"menor_induccion":-0.006,"central":-0.106,"mayor_induccion":-0.206},
+    "PEATON": {"menor_induccion":-0.254,"central":-0.354,"mayor_induccion":-0.454},
+    "VP": {"menor_induccion":-0.254,"central":-0.354,"mayor_induccion":-0.454}
+  },
+  "formula": "D_base * ((CG_CP/CG_SBO)^epsilon - 1), solo con 0<CG_CP<CG_SBO; cero si no reduce; faltante fuera de soporte",
+  "CG_SBO": "Alternativa de procedencia observada/inferida, no reparto del logit",
+  "CG_CP": "Menor costo completo disponible entre tierra,cruceactual,nuevo factibles en el soporte",
+  "cola_comun": "Excluir de inducción: solo costos diferenciales delnúcleo no permiten ratios de costo absoluto",
+  "peaton_proxy": "Conservar pesos y costos de conexionesvirtuales de últimaEtapa5; calcular porrepresentante y luego agregar, sin inventar ubicación de entrevistados",
+  "asignacion": "Participaciones centrales ya guardadas: p_nuevo y1-p en procedencia. Si faltan participaciones válidas, mantener inducción sin asignar.",
+  "atribucion": "La fórmula solicitada puede generar inducción por una alternativa barata que ya existía enSBO. Se identifica esa parte separadamente; no se presume que sea beneficio causal del proyecto.",
+  "unidad_precios": "CLP enero2026convencional heredado, sin actualizar precios",
+  "extranjeros": "Conservar indicadores agregados existentes. No equiparar nacionalidad,patente,ODinternacional o residencia ni atribuir nacionalidad a la demanda inducida."
+}
