@@ -1,0 +1,30 @@
+{
+  "anios": [2026,2030,2040,2050],
+  "versiones": ["A","B"],
+  "version_informe": "B",
+  "escenarios_eleccion": ["conservador","central","alto"],
+  "VST": 10047,
+  "factor_horario_CITRA": 1.2,
+  "factor_tarifa_nueva_reducida": 0.75,
+  "referencia_bus_CLP": 10000,
+  "referencia_bus_km": 121.956,
+  "tarifa_adulta_lacustre":2550,
+  "tiempo_bus_actual_PI_Coy_h":2.5,
+  "velocidad_conexion_bus_kmh":50,
+  "transferencia_adicional_h":0.25,
+  "proxy_Rio_Ibanez":true,
+  "pesos_localidades_Rio_Ibanez":{"PUERTO IBANEZ":0.3333333333333333,"VILLA CERRO CASTILLO":0.3333333333333333,"PUERTO RIO TRANQUILO":0.3333333333333333},
+  "km_PI_Cerro_proxy":39.8,
+  "km_PI_Tranquilo_proxy":158.4,
+  "sensibilidades":[
+    {"id":"base_con_buses","buses":true,"nav_actual_min":120,"nav_nueva_min":80,"frecuencia_nueva":14,"factor_tarifa_nueva":1},
+    {"id":"base_sin_buses","buses":false,"nav_actual_min":120,"nav_nueva_min":80,"frecuencia_nueva":14,"factor_tarifa_nueva":1},
+    {"id":"actual_160min","buses":true,"nav_actual_min":160,"nav_nueva_min":80,"frecuencia_nueva":14,"factor_tarifa_nueva":1},
+    {"id":"nueva_40min","buses":true,"nav_actual_min":120,"nav_nueva_min":40,"frecuencia_nueva":14,"factor_tarifa_nueva":1},
+    {"id":"nueva_21semanales","buses":true,"nav_actual_min":120,"nav_nueva_min":80,"frecuencia_nueva":21,"factor_tarifa_nueva":1},
+    {"id":"tarifa_nueva_75pct","buses":true,"nav_actual_min":120,"nav_nueva_min":80,"frecuencia_nueva":14,"factor_tarifa_nueva":0.75}
+  ],
+  "descripcion_proxy_Rio":"No cambia localidad ni asigna entrevistados a cabecera. Evalúa subcohortes virtuales con pesos editables para el OD comunal; sus costos/conectividad son imputados. No son localidades observadas.",
+  "descuentos":"Sin descuentos por edad/estudios. Variante75% afecta solo tarifa lacustre nueva, no tarifas de buses. Supuesto de sensibilidad, no tarifa acordada.",
+  "operacion_buses":"Hipotética, no contratada; frecuencias por sentido coordinadas con barcaza. No se estima flota, capacidad ni costo operacional. Servicios históricos no se certifican vigentes."
+}

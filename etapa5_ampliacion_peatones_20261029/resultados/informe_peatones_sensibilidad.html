@@ -1,0 +1,769 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><title>Peatones y sensibilidad operacional</title><style>body{font:16px system-ui;max-width:1300px;margin:32px auto;padding:0 20px;color:#18374a}p{line-height:1.5}table{border-collapse:collapse;display:block;overflow:auto;font-size:12px}td,th{padding:8px;border-bottom:1px solid #ddd;text-align:left}th{background:#eaf2f7}</style><h1>Ampliación peatonal y sensibilidad operacional</h1>
+<p>Se conserva la demanda anualizada, el crecimiento central y la función principal por tramos. Cada OD se estima de nuevo en esta carpeta; no se suma su captación a los 8.460,53 peatones anteriores. El escenario vehicular de referencia permanece intacto.</p><h2>Resultados peatonales centrales — ARISTO B</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>caso_operacional</th>
+      <th>anio</th>
+      <th>demanda_peatonal_referencia</th>
+      <th>demanda_modelada</th>
+      <th>captacion</th>
+      <th>permanece_actual_modelada</th>
+      <th>residual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>actual_160min</td>
+      <td>2026</td>
+      <td>51,542.429</td>
+      <td>40,020.638</td>
+      <td>14,427.807</td>
+      <td>25,592.831</td>
+      <td>11,521.791</td>
+    </tr>
+    <tr>
+      <td>actual_160min</td>
+      <td>2030</td>
+      <td>54,305.700</td>
+      <td>42,166.208</td>
+      <td>15,201.305</td>
+      <td>26,964.903</td>
+      <td>12,139.492</td>
+    </tr>
+    <tr>
+      <td>actual_160min</td>
+      <td>2040</td>
+      <td>60,263.127</td>
+      <td>46,791.912</td>
+      <td>16,868.913</td>
+      <td>29,922.999</td>
+      <td>13,471.215</td>
+    </tr>
+    <tr>
+      <td>actual_160min</td>
+      <td>2050</td>
+      <td>66,089.202</td>
+      <td>51,315.627</td>
+      <td>18,499.754</td>
+      <td>32,815.873</td>
+      <td>14,773.576</td>
+    </tr>
+    <tr>
+      <td>base_con_buses</td>
+      <td>2026</td>
+      <td>51,542.429</td>
+      <td>40,020.638</td>
+      <td>8,460.531</td>
+      <td>31,560.107</td>
+      <td>11,521.791</td>
+    </tr>
+    <tr>
+      <td>base_con_buses</td>
+      <td>2030</td>
+      <td>54,305.700</td>
+      <td>42,166.208</td>
+      <td>8,914.114</td>
+      <td>33,252.094</td>
+      <td>12,139.492</td>
+    </tr>
+    <tr>
+      <td>base_con_buses</td>
+      <td>2040</td>
+      <td>60,263.127</td>
+      <td>46,791.912</td>
+      <td>9,892.007</td>
+      <td>36,899.905</td>
+      <td>13,471.215</td>
+    </tr>
+    <tr>
+      <td>base_con_buses</td>
+      <td>2050</td>
+      <td>66,089.202</td>
+      <td>51,315.627</td>
+      <td>10,848.339</td>
+      <td>40,467.288</td>
+      <td>14,773.576</td>
+    </tr>
+    <tr>
+      <td>base_sin_buses</td>
+      <td>2026</td>
+      <td>51,542.429</td>
+      <td>40,020.638</td>
+      <td>0.000</td>
+      <td>40,020.638</td>
+      <td>11,521.791</td>
+    </tr>
+    <tr>
+      <td>base_sin_buses</td>
+      <td>2030</td>
+      <td>54,305.700</td>
+      <td>42,166.208</td>
+      <td>0.000</td>
+      <td>42,166.208</td>
+      <td>12,139.492</td>
+    </tr>
+    <tr>
+      <td>base_sin_buses</td>
+      <td>2040</td>
+      <td>60,263.127</td>
+      <td>46,791.912</td>
+      <td>0.000</td>
+      <td>46,791.912</td>
+      <td>13,471.215</td>
+    </tr>
+    <tr>
+      <td>base_sin_buses</td>
+      <td>2050</td>
+      <td>66,089.202</td>
+      <td>51,315.627</td>
+      <td>0.000</td>
+      <td>51,315.627</td>
+      <td>14,773.576</td>
+    </tr>
+    <tr>
+      <td>nueva_21semanales</td>
+      <td>2026</td>
+      <td>51,542.429</td>
+      <td>40,020.638</td>
+      <td>18,407.461</td>
+      <td>21,613.177</td>
+      <td>11,521.791</td>
+    </tr>
+    <tr>
+      <td>nueva_21semanales</td>
+      <td>2030</td>
+      <td>54,305.700</td>
+      <td>42,166.208</td>
+      <td>19,394.314</td>
+      <td>22,771.894</td>
+      <td>12,139.492</td>
+    </tr>
+    <tr>
+      <td>nueva_21semanales</td>
+      <td>2040</td>
+      <td>60,263.127</td>
+      <td>46,791.912</td>
+      <td>21,521.903</td>
+      <td>25,270.009</td>
+      <td>13,471.215</td>
+    </tr>
+    <tr>
+      <td>nueva_21semanales</td>
+      <td>2050</td>
+      <td>66,089.202</td>
+      <td>51,315.627</td>
+      <td>23,602.582</td>
+      <td>27,713.044</td>
+      <td>14,773.576</td>
+    </tr>
+    <tr>
+      <td>nueva_40min</td>
+      <td>2026</td>
+      <td>51,542.429</td>
+      <td>40,020.638</td>
+      <td>15,160.662</td>
+      <td>24,859.975</td>
+      <td>11,521.791</td>
+    </tr>
+    <tr>
+      <td>nueva_40min</td>
+      <td>2030</td>
+      <td>54,305.700</td>
+      <td>42,166.208</td>
+      <td>15,973.450</td>
+      <td>26,192.758</td>
+      <td>12,139.492</td>
+    </tr>
+    <tr>
+      <td>nueva_40min</td>
+      <td>2040</td>
+      <td>60,263.127</td>
+      <td>46,791.912</td>
+      <td>17,725.764</td>
+      <td>29,066.148</td>
+      <td>13,471.215</td>
+    </tr>
+    <tr>
+      <td>nueva_40min</td>
+      <td>2050</td>
+      <td>66,089.202</td>
+      <td>51,315.627</td>
+      <td>19,439.443</td>
+      <td>31,876.184</td>
+      <td>14,773.576</td>
+    </tr>
+    <tr>
+      <td>tarifa_nueva_75pct</td>
+      <td>2026</td>
+      <td>51,542.429</td>
+      <td>40,020.638</td>
+      <td>9,026.638</td>
+      <td>30,993.999</td>
+      <td>11,521.791</td>
+    </tr>
+    <tr>
+      <td>tarifa_nueva_75pct</td>
+      <td>2030</td>
+      <td>54,305.700</td>
+      <td>42,166.208</td>
+      <td>9,510.571</td>
+      <td>32,655.637</td>
+      <td>12,139.492</td>
+    </tr>
+    <tr>
+      <td>tarifa_nueva_75pct</td>
+      <td>2040</td>
+      <td>60,263.127</td>
+      <td>46,791.912</td>
+      <td>10,553.896</td>
+      <td>36,238.015</td>
+      <td>13,471.215</td>
+    </tr>
+    <tr>
+      <td>tarifa_nueva_75pct</td>
+      <td>2050</td>
+      <td>66,089.202</td>
+      <td>51,315.627</td>
+      <td>11,574.218</td>
+      <td>39,741.408</td>
+      <td>14,773.576</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Cobertura y nuevas conexiones</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>version_referencia</th>
+      <th>origen</th>
+      <th>destino</th>
+      <th>zona_origen</th>
+      <th>zona_destino</th>
+      <th>referencia</th>
+      <th>referencia_modelada</th>
+      <th>captacion</th>
+      <th>residual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B</td>
+      <td>Aysén</td>
+      <td>Chile Chico</td>
+      <td>33.000</td>
+      <td>39.000</td>
+      <td>458.080</td>
+      <td>0.000</td>
+      <td>No estimable</td>
+      <td>458.080</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Biobío</td>
+      <td>Chile Chico</td>
+      <td>55.000</td>
+      <td>39.000</td>
+      <td>717.600</td>
+      <td>0.000</td>
+      <td>No estimable</td>
+      <td>717.600</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Chile Chico</td>
+      <td>Aysén</td>
+      <td>39.000</td>
+      <td>33.000</td>
+      <td>1,353.301</td>
+      <td>0.000</td>
+      <td>No estimable</td>
+      <td>1,353.301</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Chile Chico</td>
+      <td>Coyhaique</td>
+      <td>39.000</td>
+      <td>31.000</td>
+      <td>19,492.362</td>
+      <td>19,492.362</td>
+      <td>4,765.979</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Chile Chico</td>
+      <td>Puerto Montt</td>
+      <td>39.000</td>
+      <td>1.000</td>
+      <td>295.579</td>
+      <td>0.000</td>
+      <td>No estimable</td>
+      <td>295.579</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Chile Chico</td>
+      <td>Río Ibáñez</td>
+      <td>39.000</td>
+      <td>40.000</td>
+      <td>3,915.465</td>
+      <td>3,915.465</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Cochrane</td>
+      <td>Aysén</td>
+      <td>36.000</td>
+      <td>33.000</td>
+      <td>147.789</td>
+      <td>0.000</td>
+      <td>No estimable</td>
+      <td>147.789</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Coyhaique</td>
+      <td>Chile Chico</td>
+      <td>31.000</td>
+      <td>39.000</td>
+      <td>12,948.168</td>
+      <td>12,948.168</td>
+      <td>3,694.552</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>EXTERNO_NO_ESPECIFICADO</td>
+      <td>Puerto Montt</td>
+      <td>No estimable</td>
+      <td>1.000</td>
+      <td>762.143</td>
+      <td>0.000</td>
+      <td>No estimable</td>
+      <td>762.143</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Puerto Montt</td>
+      <td>Chile Chico</td>
+      <td>1.000</td>
+      <td>39.000</td>
+      <td>458.080</td>
+      <td>0.000</td>
+      <td>No estimable</td>
+      <td>458.080</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Río Ibáñez</td>
+      <td>Chile Chico</td>
+      <td>40.000</td>
+      <td>39.000</td>
+      <td>3,664.643</td>
+      <td>3,664.643</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>SIN_OD_NO_PERFIL</td>
+      <td>SIN_OD_NO_PERFIL</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>5,657.143</td>
+      <td>0.000</td>
+      <td>No estimable</td>
+      <td>5,657.143</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Santa Cruz</td>
+      <td>Coyhaique</td>
+      <td>51.000</td>
+      <td>31.000</td>
+      <td>1,672.075</td>
+      <td>0.000</td>
+      <td>No estimable</td>
+      <td>1,672.075</td>
+    </tr>
+  </tbody>
+</table><p>El circuito Chile Chico–Coyhaique y su inverso conservan exactamente sus costos y captación anteriores. Río Ibáñez se mantiene como comuna: se evalúa una mezcla explícita de tres localidades representativas, no ubicaciones observadas. Para cada representante se calcula su captación y luego se pondera; no se asigna toda la comuna a Puerto Ibáñez. Este supuesto puede desactivarse en la configuración.</p>
+<p>Las extensiones tienen tarifas por distancia a81,997CLP/km y velocidad de referencia50km/h cuando no existe tiempo completo de bus. Para el servicio actual se usa una aproximación desde el accesoCarolinaPI–Coyhaique de2,5h, conservando el cruce por separado. Los nuevos accesos más largos pueden eliminar el ahorro; ampliar la cobertura no obliga a obtener captación positiva.</p>
+<p>Puerto Montt tiene una cadena histórica víaChaitén/Coyhaique, pero faltan tarifas, acceso local y coordinación suficientes para un CG completo. Aysén no debe convertirse automáticamente en una cabecera con bus disponible. Los OD internacionales, genéricos y sin OD conservan su balance residual.</p>
+<h2>Servicios históricos consultados</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>empresa</th>
+      <th>ruta_historica</th>
+      <th>tiempo_historico_h</th>
+      <th>uso_y_limite</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Carolina</td>
+      <td>Coyhaique–Puerto Ibáñez–Chile Chico</td>
+      <td>6.000</td>
+      <td>Tabla61p127; incluye cruceactual, no usar6h como tramo vial</td>
+    </tr>
+    <tr>
+      <td>Freddy</td>
+      <td>Aeropuerto Balmaceda–Puerto Ibáñez–Chile Chico</td>
+      <td>5.000</td>
+      <td>Tabla61p127; no hay ODpeatonalAeropuertoBalmaceda enbase utilizada</td>
+    </tr>
+    <tr>
+      <td>CCTravel</td>
+      <td>Puerto Río Tranquilo–Coyhaique</td>
+      <td>4.500</td>
+      <td>Tabla61p127; respalda enlace histórico, no horarios coordinados actuales</td>
+    </tr>
+    <tr>
+      <td>Eca</td>
+      <td>Puerto Guadal–Coyhaique</td>
+      <td>5.750</td>
+      <td>Tabla61p127; no hay ODpeatonalPuertoGuadal enbase utilizada</td>
+    </tr>
+    <tr>
+      <td>Interlagos</td>
+      <td>Coyhaique–Villa Cerro Castillo–Puerto Río Tranquilo–Puerto Guadal–Chile Chico</td>
+      <td>8.000</td>
+      <td>Tabla61p127; rutaexclusivamenteterrestre histórica</td>
+    </tr>
+    <tr>
+      <td>Kemel/Becker</td>
+      <td>Puerto Montt–Chaitén–Coyhaique</td>
+      <td>17.000</td>
+      <td>Tabla61p127; 9h+8h serviciosdistintos, tarifa/conexiónfinal/accesolocal no completos</td>
+    </tr>
+    <tr>
+      <td>PauloLanderos</td>
+      <td>Cochrane–Chile Chico</td>
+      <td>4.500</td>
+      <td>Tabla61p127; no resuelve extremoAysén delODencuestado</td>
+    </tr>
+  </tbody>
+</table><p>Fuente: Informe FinalARISTO, tabla61,páginas127–128; tarifa adulta tabla52,p121. Los servicios y tiempos son históricos, no una confirmación de operación vigente. Los tiempos6h/5h que incluyen el ferry no se usan como si fueran solo conducción terrestre.</p>
+<h2>Sin buses frente a buses coordinados</h2><p>Sin nuevos buses, se supone que el nuevo cruce no ofrece acceso peatonal completo; la captación en el soporte identificado es cero y los otros viajes siguen residuales. Con buses se supone una operación nueva coordinada con14zarpes semanales/sentido, navegación80min y15min por terminal. Se aplica una sola penalizaciónhoraria; un cambio adicional coordinado agrega15min, no otra espera de barcaza. No hay descuentos automáticos por edad o condición estudiantil.</p>
+<h2>Sensibilidades de un atributo — 2026</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>caso_operacional</th>
+      <th>segmento</th>
+      <th>unidad</th>
+      <th>captacion</th>
+      <th>cambio_vs_base</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>actual_160min</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>14,427.807</td>
+      <td>5,967.276</td>
+    </tr>
+    <tr>
+      <td>base_con_buses</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>8,460.531</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>base_sin_buses</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>0.000</td>
+      <td>-8,460.531</td>
+    </tr>
+    <tr>
+      <td>nueva_21semanales</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>18,407.461</td>
+      <td>9,946.930</td>
+    </tr>
+    <tr>
+      <td>nueva_40min</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>15,160.662</td>
+      <td>6,700.131</td>
+    </tr>
+    <tr>
+      <td>tarifa_nueva_75pct</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>9,026.638</td>
+      <td>566.107</td>
+    </tr>
+    <tr>
+      <td>actual_160min</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>462.150</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>actual_160min</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>413.876</td>
+      <td>96.317</td>
+    </tr>
+    <tr>
+      <td>actual_160min</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>489.037</td>
+      <td>489.037</td>
+    </tr>
+    <tr>
+      <td>base_con_buses</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>462.150</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>base_con_buses</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>317.559</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>base_con_buses</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>base_sin_buses</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>462.150</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>base_sin_buses</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>317.559</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>base_sin_buses</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.000</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>nueva_21semanales</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>523.820</td>
+      <td>61.669</td>
+    </tr>
+    <tr>
+      <td>nueva_21semanales</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>2,262.212</td>
+      <td>1,944.653</td>
+    </tr>
+    <tr>
+      <td>nueva_21semanales</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>1,087.402</td>
+      <td>1,087.402</td>
+    </tr>
+    <tr>
+      <td>nueva_40min</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>503.263</td>
+      <td>41.113</td>
+    </tr>
+    <tr>
+      <td>nueva_40min</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>1,363.040</td>
+      <td>1,045.482</td>
+    </tr>
+    <tr>
+      <td>nueva_40min</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>524.256</td>
+      <td>524.256</td>
+    </tr>
+    <tr>
+      <td>tarifa_nueva_75pct</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>559.269</td>
+      <td>97.119</td>
+    </tr>
+    <tr>
+      <td>tarifa_nueva_75pct</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>762.445</td>
+      <td>444.886</td>
+    </tr>
+    <tr>
+      <td>tarifa_nueva_75pct</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>95.255</td>
+      <td>95.255</td>
+    </tr>
+  </tbody>
+</table><p>Las variantes usan la curva central y modifican un atributo respecto de la base: navegación actual160min, nueva40min, frecuencia nueva21/sentido/semana o tarifa lacustre nueva75%de referencia. No se combinan. Los restantes años están en el Excel. Se conservan unidades distintas y no se suman VP con VL.</p>
+<h2>Servicios y kilómetros para evaluación posterior</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>servicio</th>
+      <th>km_por_servicio</th>
+      <th>zarpes_semana_sentido_coordinados</th>
+      <th>salidas_bus_semana_ambos_sentidos</th>
+      <th>km_bus_semanales_si_se_opera</th>
+      <th>estado</th>
+      <th>naturaleza</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chile Chico–Bahía Jara</td>
+      <td>16.700</td>
+      <td>14</td>
+      <td>28</td>
+      <td>467.600</td>
+      <td>necesario circuito principal</td>
+      <td>Hipótesis, no compromiso ni cálculo de flota/costo. Frecuencia histórica de alimentadores no se afirma equivalente a14/21.</td>
+    </tr>
+    <tr>
+      <td>Levicán–Coyhaique</td>
+      <td>152.686</td>
+      <td>14</td>
+      <td>28</td>
+      <td>4,275.208</td>
+      <td>necesario circuito principal; paradas/intercambios requieren programación</td>
+      <td>Hipótesis, no compromiso ni cálculo de flota/costo. Frecuencia histórica de alimentadores no se afirma equivalente a14/21.</td>
+    </tr>
+    <tr>
+      <td>Villa Cerro Castillo–Puerto Río Tranquilo</td>
+      <td>118.600</td>
+      <td>14</td>
+      <td>28</td>
+      <td>3,320.800</td>
+      <td>refuerzo condicional de escenario comunal; verificar trazado/operación, no sumar con otro servicio duplicado</td>
+      <td>Hipótesis, no compromiso ni cálculo de flota/costo. Frecuencia histórica de alimentadores no se afirma equivalente a14/21.</td>
+    </tr>
+    <tr>
+      <td>Chile Chico–Bahía Jara</td>
+      <td>16.700</td>
+      <td>21</td>
+      <td>42</td>
+      <td>701.400</td>
+      <td>necesario circuito principal</td>
+      <td>Hipótesis, no compromiso ni cálculo de flota/costo. Frecuencia histórica de alimentadores no se afirma equivalente a14/21.</td>
+    </tr>
+    <tr>
+      <td>Levicán–Coyhaique</td>
+      <td>152.686</td>
+      <td>21</td>
+      <td>42</td>
+      <td>6,412.812</td>
+      <td>necesario circuito principal; paradas/intercambios requieren programación</td>
+      <td>Hipótesis, no compromiso ni cálculo de flota/costo. Frecuencia histórica de alimentadores no se afirma equivalente a14/21.</td>
+    </tr>
+    <tr>
+      <td>Villa Cerro Castillo–Puerto Río Tranquilo</td>
+      <td>118.600</td>
+      <td>21</td>
+      <td>42</td>
+      <td>4,981.200</td>
+      <td>refuerzo condicional de escenario comunal; verificar trazado/operación, no sumar con otro servicio duplicado</td>
+      <td>Hipótesis, no compromiso ni cálculo de flota/costo. Frecuencia histórica de alimentadores no se afirma equivalente a14/21.</td>
+    </tr>
+  </tbody>
+</table><p>Estos kilómetros y frecuencias son hipótesis operacionales, no costos ya evaluados ni tamaño de flota. Los refuerzos y ramas no se suman indiscriminadamente; su trazado y coordinación requieren definir el plan de operación. No se estima todavía demanda inducida, capacidad ni beneficios sociales.</p>
+<h2>Validaciones y reproducción</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>validacion</th>
+      <th>cumple</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Misma demanda porcaso ycurva</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Conservación peatonal conresidual</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Sin buses no captaciónpeatonal</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Probabilidadesválidas</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Circuitocentral anterior intacto mismoOD</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Captaciónvehicular principal intacta base_con_buses</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Captaciónvehicular principal intacta base_sin_buses</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>A/Bnunca duplicadas dentrocaso</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>PesosproxyconservanOD</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>No nuevosODni magnitudes</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Conservaciónvehicularsensibilidades</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Busesun solo desfasehorario</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Sin nuevosviajesenvehículos</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Fuentesanteriores intactas</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Todas sensibilidades unatributo</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table><p><a href="ampliacion_peatones_sensibilidad.xlsx">Descargar Excel</a>. Desde Anexos:<code>python etapa5_ampliacion_peatones_20261029/codigo/calcular.py</code>. Parámetros editables en<code>codigo/configuracion.json</code>. Todas las entregas anteriores permanecen intactas.</p></html>
