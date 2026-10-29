@@ -1,0 +1,10 @@
+{
+  "python": "3.12.9 (main, Mar 23 2025, 22:44:48) [GCC 14.2.1 20240910]",
+  "paquetes": {
+    "pandas": "2.3.3",
+    "geopandas": "1.0.1",
+    "shapely": "2.1.0",
+    "pyproj": "3.7.1",
+    "openpyxl": "3.1.5"
+  }
+}

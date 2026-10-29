@@ -1,0 +1,28 @@
+ARISTO — versiones OD A/B sobre embarques medidos (Etapa2)
+
+Reproducción desde Anexos:
+python etapa2_demanda_anual_20261029/aristo_OD/construir_versiones_OD.py --cache etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv --salida CARPETA_NUEVA
+
+No relee Excel ni usa CITRA, logit o red. RegistraSHA de auditoría264, balancefecha yfactoresNfecha; comprueba fuentes sin cambios. No sobrescribe salidas existentes. Tamaño <1MB.
+
+A: conserva F conocido por fecha/sentido/clase. La composición mismafecha se calcula con todas las entrevistas compatibles. OD con doszonas conocidas -> observado_asignado. Un extremoInternacionalgenérico se mantiene como residual_externo: etiquetaEXTERNO_NO_ESPECIFICADO, localidadoriginal conservada yzonaNULL. No es OD imputado. Falta deperfil -> residual_sinperfil. F desconocido sigueNULL; aforo0medido no se transforma en una matrizOD de ceros.
+
+B: mismo F que A. Puede transferir composición desde otrodía únicamente de la misma campaña,sentido ysegmento con aforo compatible. No usa sentidoopuesto uotracampaña. El único cambio concreto es CAMVeranoPuertoIbáñez→ChileChico, 01-02-2026: F5se distribuye por perfil27-01-2026,N2. Los2 entrevistados declaran Metropolitana→ChileChico (zona55→39), de modo queB asigna5CAM a eseOD. Es hipótesis débil decomposición interdiaria; A es la sensibilidad sin esa transferencia. No se aumenta F total29CAMmedidos.
+
+Resultados separados por unidades, no sumables entre clases:
+CAM: F29;A22asignados/7residual;B22asignados+5imputados/2residual.
+PEATON: F546;415,222222asignados;10,777778residualexterno;120sinperfil en sentidoPuertoIbáñez→ChileChico. B no completa esos120.
+VL: F126;120,302632asignados;5,697368residualexterno.
+VP: F33;33asignados;VPes unidadprivadaheterogéneaotoño, no reinterpretar automáticamente comoVL.
+MOTO: F9;6asignados/3sinperfil.
+BICI: F1;0asignado/1sinperfil.
+BUS_TP: aforo0en las filas disponibles, no constituye estimación anual cero.
+OTRO_PASAJERO:6entrevistas en2estratos sinFcompatible; se conservan sinflujo, no como0.
+
+Las6entrevistas genéricas se conservan en residual_externo con sus pesos originales, sin repartir a provincias ni personas/vehículos nacionales. Los totalesVLyPEATON nunca se suman como mismaunidad.
+
+Validación:40estratos porversion balancean F=observado_asignado+imputado+residual (oFdesconocido/flujoNULL). Ocho pruebas sintéticas comprueban transferencia condicionada, exclusión detemporada/sentido/clasedistinta, externos, Fdesconocido yaforo0sinOD.
+
+Archivosmatrizlongcon columnas:version,campana,fecha,sentido_cruce,segmento,unidad,origen,destino,zona_origen,zona_destino,componente,subtipo,flujo. Claveincluyeversion+fecha/campana/sentido/segmento+OD+componente/subtipo. No sumarF_estrato repetido en cadaOD: usarbalance_versionA/B paraaforos. 'observado_asignado' es el reparto calculado deF observado con composiciónOD deEODmismafecha, no implica contar cadaODpoblacional directamente. No se certifican probabilidades deinclusión.
+
+Esta tarea no anualiza; el agenteB debe aplicar por unidad/versionycomponente, preservando residuales y la incertidumbre delperfilN2. No todas lascampañas cubren todoslosdías/servicios. No asignar totalesanuales aOD desconocidos automáticamente.

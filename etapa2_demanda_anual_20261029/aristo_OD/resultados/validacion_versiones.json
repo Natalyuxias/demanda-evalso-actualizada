@@ -1,0 +1,46 @@
+{
+  "sha256_cache": {
+    "auditoria_264.csv": "c3c83c638a63803fb25b6c45bf503f8a05c219207f33cc984173c26f8feee190",
+    "balance_por_fecha.csv": "662d0b71175017888b549bbf51c9a86953d4eec50148917ed8f13331fde719b7",
+    "factores_y_N_fecha.csv": "34cb0f2851aded4609605ff992e7e9be258682dc9e0c38579dd68366149efc16"
+  },
+  "fuente_cache": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv",
+  "filas_entrevistas": 264,
+  "estratos_fecha": 40,
+  "verificaciones": {
+    "ID_264_unicos": true,
+    "balance_40_estratos_A": true,
+    "balance_40_estratos_B": true,
+    "imputacion_solo_misma_campana_sentido_clase": true,
+    "sin_zona_inventada_externos": true,
+    "no_alteracion_cache": true
+  },
+  "imputacion_B": [
+    {
+      "campana": "Verano",
+      "fecha": "2026-02-01",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "CAM",
+      "origen": "Metropolitana",
+      "destino": "Chile Chico",
+      "flujo": 5.0,
+      "N_perfil": 2,
+      "fechas_perfil": "2026-01-27"
+    }
+  ],
+  "esquema_clave_recomendado": [
+    "campana",
+    "fecha",
+    "sentido_cruce",
+    "segmento",
+    "origen",
+    "destino",
+    "zona_origen",
+    "zona_destino",
+    "componente",
+    "subtipo",
+    "version"
+  ],
+  "alcance": "Filas/embarques medidos, no demanda anual ni día completo. A/B solo modifican reparto OD de F conocido, nunca F. A: residual explícito. B: transferencia interdiaria de composición misma campaña/sentido/clase.",
+  "sensibilidad": "Comparar A (sin transferencia N2) y B (imputa 5 CAM); no introducir captación ni perfiles de otras temporadas."
+}

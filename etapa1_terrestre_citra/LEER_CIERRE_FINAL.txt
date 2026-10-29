@@ -1,0 +1,11 @@
+ENTREGA VIGENTE: resultados/cierre_final_04/informe_final.html
+
+Conclusion B: CITRA utilizable parcialmente como referencia del corredor observado. No estima toda la demanda terrestre ni demanda capturable.
+
+109 A de alta confianza inferida, 0 B, 3 C conservadas. Hay93 A con factor compatible y64 en pantallas elegidas. 13celdas zonales porcampaña/clase (6pares zonales),25detalladas (19conflujo,6faltantes).
+
+Los dos controles comparables de39→40 Verano VL discrepan:3,73 frente a25,07veh/12h. Se conservan ambos, sin sumar ni promediar; ver Excel04. La atribucion A no elimina incertidumbre de muestreo/tiempos/itinerario.
+
+Se recomienda continuar con CITRA terrestre parcial y ARISTO lacustre independiente. No completar mercados faltantes ni sumar las fuentes automaticamente.
+
+Reproduccion: cierre_final/integracion/estimar_corredor.py, parametros --cache resultados/entrega_02 --revision cierre_final --salida carpeta_nueva (usar rutas completas desde Anexos). Los modulos de aforos, rutas, pantallas y cobertura producen insumos separados; ver docs/12_cierre_citra_corredor.md del repositorio. Fuentes y entregas previas permanecen intactas.

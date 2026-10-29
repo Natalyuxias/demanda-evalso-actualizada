@@ -1,0 +1,230 @@
+{
+  "estado": "correcto",
+  "hashes_originales": {
+    "Cap 6/Mediciones de flujo/Consolidado Flujos.xlsx": "9e705a8e3613bd367bb10a49621e907e095531d858a2ef4db85834a86993f71d",
+    "Cap 6/BBDD EOD/Base de datos agregada.xlsx": "edf91ef5ce840362ecdf7d7d33477d6a9da6fa1495e158f29015b7b390d2d8ef"
+  },
+  "hash_microdatos": "ae9898bf99068d434398b162c2602e7ad0ec2cb28743e1134455373fa1ca318e",
+  "filas_cruce": 10,
+  "filas_fuente": [
+    5,
+    6,
+    7,
+    8,
+    124,
+    125,
+    218,
+    220,
+    221,
+    222
+  ],
+  "estratos": 48,
+  "N_microdatos": 264,
+  "campanas": [
+    "Primavera",
+    "Verano",
+    "Otoño"
+  ],
+  "zarpes_identificados_individualmente_en_conteos": false,
+  "Primavera_evidencia": "Tabla78 p173 planifica encuesta a bordo en dos horarios por sentido08-11; no certifica identificadores individuales de zarpe. Tabla107 pp187–188 totaldia/sentido. No hay enlace hora-fila para cada una de las2filas.",
+  "Verano_Normal_evidencia": "Planificacion encuestas tablas109 p191 y140 p209 porfecha; conteos nohora/IDzarpe. Media porfila, no certificar porzarpe.",
+  "N_supera_F": [
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "CAM",
+      "N_entrevistas_validas_clase": 7,
+      "F_total_filas_medidas": 6.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "VL",
+      "N_entrevistas_validas_clase": 19,
+      "F_total_filas_medidas": 10.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "VP",
+      "N_entrevistas_validas_clase": 19,
+      "F_total_filas_medidas": 11.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "VL",
+      "N_entrevistas_validas_clase": 22,
+      "F_total_filas_medidas": 15.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "VP",
+      "N_entrevistas_validas_clase": 23,
+      "F_total_filas_medidas": 22.0
+    }
+  ],
+  "clases_sin_N": [
+    {
+      "campana": "Otoño",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "BICI",
+      "F_total_filas_medidas": 1.0
+    },
+    {
+      "campana": "Otoño",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "BUS_TP",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Otoño",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "MOTO",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Otoño",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "PEATON_MAS_BICI",
+      "F_total_filas_medidas": 48.0
+    },
+    {
+      "campana": "Otoño",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "BICI",
+      "F_total_filas_medidas": ""
+    },
+    {
+      "campana": "Otoño",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "BUS_TP",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Otoño",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "MOTO",
+      "F_total_filas_medidas": ""
+    },
+    {
+      "campana": "Otoño",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "PEATON_MAS_BICI",
+      "F_total_filas_medidas": 62.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "BICI",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "BUS_TP",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "MOTO",
+      "F_total_filas_medidas": 1.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "PEATON_MAS_BICI",
+      "F_total_filas_medidas": 54.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "BICI",
+      "F_total_filas_medidas": 1.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "BUS_TP",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "PEATON_MAS_BICI",
+      "F_total_filas_medidas": 70.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "BICI",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "BUS_TP",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "CAM",
+      "F_total_filas_medidas": 2.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "MOTO",
+      "F_total_filas_medidas": 1.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "PEATON_MAS_BICI",
+      "F_total_filas_medidas": 194.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "BICI",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "BUS_TP",
+      "F_total_filas_medidas": 0.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "MOTO",
+      "F_total_filas_medidas": 1.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "PEATON",
+      "F_total_filas_medidas": 120.0
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "PEATON_MAS_BICI",
+      "F_total_filas_medidas": 120.0
+    }
+  ],
+  "errores_o_riesgos_07": [
+    "TD Transb usa9semanales fijo y sumasfilas, no media;07corrige mediafilas pero todavia es supuesto fila=zarpe fueraPrimavera.",
+    "07convierte automaticamente a referencia diaria por11/8; aqui queda solo escenario y el principal usa totalesmedidos.",
+    "Normal Vehiculo privado enEOD no desagregaVL/MOTO/BICI;07lo asignaVL4ruedas,supuesto no demostrado.",
+    "07 usa CAMExcel5/4 Normal sin explicitar discrepancia con Informe4/3.",
+    "N>Fprimavera no es expansion de muestra-subconjunto;07suponecomposicionrepresentativa, no admite validacion probabilistica.",
+    "07 sumaVL saltandoblancosNormal; mantener procedimientoARISTO y flags sin declarar ceros."
+  ],
+  "carga_peligrosa": "No hay identificador de carga peligrosa/especial ni indicador ordinario/especial en columnas de conteos. No puede estimarse ni excluirse separadamente.",
+  "recomendacion": "Principal: total de filas medidas y composicion OD por FECHA/sentido/usuario, sin transferir automaticamente muestra de otro dia. Coeficientes agrupados por campaña quedan como contraste de perfil transferido. No afirmar24h ni totalestacion. Verano01febPIaCC CAM5medidos quedan sinOD; enero27solo4expandidos desdeN2. Presentar media/fila y escenariosfrecuencia11/8 aparte, sin convertirlos en observado."
+}

@@ -1,0 +1,20 @@
+{
+  "estado": "correcto",
+  "pruebas": {
+    "Mallin_Grande_11401_zona39": true,
+    "comuna_no_localidad_Puerto_Ibanez": true,
+    "Puerto_Ibanez_zona40_no_ID42": true,
+    "texto_y_comuna_contradictorios_sin_asignar": true,
+    "coordenada_no_prevalece_sobre_conflicto": true,
+    "Aysen_regional_no_conflicto_comunal": true,
+    "coordenadas_y_JSON_originales_intactos": true,
+    "nombre_internacional_y_punto_Chile_pendiente": true,
+    "cero_coordenadas_no_asignado": true,
+    "limite_poligono_no_asignado": true,
+    "punto_sin_contraste_textual_no_asignado": true,
+    "macrozona55_sin_CUT_inventado": true,
+    "nombre_calle_no_se_convierte_en_comuna": true,
+    "etiqueta_ambigua_IBANEZ_sin_asignar": true,
+    "cola_comunal_no_es_segunda_localidad": true
+  }
+}

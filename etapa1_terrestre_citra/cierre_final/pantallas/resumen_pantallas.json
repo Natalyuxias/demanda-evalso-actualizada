@@ -1,0 +1,20 @@
+{
+  "candidatos": 23,
+  "pantallas_elegidas": 13,
+  "pares_solapados": 12,
+  "pares_en_serie": 12,
+  "independencia_ramas_paralelas_demostrada": 0,
+  "contrastes_misma_fecha": 5,
+  "contrastes_misma_fecha_y_cobertura": 2,
+  "seleccion_cubre_trayectorias_modeladas": true,
+  "seleccion_usa_flujo_mayor_como_criterio": false,
+  "recomendacion": "Reutilizar una pantalla por OD ordenado, campana y clase; preservar contrastes. No declarar consistencia general entre controles: solo dos pares comparten fecha y cobertura, y uno presenta Q=3.73 frente a25.07 vehiculos/12h. Sin aforos repetidos/muestreo certificado no se determina cual estima mejor la poblacion; no promediar ni sumar para resolver diferencia.",
+  "incertidumbre": "La geometria procede de rutas de referencia ya auditadas; no es observacion de itinerarios. La correspondencia de sentidos se respeta por campana; E1003 usa distinta codificacion verano/otono.",
+  "sin_nuevas_rutas": true,
+  "fuentes": {
+    "etapa1_terrestre_citra/resultados/entrega_02/csv/seleccion_pantallas.csv": "c5c4e275e975b233f4ce9aaec6ca1a60b3c6c8a16788b34f061f7d6c967339fc",
+    "etapa1_terrestre_citra/resultados/entrega_02/csv/relaciones_entre_controles.csv": "12e504d9a3b72fe87296ad3caf8b6563003368ee353d8207d196d746f16c1daa",
+    "etapa1_terrestre_citra/resultados/entrega_02/csv/estimaciones_por_dia_y_pantalla.csv": "262ee2010a16a577eb274993a64fe7c451f91008924ce9df0c3b695d52d87db2",
+    "etapa1_terrestre_citra/resultados/entrega_02/csv/auditoria_112.csv": "9c82b22d5522b23c03fa3552aa19853ae5923655de1b3ebbea0e1f19d7f24cd0"
+  }
+}

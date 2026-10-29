@@ -1,0 +1,26 @@
+FACTORES TEMPORALES LACUSTRES — AÑO 2026 NORMALIZADO
+
+Salida definitiva: esta carpeta final/. Los CSV de la carpeta superior fueron propuestas intermedias y no son la parametrización final.
+
+Central: demanda por operación PROGRAMADA en fechas de muestra, transferida a operaciones ordinarias programadas del mes. No se certifica frecuencia efectiva ni se reconstruyen carena, meteorología o contingencias de2026. Año calendario2026,365días,sincrecimiento.
+
+Coeficiente mensual aplicado a CADA flujo OD/residual de cada fecha de la campaña y luego sumado:
+coef = dias_mes × frecuencia_ordinaria_semanal_por_sentido / 7 / operaciones_programadas_en_fechas_de_muestra.
+Operaciones de referencia: Primavera2porsentido08nov;VeranoCC→PI2eldomingo01feb;VeranoPI→CC3(1martes27ene+2domingo01feb);Normal1porsentido10may. Los denominadores son inferencias documentadas de planificación/itinerario, no identificadores de zarpes efectivamente contados.
+
+Meses: Dic–Feb perfilVerano;Mar–May perfilNormal(mayo);Jun–AgoNormalproxyinvierno;Sep–NovPrimavera. Frecuencia ordinaria por sentido/semana11dic–abr,8may–nov,confirmada antes porelusuario. Cumplimiento programado=1es supuesto, no estimación empírica de cancelaciones.
+
+Escenario alto: solo cambia VeranoPI→CC, donde dos filas pueden interpretarse como dos operaciones efectivamente contadas en lugar de las tres programadas. Factoralto=31×11/7/2enenero/diciembre,28×11/7/2enfebrero. Resto igual central; no porcentajes arbitrarios.
+
+ConservadorBASE=central antes de una eventual sensibilidad empírica externa de invierno, aplicada por el integrador. Los ratiosPNC localInvierno/Primavera NOson ratios observados Invierno/Otoño del ferry; si se utilizan sobreNormalmayo deben identificarse como proxy extrafuente y solo en clases compatibles. No aplicar apeatones,motos,bicis oVPsinjustificarcompatibilidad.
+
+Lectura de totales por día del InformeARISTO y versión anterior fila=zarpe07 conservadas en contraste_lectura_diaria_no_central.csv, no gobiernan el central. Multiplicar directamente un día muestreado con dos operaciones por365días asumiría implícitamente2operaciones/día y no respeta automáticamente frecuencia ordinaria8/7u11/7.
+
+Continuidad de unidades: PRIVADOS_COMPATIBLES es un agregado adicional de VL+MOTO+BICI en Primavera/Verano yVP agrupado enNormal; nunca sumarlo encima de esos componentes. No es VL de cuatro ruedas. VL/MOTO/BICI estrictos carecen de perfilNormal ypor tanto no tienen anual completo identificado; conservar meses estimados y anual estrictoNULL. VP estricto solo existe en los meses asignados aNormal. CAM yPEATONse conservan en sus unidades distintas; no sumarlas.
+
+Aplicación: función apply_factors(matrix,factors) en ../anualizacion_lacustre.py requiere campana,sentido_cruce,segmento,flujo. Preserva componentes observado/imputado/residual; residual se anualiza sin inventar OD. El integrador debe construir el agregado PRIVADOS_COMPATIBLES antes de aplicarle sus factores y no sumarlo con sus componentes.
+
+Fuentes y detalle: fuentes_y_decisiones.json; programasARISTOtabla38pp111–112,planencuestas78p173,conteos107pp187–188,138p207,169p223. NavieraAustral programación04–19mayo2026 certifica programación10mayCC16h/PI19h, una salida por sentido; no certifica realización. No se encontró serie propia mensual del ferry enCap3; Figura9p46es tráficoaéreo yno se utilizó para el ferry.
+
+Reproducción desdeAnexos: python etapa2_demanda_anual_20261029/lacustre_temporal/anualizacion_lacustre.py
+Cuatro pruebas sintéticas: python etapa2_demanda_anual_20261029/lacustre_temporal/test_anualizacion.py

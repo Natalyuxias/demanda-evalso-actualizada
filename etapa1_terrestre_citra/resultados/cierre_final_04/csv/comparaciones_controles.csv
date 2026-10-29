@@ -1,0 +1,13 @@
+﻿id_OD_zonal,control_1,sentido_1,control_2,sentido_2,cobertura_completa_ambas,fechas_validas_1,fechas_validas_2,fechas_coincidentes,jornadas_comparables,comparabilidad,se_suman,fecha,entrevistas_1,entrevistas_2,N_1,N_2,F_1,F_2,Q_1,Q_2,diferencia_Q_2_menos_1,razon_Q_2_Q_1
+31|39|Otoño|VL,E0701,NS,E1003,PO,False,2026-05-14|2026-05-19,2026-05-12|2026-05-14,2026-05-14,0,No valida equivalencia de poblacion: cobertura parcial,False,2026-05-14,1.0,0.0,9.0,15.0,112.0,59.0,12.444444444444445,0.0,-12.444444444444445,0.0
+31|39|Verano|VL,E0701,NS,E0702,NS,True,,2026-02-04,,0,Sin fecha coincidente; contraste descriptivo de jornadas distintas,False,,,,,,,,,,,
+31|39|Verano|VL,E0701,NS,E1003,SN,False,,2026-02-04,,0,No valida equivalencia de poblacion: cobertura parcial,False,,,,,,,,,,,
+31|39|Verano|VL,E0702,NS,E1003,SN,False,2026-02-04,2026-02-04,2026-02-04,0,No valida equivalencia de poblacion: cobertura parcial,False,2026-02-04,12.0,4.0,146.0,82.0,482.0,109.0,39.61643835616438,5.317073170731708,-34.29936518543267,0.1342138110177782
+39|31|Otoño|CAM,E0702,SN,E1003,OP,True,2026-05-13,2026-05-12|2026-05-14,,0,Sin fecha coincidente; contraste descriptivo de jornadas distintas,False,,,,,,,,,,,
+39|31|Otoño|VL,E0701,SN,E0702,SN,True,2026-05-14|2026-05-19,2026-05-13,,0,Sin fecha coincidente; contraste descriptivo de jornadas distintas,False,,,,,,,,,,,
+39|31|Verano|VL,E0701,SN,E0702,SN,True,2026-02-03,2026-02-04,,0,Sin fecha coincidente; contraste descriptivo de jornadas distintas,False,,,,,,,,,,,
+39|31|Verano|VL,E0701,SN,E1003,NS,False,2026-02-03,2026-02-04,,0,No valida equivalencia de poblacion: cobertura parcial,False,,,,,,,,,,,
+39|31|Verano|VL,E0702,SN,E1003,NS,False,2026-02-04,2026-02-04,2026-02-04,0,No valida equivalencia de poblacion: cobertura parcial,False,2026-02-04,5.0,3.0,111.0,56.0,138.0,78.0,6.216216216216216,4.178571428571429,-2.037644787644787,0.6722049689440994
+39|40|Otoño|VL,E0701,SN,E0702,SN,False,2026-05-14|2026-05-19,2026-05-13,,0,No valida equivalencia de poblacion: cobertura parcial,False,,,,,,,,,,,
+39|40|Verano|VL,E0702,SN,E1003,NS,True,2026-02-04,2026-02-04,2026-02-04,1,Fecha y cobertura geometrica compatibles; muestras independientes no enlazadas,False,2026-02-04,3.0,18.0,111.0,56.0,138.0,78.0,3.72972972972973,25.07142857142857,21.34169884169884,6.722049689440993
+40|39|Verano|VL,E0702,NS,E1003,SN,True,2026-02-04,2026-02-04,2026-02-04,1,Fecha y cobertura geometrica compatibles; muestras independientes no enlazadas,False,2026-02-04,10.0,19.0,146.0,82.0,482.0,109.0,33.013698630136986,25.25609756097561,-7.757601069161375,0.765018722801336

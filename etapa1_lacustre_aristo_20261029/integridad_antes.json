@@ -1,0 +1,217 @@
+[
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Informe ARISTO.pdf",
+    "bytes": 14537593,
+    "sha256": "5b98c6ff01730ba7c54de8afecde3bc93317d64a437522f12540972a6933f298"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 6/BBDD EOD/DiccionarioAPP.xlsx",
+    "bytes": 14708,
+    "sha256": "d4191d6d33e2fc668cfc504be60388bf874c6115ecf4706f12ce54b722184e28"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 6/BBDD EOD/Base de datos agregada.xlsx",
+    "bytes": 21644905,
+    "sha256": "edf91ef5ce840362ecdf7d7d33477d6a9da6fa1495e158f29015b7b390d2d8ef"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 6/Mediciones de flujo/Consolidado Flujos.xlsx",
+    "bytes": 1847444,
+    "sha256": "9e705a8e3613bd367bb10a49621e907e095531d858a2ef4db85834a86993f71d"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/contraste_CITRA_matriz_muestral.csv",
+    "bytes": 1703,
+    "sha256": "878ffd9ebdfbd13bbf951c32010473f71152beaadda5be6029a7cca2d4732bf2"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/flujos_barcaza_sin_OD.csv",
+    "bytes": 960,
+    "sha256": "3589be3bdb73f288a40e62eaafc2373f67d823f6e5b78164a810196a27f96401"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/balance_control_Cerro_NO_total_OD.csv",
+    "bytes": 1069,
+    "sha256": "4567b3c8da36f0f45499089f7895b45247bcf76efb5988d582eb1f3d21d2bdd6"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/resolucion_territorial_sin_coordenadas_personales.csv",
+    "bytes": 2879,
+    "sha256": "c3e4c58f7135d0127ed0fa3b938654eb7f40e5424ebcebbda6475a311e1f7c70"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/factores_y_comparacion_ARISTO.csv",
+    "bytes": 5171,
+    "sha256": "327229ec1001afe1a5ba73273501e217d4747eef530c73c7273115748b2cc858"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/conservacion_flujos_barcaza.csv",
+    "bytes": 2354,
+    "sha256": "16a520c17aa9746ba647c4b91dffbe4e324110c5d343b95981850684ad8cb7e7"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/fuentes_utilizadas.csv",
+    "bytes": 2136,
+    "sha256": "d1a790825e59bc17b5e13f9f70d38cb903cba1a07943ba3661cbd202d38fbc42"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/flujos_base_mensuales_reutilizados.csv",
+    "bytes": 6457,
+    "sha256": "152436f2d60980e87d982b8d13d6048d169543a924a10cf9235d39e24d454fff"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/validacion.json",
+    "bytes": 170,
+    "sha256": "2751730693e9f7a7cc6eb7898344fd9cc2fff59a6a26223fdf69bb835af0c39c"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/inventario_atributos_rutas_y_cobertura.csv",
+    "bytes": 2032,
+    "sha256": "554a2a0531d503c9b6cbfe06ce54e5931b83f5aef0002732b047ffa189cb6a30"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/matriz_od_desconocidos.csv",
+    "bytes": 17858,
+    "sha256": "3dcba1e76203df49124571e1efa19900f58eb5d99aff4c5fb1f36174f86e20b6"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/clasificacion_rutas_y_pasos.csv",
+    "bytes": 43346,
+    "sha256": "81432ba1fc18a401ff745e5f0c8a000b5d5947cbad4ba4aa55a49858b779b017"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/auditoria_exposicion_Cerro_Castillo.csv",
+    "bytes": 1326,
+    "sha256": "7d7d238502bee11a0c47ac06f31b5f8d33be6485dd9c01a3ae5989301c4c39d7"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/resumen_matrices.md",
+    "bytes": 39432,
+    "sha256": "ff0cb0dcea931d6a1c12526ca0987c34bee1e1270f5e9957a8fad232b5f4be91"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/comparacion_TD_Transb_original_vs_reconstruccion.csv",
+    "bytes": 2257,
+    "sha256": "0dce638194cc9fcfd9fc1f5505da495e4b811449d78c0476d92d32e87e7dff02"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/cobertura_itinerarios_microdatos.csv",
+    "bytes": 6746,
+    "sha256": "4e161a8278110afa99452d934f3487bfb29249c0b9a13c86e555e0f85304fc89"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/config_utilizada.json",
+    "bytes": 3780,
+    "sha256": "a43438a12bf3873578c1ce3f652dcbdfad6408af1b0e70d9ca7f0ce57fecc987"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/matriz_od_barcaza.csv",
+    "bytes": 67889,
+    "sha256": "a7a748b7639156ac1a7103a24552f805c19ba4aba159de7907930cf91672e832"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/matriz_od_terrestre.csv",
+    "bytes": 30210,
+    "sha256": "2f3ba0a432c50290ea3bfaad133208cd8acd70485736d1fd290f63e8a3dc8121"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/observaciones_argentina_sin_expansion.csv",
+    "bytes": 6025,
+    "sha256": "2cd6a92da53974167e2aa7e69e8fd9f9950e5d8e145cbf51cefbff9bc1db782d"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/outputs/matrices_od_referencia/matriz_od_consolidada.csv",
+    "bytes": 119782,
+    "sha256": "e09cc357cd63eae69c5b8b6a5540b9d6dda32c62462acdac2525da3f9f44341a"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/manifest_integridad.json",
+    "bytes": 10759,
+    "sha256": "20808e389f180735bc7d312b220502ba87602d1a19147a7ef9b05e4dcb24dcca"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/resumen_validacion.json",
+    "bytes": 1156,
+    "sha256": "8d2d92a1d03ceb94bfea6436df3a79b505454573be3a1ccdf192a91ccf7e264e"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/01_matrices_corredor.xlsx",
+    "bytes": 19283,
+    "sha256": "cdd3cd201a88199004cb21c5622003e16ce894877906241fbae260961007a342"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/02_auditoria_112.xlsx",
+    "bytes": 130614,
+    "sha256": "13df9354eafe00b2fe690a3064abfe19a8502d171688222f54662481bc1f6b4b"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/04_pantallas_contrastes.xlsx",
+    "bytes": 17724,
+    "sha256": "87e9b982ad0c491f93a3c3723aa8c8f51b7af3ee01bc32f240a06f0fe27148c7"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/informe_final.html",
+    "bytes": 22181,
+    "sha256": "0e57b1fe639152f5d520e17da6aa84fbb7cde3c9dd61f4761f7906ab77ecbfcb"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/03_factores_expansion.xlsx",
+    "bytes": 86482,
+    "sha256": "0de089504a6cc3794b05cd3296a4af0d78f1bbc5545f0d70ed149c2bc7be3786"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/csv/relaciones_controles.csv",
+    "bytes": 2351,
+    "sha256": "0894af174d0cb3f281de4bd299844e62a43ba6c91053f89929b33d3749223971"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/csv/auditoria_112.csv",
+    "bytes": 377678,
+    "sha256": "57bef4ab6c5d4c2dd2958834d6cae60be203d3a37b3ae7856a0872935f641745"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/csv/flujos_fecha_pantalla.csv",
+    "bytes": 8044,
+    "sha256": "08e273f1f7b0f79f109e8ed147d8bbd41704777725cc0ee381f2e67562deef23"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/csv/matriz_localidades.csv",
+    "bytes": 19708,
+    "sha256": "115a8ddf623ebc9a1331ebb3c2fff7b39df607caea52842c3871088863308d91"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/csv/factores.csv",
+    "bytes": 199467,
+    "sha256": "2bbebf5ec6dfff211d440aff77627b6020fafe7e83391d6416743363bb0adc27"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/csv/pantallas.csv",
+    "bytes": 10940,
+    "sha256": "d15a0797d12789042f8c27ba8c81790584fbbec4fab151c4f9bac90350eb371b"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/csv/comparaciones_controles.csv",
+    "bytes": 2588,
+    "sha256": "325fa923815030c982424d2e2503e09b440af9536d06f284e36774f640e7ace3"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/csv/matriz_zonas_ARISTO.csv",
+    "bytes": 10019,
+    "sha256": "d3acddf1fa5ce01d7aa411151123b0f24bd78a1e461ab258a64472d032502561"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/cierre_final_04/csv/cobertura.csv",
+    "bytes": 198,
+    "sha256": "5953d59a89cdda520645f1323191739fccadb619e3cec7de678af0345ac674c1"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/scripts/07_matrices_od_referencia.py",
+    "bytes": 46799,
+    "sha256": "b35272761f330330e26779a4d9db7ca4e35c7b4a2a24c7e619c045664178c25d"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/demanda_lago_github/data/templates/config_matrices_od.json",
+    "bytes": 3210,
+    "sha256": "354eba337ec256f162c240e8ec89af81e662bdab329a859469124261ab5748fe"
+  }
+]

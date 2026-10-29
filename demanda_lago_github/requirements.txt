@@ -1,0 +1,7 @@
+pandas>=2.1
+openpyxl>=3.1
+numpy>=1.26
+networkx
+geopandas
+pyproj
+matplotlib

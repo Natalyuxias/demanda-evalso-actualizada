@@ -1,0 +1,142 @@
+[
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/manifest_integridad.json",
+    "sha256": "a0de34ab8bb05dd8e7bd94edc7cbb3014ab80239785cad7c826b1b7f0c113b5c"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/03_conteos_factores_comparacion.xlsx",
+    "sha256": "8423bf5abf7db60a0676cde08dd1cf3d4e31b01d9f6fd2b1bb1546636dc9be7b"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/validacion.json",
+    "sha256": "c07abf23dca2e9739dd4546bbab25cb89cba70589a63412a9ef8834b1838f4f3"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/04_pasajeros_extranjeros.xlsx",
+    "sha256": "c3857405312e932f8c45a5f66ffc0eef74c5c50766755bdd0e33b68cb0052fa2"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/01_matrices_lacustres.xlsx",
+    "sha256": "86ee8442eafbc0164360226a7a3405bdefc5b1a779f9d647d99ee36b5a00a01f"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/02_auditoria_encuestas.xlsx",
+    "sha256": "451f5556d8be7bb73fa199476f49e7a3abb7227b11e301af4ee083635c72ddf7"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/informe_lacustre.html",
+    "sha256": "bbec6d08f4cd4c3694e62d05e0f677e08b39f907390f4453b2c036db1e8aa2d7"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/auditoria_264.csv",
+    "sha256": "c3c83c638a63803fb25b6c45bf503f8a05c219207f33cc984173c26f8feee190"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/referencias_originales.csv",
+    "sha256": "ac1d4322880e61468f8b9ae4725cab6c5fa8a5c33d0dc2050d111130ea2a88a4"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/comparacion_07.csv",
+    "sha256": "7dbe914c714bc1821ea8dc257d198de77f0b177e55e6b31ed8c6453b454398f7"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/extranjeros_indicadores_separados.csv",
+    "sha256": "5d69ff99816eff3e7cc514f253b3770d623591220c56a922e878a5f4db2887c9"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/matriz_zonas_ARISTO.csv",
+    "sha256": "a075e61b9d1446c9306fec264ce82169ab102517c6d5cd70ad6d951900a2d4a9"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/matriz_por_fecha.csv",
+    "sha256": "8049f84e6ef7c969b7c564cce59669cf38d8d27ae3ec708dbb03e810691aeb22"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/factores_y_N_fecha.csv",
+    "sha256": "34cb0f2851aded4609605ff992e7e9be258682dc9e0c38579dd68366149efc16"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/balance_por_campana.csv",
+    "sha256": "52ccf4d26b19fc924465e93f30e67cb8e9ab0ff79a5707ed2db2c65b62723b2e"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/matriz_detalle_BBDD2.csv",
+    "sha256": "df0d8ac2905822ba82fd841eba785b05fd41b198e9f11012063758ee30a8587f"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/contraste_perfil_campana_vs_fecha.csv",
+    "sha256": "0f0cc1b8636daeb33f3e2f04805b0aec8d706e0f30d0c5fbae150d564ccf2c47"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/balance_por_fecha.csv",
+    "sha256": "662d0b71175017888b549bbf51c9a86953d4eec50148917ed8f13331fde719b7"
+  },
+  {
+    "archivo": "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/OD_parciales_sin_zona.csv",
+    "sha256": "912cde8bf94a8a63f23c497eb24ca21d1ecb64fc82764dee579eaec5519777dc"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/manifest_integridad.json",
+    "sha256": "20808e389f180735bc7d312b220502ba87602d1a19147a7ef9b05e4dcb24dcca"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/resumen_validacion.json",
+    "sha256": "8d2d92a1d03ceb94bfea6436df3a79b505454573be3a1ccdf192a91ccf7e264e"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/01_matrices_corredor.xlsx",
+    "sha256": "cdd3cd201a88199004cb21c5622003e16ce894877906241fbae260961007a342"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/02_auditoria_112.xlsx",
+    "sha256": "13df9354eafe00b2fe690a3064abfe19a8502d171688222f54662481bc1f6b4b"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/04_pantallas_contrastes.xlsx",
+    "sha256": "87e9b982ad0c491f93a3c3723aa8c8f51b7af3ee01bc32f240a06f0fe27148c7"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/informe_final.html",
+    "sha256": "0e57b1fe639152f5d520e17da6aa84fbb7cde3c9dd61f4761f7906ab77ecbfcb"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/03_factores_expansion.xlsx",
+    "sha256": "0de089504a6cc3794b05cd3296a4af0d78f1bbc5545f0d70ed149c2bc7be3786"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/csv/relaciones_controles.csv",
+    "sha256": "0894af174d0cb3f281de4bd299844e62a43ba6c91053f89929b33d3749223971"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/csv/auditoria_112.csv",
+    "sha256": "57bef4ab6c5d4c2dd2958834d6cae60be203d3a37b3ae7856a0872935f641745"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/csv/flujos_fecha_pantalla.csv",
+    "sha256": "08e273f1f7b0f79f109e8ed147d8bbd41704777725cc0ee381f2e67562deef23"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/csv/matriz_localidades.csv",
+    "sha256": "115a8ddf623ebc9a1331ebb3c2fff7b39df607caea52842c3871088863308d91"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/csv/factores.csv",
+    "sha256": "2bbebf5ec6dfff211d440aff77627b6020fafe7e83391d6416743363bb0adc27"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/csv/pantallas.csv",
+    "sha256": "d15a0797d12789042f8c27ba8c81790584fbbec4fab151c4f9bac90350eb371b"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/csv/comparaciones_controles.csv",
+    "sha256": "325fa923815030c982424d2e2503e09b440af9536d06f284e36774f640e7ace3"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/csv/matriz_zonas_ARISTO.csv",
+    "sha256": "d3acddf1fa5ce01d7aa411151123b0f24bd78a1e461ab258a64472d032502561"
+  },
+  {
+    "archivo": "etapa1_terrestre_citra/resultados/cierre_final_04/csv/cobertura.csv",
+    "sha256": "5953d59a89cdda520645f1323191739fccadb619e3cec7de678af0345ac674c1"
+  }
+]

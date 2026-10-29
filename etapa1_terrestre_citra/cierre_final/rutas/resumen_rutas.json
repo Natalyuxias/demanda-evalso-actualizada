@@ -1,0 +1,50 @@
+{
+  "fuente": "etapa1_terrestre_citra/resultados/entrega_02/csv/auditoria_112.csv",
+  "sha256_fuente": "9c82b22d5522b23c03fa3552aa19853ae5923655de1b3ebbea0e1f19d7f24cd0",
+  "metodo": "Inferencia multicriterio de corredor: topología, sentido, pertinencia, sin contradicción y comparación distancia/cruces. No umbral de desvío ni tiempo supuesto.",
+  "categorias": {
+    "A": 109,
+    "C": 3
+  },
+  "por_control_categoria": [
+    {
+      "control": "E0701",
+      "categoria_final": "A",
+      "entrevistas": 19
+    },
+    {
+      "control": "E0701",
+      "categoria_final": "C",
+      "entrevistas": 2
+    },
+    {
+      "control": "E0702",
+      "categoria_final": "A",
+      "entrevistas": 40
+    },
+    {
+      "control": "E0702",
+      "categoria_final": "C",
+      "entrevistas": 1
+    },
+    {
+      "control": "E1003",
+      "categoria_final": "A",
+      "entrevistas": 50
+    }
+  ],
+  "A_km_adicionales_argentina_min": 200.8267999863279,
+  "A_km_adicionales_argentina_max": 543.4631472714709,
+  "A_razon_distancia_min": 1.5381844484483378,
+  "A_razon_distancia_max": 4.307977281304687,
+  "A_con_factor": 93,
+  "rutas_recalculadas": 0,
+  "alcance": "Cohorte de 112; no estima automáticamente todo CITRA ni todo mercado terrestre. La categoría A no certifica país del recorrido completo.",
+  "no_verificado": [
+    "tiempos de viaje comparables por itinerario",
+    "esperas y trámites fronterizos",
+    "habilitación efectiva de pasos por fecha y clase",
+    "itinerario individual elegido",
+    "recorridos con paradas intermedias no declaradas"
+  ]
+}

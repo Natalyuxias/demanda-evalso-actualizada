@@ -1,0 +1,21 @@
+{
+  "version": "2026-10-29",
+  "etapa": "Etapa1 CITRA empírica; homologación cerrada y revalidación terrestre",
+  "homologaciones_aprobadas_aplicadas": 29,
+  "extremos_ambiguos_del_lote_sin_imputar": 8,
+  "entrevistas_de_la_cohorte_auditada": 112,
+  "demanda_itinerario_Chile_completo": "No identificada con las fuentes disponibles; no es cero",
+  "matriz_principal_contiene_flujo_estimado": false,
+  "auxiliar_local": "Estimación de fracción del corredor chileno observado, separada de itinerarios íntegramente chilenos. Detalle reservado.",
+  "expansion": "F/N por fecha, sección EOD, sentido, clase y ventana08–20; N de todas las entrevistas compatibles originales",
+  "unidades": "Vehículos por clase y ventana de12h; sin ocupantes/personas,24h ni anualización",
+  "sin_uso_de": [
+    "logit",
+    "captación",
+    "imputaciones_Etapa13",
+    "demanda_lacustre_ARISTO",
+    "inducción",
+    "proyecciones"
+  ],
+  "privacidad": "No se publican microdatos, coordenadas, originales, Excel/HTML/CSV detallados ni flujos de celdas pequeñas."
+}

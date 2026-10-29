@@ -1,0 +1,1567 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ARISTO: demanda lacustre observada</title><style>body{font:16px/1.55 system-ui,sans-serif;color:#213d43;max-width:1280px;margin:auto;padding:28px}h1{line-height:1.2}h2{margin-top:38px;border-bottom:2px solid #c3d9d7}.box{background:#e9f3f0;padding:20px;border-left:6px solid #297d7a}.warn{background:#fff1d7;padding:18px}.scroll{overflow:auto}table{border-collapse:collapse;font-size:12px;margin:20px 0;width:100%}td,th{border:1px solid #cadad8;padding:8px;text-align:left;vertical-align:top;min-width:85px}th{background:#225d64;color:white}li{margin:8px 0}a{color:#086c8b}pre{white-space:pre-wrap;background:#edf3f2;padding:15px}small{color:#526d72}@media print{body{font-size:11px}.scroll{overflow:visible}table{font-size:8px}}</style><body><h1>Demanda lacustre observada Puerto Ibáñez–Chile Chico</h1><p>Etapa 1 · Bahía Jara–Levicán · Consolidación ARISTO · 29 de octubre de 2026 · Entrega local reservada</p><div class="box"><strong>Conclusión: matriz utilizable como referencia lacustre observada, con asignación OD condicionada y exposición explícita.</strong> Se conservaron los conteos de embarque y se asignó su composición mediante encuestas válidas de la misma fecha, sentido y clase. No se estima una jornada de 24 horas, temporada completa ni año. La matriz puede prepararse para integración posterior con CITRA mediante zonas/unidades/períodos compatibles; los flujos todavía no son directamente sumables y Otoño conserva privados agregados.</div><p>Universo: <strong>290 originales y 264 válidas por BBDD-2</strong>, enlazadas con BBDD-1 mediante ID 2 sin duplicarlas. 258 tienen OD zonal completo y 6 conservan un extremo internacional genérico sin zona. Hay 258 entrevistas con coeficiente de asignación y 6 pasajeros de bus/VAN/transfer sin conteo de personas compatible. Su flujo queda faltante.</p><ul><li><a href="01_matrices_lacustres.xlsx">Matrices zonales, detalle original, fechas y balances</a>.</li><li><a href="02_auditoria_encuestas.xlsx">Auditoría de 264 válidas, 290 originales y 26 fuera de BBDD-2</a>.</li><li><a href="03_conteos_factores_comparacion.xlsx">Conteos, coeficientes, comparación con 07 y contrastes originales</a>.</li><li><a href="04_pasajeros_extranjeros.xlsx">Pasajeros, extranjeros e intersecciones</a>.</li><li><a href="validacion.json">Validaciones</a> · <a href="manifest_integridad.json">Manifiesto de fuentes y resultados</a>.</li></ul>
+<h2>1. Microdatos y geografía</h2><p>Se selecciona el lugar de encuesta del cruce actual en BBDD-2 (solo válidas) y se recuperan los campos originales de BBDD-1 por ID 2, en relación uno a uno. El nombre de la hoja válida define el universo utilizado; las banderas de BBDD-1 no se reinterpretan como otra base independiente. Se conserva una alerta de bandera Duplicada dentro de la base válida, sin eliminar ni inventar una deduplicación. Los 26 originales fuera de BBDD-2 se guardan para trazabilidad.</p><p>Normal en BBDD-1 y Otoño en BBDD-2 son alias de la campaña de mayo, verificados por ID y fecha; ambas etiquetas se conservan. Las campañas medidas corresponden a noviembre de 2025, enero/febrero de 2026 y mayo de 2026. No representan por sí solas estaciones completas y no hay invierno imputado.</p><p>Las 55 zonas provienen de la hoja Zonas del anexo original de Capítulo 8. Se conservan aparte los códigos geográficos BBDD-2. Por ejemplo, Chile Chico es código BBDD-2 7 y zona 39; Coyhaique, 12 y zona 31; Río Ibáñez, 42 y zona 40. La pertenencia a una comuna no se convierte en una localidad: Chile Chico no pasa a Mallín Grande ni Río Ibáñez a Puerto Ibáñez.</p><p>El detalle BBDD-2 conserva su escala original. La tabla de referencias agrega búsquedas/direcciones originales con coordenadas en la auditoría: son evidencia geográfica de referencia, potencialmente geocodificada, no un domicilio exacto certificado. Los seis extremos internacionales genéricos permanecen sin zona; su flujo no se redistribuye a otros OD. Los viajes largos, internacionales y externos al entorno inmediato del lago se conservan como usuarios reales del ferry; no se declara elegibilidad automática para el proyecto.</p>
+<h2>2. Qué se midió y cómo se asigna a OD</h2><p>Consolidado Flujos.xlsx/Transbordadores contiene diez filas pertinentes: 5–8, 124–125, 218 y 220–222. No tienen hora o identificador que enlace unívocamente fila con zarpe. Se agregan solo dentro de la misma fecha, sentido y clase, conservando las filas de origen. Los horarios del Informe describen planificación de encuestas; no acreditan por sí solos qué zarpe corresponde a cada fila de conteo.</p><p><code>Q_OD,d = F_d × n_OD,d / N_d</code>. F es el conteo de las filas de embarque medidas en esa fecha, sentido y clase; N incluye todas las entrevistas válidas compatibles, también las de OD parcial; n es la cantidad de respuestas del OD. La matriz por campaña suma exclusivamente esas exposiciones fechadas. No se reduce N al núcleo del proyecto, a extranjeros, a OD completos ni a quienes pueden homologarse.</p><div class="warn"><strong>Coeficiente de asignación, no ponderador individual certificado:</strong> en primavera, para algunas clases hay más entrevistas que vehículos contados. La patente solo distingue nacional/extranjera y no identifica el vehículo. No se demuestra una respuesta por vehículo ni un marco de inclusión idéntico al conteo. F/N puede ser menor que uno: sirve para una transferencia explícitamente condicionada de composición, pero no prueba representatividad, inclusión probabilística o no respuesta ignorable. No se corrigen N ni F para forzar una expansión.</div>
+<p>La condición para usar la distribución OD es que el perfil de respuestas de la clase en la fecha y sentido represente la composición del flujo contado. En peatones se añade la incertidumbre de selección individual frente a representante de grupo. Estos son supuestos de asignación, no datos observados. Los conteos de servicio quedan separados de la estimación espacial.</p>
+<h3>Balance del flujo medido por campaña, sentido y clase</h3><p>No sumar filas de personas, vehículos, motos/bicicletas o exposiciones distintas como un total del proyecto. Cero de conteo o de asignación contable no significa ausencia estructural de demanda. Faltante significa información no identificada.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campana</th>
+      <th>sentido_cruce</th>
+      <th>segmento</th>
+      <th>F_nuevo_medido</th>
+      <th>Q_nuevo_zonas</th>
+      <th>sin_OD_nuevo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>BUS_TP</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>5.0000</td>
+      <td>5.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>47.0000</td>
+      <td>47.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VP</td>
+      <td>17.0000</td>
+      <td>17.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>BUS_TP</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>4.0000</td>
+      <td>4.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>62.0000</td>
+      <td>62.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VP</td>
+      <td>16.0000</td>
+      <td>16.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>BICI</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>BUS_TP</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>6.0000</td>
+      <td>6.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>MOTO</td>
+      <td>1.0000</td>
+      <td>0.0000</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>54.0000</td>
+      <td>54.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>10.0000</td>
+      <td>9.4737</td>
+      <td>0.5263</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>BICI</td>
+      <td>1.0000</td>
+      <td>0.0000</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>BUS_TP</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>3.0000</td>
+      <td>3.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>MOTO</td>
+      <td>6.0000</td>
+      <td>6.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>69.0000</td>
+      <td>69.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>15.0000</td>
+      <td>15.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>BICI</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>BUS_TP</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>2.0000</td>
+      <td>0.0000</td>
+      <td>2.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>MOTO</td>
+      <td>1.0000</td>
+      <td>0.0000</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>194.0000</td>
+      <td>183.2222</td>
+      <td>10.7778</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>56.0000</td>
+      <td>56.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>BICI</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>BUS_TP</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>9.0000</td>
+      <td>4.0000</td>
+      <td>5.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>MOTO</td>
+      <td>1.0000</td>
+      <td>0.0000</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>OTRO_PASAJERO</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>120.0000</td>
+      <td>0.0000</td>
+      <td>120.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>45.0000</td>
+      <td>39.8289</td>
+      <td>5.1711</td>
+    </tr>
+  </tbody>
+</table></div><p>El flujo sin OD conserva tanto las clases sin muestra como la parte correspondiente a OD sin zona. En particular, los camiones contados el 1 de febrero en sentido Puerto Ibáñez→Chile Chico carecen de entrevista de carga de ese día y permanecen sin asignar; no se toma composición del 27 de enero. La matriz por fecha permite comprobarlo.</p>
+<h2>3. Clases, blancos y discrepancias de fuente</h2><ul><li>Primavera/verano: VL cuatro ruedas, carga, peatones, motos y bicicletas permanecen separados.</li><li>Otoño: el formulario registra Vehículo privado sin desagregación suficiente. El principal usa VP agregado, compatible con privados originales (VL+moto+bici). No se lo llama VL estricto ni se suma nuevamente con sus componentes. La integración con CITRA VL requerirá conservar esta diferencia, no repartirla artificialmente.</li><li>BUS_TP es conteo de buses/taxibuses, no de pasajeros en ellos. Los seis pasajeros de bus/VAN/transfer no equivalen a vehículos y no reciben un factor vehicular.</li><li>Algunos agregados originales usan SUM sobre componentes con blancos. Se mantiene el agregado de ARISTO y su bandera, sin afirmar que cada componente blanco fue un cero observado. Los conteos físicos desagregados ausentes siguen faltantes.</li><li>Se usa como base numérica el Excel de conteos, por su trazabilidad de filas, conservando el Informe como contraste. En Normal existen diferencias de privados/carga entre ambos; no se las resuelve eligiendo una cifra favorable ni se ocultan. La hoja Excel vs Informe permite revisar magnitud y categorías.</li><li>El Informe agrega bicicletas a peatones en cuadros de verano/Normal; el Excel separa G (peatones) y Z (peatones+bicicletas). Aquí no se usa Z como peatones si la bicicleta ya se incluye como unidad privada.</li></ul><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campana</th>
+      <th>sentido_cruce</th>
+      <th>segmento</th>
+      <th>total_Excel</th>
+      <th>total_Informe</th>
+      <th>diferencia_Excel_menos_Informe</th>
+      <th>tabla</th>
+      <th>pagina_impresa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>47.0000</td>
+      <td>48</td>
+      <td>-1.0000</td>
+      <td>169</td>
+      <td>223</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VP</td>
+      <td>17.0000</td>
+      <td>16</td>
+      <td>1.0000</td>
+      <td>169</td>
+      <td>223</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>5.0000</td>
+      <td>4</td>
+      <td>1.0000</td>
+      <td>169</td>
+      <td>223</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>4.0000</td>
+      <td>3</td>
+      <td>1.0000</td>
+      <td>169</td>
+      <td>223</td>
+    </tr>
+  </tbody>
+</table></div><p>No hay una columna que identifique carga peligrosa o servicio especial/ordinario. Se conserva lo contado; no se excluye ni estima una cuota arbitraria. Esto limita cualquier transferencia a una frecuencia ordinaria.</p>
+<h2>4. Matrices obtenidas</h2><p>Se entregan 60 celdas zonales con entrevistas (57 con flujo), y 61 celdas por nombres BBDD-2 (58 con flujo). Son combinaciones OD/campaña/sentido/clase, no el número de OD geográficos únicos. Las clases sin conteo de personas quedan con entrevistas y flujo faltante. Los seis OD parciales se guardan en una tabla separada y contribuyen al residual.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campana</th>
+      <th>sentido_cruce</th>
+      <th>segmento</th>
+      <th>zona_origen</th>
+      <th>zona_destino</th>
+      <th>entrevistas_validas</th>
+      <th>fechas_encuestas</th>
+      <th>coeficiente_minimo</th>
+      <th>coeficiente_maximo</th>
+      <th>flujo_asignado_exposicion_medida</th>
+      <th>unidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>39</td>
+      <td>31</td>
+      <td>3</td>
+      <td>2026-05-10</td>
+      <td>1.2500</td>
+      <td>1.2500</td>
+      <td>3.7500</td>
+      <td>vehículos de carga</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>39</td>
+      <td>55</td>
+      <td>1</td>
+      <td>2026-05-10</td>
+      <td>1.2500</td>
+      <td>1.2500</td>
+      <td>1.2500</td>
+      <td>vehículos de carga</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>39</td>
+      <td>31</td>
+      <td>22</td>
+      <td>2026-05-10</td>
+      <td>1.8800</td>
+      <td>1.8800</td>
+      <td>41.3600</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>39</td>
+      <td>40</td>
+      <td>3</td>
+      <td>2026-05-10</td>
+      <td>1.8800</td>
+      <td>1.8800</td>
+      <td>5.6400</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VP</td>
+      <td>39</td>
+      <td>31</td>
+      <td>7</td>
+      <td>2026-05-10</td>
+      <td>1.4167</td>
+      <td>1.4167</td>
+      <td>9.9167</td>
+      <td>unidades privadas agregadas (VL+moto+bici), no VL estricto</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VP</td>
+      <td>39</td>
+      <td>40</td>
+      <td>5</td>
+      <td>2026-05-10</td>
+      <td>1.4167</td>
+      <td>1.4167</td>
+      <td>7.0833</td>
+      <td>unidades privadas agregadas (VL+moto+bici), no VL estricto</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>31</td>
+      <td>39</td>
+      <td>3</td>
+      <td>2026-05-10</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>4.0000</td>
+      <td>vehículos de carga</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>1</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2026-05-10</td>
+      <td>1.9375</td>
+      <td>1.9375</td>
+      <td>1.9375</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>31</td>
+      <td>39</td>
+      <td>22</td>
+      <td>2026-05-10</td>
+      <td>1.9375</td>
+      <td>1.9375</td>
+      <td>42.6250</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>33</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2026-05-10</td>
+      <td>1.9375</td>
+      <td>1.9375</td>
+      <td>1.9375</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>40</td>
+      <td>39</td>
+      <td>8</td>
+      <td>2026-05-10</td>
+      <td>1.9375</td>
+      <td>1.9375</td>
+      <td>15.5000</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VP</td>
+      <td>31</td>
+      <td>39</td>
+      <td>8</td>
+      <td>2026-05-10</td>
+      <td>1.7778</td>
+      <td>1.7778</td>
+      <td>14.2222</td>
+      <td>unidades privadas agregadas (VL+moto+bici), no VL estricto</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VP</td>
+      <td>40</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2026-05-10</td>
+      <td>1.7778</td>
+      <td>1.7778</td>
+      <td>1.7778</td>
+      <td>unidades privadas agregadas (VL+moto+bici), no VL estricto</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>39</td>
+      <td>31</td>
+      <td>6</td>
+      <td>2025-11-08</td>
+      <td>0.8571</td>
+      <td>0.8571</td>
+      <td>5.1429</td>
+      <td>vehículos de carga</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>39</td>
+      <td>33</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>0.8571</td>
+      <td>0.8571</td>
+      <td>0.8571</td>
+      <td>vehículos de carga</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>36</td>
+      <td>33</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>2.8421</td>
+      <td>2.8421</td>
+      <td>2.8421</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2025-11-08</td>
+      <td>2.8421</td>
+      <td>2.8421</td>
+      <td>5.6842</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>39</td>
+      <td>31</td>
+      <td>9</td>
+      <td>2025-11-08</td>
+      <td>2.8421</td>
+      <td>2.8421</td>
+      <td>25.5789</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>39</td>
+      <td>33</td>
+      <td>4</td>
+      <td>2025-11-08</td>
+      <td>2.8421</td>
+      <td>2.8421</td>
+      <td>11.3684</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>39</td>
+      <td>40</td>
+      <td>2</td>
+      <td>2025-11-08</td>
+      <td>2.8421</td>
+      <td>2.8421</td>
+      <td>5.6842</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>51</td>
+      <td>31</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>2.8421</td>
+      <td>2.8421</td>
+      <td>2.8421</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>36</td>
+      <td>31</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>36</td>
+      <td>40</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>39</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>39</td>
+      <td>31</td>
+      <td>9</td>
+      <td>2025-11-08</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>4.7368</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>39</td>
+      <td>33</td>
+      <td>4</td>
+      <td>2025-11-08</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>2.1053</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>39</td>
+      <td>34</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>39</td>
+      <td>40</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>0.5263</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>9</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>1.0000</td>
+      <td>1.0000</td>
+      <td>1.0000</td>
+      <td>vehículos de carga</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>33</td>
+      <td>39</td>
+      <td>2</td>
+      <td>2025-11-08</td>
+      <td>1.0000</td>
+      <td>1.0000</td>
+      <td>2.0000</td>
+      <td>vehículos de carga</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>MOTO</td>
+      <td>31</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>6.0000</td>
+      <td>6.0000</td>
+      <td>6.0000</td>
+      <td>motocicletas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>31</td>
+      <td>39</td>
+      <td>4</td>
+      <td>2025-11-08</td>
+      <td>13.8000</td>
+      <td>13.8000</td>
+      <td>55.2000</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>55</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>13.8000</td>
+      <td>13.8000</td>
+      <td>13.8000</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>31</td>
+      <td>38</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>0.6818</td>
+      <td>0.6818</td>
+      <td>0.6818</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>31</td>
+      <td>39</td>
+      <td>14</td>
+      <td>2025-11-08</td>
+      <td>0.6818</td>
+      <td>0.6818</td>
+      <td>9.5455</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>31</td>
+      <td>52</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>0.6818</td>
+      <td>0.6818</td>
+      <td>0.6818</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>40</td>
+      <td>39</td>
+      <td>3</td>
+      <td>2025-11-08</td>
+      <td>0.6818</td>
+      <td>0.6818</td>
+      <td>2.0455</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>40</td>
+      <td>51</td>
+      <td>1</td>
+      <td>2025-11-08</td>
+      <td>0.6818</td>
+      <td>0.6818</td>
+      <td>0.6818</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>55</td>
+      <td>39</td>
+      <td>2</td>
+      <td>2025-11-08</td>
+      <td>0.6818</td>
+      <td>0.6818</td>
+      <td>1.3636</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>39</td>
+      <td>31</td>
+      <td>11</td>
+      <td>2026-02-01</td>
+      <td>10.7778</td>
+      <td>10.7778</td>
+      <td>118.5556</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>39</td>
+      <td>33</td>
+      <td>1</td>
+      <td>2026-02-01</td>
+      <td>10.7778</td>
+      <td>10.7778</td>
+      <td>10.7778</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>39</td>
+      <td>40</td>
+      <td>3</td>
+      <td>2026-02-01</td>
+      <td>10.7778</td>
+      <td>10.7778</td>
+      <td>32.3333</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>51</td>
+      <td>31</td>
+      <td>2</td>
+      <td>2026-02-01</td>
+      <td>10.7778</td>
+      <td>10.7778</td>
+      <td>21.5556</td>
+      <td>personas registradas como peatones, no pasajeros totales</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>36</td>
+      <td>31</td>
+      <td>2</td>
+      <td>2026-02-01</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>2.6667</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>39</td>
+      <td>31</td>
+      <td>26</td>
+      <td>2026-02-01</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>34.6667</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>39</td>
+      <td>33</td>
+      <td>8</td>
+      <td>2026-02-01</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>10.6667</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>39</td>
+      <td>34</td>
+      <td>2</td>
+      <td>2026-02-01</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>2.6667</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>39</td>
+      <td>40</td>
+      <td>2</td>
+      <td>2026-02-01</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>2.6667</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>51</td>
+      <td>31</td>
+      <td>1</td>
+      <td>2026-02-01</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>51</td>
+      <td>34</td>
+      <td>1</td>
+      <td>2026-02-01</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>1.3333</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>55</td>
+      <td>39</td>
+      <td>2</td>
+      <td>2026-01-27</td>
+      <td>2.0000</td>
+      <td>2.0000</td>
+      <td>4.0000</td>
+      <td>vehículos de carga</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>OTRO_PASAJERO</td>
+      <td>1</td>
+      <td>39</td>
+      <td>2</td>
+      <td>2026-01-27|2026-02-01</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>entrevistas de personas, flujo faltante</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>OTRO_PASAJERO</td>
+      <td>31</td>
+      <td>39</td>
+      <td>3</td>
+      <td>2026-01-27|2026-02-01</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>entrevistas de personas, flujo faltante</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>OTRO_PASAJERO</td>
+      <td>55</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2026-02-01</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>entrevistas de personas, flujo faltante</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>1</td>
+      <td>39</td>
+      <td>9</td>
+      <td>2026-01-27|2026-02-01</td>
+      <td>1.2105</td>
+      <td>1.3750</td>
+      <td>11.8816</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>3</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2026-01-27</td>
+      <td>1.3750</td>
+      <td>1.3750</td>
+      <td>1.3750</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>9</td>
+      <td>39</td>
+      <td>1</td>
+      <td>2026-02-01</td>
+      <td>1.2105</td>
+      <td>1.2105</td>
+      <td>1.2105</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>31</td>
+      <td>39</td>
+      <td>15</td>
+      <td>2026-01-27|2026-02-01</td>
+      <td>1.2105</td>
+      <td>1.3750</td>
+      <td>18.9803</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>40</td>
+      <td>40</td>
+      <td>1</td>
+      <td>2026-02-01</td>
+      <td>1.2105</td>
+      <td>1.2105</td>
+      <td>1.2105</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>55</td>
+      <td>39</td>
+      <td>4</td>
+      <td>2026-01-27|2026-02-01</td>
+      <td>1.2105</td>
+      <td>1.3750</td>
+      <td>5.1711</td>
+      <td>vehículos livianos cuatro ruedas</td>
+    </tr>
+  </tbody>
+</table></div><h2>5. Pasajeros y extranjeros</h2><p><strong>Total de pasajeros no identificado.</strong> Los peatones contados no representan necesariamente a todos los pasajeros transportados. Aunque los registros vehiculares tienen ocupantes, no hay identidad del vehículo ni mecanismo de selección que garantice una entrevista por vehículo. Los grupos peatonales tienen faltantes y no se demuestra un representante único por grupo. No se multiplica el aforo peatonal, ya expresado en personas, por tamaño de grupo ni se suman ocupantes, acompañantes y buses indiscriminadamente.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>indicador</th>
+      <th>cantidad</th>
+      <th>interpretacion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Peatones entrevistados</td>
+      <td>99</td>
+      <td>Respuestas, no universo completo de pasajeros</td>
+    </tr>
+    <tr>
+      <td>Vehiculares con ocupación</td>
+      <td>159</td>
+      <td>Dato descriptivo; no certifica una respuesta por vehículo</td>
+    </tr>
+    <tr>
+      <td>Peatones con grupo informado</td>
+      <td>81</td>
+      <td>Sin demostrar unicidad del grupo; no multiplicar automáticamente</td>
+    </tr>
+    <tr>
+      <td>Peatones sin grupo</td>
+      <td>18</td>
+      <td>No imputados con ocupantes u otra variable</td>
+    </tr>
+    <tr>
+      <td>Nacionalidad extranjera declarada</td>
+      <td>5</td>
+      <td>Campo personal declarado; no residencia</td>
+    </tr>
+    <tr>
+      <td>Patente de categoría extranjera</td>
+      <td>10</td>
+      <td>Categoría vehicular; no nacionalidad de ocupantes</td>
+    </tr>
+    <tr>
+      <td>OD con extremo internacional</td>
+      <td>13</td>
+      <td>País del viaje; no nacionalidad</td>
+    </tr>
+  </tbody>
+</table></div><p>Los tres indicadores no son conjuntos disjuntos. El Excel presenta intersecciones y desconocidos, no un total sumado de extranjeros. La nacionalidad se pregunta formalmente a peatones; hay campos informados fuera de ese ámbito que se conservan en auditoría sin convertirlos en nacionalidad de todos los ocupantes. Las patentes son categorías, no placas individuales.</p><p>Se entregan flujos condicionales por indicador, fecha y clase cuando existe F/N compatible: nacionalidad en peatones, patente en clases vehiculares y OD internacional por separado. Conservan la unidad de clase; no son personas extranjeras totales, residentes o divisas. El flujo físico incluye extranjeros y OD internacionales, aun si su extremo genérico impide una zona. Las categorías sin perfil o conteo compatible siguen sin expansión.</p>
+<h2>6. Qué cambia respecto de la Etapa 07</h2><ul><li>Se reutilizan el universo de interceptación, el enlace ID2 y la fórmula transparente de participación OD, manteniendo todo el denominador compatible.</li><li>La Etapa 07 trataba la media por fila como media por zarpe, aplicaba 11/8 zarpes semanales y dividía por 7. El nuevo principal conserva totales de embarques medidos y no aplica frecuencia ni conversión diaria. Sus magnitudes no son directamente comparables por porcentaje sin igualar exposición.</li><li>La regla numérica histórica se reconstruye en el Excel solo para verificarla; no se ejecutó 07 ni se adoptó como nueva demanda diaria. Los cambios de fecha específica, VP de Otoño y OD no homologables se presentan separadamente.</li><li>El perfil agrupado por campaña se conserva como sensibilidad frente a fecha específica: la principal no asigna a un día sin muestra composición de otro día. Este cambio afecta materialmente a carga de verano y a la composición VL entre las dos fechas.</li><li>TD Transb original mantiene frecuencia 9 y fórmulas G=F×D/7 y H=F×E/7. D/E son sumas de filas, sin dividir su número; no constituyen por sí mismas flujo medio por zarpe. No se alteró ese libro. Frecuencias ordinarias confirmadas 11/8 son otra referencia operacional; quedan únicamente en escenarios rotulados NO observados.</li><li>No se usaron los resultados de logit, ASC, captación, inducción o mercados imputados de las Etapas 11–13.</li></ul><p>La tabla histórica tenía 127 filas, pero solo 72 con entrevistas: 55 eran estructura sin muestra, incluido invierno. La cantidad de filas nuevas no mide pérdida de demanda: cambian zonificación, nivel de agregación y conservación de OD incompletos. Se mantuvieron las 264 entrevistas y los conteos; no se crearon ceros de invierno.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campana</th>
+      <th>sentido_cruce</th>
+      <th>segmento</th>
+      <th>N_07</th>
+      <th>Q_07_diario</th>
+      <th>Q_07_reconstruida_misma_regla</th>
+      <th>diferencia_aritmetica_07</th>
+      <th>F_nuevo_medido</th>
+      <th>Q_nuevo_zonas</th>
+      <th>sin_OD_nuevo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Invierno</td>
+      <td>Faltante</td>
+      <td>CAM</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Invierno</td>
+      <td>Faltante</td>
+      <td>PEATON</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Invierno</td>
+      <td>Faltante</td>
+      <td>VL</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>4.0000</td>
+      <td>5.7143</td>
+      <td>5.7143</td>
+      <td>0.0000</td>
+      <td>5.0000</td>
+      <td>5.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>25.0000</td>
+      <td>53.7143</td>
+      <td>53.7143</td>
+      <td>0.0000</td>
+      <td>47.0000</td>
+      <td>47.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>12.0000</td>
+      <td>18.2857</td>
+      <td>18.2857</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>3.0000</td>
+      <td>4.5714</td>
+      <td>4.5714</td>
+      <td>0.0000</td>
+      <td>4.0000</td>
+      <td>4.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>32.0000</td>
+      <td>70.8571</td>
+      <td>70.8571</td>
+      <td>0.0000</td>
+      <td>62.0000</td>
+      <td>62.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>9.0000</td>
+      <td>18.2857</td>
+      <td>18.2857</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Faltante</td>
+      <td>CAM</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Faltante</td>
+      <td>PEATON</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Faltante</td>
+      <td>VL</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>CAM</td>
+      <td>7.0000</td>
+      <td>3.4286</td>
+      <td>3.4286</td>
+      <td>0.0000</td>
+      <td>6.0000</td>
+      <td>6.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>19.0000</td>
+      <td>30.8571</td>
+      <td>30.8571</td>
+      <td>-0.0000</td>
+      <td>54.0000</td>
+      <td>54.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>19.0000</td>
+      <td>5.7143</td>
+      <td>5.7143</td>
+      <td>0.0000</td>
+      <td>10.0000</td>
+      <td>9.4737</td>
+      <td>0.5263</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>3.0000</td>
+      <td>1.7143</td>
+      <td>1.7143</td>
+      <td>0.0000</td>
+      <td>3.0000</td>
+      <td>3.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>MOTO</td>
+      <td>1.0000</td>
+      <td>3.4286</td>
+      <td>3.4286</td>
+      <td>0.0000</td>
+      <td>6.0000</td>
+      <td>6.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>PEATON</td>
+      <td>5.0000</td>
+      <td>39.4286</td>
+      <td>39.4286</td>
+      <td>0.0000</td>
+      <td>69.0000</td>
+      <td>69.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>22.0000</td>
+      <td>8.5714</td>
+      <td>8.5714</td>
+      <td>0.0000</td>
+      <td>15.0000</td>
+      <td>15.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Faltante</td>
+      <td>CAM</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Faltante</td>
+      <td>PEATON</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Faltante</td>
+      <td>VL</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>PEATON</td>
+      <td>18.0000</td>
+      <td>152.4286</td>
+      <td>152.4286</td>
+      <td>0.0000</td>
+      <td>194.0000</td>
+      <td>183.2222</td>
+      <td>10.7778</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>VL</td>
+      <td>42.0000</td>
+      <td>44.0000</td>
+      <td>44.0000</td>
+      <td>0.0000</td>
+      <td>56.0000</td>
+      <td>56.0000</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>CAM</td>
+      <td>2.0000</td>
+      <td>7.0714</td>
+      <td>7.0714</td>
+      <td>0.0000</td>
+      <td>9.0000</td>
+      <td>4.0000</td>
+      <td>5.0000</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>VL</td>
+      <td>35.0000</td>
+      <td>35.3571</td>
+      <td>35.3571</td>
+      <td>-0.0000</td>
+      <td>45.0000</td>
+      <td>39.8289</td>
+      <td>5.1711</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Faltante</td>
+      <td>CAM</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Faltante</td>
+      <td>OTRO_PASAJERO</td>
+      <td>6.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Faltante</td>
+      <td>PEATON</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Faltante</td>
+      <td>VL</td>
+      <td>0.0000</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+      <td>Faltante</td>
+    </tr>
+  </tbody>
+</table></div><h2>7. Decisión para la integración posterior</h2><p><strong>Qué está respaldado:</strong> utilización física del servicio en las filas de embarque medidas, su separación por sentido/fecha/clase y una matriz OD explícitamente condicionada al perfil de respuestas. Se preservan usuarios extranjeros, viajes largos y los flujos sin representación espacial.</p><p><strong>Qué requiere supuestos:</strong> representatividad de las respuestas por clase, fecha y sentido; unidad de selección individual/vehicular; aplicación del agregado privado de Otoño. La coincidencia contable entre asignación y F no certifica esos supuestos.</p><p><strong>Qué queda fuera:</strong> total de pasajeros, OD de clases/días sin muestra, extremos internacionales genéricos, cobertura completa de operaciones, servicios especiales identificables, invierno y extrapolaciones a semana/24h/año. Las discrepancias Excel/Informe siguen como incertidumbre de fuente.</p><p><strong>Integración:</strong> la matriz está preparada en zonas ARISTO compatibles con la capa CITRA, pero debe integrarse como bloque lacustre independiente. CITRA representa ventanas de 12h de otros días y campañas; ARISTO representa las filas de embarque fechadas. Antes de sumar será necesario decidir una exposición temporal común en la etapa correspondiente y mantener VP de Otoño separado de VL. No se sumaron fuentes ni se modificó CITRA. Esta consolidación cierra la base lacustre observada sin exigir otra ronda manual.</p>
+<h2>8. Fuentes, bibliografía y reproducción</h2><ol><li>ARISTO, <em>Análisis demanda transporte interregional Los Lagos, Aysén y Magallanes. Informe Final</em>, MOP–Dirección de Planeamiento, archivo local Informe ARISTO.pdf. §§2.2.5–2.2.6, pp.6–7 (PDF19–20): embarques, ocupación/grupos y expansión semanal por flujo medio del servicio. No acredita número de zarpes de cada fila.</li><li>Mismo Informe, §6.1.1.1, pp.157–158 (PDF170–171): nacionalidad de peatones, patente vehicular, ocupantes y tamaño de grupo.</li><li>Mismo Informe, tabla78 p.173 (PDF186), tablas109 p.191 y140 p.209: planificación de encuestas a bordo por campaña. Tabla107 pp.187–188 (PDF200–201): conteos de primavera; tabla138 p.207 (PDF220): verano; tabla169 p.223 (PDF236): Normal y nota de bicicletas.</li><li>Cap6/BBDD EOD/Base de datos agregada.xlsx: BBDD-1, BBDD-2 (solo válidas), Semi-diccionario y TD Transb, filas20–25. ID2, filas originales y campos exactos constan en auditoría.</li><li>Cap6/BBDD EOD/DiccionarioAPP.xlsx, Hoja1, filas4–21 y campos relacionados: modo, nacionalidad y patente.</li><li>Cap6/Mediciones de flujo/Consolidado Flujos.xlsx, Transbordadores, filas5–8,124–125,218,220–222: conteos originales y agregados.</li><li>Cap8/BBDD_para_Pijas_actualizada_EOD_Final.xlsx, Zonas: catálogo original de55 zonas; códigos BBDD-2 conservados aparte.</li><li>scripts/07_matrices_od_referencia.py y config_matrices_od.json; outputs/matrices_od_referencia/matriz_od_barcaza.csv: antecedentes calculados, no fuentes originales. Se conservaron sin ejecución ni reemplazo.</li></ol>
+<p>Las tareas de microdatos, aforos, usuarios y comparación tienen scripts y salidas separados. Microdatos/aforos/usuarios trabajaron en paralelo con tres subagentes; el cupo de usuarios ejecutó también la comparación con 07. La integración consume sus CSV y verifica hashes de originales, históricos y CITRA. No se leyó una red vial ni se ejecutaron modelos de demanda.</p>
+<pre>python etapa1_lacustre_aristo_20261029/integracion/consolidar_aristo.py \
+  --anexos . \
+  --revision etapa1_lacustre_aristo_20261029 \
+  --salida etapa1_lacustre_aristo_20261029/resultados/NUEVA_ENTREGA</pre>
+<p>El archivo de instrucciones acompaña los comandos de las cuatro tareas desde originales. Se requiere una carpeta nueva para cada ejecución. Los manifiestos identifican las fuentes por SHA-256 y registran resultados, código y configuración.</p><p><small>Integración: 4.7 s; 13 verificaciones correctas. Originales, resultados previos y CITRA conservados. Este informe y los Excel incluyen datos reservados y celdas pequeñas: permanecen locales y no se publican en GitHub.</small></p></body></html>

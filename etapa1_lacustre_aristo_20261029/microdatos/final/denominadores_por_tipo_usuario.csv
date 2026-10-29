@@ -1,0 +1,26 @@
+﻿campana,sentido_cruce,tipo_usuario_BBDD2,entrevistas
+Otoño,De Chile Chico a Pto. Ibáñez,Camión o furgón de carga,4
+Otoño,De Chile Chico a Pto. Ibáñez,Pasajero (peatón),25
+Otoño,De Chile Chico a Pto. Ibáñez,Vehículo privado,12
+Otoño,De Pto. Ibáñez a Chile Chico,Camión o furgón de carga,3
+Otoño,De Pto. Ibáñez a Chile Chico,Pasajero (peatón),32
+Otoño,De Pto. Ibáñez a Chile Chico,Vehículo privado,9
+Primavera,De Chile Chico a Pto. Ibáñez,Auto,10
+Primavera,De Chile Chico a Pto. Ibáñez,Camioneta,9
+Primavera,De Chile Chico a Pto. Ibáñez,Camión o furgón de carga,7
+Primavera,De Chile Chico a Pto. Ibáñez,Pasajero (peatón),19
+Primavera,De Pto. Ibáñez a Chile Chico,Auto,15
+Primavera,De Pto. Ibáñez a Chile Chico,Camioneta,7
+Primavera,De Pto. Ibáñez a Chile Chico,Camión o furgón de carga,3
+Primavera,De Pto. Ibáñez a Chile Chico,Moto,1
+Primavera,De Pto. Ibáñez a Chile Chico,Pasajero (peatón),5
+Verano,De Chile Chico a Pto. Ibáñez,Auto,26
+Verano,De Chile Chico a Pto. Ibáñez,Camioneta,16
+Verano,De Chile Chico a Pto. Ibáñez,Pasajero (peatón),18
+Verano,De Pto. Ibáñez a Chile Chico,Auto,19
+Verano,De Pto. Ibáñez a Chile Chico,Camioneta,16
+Verano,De Pto. Ibáñez a Chile Chico,Camión o furgón de carga,2
+Verano,De Pto. Ibáñez a Chile Chico,Pasajero de bus,2
+Verano,De Pto. Ibáñez a Chile Chico,Pasajeros en BUS de turismo,1
+Verano,De Pto. Ibáñez a Chile Chico,Pasajeros en TRANSFER,1
+Verano,De Pto. Ibáñez a Chile Chico,Pasajeros en VAN de turismo,2

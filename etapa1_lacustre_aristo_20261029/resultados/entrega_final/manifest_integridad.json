@@ -1,0 +1,227 @@
+{
+  "fuentes": [
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/integridad_antes.json",
+      "sha256": "dc4a46a7b34864a5ea3bac793598e71eecf565a8e866e8217be6bf3d90b17317"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/microdatos/final/validacion_microdatos.json",
+      "sha256": "800cbaf867f1351fbe71ba0d23b03a2b315419f207e1f1726b9b5b78de561c75"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/microdatos/final/290_originales_ferry.csv",
+      "sha256": "d8d1a5e5de0be116655678652bf02ff6a2a083eeb2f6edf7e25bf1c6122d9ebe"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/microdatos/final/denominadores_por_tipo_usuario.csv",
+      "sha256": "0922fc3050e95be40585ab732734855aa7194a2ed797e037139f7b2b427e0b37"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/microdatos/final/26_originales_no_en_BBDD2.csv",
+      "sha256": "a169e3666604a9fb4cfc45f57e4c90e32fd7318af42e84026ed8397b918095fe"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/microdatos/final/catalogo_original_zonas_55.csv",
+      "sha256": "3ca41829ec5f745132102a74a071131b811aa9da0155a9e58a200c13b614e9da"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/microdatos/final/correspondencias_BBDD2_zonas.csv",
+      "sha256": "6e0578d223f5943f2e7d363e8910856dac668a9ee8f9cd990efd2607ec359483"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/microdatos/final/microdatos_ferry_264.csv",
+      "sha256": "ae9898bf99068d434398b162c2602e7ad0ec2cb28743e1134455373fa1ca318e"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/estratos_y_coeficientes.csv",
+      "sha256": "7411843c6d1a3471749c471d028f36859af91ddcea894a17d7d5b6e1d0c586bf"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/filas_originales_conteos.csv",
+      "sha256": "a0019417a62af03ac054dacabd2eae09532346303a6e744fab2f3d2e351ae7b6"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/auditar_aforos_lacustres.py",
+      "sha256": "ab85f78ca2b122aba999f1678e9a9730f7a356002dbc748937501d706e749551"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/ejecucion.txt",
+      "sha256": "709a8b95c895929459ac4d1e0f557891f6658ef78eab619082115bdf6006273c"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/contraste_Excel_Informe.csv",
+      "sha256": "05ae87ab39572b03cf01448405b8cb75746565edf0d1ffcedb775c2962da6377"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/conteos_normalizados.csv",
+      "sha256": "55e7fe90e638140a46159e23a15675f7bd3a4796c5597899396c44db152ed45c"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/metodologia_aforos.txt",
+      "sha256": "f6103a37e3382599189e59f60a118c52f5f30837900d5f4f7ecf38347e8e7d7a"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/resumen_aforos.json",
+      "sha256": "f2ee4f0d4fb5ad61f291e177f0f404e9495ce7c2485aded28271689934db9c37"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/escenarios_frecuencia_NO_observados.csv",
+      "sha256": "0f319a6fd57eb77747b42a28b8227680d347e70b3bfe8a71c98731367a734d56"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/conteos_y_coeficientes_por_fecha.csv",
+      "sha256": "950cae9a3316ff24d8fd8f6f9dd1f985a7d33cc9abec393e9c6b21962a7ddc25"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/aforos/auditoria_TD_Transb.csv",
+      "sha256": "89eda70744fc101dac4dbe6e0cd497dc5490b5e5f98c4d608cddcdf9283f2f56"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/usuarios/intersecciones_con_desconocidos.csv",
+      "sha256": "84e98ae21390aa0f4b1ced8a65901a60f72dcce7c2ba261af660f73b22b83944"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/usuarios/intersecciones_indicadores.csv",
+      "sha256": "04bdf42f19928d4c92d6a664265f13518b16c7a42786654f4995b9ed3177d476"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/usuarios/disponibilidad_campos_por_usuario.csv",
+      "sha256": "15ee65179307b1aa755d82f2dd6effcf54e86bb01c67978814457621ed205559"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/usuarios/ejecucion.txt",
+      "sha256": "30b329f7d5b30ed2a09a0d81416cf803611b545b715cd7479cdd5c5b7ce61f4b"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/usuarios/auditoria_usuarios_264.csv",
+      "sha256": "cb7613e57f3ea86256b5ffa9645450cae4580e076ef565ac167491a09f5cc426"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/usuarios/ocupacion_grupos_descriptivos.csv",
+      "sha256": "225c87eefe74778a86e32ae028a2b710e72bf6cad8ad9b2e698157022cfb387e"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/usuarios/auditar_usuarios.py",
+      "sha256": "50d54b21492f09938b550e707e3961eb5d1515d7698a2fb125293e7cba033428"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/usuarios/usuarios_resumen.json",
+      "sha256": "30b329f7d5b30ed2a09a0d81416cf803611b545b715cd7479cdd5c5b7ce61f4b"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/comparacion/comparacion_metodologica_07.csv",
+      "sha256": "f4e5edfecb4fd28cc56c5c6944f84934f0de161cd82e152a7f0e2274ae9e7d22"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/comparacion/comparar_07.py",
+      "sha256": "4fd55bf98e0885893d0d20c2c95068c90ffe43ad0c6af544621a44f750fd55b2"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/comparacion/ejecucion.txt",
+      "sha256": "7048828142bdd6f4e1b29773e6eb1b58575ae0d9d6a3e832772c52298bae0494"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/comparacion/comparacion_07.json",
+      "sha256": "7048828142bdd6f4e1b29773e6eb1b58575ae0d9d6a3e832772c52298bae0494"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/comparacion/balance_07_historico_NO_actual.csv",
+      "sha256": "6a0d3b32a2dea6e9efbc6ce2fc98ec72a872fd2969dd5b6f52ae0901487f0eae"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/comparacion/inventario_matriz_07_historica.csv",
+      "sha256": "c2fd0cd272f22592638b1d83e77fb6677cacf4ff34d1a8e2982d6652233d32d5"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/integracion/consolidar_aristo.py",
+      "sha256": "e5daba8acc5dc29e8d5bf04a43d43555661f72b4f32d3253753d67f0531f5964"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/integracion/reproducir_lacustre.py",
+      "sha256": "61a12ad83f683e169711a377c231440d6b88a2e4d7297035395b6b5c8bea908a"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/integracion/test_lacustre.py",
+      "sha256": "ed227bef069efb4c026a384b09827c67dc8d9acb08dc0908ef8b006e2af2d876"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/integracion/informe_lacustre.py",
+      "sha256": "a89b374f37ecaec281bdff560cc8596697e909949ddf41435a64ba0627d1f6f2"
+    }
+  ],
+  "resultados": [
+    {
+      "archivo": "03_conteos_factores_comparacion.xlsx",
+      "sha256": "8423bf5abf7db60a0676cde08dd1cf3d4e31b01d9f6fd2b1bb1546636dc9be7b"
+    },
+    {
+      "archivo": "validacion.json",
+      "sha256": "c07abf23dca2e9739dd4546bbab25cb89cba70589a63412a9ef8834b1838f4f3"
+    },
+    {
+      "archivo": "04_pasajeros_extranjeros.xlsx",
+      "sha256": "c3857405312e932f8c45a5f66ffc0eef74c5c50766755bdd0e33b68cb0052fa2"
+    },
+    {
+      "archivo": "01_matrices_lacustres.xlsx",
+      "sha256": "86ee8442eafbc0164360226a7a3405bdefc5b1a779f9d647d99ee36b5a00a01f"
+    },
+    {
+      "archivo": "02_auditoria_encuestas.xlsx",
+      "sha256": "451f5556d8be7bb73fa199476f49e7a3abb7227b11e301af4ee083635c72ddf7"
+    },
+    {
+      "archivo": "informe_lacustre.html",
+      "sha256": "bbec6d08f4cd4c3694e62d05e0f677e08b39f907390f4453b2c036db1e8aa2d7"
+    },
+    {
+      "archivo": "csv/auditoria_264.csv",
+      "sha256": "c3c83c638a63803fb25b6c45bf503f8a05c219207f33cc984173c26f8feee190"
+    },
+    {
+      "archivo": "csv/referencias_originales.csv",
+      "sha256": "ac1d4322880e61468f8b9ae4725cab6c5fa8a5c33d0dc2050d111130ea2a88a4"
+    },
+    {
+      "archivo": "csv/comparacion_07.csv",
+      "sha256": "7dbe914c714bc1821ea8dc257d198de77f0b177e55e6b31ed8c6453b454398f7"
+    },
+    {
+      "archivo": "csv/extranjeros_indicadores_separados.csv",
+      "sha256": "5d69ff99816eff3e7cc514f253b3770d623591220c56a922e878a5f4db2887c9"
+    },
+    {
+      "archivo": "csv/matriz_zonas_ARISTO.csv",
+      "sha256": "a075e61b9d1446c9306fec264ce82169ab102517c6d5cd70ad6d951900a2d4a9"
+    },
+    {
+      "archivo": "csv/matriz_por_fecha.csv",
+      "sha256": "8049f84e6ef7c969b7c564cce59669cf38d8d27ae3ec708dbb03e810691aeb22"
+    },
+    {
+      "archivo": "csv/factores_y_N_fecha.csv",
+      "sha256": "34cb0f2851aded4609605ff992e7e9be258682dc9e0c38579dd68366149efc16"
+    },
+    {
+      "archivo": "csv/balance_por_campana.csv",
+      "sha256": "52ccf4d26b19fc924465e93f30e67cb8e9ab0ff79a5707ed2db2c65b62723b2e"
+    },
+    {
+      "archivo": "csv/matriz_detalle_BBDD2.csv",
+      "sha256": "df0d8ac2905822ba82fd841eba785b05fd41b198e9f11012063758ee30a8587f"
+    },
+    {
+      "archivo": "csv/contraste_perfil_campana_vs_fecha.csv",
+      "sha256": "0f0cc1b8636daeb33f3e2f04805b0aec8d706e0f30d0c5fbae150d564ccf2c47"
+    },
+    {
+      "archivo": "csv/balance_por_fecha.csv",
+      "sha256": "662d0b71175017888b549bbf51c9a86953d4eec50148917ed8f13331fde719b7"
+    },
+    {
+      "archivo": "csv/OD_parciales_sin_zona.csv",
+      "sha256": "912cde8bf94a8a63f23c497eb24ca21d1ecb64fc82764dee579eaec5519777dc"
+    }
+  ],
+  "protegidos_sin_cambios": true
+}

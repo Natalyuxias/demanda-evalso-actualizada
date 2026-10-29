@@ -1,0 +1,42 @@
+{
+  "estado": "correcto",
+  "filas": 10,
+  "estratos": 48,
+  "N_supera_F": [
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "CAM",
+      "N_entrevistas_validas_clase": 7,
+      "F_total_filas_medidas": 6.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "VL",
+      "N_entrevistas_validas_clase": 19,
+      "F_total_filas_medidas": 10.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Chile Chico → Puerto Ibáñez",
+      "segmento": "VP",
+      "N_entrevistas_validas_clase": 19,
+      "F_total_filas_medidas": 11.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "VL",
+      "N_entrevistas_validas_clase": 22,
+      "F_total_filas_medidas": 15.0
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "Puerto Ibáñez → Chile Chico",
+      "segmento": "VP",
+      "N_entrevistas_validas_clase": 23,
+      "F_total_filas_medidas": 22.0
+    }
+  ]
+}

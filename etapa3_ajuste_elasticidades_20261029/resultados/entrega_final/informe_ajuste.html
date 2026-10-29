@@ -1,0 +1,282 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Etapa3 — escenarios propios finales</title><style>body{font:16px/1.55 system-ui,sans-serif;max-width:1100px;margin:auto;padding:24px;color:#203e44}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px;margin:16px 0}td,th{border:1px solid #cad9d5;padding:8px;text-align:left}th{background:#225d65;color:white}a{color:#096e8e}.box{padding:16px;background:#eaf3ef}pre{white-space:pre-wrap;background:#eef3f0;padding:12px}</style><body><h1>Etapa3: escenarios propios de crecimiento</h1><p class="box">Proyecciones anuales2026–2050 desde la misma base central2026deEtapa2, usando el PIBcentralARISTOen todos los casos. Las diferencias principales se deben exclusivamente a elasticidades. <a href="proyecciones_ajustadas_2026_2050.xlsx">Descargar Excel completo</a>.</p><h2>Parámetros elegidos</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>familia</th>
+      <th>conservador</th>
+      <th>central</th>
+      <th>alto</th>
+      <th>origen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>privados</td>
+      <td>0.500</td>
+      <td>0.900</td>
+      <td>1.400</td>
+      <td>Selección del usuario; supuesto transferido, no estimación local</td>
+    </tr>
+    <tr>
+      <td>camiones</td>
+      <td>0.500</td>
+      <td>1.000</td>
+      <td>1.500</td>
+      <td>Selección del usuario; supuesto transferido, no estimación local</td>
+    </tr>
+    <tr>
+      <td>peatones</td>
+      <td>0.300</td>
+      <td>0.600</td>
+      <td>1.000</td>
+      <td>Selección del usuario; supuesto transferido, no estimación local</td>
+    </tr>
+  </tbody>
+</table></div><p><code>Q_t=Q_2026×(PIBcentral_t/PIBcentral_2026)^β</code>. Son supuestos transferidos seleccionados por el usuario, no elasticidades estimadas para LagoGeneralCarrera. Las referencias metodológicas son RAND Europe(2014), <em>Road Traffic Demand Elasticities: Rapid Evidence Assessment</em>; ITF/OECD(2021), <em>ITF Transport Outlook2021</em>; el estudio de conectividad lacustre del lago y la metodología de compra de embarcaciones en zonas aisladas. <strong>No se afirma que esas publicaciones contengan exactamente los valores adoptados.</strong></p><p>La base normalizada2026ya incluye la anualización aprobada: factor2026=1. No se reutiliza la demanda proyectada anterior como nueva base. Motos,bicicletas,VLyVPusan el ritmo de privados manteniendo sus categorías; VPno se convierte enVLestricto. Los otros pasajeros sin cantidad conocida siguenNULL; buses con base0no crean pasajeros.</p><h2>Resultados lacustres: versiónB, ambos sentidos</h2><p>Unidades distintas por columna: privados compatibles(VL+moto+bicicleta/VP), vehículos de carga y personas peatones. No sumarlas como total de personas ni de vehículos. VersionesA/B y residuales están conservados en las matrices anuales.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>segmento</th>
+      <th>anio</th>
+      <th>escenario_crecimiento</th>
+      <th>CAM</th>
+      <th>PEATON</th>
+      <th>PRIVADOS_COMPATIBLES</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>2030</td>
+      <td>alto</td>
+      <td>3,602.503</td>
+      <td>56,229.702</td>
+      <td>17,754.267</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2030</td>
+      <td>central</td>
+      <td>3,449.085</td>
+      <td>54,305.700</td>
+      <td>16,998.175</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2030</td>
+      <td>conservador</td>
+      <td>3,302.201</td>
+      <td>52,906.027</td>
+      <td>16,416.552</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2040</td>
+      <td>alto</td>
+      <td>4,673.260</td>
+      <td>66,882.041</td>
+      <td>22,635.182</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2040</td>
+      <td>central</td>
+      <td>4,102.491</td>
+      <td>60,263.127</td>
+      <td>19,870.632</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2040</td>
+      <td>conservador</td>
+      <td>3,601.433</td>
+      <td>55,732.467</td>
+      <td>17,904.154</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2050</td>
+      <td>alto</td>
+      <td>5,885.957</td>
+      <td>78,002.334</td>
+      <td>28,073.807</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2050</td>
+      <td>central</td>
+      <td>4,784.601</td>
+      <td>66,089.202</td>
+      <td>22,820.752</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2050</td>
+      <td>conservador</td>
+      <td>3,889.326</td>
+      <td>58,364.356</td>
+      <td>19,335.386</td>
+    </tr>
+  </tbody>
+</table></div><h2>Comparación con las elasticidades altas de ARISTO</h2><p>Comparación central contra central: mismoPIBbase y misma demanda2026, aislando el cambio de beta. Los tres escenarios originales completos permanecen como contraste independiente enExcel; sus PIBalternativos no se combinan con los nuevos casos principales.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>anio</th>
+      <th>PRIVADOS_COMPATIBLES_nuevo</th>
+      <th>PRIVADOS_COMPATIBLES_ARISTO</th>
+      <th>CAM_nuevo</th>
+      <th>CAM_ARISTO</th>
+      <th>PEATON_nuevo</th>
+      <th>PEATON_ARISTO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2030</td>
+      <td>16,998.175</td>
+      <td>21,072.055</td>
+      <td>3,449.085</td>
+      <td>3,810.249</td>
+      <td>54,305.700</td>
+      <td>69,101.945</td>
+    </tr>
+    <tr>
+      <td>2040</td>
+      <td>19,870.632</td>
+      <td>37,799.707</td>
+      <td>4,102.491</td>
+      <td>5,527.144</td>
+      <td>60,263.127</td>
+      <td>123,957.216</td>
+    </tr>
+    <tr>
+      <td>2050</td>
+      <td>22,820.752</td>
+      <td>63,457.872</td>
+      <td>4,784.601</td>
+      <td>7,686.438</td>
+      <td>66,089.202</td>
+      <td>208,098.469</td>
+    </tr>
+  </tbody>
+</table></div><h2>Contraste histórico independiente</h2><p>Se recuperaron30tasas2026–2030de pasajeros sin auto del estudio <em>Mejoramiento de la Conectividad Lacustre en el LagoGeneralCarrera</em>, tablas53–54,p58. Son pronósticos históricos variables, no mediciones actuales. La numeración exacta del encabezadoAnexo22no se comprobó en la página consultada. No se extrapolan esas tasas a2050 ni se sustituyen las elasticidades elegidas.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>anio</th>
+      <th>periodo</th>
+      <th>escenario</th>
+      <th>tasa_porcentaje</th>
+      <th>segmento_original</th>
+      <th>tabla</th>
+      <th>pagina</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2026</td>
+      <td>Verano</td>
+      <td>Optimista</td>
+      <td>1.880</td>
+      <td>Pasajeros sin auto</td>
+      <td>53</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Verano</td>
+      <td>Neutro</td>
+      <td>1.340</td>
+      <td>Pasajeros sin auto</td>
+      <td>53</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Verano</td>
+      <td>Pesimista</td>
+      <td>0.560</td>
+      <td>Pasajeros sin auto</td>
+      <td>53</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Resto del año</td>
+      <td>Optimista</td>
+      <td>2.010</td>
+      <td>Pasajeros sin auto</td>
+      <td>54</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Resto del año</td>
+      <td>Neutro</td>
+      <td>1.460</td>
+      <td>Pasajeros sin auto</td>
+      <td>54</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Resto del año</td>
+      <td>Pesimista</td>
+      <td>0.620</td>
+      <td>Pasajeros sin auto</td>
+      <td>54</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>Verano</td>
+      <td>Optimista</td>
+      <td>1.750</td>
+      <td>Pasajeros sin auto</td>
+      <td>53</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>Verano</td>
+      <td>Neutro</td>
+      <td>1.280</td>
+      <td>Pasajeros sin auto</td>
+      <td>53</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>Verano</td>
+      <td>Pesimista</td>
+      <td>0.540</td>
+      <td>Pasajeros sin auto</td>
+      <td>53</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>Resto del año</td>
+      <td>Optimista</td>
+      <td>1.860</td>
+      <td>Pasajeros sin auto</td>
+      <td>54</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>Resto del año</td>
+      <td>Neutro</td>
+      <td>1.380</td>
+      <td>Pasajeros sin auto</td>
+      <td>54</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>Resto del año</td>
+      <td>Pesimista</td>
+      <td>0.600</td>
+      <td>Pasajeros sin auto</td>
+      <td>54</td>
+      <td>58</td>
+    </tr>
+  </tbody>
+</table></div><p>No se recuperaron tasas numéricas verificadas de VL/CAMhistóricos en esta revisión acotada; el documento de compra de embarcación queda como antecedente metodológico, sin atribuirle cifras. La comparación histórica es parcial y no supone equivalencia exacta entre pasajeros sin auto y todos los pasajeros del ferry.</p><h2>Cobertura conservada y reproducción</h2><p>CITRAcontinúa como mercado parcial de ventana12h; sus faltantes y24hsin estimación permanecenNULLtodos los años. El crecimiento no agrega OD ni mercado terrestre no observado. Los ODexternos y residualesARISTOsiguen identificados. Los aportes parciales aparecen separados deQanual. La composiciónODse conserva: no se calcula capacidad, captación, inducción o cambio de ruta.</p><pre>python etapa3_ajuste_elasticidades_20261029/proyectar_ajuste.py --anexos . --config etapa3_ajuste_elasticidades_20261029/configuracion.json --salida /ruta/ENTREGA_NUEVA</pre><p>8controles correctos; archivos anteriores intactos. Cálculo yExcelvalidados en3.89s. Las columnas anuales evitan repetir los metadatosOD25veces. Solo se entregan este informe,unExcel yel código/configuración reproducibles.</p></body></html>

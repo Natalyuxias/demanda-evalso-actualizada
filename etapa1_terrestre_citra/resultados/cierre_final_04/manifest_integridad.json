@@ -1,0 +1,221 @@
+{
+  "cache": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02",
+  "revision": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final",
+  "fuentes": [
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/validacion.json",
+      "sha256": "0ae9584e6d0f613c4ef0ca11a043f0e51531cea11b7c8260357a9dfe3772bb24"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/integridad_antes.json",
+      "sha256": "6e92799b2be55a66f38dece9e4d8eaa37fcc7e7d370d4c3fa10c9dcca0f80019"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/auditoria_112.csv",
+      "sha256": "9c82b22d5522b23c03fa3552aa19853ae5923655de1b3ebbea0e1f19d7f24cd0"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/seleccion_pantallas.csv",
+      "sha256": "c5c4e275e975b233f4ce9aaec6ca1a60b3c6c8a16788b34f061f7d6c967339fc"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/universo_original_denominadores.csv",
+      "sha256": "bb93b5319e587181607311a0f73cf11377da24c4a8b3633afa1ba0a5a0ac3500"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/auxiliar_excluidos.csv",
+      "sha256": "9c82b22d5522b23c03fa3552aa19853ae5923655de1b3ebbea0e1f19d7f24cd0"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/estimaciones_por_dia_y_pantalla.csv",
+      "sha256": "262ee2010a16a577eb274993a64fe7c451f91008924ce9df0c3b695d52d87db2"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/homologacion_cerrada_extremos.csv",
+      "sha256": "e8fa370b4dfea6d7e911c342b706c73a20ef5a12af6f2b076a680274c2cba299"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/homologaciones_29_aplicadas.csv",
+      "sha256": "2de2e962fcc571f0c76cc701e4cbe20ae171a0eb4f6393d04a6febece66c185f"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/matriz_auxiliar_corredor_zonas.csv",
+      "sha256": "eabba221351cc8188d13a7a01f4fa34824de0a75f63aab946c92f3bf0e4b04ff"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/homologacion_cerrada_registros.csv",
+      "sha256": "ef425115d204539e9298c4f052b0014f78416707fdd40903afd7fcf58a39bbbd"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/matriz_auxiliar_corredor_detallada.csv",
+      "sha256": "24fe6a59a32e850716594059c73a8d548db3b931a5021fac45afda0bfb4bce1c"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/matriz_principal_zonas_ARISTO.csv",
+      "sha256": "1f99e896a7acf0e0c434003bf40ffd6b86492a8b5749f0f4566f9bf3ad623233"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/resumen_cobertura.csv",
+      "sha256": "1e21b4a24ed15f3efb9ab754a3c72b76948ea6f24526f6419dbc73295d82b7c4"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/testigos_itinerarios_Argentina_posibles.csv",
+      "sha256": "29ff685b22639b5fac403ac97e86514e9c0382c8e1fb68890f44ee25d04fbff7"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/relaciones_entre_controles.csv",
+      "sha256": "12e504d9a3b72fe87296ad3caf8b6563003368ee353d8207d196d746f16c1daa"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/matriz_principal_detallada.csv",
+      "sha256": "11e436355fa5bd81fe0ea6fb72db43e2b2c65b369f4ffb74ffe99d39ecf41f21"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/resultados/entrega_02/csv/estratos_y_factores.csv",
+      "sha256": "61aaaaa0f3dfcd011907188f0fd7eaedd665e6a42b4b50ba6cc7de84ca648762"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/rutas/entrega_final/clasificacion_112.csv",
+      "sha256": "8c12cce9af812b2fe5ec18ab3c4203590be06e02c843d9c0ca5c111fd2f32287"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/rutas/entrega_final/resumen_rutas.json",
+      "sha256": "4ec3d2d088c2e9780f79a801df181cc2ac55c75d42251bf4bdf67e5054dfec6f"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/aforos/resumen_aforos.json",
+      "sha256": "5ee4fe9e544813f3a01cfcc627d9e508631070e8ec6c9265d71f87d2338757aa"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/cobertura/resumen_cobertura.json",
+      "sha256": "6d281cd2d2226c6f5938b3be11264c41981f21593f42d6fa32d762e2a0ed6b46"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/rutas/resumen_rutas.json",
+      "sha256": "7de43c499f3fef4d26490464afd3405a078260e185a9523556de92ecab7f2b97"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/pantallas/resumen_pantallas.json",
+      "sha256": "d9ef4bb3c138ef25048fa11781a4f5c41a3cffd1ab332ad5c499735ee65e95fc"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/pantallas/comparaciones_pantallas.csv",
+      "sha256": "7d0f32dbd9fa7fd4762104041a4b061f78ede6dba88d3efaac29bb870a3a3cc2"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/pantallas/comparaciones_detalladas_compatibles.csv",
+      "sha256": "a0859e9c69cd31dd933b19d476d94c1c22254d3497ddc1e7862713d9691399ef"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/pantallas/seleccion_reutilizada.csv",
+      "sha256": "17a9167d00f6f16c56d8fb91eea12f7f7ebc8a0a45f690a22bb85fd0c582e2a5"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/pantallas/relaciones_reutilizadas.csv",
+      "sha256": "897eb933c2c4d9e0a7f3fbf511848a36b3424be3986148f2783b552936e82cab"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/aforos/estratos_cohorte_112.csv",
+      "sha256": "6fb943ad4bae6a49f74d9b79b6701657c953990d8e893c0eb2009a7789e2680b"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/aforos/factores_validados.csv",
+      "sha256": "4196ed626c2149b93add8449489fdaf433be9a63d106f62097fcd334538d9404"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/aforos/cobertura_temporal.csv",
+      "sha256": "c5eaaf240ef16bb83e27f84acc8118bc13ef943cd67f957f87e7ea5156eb7c9f"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/aforos/auditar_aforos.py",
+      "sha256": "db93e1918a8200715fd5271d59da207799672b06af89ca23ae655cbd002c6f7b"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/rutas/clasificar_rutas.py",
+      "sha256": "4088b8df40223ab0786e2ac69996d3ecb030a49508ab24b9fb6deb754759a2b9"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/pantallas/analizar_pantallas.py",
+      "sha256": "5355ec9fb5df90b4013e43f04119ed672db700ba1b868b81d4ec3c2ecace7569"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/cobertura/auditar_cobertura.py",
+      "sha256": "a210f9d2ff89257a4ab6c6fdbd16bcbf0332d924b51da39c073f9929fe20e17d"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/integracion/reporte_corredor.py",
+      "sha256": "47e3b53eda82c1a1437b88da20fd6fb70adcee1b1f1c5d420b8bcf2d735194c3"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/integracion/test_corredor.py",
+      "sha256": "abd5177e54ee7965aa9f9792a14b9b265a8d5397eea6b208f70203f8e67909e5"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa1_terrestre_citra/cierre_final/integracion/estimar_corredor.py",
+      "sha256": "aa9cbe46c609fa567ff5d36cfaee16ba57a138799562508434504a24fb93e556"
+    }
+  ],
+  "resultados": [
+    {
+      "archivo": "resumen_validacion.json",
+      "sha256": "8d2d92a1d03ceb94bfea6436df3a79b505454573be3a1ccdf192a91ccf7e264e"
+    },
+    {
+      "archivo": "01_matrices_corredor.xlsx",
+      "sha256": "cdd3cd201a88199004cb21c5622003e16ce894877906241fbae260961007a342"
+    },
+    {
+      "archivo": "02_auditoria_112.xlsx",
+      "sha256": "13df9354eafe00b2fe690a3064abfe19a8502d171688222f54662481bc1f6b4b"
+    },
+    {
+      "archivo": "04_pantallas_contrastes.xlsx",
+      "sha256": "87e9b982ad0c491f93a3c3723aa8c8f51b7af3ee01bc32f240a06f0fe27148c7"
+    },
+    {
+      "archivo": "informe_final.html",
+      "sha256": "0e57b1fe639152f5d520e17da6aa84fbb7cde3c9dd61f4761f7906ab77ecbfcb"
+    },
+    {
+      "archivo": "03_factores_expansion.xlsx",
+      "sha256": "0de089504a6cc3794b05cd3296a4af0d78f1bbc5545f0d70ed149c2bc7be3786"
+    },
+    {
+      "archivo": "csv/relaciones_controles.csv",
+      "sha256": "0894af174d0cb3f281de4bd299844e62a43ba6c91053f89929b33d3749223971"
+    },
+    {
+      "archivo": "csv/auditoria_112.csv",
+      "sha256": "57bef4ab6c5d4c2dd2958834d6cae60be203d3a37b3ae7856a0872935f641745"
+    },
+    {
+      "archivo": "csv/flujos_fecha_pantalla.csv",
+      "sha256": "08e273f1f7b0f79f109e8ed147d8bbd41704777725cc0ee381f2e67562deef23"
+    },
+    {
+      "archivo": "csv/matriz_localidades.csv",
+      "sha256": "115a8ddf623ebc9a1331ebb3c2fff7b39df607caea52842c3871088863308d91"
+    },
+    {
+      "archivo": "csv/factores.csv",
+      "sha256": "2bbebf5ec6dfff211d440aff77627b6020fafe7e83391d6416743363bb0adc27"
+    },
+    {
+      "archivo": "csv/pantallas.csv",
+      "sha256": "d15a0797d12789042f8c27ba8c81790584fbbec4fab151c4f9bac90350eb371b"
+    },
+    {
+      "archivo": "csv/comparaciones_controles.csv",
+      "sha256": "325fa923815030c982424d2e2503e09b440af9536d06f284e36774f640e7ace3"
+    },
+    {
+      "archivo": "csv/matriz_zonas_ARISTO.csv",
+      "sha256": "d3acddf1fa5ce01d7aa411151123b0f24bd78a1e461ab258a64472d032502561"
+    },
+    {
+      "archivo": "csv/cobertura.csv",
+      "sha256": "5953d59a89cdda520645f1323191739fccadb619e3cec7de678af0345ac674c1"
+    }
+  ],
+  "originales_y_entregas_anteriores_sin_cambios": true
+}

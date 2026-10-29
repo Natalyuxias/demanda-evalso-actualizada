@@ -1,0 +1,15 @@
+{
+  "commit_local": "c605ac09147cb2648b8613cd9314d6d6df53ebf4",
+  "rama": "main",
+  "repositorio": "https://github.com/Natalyuxias/demanda-lago-general-carrera",
+  "push_realizado": false,
+  "motivo": "Could not resolve host: github.com",
+  "arbol_git_limpio": true,
+  "pruebas": {
+    "aprobadas": 78,
+    "fallidas": 0
+  },
+  "validaciones_integridad": 17,
+  "resultados_locales": "resultados/entrega_02",
+  "publicado_en_commit": "scripts, documentacion y resumen metodologico global; sin Excel, microdatos o coordenadas individuales"
+}

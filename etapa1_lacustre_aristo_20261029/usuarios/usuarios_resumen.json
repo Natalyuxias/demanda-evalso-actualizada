@@ -1,0 +1,102 @@
+{
+  "entrevistas": 264,
+  "peatones": 99,
+  "nacionalidad_declarada_no_faltante": 103,
+  "nacionalidad_extranjera": 5,
+  "patente_extranjera": 10,
+  "OD_internacional": 13,
+  "algun_indicador_NO_total_extranjeros": 20,
+  "ambas_condiciones_nacionalidad_patente_desconocidas": 3,
+  "nacionalidad_y_ODinternacional": 2,
+  "patente_y_ODinternacional": 6,
+  "vehiculares_ocupacion_completa": 159,
+  "vehiculares": 159,
+  "peatones_grupo_disponible": 81,
+  "peatones_grupo_faltante": 18,
+  "total_personas_estimado": false,
+  "total_pasajeros": null,
+  "conclusiones": [
+    "Nacionalidad declarada, categoria nacional/extranjera de patente y pais OD son variables distintas. No equivalen a residencia ni nacionalidad de todos los ocupantes.",
+    "La patente disponible es una categoria, no un identificador vehicular. No permite eliminar respuestas repetidas del mismo vehiculo ni demostrar una respuesta por vehiculo.",
+    "N puede superar F por respuesta multiple, cobertura temporal, clase o conteo; conservar sin deduplicar/imputar. Factor F/N menor que uno es asignacion condicional, no prueba de diseno muestral.",
+    "Peatones:81 con tamano de grupo,18 sin el. No reemplazar grupo con ocupantes de otro campo. No sumar tamanos como personas unicas sin identidad de grupo.",
+    "Una moto declara7 ocupantes: conservar literal y senalar alerta; no usar tasa automatica ni corregir a2.",
+    "Seis entrevistas de pasajeros de bus/VAN/transfer no equivalen a seis vehiculos. Campos de ocupacion no cubren a todos ni certifican todos los pasajeros.",
+    "No puede estimarse total completo de pasajeros de la nave con estas respuestas sin certificar unidad de seleccion y dominios excluyentes. Aforos de vehiculos y peatones quedan separados."
+  ],
+  "formulas_condicionales": [
+    {
+      "formula": "Q_OD_peaton=F_peaton*n_OD/N_respuestas_peaton",
+      "estado": "Asignacion OD condicionada a representatividad de respuestas individuales; no ponderador oficial",
+      "aplicacion": "Mantener denominador completo compatible y N/F auditado; F es personas peatonales, no multiplicar por grupo"
+    },
+    {
+      "formula": "Q_OD_peaton_grupos=F_peaton*sum(g_OD)/sum(g)",
+      "estado": "NO aplicar",
+      "aplicacion": "Solo si se demuestra representante unico por grupo y mecanismo de muestreo por grupos; hay18 grupos faltantes"
+    },
+    {
+      "formula": "P_ocupantes_clase=F_vehiculos_clase*media_ocupacion_clase",
+      "estado": "NO aplicar automaticamente",
+      "aplicacion": "Requiere una respuesta por vehiculo, ocupacion valida, representatividad y mismo estrato; no demostrados"
+    },
+    {
+      "formula": "P_total=P_peatones+P_ocupantes_vehiculos+P_buses",
+      "estado": "NO identificado",
+      "aplicacion": "Requiere cobertura completa y categorias excluyentes; aforo peatones debe excluir ocupantes ya contados"
+    }
+  ],
+  "referencias": [
+    {
+      "archivo": "Cap6/BBDD EOD/DiccionarioAPP.xlsx",
+      "hoja": "Hoja1",
+      "filas": "4-13 modos;14-21 nacionalidad y patente;92-123 recorridos declarados",
+      "uso": "Categorias diferentes de nacionalidad y patente"
+    },
+    {
+      "archivo": "Informe ARISTO.pdf",
+      "PDF_pagina": 170,
+      "pagina_impresa": 157,
+      "seccion": "6.1.1.1",
+      "uso": "Diseno formulario, nacionalidad para peatones, patente para vehiculos"
+    },
+    {
+      "archivo": "Informe ARISTO.pdf",
+      "PDF_pagina": 171,
+      "pagina_impresa": 158,
+      "seccion": "6.1.1.1",
+      "uso": "Ocupantes autos/camionetas/motos/camiones y grupo peatones/paxbus"
+    },
+    {
+      "archivo": "Informe ARISTO.pdf",
+      "PDF_pagina": 20,
+      "pagina_impresa": 7,
+      "seccion": "2.2.5-2.2.6",
+      "uso": "Tasas ocupacion y grupos; marco de expansion"
+    },
+    {
+      "archivo": "Informe ARISTO.pdf",
+      "PDF_pagina": 220,
+      "pagina_impresa": 207,
+      "seccion": "Tabla138",
+      "uso": "Bicicletas sumadas a peatones en cuadro agregado"
+    },
+    {
+      "archivo": "Informe ARISTO.pdf",
+      "PDF_pagina": 236,
+      "pagina_impresa": 223,
+      "seccion": "Tabla169",
+      "uso": "Bicicletas sumadas a peatones en cuadro agregado"
+    }
+  ],
+  "sha256_fuentes_originales_vinculadas": {
+    "Cap 6/BBDD EOD/Base de datos agregada.xlsx": "edf91ef5ce840362ecdf7d7d33477d6a9da6fa1495e158f29015b7b390d2d8ef",
+    "Cap 8/BBDD_para_Pijas_actualizada_EOD_Final.xlsx": "5677427d1f909a6a48b1011be02cb40da9367ec87223d79b2b9a6ddb1d2d6685",
+    "Cap 6/BBDD EOD/DiccionarioAPP.xlsx": "d4191d6d33e2fc668cfc504be60388bf874c6115ecf4706f12ce54b722184e28"
+  },
+  "fuentes": {
+    "etapa1_lacustre_aristo_20261029/microdatos/final/microdatos_ferry_264.csv": "ae9898bf99068d434398b162c2602e7ad0ec2cb28743e1134455373fa1ca318e",
+    "Cap 6/BBDD EOD/DiccionarioAPP.xlsx": "d4191d6d33e2fc668cfc504be60388bf874c6115ecf4706f12ce54b722184e28",
+    "Informe ARISTO.pdf": "5b98c6ff01730ba7c54de8afecde3bc93317d64a437522f12540972a6933f298"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "instruccion_usuario": "Aplicar29 propuestas (11 con coordenada,18 nominales);8 extremos pendientes sin imputar; auditar112 entrevistas Tierra confirmada del filtro previo; matriz Chile estricta sin logit ni imputaciones.",
+  "alcance_geografico": "Decisiones previas de área conservadas; no inclusión automática de viajes externos ni Ruta7 local.",
+  "sha256_fuente_alcance": "be692902eb414040472c0911a513c650388410cacdfb1b09ed3fab43f4f6f329",
+  "sha256_fuente_propuestas": "2baef05fde197a85fb8694eb6cea87a1f740ee3fb292d01dbc4ddad7aa79f936"
+}

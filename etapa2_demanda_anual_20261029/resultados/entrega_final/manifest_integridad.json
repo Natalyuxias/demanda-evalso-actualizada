@@ -1,0 +1,262 @@
+{
+  "fuentes": [
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/aristo_OD/resultados/matriz_fecha_OD_version_A.csv",
+      "sha256": "1de103edba8bddc7062a1701b7a9b28135cbf88b0b358746ee9d9ea2845d9ce1"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/aristo_OD/resultados/matriz_fecha_OD_version_B.csv",
+      "sha256": "cf9f049d942c5713c7805079bdc6e5784f1a628e3fdb505f2a27c47bac2300e5"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/aristo_OD/resultados/externos_genericos_observados_no_imputados.csv",
+      "sha256": "4bf1983d806fc35f09b9fc132820885cbece11836615495bc68dcd7a418f0840"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/aristo_OD/resultados/validacion_versiones.json",
+      "sha256": "17618fb21dfdfade2709ce24656d0c7d06bedae7c83a2076c89a9ff7e6a92a1b"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/aristo_OD/resultados/balance_version_A.csv",
+      "sha256": "cc45505ba743abc8bf4f8efe275c0ed914afd3ecde67e683363f1c4b875cbf6a"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/aristo_OD/resultados/balance_version_B.csv",
+      "sha256": "414a82068867aff89753badd7ba03d4a9ff5e8ee20d64ca327b1c2ce83fd416a"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/aristo_OD/resultados/resumen_componentes_por_unidad.csv",
+      "sha256": "4cf76793b8c0d1009358f5825cb35b0c6605c4b5c56af2fb7158ed309aa3a94b"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/aristo_OD/resultados/auditoria_imputacion.csv",
+      "sha256": "f37f4b010137fcbf0b4e0f54220b880903c7c598dd0914a5eeece5ff8dad559f"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/lacustre_temporal/final/validacion_temporal.json",
+      "sha256": "0a1d443df9b7dac64deb46954ee13a3579f5831cc271d0dfa7ad956b506ba63a"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/lacustre_temporal/final/cobertura_anual_unidades.csv",
+      "sha256": "6f7473c25cd673ce2adc8186f597dc6858bd56c0f5c39f6d81c8fef863844802"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/lacustre_temporal/final/LEER_PRIMERO.txt",
+      "sha256": "07dd65d340b819bf6fcd804882c026533656d5e684e59a2563dd1b6843e6c2da"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/lacustre_temporal/final/exposicion_por_campana_sentido.csv",
+      "sha256": "60f3cbf0cb9a06deaef8218804efe9fdf5dd1c781d9ba541f464012c0a8e36da"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/lacustre_temporal/final/contraste_lectura_diaria_no_central.csv",
+      "sha256": "9d884fee9fe40aef4a3cd81c4566a1f7a3813a2ff3cd747e3ef811bb4a07a1c3"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/lacustre_temporal/final/factores_mensuales_lacustres.csv",
+      "sha256": "5cd94196a6e6624b646001f961d35451750dfd2653949381457a9924df8ea520"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/lacustre_temporal/final/fuentes_y_decisiones.json",
+      "sha256": "610738c053a961a322f9332cde278b8364afb4b93fa7c94cf216639c69d5e8c1"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/ejecucion.json",
+      "sha256": "af3485702f7b4f288acad9c6ecd68f50155f797d9cc5eaf04f00f349c7df036c"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/meses_zonas.csv",
+      "sha256": "76cc321ed6c05cc56b06be52ae6f64b112240d82cd75f1f85049b69e1848a73d"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/LEER_PRIMERO.txt",
+      "sha256": "7694ac0b44ba75707c67572b56be692940408feaa108d9ac5fece48e661d63db"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/anuales_localidades.csv",
+      "sha256": "0f7272bab6650cb3762079632c63b5f8eb4d05d6ea3d5b90e7cca6d907d5f283"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/test_temporal_citra.py",
+      "sha256": "e88684ee84d3ea96448670ade0effe78eee437e9dc31b0a9ab7c8620f82ea628"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/PNC_fuente_PC63_PC64.csv",
+      "sha256": "9b31786358b30890d201d93d332ad60ec289eba72d12ba1ab77ff2dae6430010"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/cobertura_temporal_localidades.csv",
+      "sha256": "187a3faf60d7b151fe517991d7fb6538b6cbeb8ea250629fe27d39ab20618d03"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/supuestos_validacion.json",
+      "sha256": "af3485702f7b4f288acad9c6ecd68f50155f797d9cc5eaf04f00f349c7df036c"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/cobertura_temporal_zonas.csv",
+      "sha256": "b99f7f5da2cf332bbd64b93c691aa7932c3c36a09d7a37aca488ab74d3531b5c"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/validaciones_temporales.json",
+      "sha256": "4cb4c3351967e70be5ac88528fe794d092ad377717c572fb5fb2204449447a4a"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/PNC_proxy_VP2024.csv",
+      "sha256": "de86ded0b234e2325153e74214933abe9c821818c359a86d1582aa47a7598a85"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/anualizar_citra.py",
+      "sha256": "aec48152c050cb5960f993d5671e18b4658f96aa4b933930c4315f69782b204e"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/zonas_desde_localidades_anualizables.csv",
+      "sha256": "5a11ba08484e8f01bc70473dbf1c5f0e89f73e231b632790d633292d99f9cd8b"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/PNC_ratios_estacionales.csv",
+      "sha256": "4281413de944d9405f77f85353a297121509d09db6b8571cabef4b6d26d431d3"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/meses_localidades.csv",
+      "sha256": "f0afb126b663ca2767d6a7dcd7fe95488845f4a0efd13af7a5c257df2f7e65ae"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/contrastes_pantallas_conservados.csv",
+      "sha256": "325fa923815030c982424d2e2503e09b440af9536d06f284e36774f640e7ace3"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/final/anuales_zonas.csv",
+      "sha256": "4858b82d0bc1ee757baee340e730bbcd310054f28662dfa460cf282d5a08d50a"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/compatibilidad/resultados/resumen_compatibilidad.json",
+      "sha256": "9959ede3a1799849d340a093f88416169000e75b3a320d604ed3158fb0de90a9"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/compatibilidad/resultados/compatibilidad_OD_campana_clase.csv",
+      "sha256": "54e139db0814f50d568717f082411b6b83e2cbf8f56f625255f7ded16ea08dd1"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/compatibilidad/resultados/diccionario_base_unificada.csv",
+      "sha256": "05286f477f64cde35cbc3f60a68101a05c5be80fba09c2eeb812d16438f4b910"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/integracion/consolidar_etapa2.py",
+      "sha256": "711cb516392f261e5b7b8be5ab2e6675b1ccf755a44a377e9005ba2dcada4464"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/integracion/informe_etapa2.py",
+      "sha256": "a4de7e45b81c6d508ff8ddc381aa2e96c92f5ffe9cbf0819aa94fcad6a508dab"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/aristo_OD/construir_versiones_OD.py",
+      "sha256": "a1255865d6a6a6950aab8e603924cbf9014227c230c07432e2ed2c0eb509fa8c"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/lacustre_temporal/anualizacion_lacustre.py",
+      "sha256": "2eaa44db75624a8bb0de708901a81c440dc32d0be787aab22888eaa0ebc281ac"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/terrestre_temporal/anualizar_citra.py",
+      "sha256": "aec48152c050cb5960f993d5671e18b4658f96aa4b933930c4315f69782b204e"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/compatibilidad/preparar_compatibilidad.py",
+      "sha256": "3575570de270f4ceeed7130211a738604a21fe47d0fa3766a704da566bd0af4a"
+    }
+  ],
+  "resultados": [
+    {
+      "archivo": "informe_etapa2.html",
+      "sha256": "943eebc46a2c5c0af526bff405d3c8ca22ec42b5190d2b3b0c8e71f7bd39702f"
+    },
+    {
+      "archivo": "escenarios_lacustres.svg",
+      "sha256": "4a93534df35a5fa3c9358070aef1a0af6b9fb7be1b88cfcb3f786700428be43d"
+    },
+    {
+      "archivo": "validacion.json",
+      "sha256": "0c2fe3bbed5dcdc404860e5616c27ca77c0158eacd73252202cb1c37b22ed53e"
+    },
+    {
+      "archivo": "04_supuestos_balances_extranjeros.xlsx",
+      "sha256": "dbea82ddb20df62df8424770e0b6bbfcdfe91f70bf03e205f8715757bdc9c82d"
+    },
+    {
+      "archivo": "03_base_unificada.xlsx",
+      "sha256": "e884dedab117c50b9947473c01eca024dbd86ddb1a0d953480d064f2f848dfec"
+    },
+    {
+      "archivo": "02_terrestre_anual_parcial.xlsx",
+      "sha256": "76c83ef363a110db0c0a323d1e69f4174be0f6d6668b975e8dd0ddda946764c3"
+    },
+    {
+      "archivo": "01_lacustre_anual_A_B.xlsx",
+      "sha256": "4feacdfc545c340eb2ef271a10d5ccf01f8e7dd9922637c9118f2e4bd4380466"
+    },
+    {
+      "archivo": "csv/extranjeros_cobertura.csv",
+      "sha256": "728fc98ee20f1ef0993102c2427d405e6a8983cbc7f9bbe8bcb526469303ab93"
+    },
+    {
+      "archivo": "csv/extranjeros_aportes_anuales.csv",
+      "sha256": "5ba125da088222be8c893183b9a72e5d6b653279faffac370601f7953d72edf7"
+    },
+    {
+      "archivo": "csv/extranjeros_mensual.csv",
+      "sha256": "332577394756c70b5d6cc04c9b9e042a6b6af44c1cb75635f7a6a172ae0ab453"
+    },
+    {
+      "archivo": "csv/referencia_por_OD_bloques_separados.csv",
+      "sha256": "13922b306ce37c073383d9218ba8ccd035fc9043b66d6550ac09ac6e1d90eac9"
+    },
+    {
+      "archivo": "csv/base_unificada_anual.csv",
+      "sha256": "e5496173d773e02b7414c75c155adfdf2a7b93beb9c97ac13f212d3d52a9ff5f"
+    },
+    {
+      "archivo": "csv/citra_mensual_zonas.csv",
+      "sha256": "a8d535fb12a96ef018bb7ffc8cecbd9eb9861c3e8432524c42814364e158400c"
+    },
+    {
+      "archivo": "csv/citra_anual_localidades.csv",
+      "sha256": "ec96689b522e97725fc95c96997a3e80b2694d5a12143394abba9433a252b060"
+    },
+    {
+      "archivo": "csv/citra_anual_zonas.csv",
+      "sha256": "745d0d967c72a0b2eba4cb700642723ca9ab8d82932fe31eb2418a4033171bb3"
+    },
+    {
+      "archivo": "csv/factores_lacustres_aplicados.csv",
+      "sha256": "2a3296098c00864189fe96db54606d9e172ddd1eb44188e536214ea5f33884ec"
+    },
+    {
+      "archivo": "csv/aristo_resumen_escenarios.csv",
+      "sha256": "f46241d45017940dcba25e2f357e00bc1aecf78665a8b2035af11ac3a4e0bcf2"
+    },
+    {
+      "archivo": "csv/aristo_balance_anual.csv",
+      "sha256": "3a61d4b3fa6a8d4f7d594895e2b87c8c9058928420c682a5e57739fc8f899105"
+    },
+    {
+      "archivo": "csv/aristo_balance_mensual.csv",
+      "sha256": "bbe7805f963dc436b29937a1576e14f9ea81aef460cc9a638b2f2c146b92ba51"
+    },
+    {
+      "archivo": "csv/aristo_temporadas.csv",
+      "sha256": "dcaa8e4dee958b656d3bed7e68ac514bb05e8cb41d20b44ff24c482451b0e7f0"
+    },
+    {
+      "archivo": "csv/aristo_anual_zonas.csv",
+      "sha256": "103d87b1b2a747a1b1753cd20bb6e007b4d13acdcc2f4a34026f9eea9f0b17b7"
+    },
+    {
+      "archivo": "csv/aristo_anual_detalle.csv",
+      "sha256": "277ebea4b2c80823927021d6d1824e94874194c1e8aae7d15750439fae0c94e4"
+    },
+    {
+      "archivo": "csv/aristo_mensual.csv",
+      "sha256": "82422a754a6c54df8dbfdf31b0994db5b9ebc9e0d81475e37ec17cc0906d1857"
+    }
+  ]
+}

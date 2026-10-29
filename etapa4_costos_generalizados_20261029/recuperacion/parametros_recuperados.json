@@ -1,0 +1,127 @@
+{
+  "tarifas_ARISTO_nominales": {
+    "VL_hasta_5_5m": 21270,
+    "adulto_general": 2550,
+    "metro_lineal": 7310,
+    "moto": 4230,
+    "bicicleta": 1620
+  },
+  "tarifa_bus_Coyhaique_PI_nominal_equipo": {
+    "valor": 10000,
+    "unidad": "CLP/persona/tramo",
+    "estado": "Supuesto/referencia equipo; tarifa pública vigente yticketintegrado noverificados",
+    "fuente": "config_etapa12.json/bus_tarifa_referencia_nominal; docs04"
+  },
+  "IPC": {
+    "base_COV": "2025-12",
+    "IPC_dic2025": 109.26,
+    "IPC_enero2026": 109.71,
+    "factor_enero2026_a_dic2025": 0.9958982772764562,
+    "estado_mes_tarifas": "Enero2026 esconvencionimputada, no vigenciaobservada; conservar nominalsinajustecomoalternativa",
+    "fuente": "config_logit_actualizado.json/ipc,mes_referencia_tarifas_imputado"
+  },
+  "navegacion_actual": {
+    "central_h": 2,
+    "central_fuente": "ARISTO Tabla38p112 yconfig_atributos.json/barcaza",
+    "sensibilidad_usuario_150min_h": 2.5,
+    "sensibilidad_CITRA_160min_h": 2.6666666666666665,
+    "fuente_160min": "config_sbo.json/operacion/fuente: CITRAInforme2c p417; cache refiere2h40, no nueva verificacion enPDF",
+    "estatus150min": "Valor usuario actual; no documento nuevoverificado"
+  },
+  "navegacion_nuevo": {
+    "central_previo_h": 1.3333333333333333,
+    "fuente": "CITRAInforme3c§28.6.2,pdfp78; evidencia_documental_acotada.json",
+    "sensibilidad_previa_h": 0.6666666666666666,
+    "fuente_sensibilidad": "INFORME2EVALSO§2.0.2,pdfp5; hipótesis de diseño40/80min,no medicion"
+  },
+  "distancia_navegacion_actual_km": {
+    "valor": 37.277,
+    "fuente": "atributos_alternativas/rutas_od.csv; tipo_tramo=navegacion; ID_Arco1728; config_atributos.json/barcaza",
+    "estado": "Distancia de red, no medidaoperacionalindividual"
+  },
+  "distancia_navegacion_nuevo_km": {
+    "valor": null,
+    "fuente": "etapa12/tramos_proyecto.csv; idLAGO_PROYECTO,km0",
+    "estado": "Cero esplaceholderproyectovirtualSINgeometria; no distanciadecruce0km"
+  },
+  "oferta": {
+    "SBO_alta_semana_sentido": 14,
+    "SBO_baja_semana_sentido": 12,
+    "nuevo_semana_sentido": 14,
+    "ventana_operativa_h_dia": 12,
+    "dias_semana": 7,
+    "estado": "Escenariosdiseño; flotaadicionalindependiente no certificada; no soncaptaciones o demanda"
+  },
+  "horario": {
+    "H_semanal": "168/f",
+    "H_ventana_diurna_sensibilidad": "12*7/f",
+    "H_calendario_efectivo_previo": "sum(intervalos_h**2)/168",
+    "w_previo_exploratorio": 0.25,
+    "definicion": "Desajuste de programación; NOespera físicaenmuelle. Definicion semanalincluyenoche; definición84/fsolo ventana diurna yno mide cierresnocturnos."
+  },
+  "operaciones_usuario": {
+    "anticipacion_h": {
+      "VL": 2,
+      "CAM": 2,
+      "PEATON": 1
+    },
+    "desembarque_central_h": 0.5,
+    "desembarque_sensibilidades_h": [
+      0.25,
+      0.75
+    ],
+    "fuente": "config_etapa12.json/anticipacion_h,desembarque_h; FAQoperadorrecuperada enconfig10",
+    "estado": "Anticipación exigida no es espera medida ni doscomponentes deembarque; no sumarmediahoraembarque adicional. Desembarque supuesto,no medido."
+  },
+  "VST_usuario_CLP_h": {
+    "valor": 10047,
+    "estado": "Suministradoporelusuarionuevaetapa; no verificadoaqui como precioprivado/socialoficial ni añobase",
+    "no_usar_sin_separacion": "VST10000 embebidoenCostGenARISTOes otroparámetro yno valida10047. No añadircostogen+COV+tiempomonetizado."
+  },
+  "costos_sociales_por_arco": {
+    "recuperados": false,
+    "motivo": "CachesrecuperadosidentificanCOVPRIVADOSdic2025; no precio social ni costo social separado porarco. No se recalculóHDM4 ni transformaronprivadosa sociales."
+  },
+  "longitudes_CAM": {
+    "cache_total_muestra": 19,
+    "n_positivas": 19,
+    "media_m": 8.657894736842104,
+    "mediana_m": 7.5,
+    "min_m": 3,
+    "max_m": 22,
+    "n_hasta_5_5m": 4,
+    "tarifa_lineal_media_nominal_CLP": 63289.21052631579,
+    "alerta": "Noimponer16m. Mediaobservadano ponderada; cuatrovehiculos≤5.5mrequierenreglatarifariaantesde7310×L. Facturación/redondeo/norespuesta noverificados. Noautoexcluir3m,22m. Cachecampañapermiteperfil, no sustituyevalorizacionindividual."
+  },
+  "ocupacion_VL": {
+    "n": 139,
+    "media_conductor_incluido": 2.8776978417266186,
+    "n_sobre_control_9": 2,
+    "media_sensibilidad_sin_sobre_9": 2.759124087591241,
+    "estado": "Cacheobservadomuestral,no ponderado; filtro>9 sensibilidad, no correcciónautomáticadeloriginal. No identifica adultos pagadores ni exenciones.",
+    "alerta_universo": "EtiquetaVL_cruce_completo delcachepreviomapeaVehiculoprivadoNormalaVL. No representaVL4ruedasestrictoenlazonificacionnueva; preferir perfilescampaña/sentido conservandoclaseOriginal."
+  },
+  "fuentes_sha256": {
+    "demanda_lago_github/data/templates/config_atributos.json": "e10b395dcd6a77a8a34ea412890fab17edcb27b46736e63823aea743bad714c6",
+    "demanda_lago_github/data/templates/config_etapa12.json": "da62acea62fbae08504473c49b9056f4306b237663d5f819d6cb849de1637a8d",
+    "demanda_lago_github/data/templates/config_logit_actualizado.json": "fc81b23412b50029a20760ccc7a93cec0401cb23e00b66a6e840e48df81bc7cb",
+    "demanda_lago_github/data/templates/config_sbo.json": "415132e0cc48093214b4f55eef962ab4895963c0ade9047eaf3b3c1e3c7ee5b8",
+    "demanda_lago_github/outputs/atributos_alternativas/atributos_alternativas.csv": "a5ade249a414265f51d85936b37ff6b8ddb2daa39af387dbcb4d033eadb1807c",
+    "demanda_lago_github/outputs/etapa12/atributos_bahia_jara_levican.csv": "ec21ee4be11a0da1f9f2542f63488c3de7b4a95a7839e40fdfaef1841b60509b",
+    "demanda_lago_github/outputs/etapa12/tramos_proyecto.csv": "2fbf1e86f73fe5da3386e7acd06cf4f63e953ebff528043eb506bc481ac7774b",
+    "demanda_lago_github/outputs/atributos_logit_actualizados/camiones_longitudes_tarifas.csv": "1bf96d9db35b8e6ae489e822ad99941ed4a37da911c3964ef7577661f5cdbaf8",
+    "demanda_lago_github/outputs/atributos_logit_actualizados/ocupantes_vehiculos.csv": "c47a3716c39fb6b52bac4f2c593a89533ee05b6bb45e2b2ceeb9401d27b91023",
+    "demanda_lago_github/outputs/sbo_actualizada/B_D_perfil_observado_longitud_CAM_m.csv": "c7d7e4a8f7b6ec085b84c75494911266001a3e18e38c1422af74fdb4af6d75ed",
+    "demanda_lago_github/outputs/sbo_actualizada/B_D_perfil_observado_ocupantes_vehiculo.csv": "fef5a08441f5725355c76866803355131317bca14d59a3f532b9c5a9a0a5d6d5",
+    "demanda_lago_github/outputs/atributos_alternativas/reproduccion_costos_arcos.csv": "d0b733d1e31903e1beef111923a412a255e866de56494b314c5c025a227ca63e",
+    "demanda_lago_github/outputs/etapa12/evidencia_documental.json": "647a7c8fcffcbbe5c3c900af146215a48e4f8bc7a4594b74e2617aceb00120fc",
+    "demanda_lago_github/outputs/atributos_alternativas/parametros_privados_fuente.json": "38e4f15ab126d70586fed1ffd244e52aaff3948d3eb95bf0010566f4d22b4252"
+  },
+  "sin_modelos_EOD_nueva_red": true,
+  "COV_CAM_mezcla_VP": {
+    "peso_CA": 0.6954612005856515,
+    "peso_CS": 0.30453879941434847,
+    "estado": "COV_VPponderaCS/CA; proxyCAM,no coste individual de todosloscamiones. No mezclarconCAMlongitudniVSTdepersonas sinexplicitarunidad.",
+    "fuente": "demanda_lago_github/outputs/atributos_alternativas/parametros_privados_fuente.json"
+  }
+}

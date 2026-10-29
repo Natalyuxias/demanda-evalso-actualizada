@@ -1,0 +1,102 @@
+[
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/eod aysen/EOD Aysen Febrero 2026 vf.xlsx",
+    "sha256": "21cd1d25cc4008d286cb8b5672124c464b98ae1c462c971b6c5e519fa5e6206e",
+    "bytes": 25511385
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/eod aysen/EOD Aysen Abril 2026.xlsx",
+    "sha256": "f7815ba954be53f6d977c5838b2cff95d009fb88c0dce7aa8dde76fe8e2e677e",
+    "bytes": 783869
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.shp",
+    "sha256": "543d803dbcdf5564f566ea09244b075dba3bf5f52fd6dbdf491827d1a2e8ae63",
+    "bytes": 149043560
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.dbf",
+    "sha256": "2a4458879c23c7bd0c760b02cec6bd858f8981e863e3fc94f832e7aad6884885",
+    "bytes": 10248
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.shx",
+    "sha256": "f626247ef124edfc752e76ccfa2b8df60542153cad084bb624b2c8a9774c39fe",
+    "bytes": 532
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.prj",
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "bytes": 145
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "bytes": 5
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.shp",
+    "sha256": "2ed8b9b05b102d7b0facb7390814631863d12c475b54518dc53274cbc40556db",
+    "bytes": 94997168
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.dbf",
+    "sha256": "97226eae8ee97e8e8d24650ee56e68fcff37cb55e8cf12c91c5d138ef02cb420",
+    "bytes": 9958
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.shx",
+    "sha256": "7c93643f6bfca463e0c829ba33de37a534e1b97268dd3f257b202e4b18ca72f6",
+    "bytes": 500
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.prj",
+    "sha256": "65b667c7ed65a5255bb2dbce78203eacac541840ac381fba0afc6d1b630b9e52",
+    "bytes": 181
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "bytes": 5
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 8/BBDD_para_Pijas_actualizada_EOD_Final.xlsx",
+    "sha256": "5677427d1f909a6a48b1011be02cb40da9367ec87223d79b2b9a6ddb1d2d6685",
+    "bytes": 2703624
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/diagnostico_etapa1_2026-10-28/propuesta_correspondencias_geograficas.csv",
+    "sha256": "2d8a2ea8bf86f6f3973a67566856b8b138289cec813bffc474e6c76502713303",
+    "bytes": 3919
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/matriz_od_proyecto/tablas/referencias_localidades.csv",
+    "sha256": "0746900c25fca803af8df5adb88940dd286161f6b3e5bf5d0d0c2c081e29515d",
+    "bytes": 2853
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/eod_filtrada/tablas/referencias_recuperadas.csv",
+    "sha256": "fb2f7d4bf4db512b90bcc0974afc33dc7c22c932be016df13f6b8620ebf8fc2f",
+    "bytes": 30584
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/eod_filtrada/tablas/base_completa_filtrada.csv",
+    "sha256": "be692902eb414040472c0911a513c650388410cacdfb1b09ed3fab43f4f6f329",
+    "bytes": 15189894
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/analisis_eod/tablas/eod_recuperada_local.csv",
+    "sha256": "6c37a8c5e5a6f73a1f1850356fa62c3009d16856ed79be3f6ba7914f4edf4140",
+    "bytes": 4860177
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/eod_filtrada/revision_manual_prioritaria.xlsx",
+    "sha256": "e30741fbb54594df48654146a2bbc0dfe9084e0429eb6341a32b48cdf5a4937c",
+    "bytes": 10194
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/matriz_od_proyecto/revision_area_influencia.xlsx",
+    "sha256": "56693ba5bd7ad515bc498064d712700cc721f5ccd0528e112d496f832b20b72c",
+    "bytes": 5629756
+  }
+]

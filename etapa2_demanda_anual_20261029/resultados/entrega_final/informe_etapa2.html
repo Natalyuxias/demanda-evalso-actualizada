@@ -1,0 +1,420 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Etapa2 — demanda anual base Bahía Jara–Levicán</title><style>body{font:16px/1.6 system-ui,sans-serif;color:#213e44;max-width:1240px;margin:auto;padding:28px}h1{line-height:1.2}h2{margin-top:38px;border-bottom:2px solid #c3d8d5}.box{padding:20px;background:#eaf3ef;border-left:6px solid #257d7d}.warn{padding:18px;background:#fff0d7}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:12px;margin:20px 0}td,th{padding:8px;border:1px solid #cbdad6;text-align:left;vertical-align:top;min-width:90px}th{background:#225d65;color:white}a{color:#086d8c}li{margin:8px 0}pre{white-space:pre-wrap;background:#edf3f0;padding:15px}img{max-width:100%}small{color:#536e72}@media print{body{font-size:11px}.scroll{overflow:visible}table{font-size:8px}}</style><body><h1>Demanda anual de referencia: ARISTO y CITRA</h1><p>Etapa 2 · Bahía Jara–Levicán · 29 de octubre de 2026 · Entrega local reservada</p><div class="box"><strong>Resultado: existe una base anual condicionada utilizable por bloques, con faltantes explícitos; no un mercado total observado.</strong> ARISTO permite escenarios anuales operacionales para carga, peatones y una vista de privados compatibles. CITRA permite escenarios anuales de ventanas de 12h para parte de sus OD; el total de 24h y el mercado terrestre no observado permanecen desconocidos. Las dos fuentes no se suman. Puede avanzarse con proyecciones por bloques y costos generalizados; una captación del mercado total exige resolver o escenificar los impedimentos de cobertura.</div><ul><li><a href="01_lacustre_anual_A_B.xlsx">Matriz lacustre anual, versiones A/B, temporadas y meses</a>.</li><li><a href="02_terrestre_anual_parcial.xlsx">CITRA: anualización parcial de ventanas12h y contrastes</a>.</li><li><a href="03_base_unificada.xlsx">Base unificada con bloques independientes y faltantes</a>.</li><li><a href="04_supuestos_balances_extranjeros.xlsx">Supuestos, factores, balances, incertidumbre y extranjeros</a>.</li><li><a href="validacion.json">Validaciones</a> · <a href="manifest_integridad.json">Manifiesto de fuentes y resultados</a>.</li></ul>
+<h2>1. Qué significa «anual» en esta entrega</h2><p>Se usa el calendario de 2026, 365 días, como <strong>año normalizado de referencia sin crecimiento</strong>. No se reconstruye el tráfico efectivamente realizado durante 2026. ARISTO incluye primavera2025 y campañas2026; CITRA mide jornadas de verano/otoño2026. La conversión anual implica representatividad temporal y, en la barcaza, cumplimiento de una programación ordinaria que no está certificada por bitácoras.</p><p>Todos los valores anuales son cálculos o escenarios. «Observado asignado» identifica el origen del perfil OD de una cantidad física medida; no convierte la cifra anual resultante en un conteo anual observado. OD imputado y proxy temporal son dimensiones distintas y se conservan por separado.</p>
+<h2>2. Temporadas y doce meses</h2><p>Se emplean tres perfiles fuente ARISTO: primavera, verano y Normal de mayo. El calendario mantiene cuatro estaciones, pero invierno toma Normal como proxy autorizado. CITRA carece de primavera; su escenario anual utiliza otoño como proxy de primavera e invierno exclusivamente dentro de sus propios OD cubiertos. No utiliza distribución OD de usuarios del ferry.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>mes</th>
+      <th>dias</th>
+      <th>temporada_destino</th>
+      <th>perfil_ARISTO</th>
+      <th>perfil_CITRA</th>
+      <th>frecuencia_ordinaria_semana_sentido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>31</td>
+      <td>Verano</td>
+      <td>Verano</td>
+      <td>Verano</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>28</td>
+      <td>Verano</td>
+      <td>Verano</td>
+      <td>Verano</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>31</td>
+      <td>Otoño</td>
+      <td>Normal mayo</td>
+      <td>Otoño</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>30</td>
+      <td>Otoño</td>
+      <td>Normal mayo</td>
+      <td>Otoño</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>31</td>
+      <td>Otoño</td>
+      <td>Normal mayo</td>
+      <td>Otoño</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>30</td>
+      <td>Invierno</td>
+      <td>Normal mayo (proxy invernal)</td>
+      <td>Otoño (proxy)</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>31</td>
+      <td>Invierno</td>
+      <td>Normal mayo (proxy invernal)</td>
+      <td>Otoño (proxy)</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>31</td>
+      <td>Invierno</td>
+      <td>Normal mayo (proxy invernal)</td>
+      <td>Otoño (proxy)</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>30</td>
+      <td>Primavera</td>
+      <td>Primavera</td>
+      <td>Otoño (proxy)</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>31</td>
+      <td>Primavera</td>
+      <td>Primavera</td>
+      <td>Otoño (proxy)</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>30</td>
+      <td>Primavera</td>
+      <td>Primavera</td>
+      <td>Otoño (proxy)</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>31</td>
+      <td>Verano</td>
+      <td>Verano</td>
+      <td>Verano</td>
+      <td>11</td>
+    </tr>
+  </tbody>
+</table></div><p>Las observaciones no se suman como días distintos del año. Primero se obtiene un perfil por exposición, y luego se aplica al calendario indicado. Marzo/abril usan composición Normal, pero frecuencia alta; mayo usa frecuencia baja. Eso también es una transferencia estacional explícita. Los perfiles de primavera no corresponden a marzo/abril ni se completa invierno como si se hubiera encuestado.</p>
+<h2>3. ARISTO A/B: conservar F, distinguir distribución</h2><p><strong>A, referencia observada:</strong> conserva la asignación de encuestas de la misma fecha, sentido y clase; retiene todo F sin perfil en residual. Los extremos internacionales genéricos se etiquetan EXTERNO_NO_ESPECIFICADO, sin inventar zona.</p><p><strong>B, referencia completada:</strong> conserva exactamente los mismos F y solo transfiere distribución de otro día comparable dentro de campaña/sentido/clase. El caso aplicado son cinco camiones del 1febrero PuertoIbáñez→ChileChico, con perfil del27enero basado en dos entrevistas. La sensibilidad A/B suprime esa transferencia, no cambia el flujo físico. Ningún peatón usa perfil de vehículo, ni un usuario terrestre recibe proporciones de ARISTO.</p><p>En la muestra medida de carga ambas versiones tienen29vehículos: A asigna22 y conserva7residuales; B agrega5ODimputados y conserva2residuales. El escaso Ndonante es una limitación, no una precisión estadística. Los120peatones de verano en sentido PuertoIbáñez→ChileChico siguen sin perfil; tampoco se fuerzan motos/bicicletas sin donantes. Todos los balances por fecha, sentido y clase se conservan.</p>
+<h2>4. Exposición lacustre y escenarios</h2><p>La unidad mínima del InformeARISTO §2.2.6 es semanal, a partir de flujo medio por servicio. El Excel no identifica inequívocamente el zarpe de cada fila. Por eso se usa evidencia de programación y se declara la hipótesis de cobertura de esas operaciones: <code>Q_mes = ΣF_muestra / operaciones_programadas_muestra × frecuencia_ordinaria_semana / 7 × días_mes</code>. La composición OD y los residuales se multiplican por el mismo coeficiente.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campana</th>
+      <th>sentido_cruce</th>
+      <th>fechas_medidas</th>
+      <th>dias_con_medicion</th>
+      <th>filas_conteo</th>
+      <th>operaciones_programadas_fechas_muestra</th>
+      <th>operaciones_efectivas_certificadas</th>
+      <th>fuente_denominador_programado</th>
+      <th>advertencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Otoño</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>2026-05-10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>False</td>
+      <td>NAVIERA_MAY2026+ARISTO169</td>
+      <td>Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>2026-05-10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>False</td>
+      <td>NAVIERA_MAY2026+ARISTO169</td>
+      <td>Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>2025-11-08</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>False</td>
+      <td>ARISTO78</td>
+      <td>Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.</td>
+    </tr>
+    <tr>
+      <td>Primavera</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>2025-11-08</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>False</td>
+      <td>ARISTO78</td>
+      <td>Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Chile Chico → Puerto Ibáñez</td>
+      <td>2026-02-01</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>False</td>
+      <td>ARISTO38+138</td>
+      <td>Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>Puerto Ibáñez → Chile Chico</td>
+      <td>2026-01-27|2026-02-01</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+      <td>False</td>
+      <td>ARISTO38+138</td>
+      <td>Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.</td>
+    </tr>
+  </tbody>
+</table></div><p>Primavera: dos horarios por sentido en la planificación del08noviembre, tabla78. Verano: la tabla38 programa una salida el martes y dos el domingo; para PuertoIbáñez→ChileChico se usan tres operaciones entre27enero y1febrero, aunque haya solo dos filas de conteo. ChileChico→PuertoIbáñez tiene dos operaciones programadas el1febrero. Normal10mayo: <a href="https://www.navieraustral.cl/itinerario-semanal-de-barcazas-04-19-mayo/">Naviera Austral publica una salida por sentido</a>. Son programas, no prueba de salidas efectivas.</p><p>La frecuencia ordinaria11dic–abr/8may–nov por sentido fue confirmada previamente por el usuario. El itinerario Naviera de04–10mayo publica nueve tramos por sentido sin clasificar ordinario/especial: se conserva como contraste, no se cambia automáticamente la frecuencia ordinaria ni se inventa una cuota de carga peligrosa. No existe bitácora o boletaje completo que certifique la exposición efectiva ni permita introducir un porcentaje de cancelaciones meteorológicas.</p>
+<ul><li><strong>Central:</strong> operaciones programadas de la muestra y frecuencia ordinaria11/8, cumplimiento supuesto; invierno=Normal de mayo.</li><li><strong>Conservador:</strong> misma exposición, con reducción invernal externa por clase compatible. PNC2024 PC64/rama1 entrega la razón Invierno/Primavera de carga y de privados agregados. Se aplica como stress sobre mayo, <em>no como razón invierno/otoño lacustre observada</em>. Peatones no reciben un factor vial.</li><li><strong>Alto:</strong> mantiene invierno=Normal y contrasta dos operaciones en veranoPuertoIbáñez→ChileChico, frente a las tres programadas del central. Los demás estratos no se incrementan sin evidencia.</li></ul><p>La lectura «total de día muestreado × días del año» se entrega en la tarea temporal como contraste, no como central: los días medidos con dos salidas no representan automáticamente un calendario de8/7salidas diarias. La lectura de una fila como un zarpe tampoco se aplica sin rotularla. Los escenarios son hipótesis de exposición y estacionalidad, no intervalos estadísticos ni toda la incertidumbre posible. No calibran suspensiones o carenas efectivas de2026.</p>
+<h3>Resultados lacustres por unidad compatible</h3><p>Ambos sentidos sumados dentro de cada clase y escenario; <strong>no sumar las clases entre sí</strong>. La vista PRIVADOS_COMPATIBLES combina VL+moto+bicicleta de primavera/verano con VP de Normal; nunca se suma otra vez con sus componentes ni se denomina VL estricto.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>version</th>
+      <th>escenario</th>
+      <th>segmento</th>
+      <th>flujo_fisico_anual</th>
+      <th>observado_OD_anualizado</th>
+      <th>imputado_OD_anualizado</th>
+      <th>residual_anualizado</th>
+      <th>fraccion_imputada_OD</th>
+      <th>fraccion_residual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B</td>
+      <td>alto</td>
+      <td>CAM</td>
+      <td>3,373.714</td>
+      <td>2,878.714</td>
+      <td>353.571</td>
+      <td>141.429</td>
+      <td>0.105</td>
+      <td>0.042</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>alto</td>
+      <td>PEATON</td>
+      <td>54,371.000</td>
+      <td>45,123.143</td>
+      <td>0.000</td>
+      <td>9,247.857</td>
+      <td>0.000</td>
+      <td>0.170</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>alto</td>
+      <td>PRIVADOS_COMPATIBLES</td>
+      <td>16,801.714</td>
+      <td>16,163.250</td>
+      <td>0.000</td>
+      <td>638.464</td>
+      <td>0.000</td>
+      <td>0.038</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>3,161.571</td>
+      <td>2,784.429</td>
+      <td>235.714</td>
+      <td>141.429</td>
+      <td>0.075</td>
+      <td>0.045</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>51,542.429</td>
+      <td>45,123.143</td>
+      <td>0.000</td>
+      <td>6,419.286</td>
+      <td>0.000</td>
+      <td>0.125</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>central</td>
+      <td>PRIVADOS_COMPATIBLES</td>
+      <td>15,717.429</td>
+      <td>15,224.425</td>
+      <td>0.000</td>
+      <td>493.004</td>
+      <td>0.000</td>
+      <td>0.031</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>conservador</td>
+      <td>CAM</td>
+      <td>2,983.880</td>
+      <td>2,606.737</td>
+      <td>235.714</td>
+      <td>141.429</td>
+      <td>0.079</td>
+      <td>0.047</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>conservador</td>
+      <td>PEATON</td>
+      <td>51,542.429</td>
+      <td>45,123.143</td>
+      <td>0.000</td>
+      <td>6,419.286</td>
+      <td>0.000</td>
+      <td>0.125</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>conservador</td>
+      <td>PRIVADOS_COMPATIBLES</td>
+      <td>13,793.288</td>
+      <td>13,300.284</td>
+      <td>0.000</td>
+      <td>493.004</td>
+      <td>0.000</td>
+      <td>0.036</td>
+    </tr>
+  </tbody>
+</table></div><img src="escenarios_lacustres.svg" alt="Escenarios anuales separados por unidad de clase"><p>La proporción imputada se refiere a distribución OD; la expansión temporal afecta todos los componentes. Una cantidad residual anual también es estimada temporalmente a partir de un embarque medido, no un aforo anual. Las matrices incluyen las versiones A y B por separado.</p><div class="warn"><strong>Clases estrictas sin año completo:</strong> VL, motos y bicicletas no tienen Normal desagregada compatible en la matriz OD; VP solo tiene el perfil Normal. Sus columnas anuales estrictas permanecen faltantes y se muestran aportes parciales. La vista alternativa de privados compatibles permite una referencia anual agregada sin repartir VP a subclases artificialmente.</div>
+<h2>5. CITRA: anualización de la parte cubierta</h2><p>Hay 5 combinaciones zonales/clase y 4 pares detallados/clase con dos campañas que admiten un escenario de365días de <strong>ventanas08–20</strong>. El resto conserva aportes de meses representados y anual faltante. La cifra anual de24h es faltante en todas las celdas.</p><p><code>Q_anual_12h = 90×perfil_verano + 92×perfil_otoño + 92×proxy_invierno + 91×proxy_primavera</code>. Central: proxies desde el propio otoñoCITRA. Conservador: invierno multiplicado por razón PNC2024 Invierno/Primavera del corredor aproximado, por VL/CAM; primavera sigue como proxy otoñal. Alto=Central porque no hay incremento superior cuantitativo respaldado sin cambiar pantalla o introducir porcentajes.</p><p>PNCPC63/rama2(Ruta7,BifMurta) yPC64/rama1(Ruta265,MallínGrande–Guadal) contrastan la forma estacional, sin equivalencia exacta de ubicación, sentido, ventana o OD. Son conteos históricos publicados con su propia expansión; sus razones no validan un factor12→24. Los coeficientes genéricos MOP y perfiles urbanos no reemplazan un aforo interurbano24h compatible. Tampoco se certifica representatividad de fines de semana con jornadas laborales escasas.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>zona_origen</th>
+      <th>zona_destino</th>
+      <th>segmento</th>
+      <th>demanda_anual_ventana12h</th>
+      <th>demanda_anual24h</th>
+      <th>dias_con_campana_propia</th>
+      <th>dias_proxy_invierno_primavera</th>
+      <th>estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>31</td>
+      <td>39</td>
+      <td>CAM</td>
+      <td>509.583</td>
+      <td>No estimable / faltante</td>
+      <td>182</td>
+      <td>183</td>
+      <td>Escenario anual de ventana12h bajo proxies; no estimacion24h</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>39</td>
+      <td>VL</td>
+      <td>5,276.591</td>
+      <td>No estimable / faltante</td>
+      <td>182</td>
+      <td>183</td>
+      <td>Escenario anual de ventana12h bajo proxies; no estimacion24h</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>39</td>
+      <td>VL</td>
+      <td>No estimable / faltante</td>
+      <td>No estimable / faltante</td>
+      <td>90</td>
+      <td>0</td>
+      <td>Anual no estimable; aporte parcial de meses representados</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>31</td>
+      <td>CAM</td>
+      <td>No estimable / faltante</td>
+      <td>No estimable / faltante</td>
+      <td>92</td>
+      <td>0</td>
+      <td>Anual no estimable; aporte parcial de meses representados</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>31</td>
+      <td>VL</td>
+      <td>3,477.792</td>
+      <td>No estimable / faltante</td>
+      <td>182</td>
+      <td>183</td>
+      <td>Escenario anual de ventana12h bajo proxies; no estimacion24h</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>34</td>
+      <td>VL</td>
+      <td>No estimable / faltante</td>
+      <td>No estimable / faltante</td>
+      <td>90</td>
+      <td>0</td>
+      <td>Anual no estimable; aporte parcial de meses representados</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>40</td>
+      <td>VL</td>
+      <td>4,645.491</td>
+      <td>No estimable / faltante</td>
+      <td>182</td>
+      <td>183</td>
+      <td>Escenario anual de ventana12h bajo proxies; no estimacion24h</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>39</td>
+      <td>VL</td>
+      <td>3,511.959</td>
+      <td>No estimable / faltante</td>
+      <td>182</td>
+      <td>183</td>
+      <td>Escenario anual de ventana12h bajo proxies; no estimacion24h</td>
+    </tr>
+  </tbody>
+</table></div><p>Se conserva la pantalla elegida en Etapa1 y las estimaciones alternativas. En ChileChico→RíoIbáñez, veranoVL, los controles comparables difieren3,73 frente25,07vehículos/12h; esa incertidumbre no desaparece por multiplicar días. Se entrega aparte y no se elige el mayor flujo ni se promedian controles para ocultarla. La distribución de localidades dentro de una zona puede cambiar entre campañas: el perfil zonal directo y el agregado de localidades comunes tienen distinto soporte y no se fuerza su igualdad.</p><p><strong>No se completó la magnitud terrestre faltante:</strong> no se usan proporciones OD lacustres ni se extrapola la fracciónCITRA a todo el corredor. Un aporte parcial no es un límite estadístico del mercado total; el componente no observado sigue desconocido.</p>
+<h2>6. Integración, doble conteo y desconocidos</h2><p>La base larga distingue bloque lacustre/terrestre, fuente, versiónOD, escenario, vista, zona, detalle, segmento, unidad y exposición. La tabla porOD presenta ambas referencias con faltantes explícitos y total_combinado nulo. Coincidencia de OD no implica compatibilidad temporal.</p><p>La auditoríaCITRA previa conserva109entrevistas elegibles sin alternativa ferry compatible en las trayectorias de referencia. Eso respalda la separación de corredores mediante inferencia topológica, pero no acredita deduplicación individual entre consultoras ni certeza del itinerario completo. No se añaden pantallas comunes a accesos del ferry y no se suman aforos en serie.</p><p>La unión de Etapa1 contiene67claves OD/campaña/clase, seis con flujo en ambas fuentes. Es una comparación de cobertura, no un total de demanda. El faltante de una fuente no se transforma en cero ni se rellena mediante la otra. VP no se homologa automáticamente a VL; los pasajeros de bus no reciben factores vehiculares.</p>
+<h2>7. Extranjeros: variables listas, sin beneficios por divisas</h2><p>Se mantienen nacionalidad declarada, patente y OD internacional como tres indicadores superpuestos. La nacionalidad peatonal no es residencia y la patente no es nacionalidad de ocupantes. Se conservaron5declaraciones extranjeras,10patentes extranjeras y13ODinternacionales en las264respuestasARISTO, sin sumarlos como personas distintas.</p><p>El Excel de factores incluye aportes anuales por categoría de indicador en estratos compatibles y su denominador físico de clase. La fracción asociada se refiere a perfil conocido, no a extranjeros totales. Se calcula también la parte sin caracterización, por ejemplo ante ausencia de entrevistas peatonales en una dirección estival. Los estados desconocidos permanecen explícitos. La versiónB solo imputa OD: no hereda nacionalidad, patente o residencia de los donantes. No se calcularon divisas, bienestar o beneficios sociales.</p>
+<h2>8. Incertidumbres materiales y decisión de avance</h2><ul><li><strong>Exposición y operación lacustre:</strong> faltan zarpes efectivamente realizados y vínculo fila–operación. El central es el mejor escenario programado disponible, condicionado a cobertura de las operaciones planificadas y al programa11/8.</li><li><strong>Invierno:</strong> otoño como proxy está autorizado; no hay serie propia suficiente para estimar relación invierno/otoño del ferry. La reducción PNC es solo un stress externo y no informa peatones.</li><li><strong>Representatividad OD:</strong> primaveraARISTO presenta N&gt;F, sin identificar vehículo; no respuesta y unidad de selección no certificadas. Imputación de carga usa Ndonante2.</li><li><strong>CITRA:</strong> falta exposición nocturna, representación de tipos de día, parte del mercado y homogeneidad del soporte detallado. La discrepancia entre controles debe conservarse.</li><li><strong>Unidades:</strong> no hay VL anual estricto desdeVPsin desagregación; peatones no son pasajeros totales. Hay flujos residuales geográficos y sin perfil.</li></ul>
+<p><strong>Podemos avanzar</strong> con proyecciones propias por bloque/segmento compatible y con costos generalizados, utilizando esta base como escenarios condicionados sin crecimiento ya incorporado. La captación puede estudiarse para los mercados efectivamente cubiertos, manteniendo sensibilidad de pantalla y exposición. <strong>No está respaldada todavía una captación única del mercado total ni cuotas entre ferry y tierra basadas en sumar estos anuales.</strong> Para ello hacen falta operación efectiva/denominador lacustre, factores horarios y cobertura terrestre, o escenarios posteriores explícitos del mercado desconocido. No se inicia ese trabajo en esta entrega.</p>
+<h2>9. Fuentes, referencias y reproducción</h2><ol><li>ARISTO, <em>Informe Final, Análisis demanda transporte interregional LosLagos,Aysén yMagallanes</em>: §§2.2.5–2.2.6 pp.6–7 (embarques/expansión semanal); tabla38 pp.111–112 (programación); tabla78 p.173 (plan primavera); tablas107 pp.187–188,138 p.207,169 p.223 (conteos).</li><li>OriginalesARISTO Cap6/BBDD EOD/Base de datos agregada.xlsx y Consolidado Flujos.xlsx; se reutiliza etapa1_lacustre_aristo_20261029/resultados/entrega_final, sin volver a leer todas las encuestas. VersionesA/B y factores de esta entrega registran sus hashes.</li><li><a href="https://www.navieraustral.cl/itinerario-semanal-de-barcazas-04-19-mayo/">NavieraAustral, programación04–19mayo2026</a>, secciónLaTehuelche: salida del10mayo y contraste semanal. Programa referencial, no bitácora.</li><li>Vialidad, PNC2024 y contraste histórico2018/2022, archivo original Cap3/Flujosvehiculares/Flujos_Vehiculares_PNC_2024-2022-2020-2018-2016-2014.xlsx, hojaBBDD, PC63/rama2 yPC64/rama1. Filas/categorías enPNC_fuente_PC63_PC64.csv. No se usa2020pandemia para el stress central.</li><li>CITRA, EOD verano/otoño y aforos de sección originales; entrega aprobada etapa1_terrestre_citra/resultados/cierre_final_04. Referencias previas: informesCITRA1/2c/3c y sus anexos. Perfiles urbanos y coeficientes MOPgenéricos contrastados, no transferidos como prueba de24h.</li><li>Fuentes históricas ARISTO/Naviera/Vialidad se revisaron para exposición y forma estacional. Cap3 no contiene una serie mensual propia de este ferry que permita calibrar invierno/otoño; las series aéreas no se usaron como demanda lacustre.</li></ol>
+<p>Cuatro roles separados: A asignación/residual; B exposición/calendario; C anualizaciónterrestre/PNC; D compatibilidad. Las tareas independientes se ejecutaron en paralelo con un máximo de tres subagentes activos. No se reconstruyó red, geocodificó ni ejecutó Etapas07–13.</p>
+<pre>python etapa2_demanda_anual_20261029/integracion/consolidar_etapa2.py \
+  --anexos . \
+  --etapa2 etapa2_demanda_anual_20261029 \
+  --salida /tmp/ETAPA2_NUEVA_ENTREGA</pre>
+<p>El paquete contiene scripts de las cuatro tareas, pruebas y comandos para regenerar desde las cachés aprobadas. Se exige carpeta nueva, se controla espacio antes de escribir y se verifican los hashes de ambas entregas previas. La publicación aGitHub quedó cancelada; no se publican microdatos. Los únicos archivos retirados del intento de subida fueron sus temporales, no las entregas del proyecto.</p><p><small>Integración: 10.94s; 12 comprobaciones correctas. Originales y referencias aprobadas intactos. Los gráficos y tablas son escenarios de incertidumbre de la base, no crecimiento, captación o inducción.</small></p></body></html>

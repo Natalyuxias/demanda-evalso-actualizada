@@ -1,0 +1,42 @@
+{
+  "verificaciones": {
+    "referencias_aprobadas_intactas": true,
+    "fisico_A_igual_B": true,
+    "balances_componentes_mensuales": true,
+    "escenarios_conservador_central_alto_ordenados": true,
+    "VL_VP_moto_bici_sin_anual_estricto_inventado": true,
+    "privados_agregados_alternativos_12meses": true,
+    "CITRA_24h_sin_inventar": true,
+    "CITRA_no_recibe_OD_ARISTO": true,
+    "unificados_no_total_artificial": true,
+    "externos_genericos_sin_zona_inventada": true,
+    "sin_crecimiento_induccion_captacion_logit": true,
+    "calendario_365_dias": true
+  },
+  "anio": 2026,
+  "CITRA_zonas_anual12h_estimables_por_escenario": 5,
+  "CITRA_localidades_anual12h_estimables_por_escenario": 4,
+  "CITRA_anual24h_estimable": false,
+  "pasajeros_totales_estimados": false,
+  "entregas_anteriores_modificadas": false,
+  "subida_GitHub_cancelada": true,
+  "archivos": [
+    "aristo_mensual",
+    "aristo_anual_detalle",
+    "aristo_anual_zonas",
+    "aristo_temporadas",
+    "aristo_balance_mensual",
+    "aristo_balance_anual",
+    "aristo_resumen_escenarios",
+    "factores_lacustres_aplicados",
+    "citra_anual_zonas",
+    "citra_anual_localidades",
+    "citra_mensual_zonas",
+    "base_unificada_anual",
+    "referencia_por_OD_bloques_separados",
+    "extranjeros_mensual",
+    "extranjeros_aportes_anuales",
+    "extranjeros_cobertura"
+  ],
+  "segundos_integracion": 10.94
+}

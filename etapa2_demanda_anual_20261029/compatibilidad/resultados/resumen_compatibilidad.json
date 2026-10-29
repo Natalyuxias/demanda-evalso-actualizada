@@ -1,0 +1,30 @@
+{
+  "claves_ARISTO_registradas": 60,
+  "claves_ARISTO_con_flujo": 57,
+  "claves_CITRA_registradas": 13,
+  "claves_CITRA_con_flujo": 13,
+  "claves_union": 67,
+  "claves_registradas_en_ambas": 6,
+  "claves_con_flujo_en_ambas": 6,
+  "solo_ARISTO_con_flujo": 51,
+  "solo_CITRA_con_flujo": 7,
+  "CITRA_sin_muestra_ferry_compatible": 109,
+  "pruebas": {
+    "zonas_ARISTO_1_55_en_ambos_bloques": true,
+    "claves_fuente_unicas_antes_de_contraste": true,
+    "CITRA_109_elegibles": true,
+    "ninguna_alternativa_ferry_compatible_en_cohorte_CITRA_elegible": true,
+    "CITRA_ruta_completa_no_observada": true,
+    "CITRA_solo_VL_CAM": true,
+    "VP_no_unido_con_VL_por_codigo": true,
+    "sin_total_conjunto_automatico": true
+  },
+  "interpretacion_doble_conteo": "La ausencia de alternativa ferry compatible en los controles/sentidos ya auditados apoya separar bloques; no prueba itinerario individual observado ni permite deduplicacion por identidad entre fuentes.",
+  "VP_compatible_alternativo": "Puede sumarse VL+MOTO+BICI de primavera/verano como privados compatibles con VP de Normal, en vista alternativa. No convertir VP en VL ni sumar esa vista a sus componentes.",
+  "integracion": "Concatenar bloques con fuente/unidad/exposicion/estado. Clave comun no autoriza sumar flujos. No usar distribucion ARISTO para desconocidos CITRA.",
+  "fuentes_sha256": {
+    "etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/matriz_zonas_ARISTO.csv": "a075e61b9d1446c9306fec264ce82169ab102517c6d5cd70ad6d951900a2d4a9",
+    "etapa1_terrestre_citra/resultados/cierre_final_04/csv/matriz_zonas_ARISTO.csv": "d3acddf1fa5ce01d7aa411151123b0f24bd78a1e461ab258a64472d032502561",
+    "etapa1_terrestre_citra/resultados/cierre_final_04/csv/auditoria_112.csv": "57bef4ab6c5d4c2dd2958834d6cae60be203d3a37b3ae7856a0872935f641745"
+  }
+}

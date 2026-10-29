@@ -1,0 +1,11 @@
+tipo_usuario_BBDD1,entrevistas,nacionalidad_disponible,patente_disponible,ocupacion_disponible,grupo_disponible,suma_valores_ocupacion_NO_total_personas,suma_valores_grupo_NO_total_personas
+Auto,70,1,70,70,1,202.0,2.0
+Camioneta,48,0,48,48,0,151.0,
+Camión o furgón de carga,19,0,19,19,0,32.0,
+Moto,1,0,1,1,0,7.0,
+Pasajero (peatón),99,99,1,1,81,4.0,144.0
+Pasajero de bus,2,2,0,0,0,,
+Pasajeros en BUS de turismo,1,0,0,1,0,1.0,
+Pasajeros en TRANSFER,1,0,1,1,0,1.0,
+Pasajeros en VAN de turismo,2,0,0,2,0,11.0,
+Vehículo privado,21,1,21,21,0,47.0,

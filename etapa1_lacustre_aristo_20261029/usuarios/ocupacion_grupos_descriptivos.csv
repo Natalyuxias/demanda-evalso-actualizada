@@ -1,0 +1,26 @@
+campana,sentido_cruce,tipo_usuario_BBDD1,entrevistas,ocupacion_no_faltante,ocupacion_media_respuestas_NO_tasa_certificada,grupo_no_faltante,grupo_media_respuestas
+Otoño,De Chile Chico a Pto. Ibáñez,Camión o furgón de carga,4,4,1.75,0,
+Otoño,De Chile Chico a Pto. Ibáñez,Pasajero (peatón),25,0,,25,1.76
+Otoño,De Chile Chico a Pto. Ibáñez,Vehículo privado,12,12,2.4166666666666665,0,
+Otoño,De Pto. Ibáñez a Chile Chico,Camión o furgón de carga,3,3,1.3333333333333333,0,
+Otoño,De Pto. Ibáñez a Chile Chico,Pasajero (peatón),32,0,,32,1.75
+Otoño,De Pto. Ibáñez a Chile Chico,Vehículo privado,9,9,2.0,0,
+Primavera,De Chile Chico a Pto. Ibáñez,Auto,10,10,1.9,0,
+Primavera,De Chile Chico a Pto. Ibáñez,Camioneta,9,9,1.8888888888888888,0,
+Primavera,De Chile Chico a Pto. Ibáñez,Camión o furgón de carga,7,7,1.5714285714285714,0,
+Primavera,De Chile Chico a Pto. Ibáñez,Pasajero (peatón),19,0,,19,1.8421052631578947
+Primavera,De Pto. Ibáñez a Chile Chico,Auto,15,15,2.0,1,2.0
+Primavera,De Pto. Ibáñez a Chile Chico,Camioneta,7,7,3.2857142857142856,0,
+Primavera,De Pto. Ibáñez a Chile Chico,Camión o furgón de carga,3,3,2.0,0,
+Primavera,De Pto. Ibáñez a Chile Chico,Moto,1,1,7.0,0,
+Primavera,De Pto. Ibáñez a Chile Chico,Pasajero (peatón),5,0,,5,1.8
+Verano,De Chile Chico a Pto. Ibáñez,Auto,26,26,3.5384615384615383,0,
+Verano,De Chile Chico a Pto. Ibáñez,Camioneta,16,16,3.4375,0,
+Verano,De Chile Chico a Pto. Ibáñez,Pasajero (peatón),18,1,4.0,0,
+Verano,De Pto. Ibáñez a Chile Chico,Auto,19,19,3.210526315789474,0,
+Verano,De Pto. Ibáñez a Chile Chico,Camioneta,16,16,3.5,0,
+Verano,De Pto. Ibáñez a Chile Chico,Camión o furgón de carga,2,2,2.0,0,
+Verano,De Pto. Ibáñez a Chile Chico,Pasajero de bus,2,0,,0,
+Verano,De Pto. Ibáñez a Chile Chico,Pasajeros en BUS de turismo,1,1,1.0,0,
+Verano,De Pto. Ibáñez a Chile Chico,Pasajeros en TRANSFER,1,1,1.0,0,
+Verano,De Pto. Ibáñez a Chile Chico,Pasajeros en VAN de turismo,2,2,5.5,0,

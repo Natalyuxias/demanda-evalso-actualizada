@@ -1,0 +1,65 @@
+{
+  "anio": 2026,
+  "ventana": "08:00-20:00",
+  "horas24_identificadas": false,
+  "anualizacion_observada_completa": false,
+  "celdas_originales_zonas": 13,
+  "celdas_originales_localidades": 25,
+  "escenarios": [
+    "Conservador",
+    "Central",
+    "Alto"
+  ],
+  "alto_igual_central_por_falta_de_otro_extremo_justificado": true,
+  "OD_zonales_clase": 8,
+  "OD_zonales_clase_ambas_campanas": 5,
+  "OD_localidad_clase": 19,
+  "OD_localidad_clase_ambas_campanas": 4,
+  "OD_localidad_clase_con_algun_flujo": 15,
+  "convencion_meses": {
+    "Verano": [
+      12,
+      1,
+      2
+    ],
+    "Otono": [
+      3,
+      4,
+      5
+    ],
+    "Invierno": [
+      6,
+      7,
+      8
+    ],
+    "Primavera": [
+      9,
+      10,
+      11
+    ]
+  },
+  "decisiones": [
+    "Escenario central aplica perfil de verano90dias y otono275dias; no implica365observados.",
+    "Primavera e invierno no observadosCITRA: proxyOtono autorizado, separado como imputaciontemporal.",
+    "Solo celdas con verano y otono con flujo reciben escenario anual365dias. Las demas conservan parcial90o92dias.",
+    "Transferencia a sabados/domingos no esta validada; multiplicar por dias calendario es supuesto explicito, no expansion observada.",
+    "Sensibilidad invierno usa razonInvierno/Primavera2024PNCde mismafamilia vial, clases aproximadas y sin sentido: no factorcertificado porcontrol.",
+    "PNC63rama2como proxyRuta7/E0701,E0702;PNC64rama1como proxyRuta265/E1003; no se afirma co-localizacion.",
+    "PerfilesPNCpublicados pueden incluir expansiondiurna: ratio transferidoa12h soloformasestacionales bajo supuesto, no identifica factor12a24.",
+    "No se mezclan ARISTOOD ni logit; no se suman controles; contrastes6.72 permanecen como incertidumbre.",
+    "Alto coincide con Central: no se inventa incremento porcentual ni se cambia pantalla para maximizar flujo. Contrastes entre controles se conservan aparte, no son intervalo de confianza.",
+    "Zonal31a39CAM tiene2campanas pero distintaslocalidades. Anualzonas no reconcilia automaticamente con subODcomunes; se entrega agregaciondetallada aparte."
+  ],
+  "soporte_horario": {
+    "coeficientes_generales_MOP": "Verano1.46,Invierno1.29,Primavera1.35 documentados previamente; no compatibles porcontrol/sentido/clase08a20 para caso base",
+    "urbanos_CITRA": "Perfiles07a21 o07a23/veq; sin equivalencia demostrada a seccionesEOD interurbanas; no aplicados",
+    "24h": "No estimable desde aforos disponibles; campos permanecen null"
+  },
+  "fuentes": {
+    "etapa1_terrestre_citra/resultados/cierre_final_04/csv/matriz_zonas_ARISTO.csv": "d3acddf1fa5ce01d7aa411151123b0f24bd78a1e461ab258a64472d032502561",
+    "etapa1_terrestre_citra/resultados/cierre_final_04/csv/matriz_localidades.csv": "115a8ddf623ebc9a1331ebb3c2fff7b39df607caea52842c3871088863308d91",
+    "etapa1_terrestre_citra/resultados/cierre_final_04/csv/comparaciones_controles.csv": "325fa923815030c982424d2e2503e09b440af9536d06f284e36774f640e7ace3",
+    "etapa1_terrestre_citra/resultados/cierre_final_04/resumen_validacion.json": "8d2d92a1d03ceb94bfea6436df3a79b505454573be3a1ccdf192a91ccf7e264e",
+    "Cap 3/Flujos vehiculares/Flujos_Vehiculares_PNC_2024-2022-2020-2018-2016-2014.xlsx": "a72e5fd1c0c08cc177da8526df9065af32f8b5e59ca018d832ef7f60a602edef"
+  }
+}

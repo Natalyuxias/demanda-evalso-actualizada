@@ -1,0 +1,83 @@
+{
+  "estado": "correcto",
+  "verificaciones": {
+    "8828_registros_originales_unicos": true,
+    "17656_extremos_conservados": true,
+    "29_aprobaciones_aplicadas_solo_en_sus_claves": true,
+    "8_pendientes_sin_imputar": true,
+    "112_auditadas_exactamente": true,
+    "22_seleccionadas_antes_reproducidas": true,
+    "denominadores_antes_de_todo_filtro": true,
+    "balance_F_N_por_estrato": true,
+    "ningun_peso_de_estrato_inconsistente": true,
+    "una_pantalla_por_OD_zonal_y_campana_clase": true,
+    "no_suma_pantallas_alternativas": true,
+    "balance_detallado_zonal_auxiliar": true,
+    "principal_no_se_rellena_si_no_hay_identificacion": true,
+    "testigos_Argentina_sin_repetir_nodos": true,
+    "sin_mezclar_personas_o_pesos_24h": true,
+    "Excel112_unicos_y_decisiones_conservadas": true,
+    "fuentes_y_entregas_anteriores_intactas": true
+  },
+  "cohorte": 112,
+  "homologaciones_aplicadas": 29,
+  "pendientes_no_imputados": 8,
+  "aceptadas_principal": 0,
+  "aceptadas_corredor_auxiliar": 109,
+  "corredor_con_factor": 93,
+  "seleccionadas_corredor": 64,
+  "seleccionadas_con_factor": 64,
+  "celdas_auxiliares_con_flujo": 13,
+  "celdas_principales_con_flujo": 0,
+  "estratos": 265,
+  "estratos_compatibles": 186,
+  "archivos_protegidos": 76,
+  "resultados_xlsx": [
+    {
+      "archivo": "02_matrices_OD.xlsx",
+      "sha256": "6b0173881153c962a39259b1d299d4e3a1b72b31ce20cca4f6a5e8b8da4a968c"
+    },
+    {
+      "archivo": "01_homologacion_cerrada.xlsx",
+      "sha256": "3dcedb95dd56a63d969995475b1cad98d47a29415c97f6e727c45cd3daf19a06"
+    },
+    {
+      "archivo": "03_auditoria_112.xlsx",
+      "sha256": "e586d616aa43639afa5fc803119e5eb36f3c6fec555db4a9d2baaa0fb6b05fe2"
+    },
+    {
+      "archivo": "04_pantallas_y_expansion.xlsx",
+      "sha256": "6842ff4a246889933c16459e31d0644048b2fb3b3ba183d8dee3806ff70adb96"
+    }
+  ],
+  "fuentes_code": [
+    {
+      "archivo": "pantallas.py",
+      "sha256": "16f91380b90cffc3e5fb61419151ba31ebfd76d7be546cab97f2bd8e5cd5ade7"
+    },
+    {
+      "archivo": "preparar_insumos.py",
+      "sha256": "61378d485e729a83893b1898769cd6480a1279691d0a8e43faa890ab46b1032d"
+    },
+    {
+      "archivo": "red.py",
+      "sha256": "e1eaaf96f7103201e92efb1be1bf98e8a10b3275a8fb0ffd4a6d0c158ef408d5"
+    },
+    {
+      "archivo": "fuentes.py",
+      "sha256": "61b42343daaa4e724b6c121e0207e4044901a8993ba6d3685ffaec14f9cb459d"
+    },
+    {
+      "archivo": "test_empirica.py",
+      "sha256": "88912f5cd9ba8ac94986f72a957851b98288ba6abb51c9fe43af83844839a4f5"
+    },
+    {
+      "archivo": "informe.py",
+      "sha256": "949255efef9d2ddad1f4ea2df78185e5a54edf0a4e14f76b2ea686605486385e"
+    },
+    {
+      "archivo": "correr_etapa1.py",
+      "sha256": "8770b5d6d0f02c115fed73a6f88d4558226b1c9d1583583ac9bf9ef8284d80ca"
+    }
+  ]
+}

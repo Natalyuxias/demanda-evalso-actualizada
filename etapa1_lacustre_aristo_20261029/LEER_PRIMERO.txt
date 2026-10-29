@@ -1,0 +1,19 @@
+ENTREGA VIGENTE: resultados/entrega_final/informe_lacustre.html
+
+La matriz representa conteos de embarque medidos, asignados condicionalmente a OD en misma fecha/sentido/clase. No es24h, una estacion completa ni demanda capturable por el proyecto. Se conservan264validas/290originales porID2;258conODzonal,258concoeficiente y252conambos. Los otros6ODgenericos y6pasajeros sinconteo de personas no se pierden ni imputan.
+
+Excel01:matrices;02:auditoria;03:conteos,coeficientes,comparacion07;04:pasajeros y extranjeros.
+
+ADVERTENCIAS: N>F en primavera; coeficientes transfieren composicion, no inclusion muestral certificada. No se acredita fila=zarpe. Otoño usaVPagrupado, noVLestricto. Cinco camiones del1feb sinentrevistas de ese dia no reciben OD de enero. Totalpasajerosnoidentificado. Extranjeros:nacionalidad/patente/OD sonindicadores distintos ysuperpuestos. VerInformeHTMLpara fuentes,paginas y discrepanciasExcel/PDF.
+
+REPRODUCCION COMPLETA DESDE ORIGINALES (desde Anexos):
+python etapa1_lacustre_aristo_20261029/integracion/reproducir_lacustre.py --anexos . --salida /ruta/NUEVA_EJECUCION_ARISTO
+
+Ese comando congela scripts yhashes; ejecutaA+D enparalelo y, trasA,B+C enparalelo(maximo2procesos), luegointegra. Requiere losoriginalesARISTO y loshistoricos preservados. No ejecuta07–13, no leeSIG/nored, no cambiaCITRA.
+
+REUTILIZAR LA CACHE YA VALIDADA:
+python etapa1_lacustre_aristo_20261029/integracion/consolidar_aristo.py --anexos . --revision etapa1_lacustre_aristo_20261029 --salida /ruta/NUEVA_ENTREGA
+
+Los originales, las entregas anteriores yCITRA estanprotegidos porSHA256; no sobrescribir. Elpaquete local conserva todo el codigo de las cuatro tareas. Las tablas detalladas y los contrastes reservados no se publican enGitHub.
+
+PAQUETE DESCOMPRIMIDO: python codigo/integracion/reproducir_lacustre.py --anexos /ruta/Anexos --salida /ruta/NUEVA_EJECUCION. El paquete no contiene las fuentes originales: deben mantenerse en Anexos. Entorno de librerías en entorno_ejecucion.json.

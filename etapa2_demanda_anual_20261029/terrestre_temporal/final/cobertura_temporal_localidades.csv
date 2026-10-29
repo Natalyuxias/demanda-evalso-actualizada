@@ -1,0 +1,20 @@
+origen,destino,zona_origen,zona_destino,segmento,nivel,comuna_origen,comuna_destino,campanas_con_flujo,dos_campanas,pantallas,advertencia
+BALMACEDA,CHILE CHICO,31,39,VL,localidades,Coihaique,Chile Chico,,False,E0702,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+BALMACEDA,PUERTO GUADAL,31,39,VL,localidades,Coihaique,Chile Chico,,False,E0702,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+CHILE CHICO,COYHAIQUE,39,31,VL,localidades,Chile Chico,Coihaique,Otoño|Verano,True,E0701,Ningun ano observado completo; dos campanas solo habilitan escenario bajo supuestos
+CHILE CHICO,PUERTO IBANEZ,39,40,VL,localidades,Chile Chico,Río Ibáñez,Verano,False,E1003,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+CHILE CHICO,PUERTO RIO TRANQUILO,39,40,VL,localidades,Chile Chico,Río Ibáñez,Otoño|Verano,True,E0702|E1003,Ningun ano observado completo; dos campanas solo habilitan escenario bajo supuestos
+COYHAIQUE,CHILE CHICO,31,39,CAM,localidades,Coihaique,Chile Chico,Verano,False,E1003,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+COYHAIQUE,CHILE CHICO,31,39,VL,localidades,Coihaique,Chile Chico,Verano,False,E0701|E0702,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+COYHAIQUE,MALLIN GRANDE,31,39,CAM,localidades,Coihaique,Chile Chico,Otoño,False,E1003,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+COYHAIQUE,MALLIN GRANDE,31,39,VL,localidades,Coihaique,Chile Chico,Verano,False,E0702,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+COYHAIQUE,PUERTO GUADAL,31,39,VL,localidades,Coihaique,Chile Chico,Otoño|Verano,True,E0701|E0702,Ningun ano observado completo; dos campanas solo habilitan escenario bajo supuestos
+MALLIN GRANDE,COYHAIQUE,39,31,CAM,localidades,Chile Chico,Coihaique,Otoño,False,E1003,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+PUERTO AYSEN,CHILE CHICO,33,39,VL,localidades,Aisén,Chile Chico,Verano,False,E0702,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+PUERTO CHACABUCO,PUERTO GUADAL,33,39,VL,localidades,Aisén,Chile Chico,Verano,False,E0702,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+PUERTO GUADAL,COYHAIQUE,39,31,VL,localidades,Chile Chico,Coihaique,Otoño,False,E0701,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+PUERTO GUADAL,COYHAIQUE ALTO,39,31,VL,localidades,Chile Chico,Coihaique,,False,E0701,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+PUERTO GUADAL,LA JUNTA,39,34,VL,localidades,Chile Chico,Cisnes,Verano,False,E0701,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+PUERTO GUADAL,VILLA CERRO CASTILLO,39,40,VL,localidades,Chile Chico,Río Ibáñez,,False,E0702,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+PUERTO RIO TRANQUILO,CHILE CHICO,40,39,VL,localidades,Río Ibáñez,Chile Chico,Otoño|Verano,True,E1003,Ningun ano observado completo; dos campanas solo habilitan escenario bajo supuestos
+VILLA CERRO CASTILLO,CHILE CHICO,40,39,VL,localidades,Río Ibáñez,Chile Chico,Verano,False,E1003,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio

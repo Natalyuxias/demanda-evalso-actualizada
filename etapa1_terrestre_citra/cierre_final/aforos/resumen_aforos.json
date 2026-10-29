@@ -1,0 +1,97 @@
+{
+  "estado": "correcto",
+  "reutilizacion_cache": true,
+  "sin_reconstruir_red_ni_rutas": true,
+  "fuentes_originales_hash_verificado": [
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/eod aysen/EOD Aysen Febrero 2026 vf.xlsx",
+      "sha256": "21cd1d25cc4008d286cb8b5672124c464b98ae1c462c971b6c5e519fa5e6206e"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/eod aysen/EOD Aysen Abril 2026.xlsx",
+      "sha256": "f7815ba954be53f6d977c5838b2cff95d009fb88c0dce7aa8dde76fe8e2e677e"
+    },
+    {
+      "archivo": "/home/nataly/Escritorio/Anexos/eod aysen/Mediciones Aysen (23-02-26).kmz",
+      "sha256": "611fcb1f3965be1da71a861a47be43e2868e04e6ffc1cc17525ace9e4922322b"
+    }
+  ],
+  "hashes_entradas_cache": {
+    "estratos_y_factores.csv": "61aaaaa0f3dfcd011907188f0fd7eaedd665e6a42b4b50ba6cc7de84ca648762",
+    "universo_original_denominadores.csv": "bb93b5319e587181607311a0f73cf11377da24c4a8b3633afa1ba0a5a0ac3500",
+    "auditoria_112.csv": "9c82b22d5522b23c03fa3552aa19853ae5923655de1b3ebbea0e1f19d7f24cd0"
+  },
+  "comparacion_csv_con_excel_validado": true,
+  "estratos_totales": 265,
+  "estratos_factor_valido": 186,
+  "estratos_sin_expansion": 79,
+  "entrevistas_universo_original": 8828,
+  "entrevistas_en_ventana_original": 8823,
+  "entrevistas_en_estratos_validos": 7515,
+  "N_validado_antes_de_filtros": true,
+  "campanas_fechas_validas": {
+    "Otoño": [
+      "2026-04-07",
+      "2026-04-08",
+      "2026-04-14",
+      "2026-04-15",
+      "2026-04-21",
+      "2026-04-22",
+      "2026-04-23",
+      "2026-04-28",
+      "2026-04-29",
+      "2026-05-05",
+      "2026-05-06",
+      "2026-05-07",
+      "2026-05-12",
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-19",
+      "2026-05-26",
+      "2026-05-27"
+    ],
+    "Verano": [
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-27",
+      "2026-01-28",
+      "2026-01-29",
+      "2026-02-03",
+      "2026-02-04"
+    ]
+  },
+  "problemas_estratos_no_sumables": {
+    "fecha_fuera_campana_no_corregida": 8,
+    "sin_entrevistas_compatibles_en_ventana": 39,
+    "sin_aforo_misma_fecha_punto_sentido_clase": 25,
+    "hora_entrevista_invalida_impide_N_completo": 3,
+    "grilla_12h_incompleta_o_invalida": 6,
+    "intervalos_duplicados_no_reconciliados": 6,
+    "entrevistas_superan_aforo": 3,
+    "filas_EOD_identicas_no_resueltas": 3
+  },
+  "estratos_cohorte_112": 17,
+  "estratos_cohorte_validos": 15,
+  "fechas_cohorte_validas": [
+    "2026-02-03",
+    "2026-02-04",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-14",
+    "2026-05-19"
+  ],
+  "cohorte": 112,
+  "cohorte_compatibles_corredor": 109,
+  "cohorte_corredor_con_factor": 93,
+  "cohorte_seleccionada_con_factor": 64,
+  "recomendaciones": [
+    "Reutilizar los 186 factores validados, sin recalcular red o rutas.",
+    "Calcular Q=F*n/N por categoria usando N original; cambiar A/B solo modifica n.",
+    "No usar factores donde esten ausentes; mantener casos sin expansion y motivos.",
+    "No extrapolar 08–20 a 24h, temporada o año.",
+    "No sumar flujos de controles en serie ni de fechas dispares como total del proyecto.",
+    "La representatividad y no respuesta dentro del estrato no fueron certificadas por un protocolo de muestreo; expansion proporcional condicionada.",
+    "Los aforos urbanos no intervienen en esta auditoria ni sustituyen los aforos de seccion EOD."
+  ],
+  "fuente_metodologica": "etapa1_terrestre_citra/scripts/fuentes.py: expansion; entrega_02/04_pantallas_y_expansion.xlsx, Estratos y factores y Universo denominadores; EOD CITRA hojas EOD y Flujos"
+}

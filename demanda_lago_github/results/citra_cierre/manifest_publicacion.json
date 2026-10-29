@@ -1,0 +1,13 @@
+{
+  "regla": "Solo metodo y conclusion de viabilidad; sin flujos ni celdas o registros individuales",
+  "archivos": [
+    {
+      "archivo": "results/citra_cierre/resumen_publico.json",
+      "sha256": "3436df8d8308240d5d008cef41553aaf237f050b746558dd1c072d939bf98256"
+    },
+    {
+      "archivo": "results/citra_cierre/resumen_publico.html",
+      "sha256": "0f38a90efc259686ade931bf32c952e08fc6f326f0361fc7bec557a68fa11d70"
+    }
+  ]
+}

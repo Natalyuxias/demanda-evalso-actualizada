@@ -1,0 +1,35 @@
+﻿campo,dominio,regla
+fuente,ARISTO / CITRA,Fuente independiente; nunca factorizar una con proporciones OD de la otra
+bloque,lacustre_actual / terrestre_corredor,El ferry actual no es Bahía Jara–Levicán
+version_OD,A / B / no_aplica,A lacustre preserva residual; B distribuye solamente flujo físico medido
+escenario,conservador / central / alto / observado,"Incertidumbre de exposición y anualización, no crecimiento o captación"
+anio_referencia,entero,Calendario normalizado; no tráfico anual efectivamente observado
+mes,1–12 o faltante para anual,Correspondencia explícita con temporada/fuente de perfil
+temporada_destino,Verano / Otoño / Invierno / Primavera,Invierno aproximado desde otoño sigue siendo proxy
+campana_fuente,etiqueta original,No rotular una observación otoñal como invierno medido
+zona_origen,1–55 o faltante,Código modelación ARISTO; no ID geográfico BBDD-2
+zona_destino,1–55 o faltante,Los residuales no reciben zona inventada
+origen_detalle,texto original/referencial,No transformar la comuna a una localidad no observada
+destino_detalle,texto original/referencial,Mantener escala y advertencias de geocodificación
+sentido_OD,origen → destino,No sustituye sentido del cruce o sentido de control
+sentido_control,código/ferry declarado,Respetar codificación de cada fuente/campaña
+segmento,VL / CAM / VP / PEATON / MOTO / BICI / OTRO_PASAJERO,VP otoño no equivale a VL cuatro ruedas
+unidad,unidad física de clase,"Vehículos, peatones, motos/bicis y pasajeros no identificados no se suman"
+vista,componentes / privados_compatibles,Vista agregada alternativa no sumable con sus componentes
+fechas_observadas,lista ISO,No confundir fechas de muestra con representatividad mensual
+pantalla,control elegido o ferry,CITRA conserva una pantalla por flujo y las alternativas separadas
+exposicion_observada,embarques fechados / ventana08–20,"Exposiciones diferentes, no total conjunto automático"
+flujo_observado_asignado,numérico o faltante,"Asignación OD mediante muestra del mismo estrato, no universo certificado"
+flujo_imputado_OD,numérico o faltante,Solo ARISTO bajo límites de donante compatibles
+flujo_residual,numérico o faltante,F conocido sin OD; no mercado terrestre desconocido inventado
+subtipo_residual,externo_no_especificado / sin_perfil / conteo_desconocido,No fusionar incertidumbre geográfica con falta de conteo
+imputacion_temporal,booleano y descripción,Proxy primavera/otoño/invierno y exposición programada explícitos
+factor_12_24,numérico compatible o faltante,"Sin respaldo, demanda de24h no estimable"
+demanda_anual_12h,numérico o faltante,"CITRA: referencia anual de ventana, no día completo"
+demanda_anual_24h,numérico o faltante,No rellenar si falta factor horario compatible
+demanda_anual_operacional,numérico o faltante,"ARISTO: escenario de operaciones, no servicio efectivamente ejecutado certificado"
+nivel_confianza,observado / condicionado / proxy / no_estimable,No certeza individual ni representatividad certificada
+cobertura,texto,"Partes no observadas permanecen desconocidas, no ceros"
+fuente_imputacion_OD,misma fuente o faltante,ARISTO no puede completar OD terrestres
+evidencia,archivo/hoja/filas/páginas,Fuente original y cache validada diferenciadas
+permite_total_conjunto,False,No sumar exposiciones/fuentes incompletas para un mercado artificialmente completo

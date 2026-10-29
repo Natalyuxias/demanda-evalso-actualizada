@@ -1,0 +1,11 @@
+nacionalidad_estado,patente_estado,OD_internacional_observado,entrevistas
+Chilena,Chilena,False,3
+Chilena,Desconocida,False,93
+Chilena,Desconocida,True,2
+Desconocida,Chilena,False,145
+Desconocida,Chilena,True,3
+Desconocida,Desconocida,False,3
+Desconocida,Extranjera,False,4
+Desconocida,Extranjera,True,6
+Extranjera,Desconocida,False,3
+Extranjera,Desconocida,True,2

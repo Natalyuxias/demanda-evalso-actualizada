@@ -1,0 +1,46 @@
+HOMOLOGACIÓN GEOGRÁFICA CITRA Y ARISTO — ETAPA 1
+
+Abrir homologacion_CITRA_ARISTO.xlsx. Esta entrega es local y contiene datos de origen/destino reservados.
+
+Registros CITRA: una fila por cada una de las 8.828 entrevistas originales.
+Extremos: dos filas por entrevista, con datos originales, asignación administrativa, candidatos y evidencia.
+Resumen cobertura: distingue la base completa del subconjunto incluido o potencialmente relevante del filtro vigente.
+Revisión prioritaria: 20 grupos iniciales, ordenados por su presencia en viajes incluidos y apoyo en entrevistas, sin usar expansión.
+Pendientes relevantes: resto de grupos geográficos pertinentes, sin exigir revisión del universo regional.
+Originales: copia por columna, fila y libro, más registro_original_JSON tipado que conserva texto vacío, nulo y valores exactos. Campos originales identifica los encabezados duplicados por su posición.
+Decisiones previas: decisiones anteriores de área, conservadas. No se reinterpretan como decisiones de geografía o ruta.
+Validaciones y validacion.json: recuentos, claves, copia de originales, conservación de decisiones, CUT/zona, SHA-256 de fuentes y lectura posterior del Excel.
+
+REGLAS DE USO
+Usar exclusivamente las columnas de asignación final; los candidatos no están asignados.
+Las coordenadas originales no se sustituyen ni se consideran ubicaciones exactas. No se imputa la localidad más cercana.
+Río Ibáñez es comuna/zona, no equivale a la localidad Puerto Ibáñez. Los códigos de zona de modelación provienen del catálogo de 55 zonas; no son los ID de BBDD-2.
+Las zonas 55 o argentinas con comuna vacía son parciales: no se inventan CUT fuera de la cartografía disponible.
+Los pendientes no son ceros ni registros eliminados. Se conservan todos los duplicados presentes en el original, distinguidos por fila y clave de fuente.
+Esta tarea no cambia áreas de influencia, rutas, pesos, matrices de demanda ni resultados anteriores.
+
+REVISIÓN MANUAL
+Completar las celdas de propuesta y evidencia de Revisión prioritaria si se desea. Las propuestas no se aplican automáticamente. Antes de aplicarlas debe verificarse cada registro del grupo. Si el Excel fue editado, el generador se detiene para conservarlo.
+
+REPRODUCCIÓN (desde Anexos, con originales y carpetas de procesamiento previas disponibles)
+python homologacion_geografica_etapa1/scripts/verificar_reglas.py
+python homologacion_geografica_etapa1/scripts/homologar_geografia.py
+Entorno de lectura registrado en entorno.json; reglas en configuracion.json.
+
+BASE COMPLETA
+Registros conservados: 8828 (100.0%).
+Extremos conservados: 17656 (100.0%).
+Extremos con comuna, CUT y zona: 10342 (58.57%).
+Extremos con alguna zona: 10462 (59.25%).
+Registros con ambos extremos completos: 3776 (42.77%).
+Extremos pendientes o parciales: 7314 (41.43%).
+
+RELEVANTES PARA REVISIÓN
+Registros conservados: 316 (100.0%).
+Extremos conservados: 632 (100.0%).
+Extremos con comuna, CUT y zona: 558 (88.29%).
+Extremos con alguna zona: 566 (89.56%).
+Registros con ambos extremos completos: 244 (77.22%).
+Extremos pendientes o parciales: 74 (11.71%).
+
+20 grupos prioritarios cubren 37 extremos de 66 pendientes geográficos relevantes; hay 46 grupos pertinentes en total.

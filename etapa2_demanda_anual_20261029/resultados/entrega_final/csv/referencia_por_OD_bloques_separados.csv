@@ -1,0 +1,259 @@
+﻿version,escenario,zona_origen,zona_destino,segmento,lacustre_anual_asignado,lacustre_aporte_parcial,demanda_anual_ventana12h,demanda_anual24h,cobertura_terrestre,total_combinado,permite_sumar_bloques,regla
+A,alto,1.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,1.0,39.0,VL,,840.1973684210525,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,3.0,39.0,VL,,97.23214285714286,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,9.0,39.0,CAM,52.0,52.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,9.0,39.0,VL,,85.6015037593985,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,31.0,38.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,31.0,39.0,CAM,945.7142857142858,945.7142857142858,509.5833333333332,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,31.0,39.0,MOTO,,312.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,31.0,39.0,PEATON,12948.167857142857,12948.167857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,31.0,39.0,VL,,1838.5393882433355,5276.590563165905,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,31.0,39.0,VP,,3362.5396825396824,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,31.0,52.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,33.0,39.0,CAM,104.0,104.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,33.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,33.0,39.0,VL,,,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,36.0,31.0,VL,,215.93984962406012,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,36.0,33.0,PEATON,147.78947368421052,147.78947368421052,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,36.0,40.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,1.0,PEATON,295.57894736842104,295.57894736842104,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,1.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,31.0,CAM,1154.0357142857142,1154.0357142857142,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,31.0,PEATON,19492.36240601504,19492.36240601504,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,31.0,VL,,2697.7443609022553,3477.7916666666665,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,31.0,VP,,2344.5833333333335,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,33.0,CAM,44.57142857142857,44.57142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,33.0,PEATON,1353.3007518796994,1353.3007518796994,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,33.0,VL,,863.7593984962405,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,34.0,VL,,215.93984962406012,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,40.0,PEATON,3915.464661654136,3915.464661654136,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,40.0,VL,,215.93984962406012,4645.491071428572,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,40.0,VP,,1674.702380952381,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,39.0,55.0,CAM,295.53571428571433,295.53571428571433,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,40.0,39.0,PEATON,3664.642857142858,3664.642857142858,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,40.0,39.0,VL,,106.36363636363637,3511.959036898061,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,40.0,39.0,VP,,420.31746031746036,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,40.0,40.0,VL,,85.6015037593985,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,40.0,51.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,51.0,31.0,PEATON,1672.075187969925,1672.075187969925,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,51.0,31.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,51.0,34.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,55.0,39.0,CAM,282.8571428571429,282.8571428571429,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,55.0,39.0,PEATON,717.6,717.6,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,alto,55.0,39.0,VL,,436.5763841421736,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,1.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,1.0,39.0,VL,,560.1315789473683,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,3.0,39.0,VL,,64.82142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,9.0,39.0,CAM,52.0,52.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,9.0,39.0,VL,,57.06766917293233,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,31.0,38.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,31.0,39.0,CAM,945.7142857142858,945.7142857142858,509.5833333333332,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,31.0,39.0,MOTO,,312.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,31.0,39.0,PEATON,12948.167857142857,12948.167857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,31.0,39.0,VL,,1391.1474709501022,5276.590563165905,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,31.0,39.0,VP,,3362.5396825396824,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,31.0,52.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,33.0,39.0,CAM,104.0,104.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,33.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,33.0,39.0,VL,,,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,36.0,31.0,VL,,215.93984962406012,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,36.0,33.0,PEATON,147.78947368421052,147.78947368421052,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,36.0,40.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,1.0,PEATON,295.57894736842104,295.57894736842104,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,1.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,31.0,CAM,1154.0357142857142,1154.0357142857142,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,31.0,PEATON,19492.36240601504,19492.36240601504,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,31.0,VL,,2697.7443609022553,3477.7916666666665,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,31.0,VP,,2344.5833333333335,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,33.0,CAM,44.57142857142857,44.57142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,33.0,PEATON,1353.3007518796994,1353.3007518796994,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,33.0,VL,,863.7593984962405,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,34.0,VL,,215.93984962406012,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,40.0,PEATON,3915.464661654136,3915.464661654136,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,40.0,VL,,215.93984962406012,4645.491071428572,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,40.0,VP,,1674.702380952381,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,39.0,55.0,CAM,295.53571428571433,295.53571428571433,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,40.0,39.0,PEATON,3664.642857142858,3664.642857142858,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,40.0,39.0,VL,,106.36363636363637,3511.959036898061,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,40.0,39.0,VP,,420.31746031746036,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,40.0,40.0,VL,,57.06766917293233,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,40.0,51.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,51.0,31.0,PEATON,1672.075187969925,1672.075187969925,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,51.0,31.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,51.0,34.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,55.0,39.0,CAM,188.57142857142856,188.57142857142856,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,55.0,39.0,PEATON,717.6,717.6,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,central,55.0,39.0,VL,,314.68728639781267,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,1.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,1.0,39.0,VL,,560.1315789473683,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,3.0,39.0,VL,,64.82142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,9.0,39.0,CAM,52.0,52.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,9.0,39.0,VL,,57.06766917293233,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,31.0,38.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,31.0,39.0,CAM,866.7403174603173,866.7403174603173,485.1096296296295,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,31.0,39.0,MOTO,,312.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,31.0,39.0,PEATON,12948.167857142857,12948.167857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,31.0,39.0,VL,,1391.1474709501022,5110.4908100794855,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,31.0,39.0,VP,,2533.280417976157,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,31.0,52.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,33.0,39.0,CAM,104.0,104.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,33.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,33.0,39.0,VL,,,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,36.0,31.0,VL,,215.93984962406012,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,36.0,33.0,PEATON,147.78947368421052,147.78947368421052,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,36.0,40.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,1.0,PEATON,295.57894736842104,295.57894736842104,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,1.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,31.0,CAM,1079.997619047619,1079.997619047619,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,31.0,PEATON,19492.36240601504,19492.36240601504,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,31.0,VL,,2697.7443609022553,3175.2528306878303,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,31.0,VP,,1766.3693539404067,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,33.0,CAM,44.57142857142857,44.57142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,33.0,PEATON,1353.3007518796994,1353.3007518796994,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,33.0,VL,,863.7593984962405,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,34.0,VL,,215.93984962406012,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,40.0,PEATON,3915.464661654136,3915.464661654136,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,40.0,VL,,215.93984962406012,4413.581706349206,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,40.0,VP,,1261.6923956717192,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,39.0,55.0,CAM,270.8563492063492,270.8563492063492,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,40.0,39.0,PEATON,3664.642857142858,3664.642857142858,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,40.0,39.0,VL,,106.36363636363637,3295.51265513168,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,40.0,39.0,VP,,316.6600522470197,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,40.0,40.0,VL,,57.06766917293233,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,40.0,51.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,51.0,31.0,PEATON,1672.075187969925,1672.075187969925,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,51.0,31.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,51.0,34.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,55.0,39.0,CAM,188.57142857142856,188.57142857142856,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,55.0,39.0,PEATON,717.6,717.6,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+A,conservador,55.0,39.0,VL,,314.68728639781267,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,1.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,1.0,39.0,VL,,840.1973684210525,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,3.0,39.0,VL,,97.23214285714286,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,9.0,39.0,CAM,52.0,52.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,9.0,39.0,VL,,85.6015037593985,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,31.0,38.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,31.0,39.0,CAM,945.7142857142858,945.7142857142858,509.5833333333332,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,31.0,39.0,MOTO,,312.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,31.0,39.0,PEATON,12948.167857142857,12948.167857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,31.0,39.0,VL,,1838.5393882433355,5276.590563165905,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,31.0,39.0,VP,,3362.5396825396824,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,31.0,52.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,33.0,39.0,CAM,104.0,104.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,33.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,33.0,39.0,VL,,,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,36.0,31.0,VL,,215.93984962406012,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,36.0,33.0,PEATON,147.78947368421052,147.78947368421052,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,36.0,40.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,1.0,PEATON,295.57894736842104,295.57894736842104,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,1.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,31.0,CAM,1154.0357142857142,1154.0357142857142,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,31.0,PEATON,19492.36240601504,19492.36240601504,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,31.0,VL,,2697.7443609022553,3477.7916666666665,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,31.0,VP,,2344.5833333333335,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,33.0,CAM,44.57142857142857,44.57142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,33.0,PEATON,1353.3007518796994,1353.3007518796994,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,33.0,VL,,863.7593984962405,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,34.0,VL,,215.93984962406012,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,40.0,PEATON,3915.464661654136,3915.464661654136,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,40.0,VL,,215.93984962406012,4645.491071428572,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,40.0,VP,,1674.702380952381,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,39.0,55.0,CAM,295.53571428571433,295.53571428571433,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,40.0,39.0,PEATON,3664.642857142858,3664.642857142858,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,40.0,39.0,VL,,106.36363636363637,3511.959036898061,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,40.0,39.0,VP,,420.31746031746036,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,40.0,40.0,VL,,85.6015037593985,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,40.0,51.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,51.0,31.0,PEATON,1672.075187969925,1672.075187969925,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,51.0,31.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,51.0,34.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,55.0,39.0,CAM,636.4285714285714,636.4285714285714,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,55.0,39.0,PEATON,717.6,717.6,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,alto,55.0,39.0,VL,,436.5763841421736,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,1.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,1.0,39.0,VL,,560.1315789473683,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,3.0,39.0,VL,,64.82142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,9.0,39.0,CAM,52.0,52.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,9.0,39.0,VL,,57.06766917293233,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,31.0,38.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,31.0,39.0,CAM,945.7142857142858,945.7142857142858,509.5833333333332,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,31.0,39.0,MOTO,,312.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,31.0,39.0,PEATON,12948.167857142857,12948.167857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,31.0,39.0,VL,,1391.1474709501022,5276.590563165905,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,31.0,39.0,VP,,3362.5396825396824,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,31.0,52.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,33.0,39.0,CAM,104.0,104.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,33.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,33.0,39.0,VL,,,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,36.0,31.0,VL,,215.93984962406012,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,36.0,33.0,PEATON,147.78947368421052,147.78947368421052,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,36.0,40.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,1.0,PEATON,295.57894736842104,295.57894736842104,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,1.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,31.0,CAM,1154.0357142857142,1154.0357142857142,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,31.0,PEATON,19492.36240601504,19492.36240601504,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,31.0,VL,,2697.7443609022553,3477.7916666666665,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,31.0,VP,,2344.5833333333335,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,33.0,CAM,44.57142857142857,44.57142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,33.0,PEATON,1353.3007518796994,1353.3007518796994,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,33.0,VL,,863.7593984962405,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,34.0,VL,,215.93984962406012,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,40.0,PEATON,3915.464661654136,3915.464661654136,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,40.0,VL,,215.93984962406012,4645.491071428572,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,40.0,VP,,1674.702380952381,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,39.0,55.0,CAM,295.53571428571433,295.53571428571433,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,40.0,39.0,PEATON,3664.642857142858,3664.642857142858,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,40.0,39.0,VL,,106.36363636363637,3511.959036898061,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,40.0,39.0,VP,,420.31746031746036,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,40.0,40.0,VL,,57.06766917293233,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,40.0,51.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,51.0,31.0,PEATON,1672.075187969925,1672.075187969925,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,51.0,31.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,51.0,34.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,55.0,39.0,CAM,424.2857142857143,424.2857142857143,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,55.0,39.0,PEATON,717.6,717.6,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,central,55.0,39.0,VL,,314.68728639781267,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,1.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,1.0,39.0,VL,,560.1315789473683,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,3.0,39.0,VL,,64.82142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,9.0,39.0,CAM,52.0,52.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,9.0,39.0,VL,,57.06766917293233,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,31.0,38.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,31.0,39.0,CAM,866.7403174603173,866.7403174603173,485.1096296296295,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,31.0,39.0,MOTO,,312.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,31.0,39.0,PEATON,12948.167857142857,12948.167857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,31.0,39.0,VL,,1391.1474709501022,5110.4908100794855,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,31.0,39.0,VP,,2533.280417976157,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,31.0,52.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,33.0,39.0,CAM,104.0,104.0,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,33.0,39.0,PEATON,458.0803571428572,458.0803571428572,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,33.0,39.0,VL,,,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,36.0,31.0,VL,,215.93984962406012,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,36.0,33.0,PEATON,147.78947368421052,147.78947368421052,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,36.0,40.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,1.0,PEATON,295.57894736842104,295.57894736842104,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,1.0,VL,,27.368421052631575,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,31.0,CAM,1079.997619047619,1079.997619047619,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,31.0,PEATON,19492.36240601504,19492.36240601504,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,31.0,VL,,2697.7443609022553,3175.2528306878303,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,31.0,VP,,1766.3693539404067,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,33.0,CAM,44.57142857142857,44.57142857142857,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,33.0,PEATON,1353.3007518796994,1353.3007518796994,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,33.0,VL,,863.7593984962405,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,34.0,VL,,215.93984962406012,,,Anual no estimable; aporte parcial de meses representados,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,40.0,PEATON,3915.464661654136,3915.464661654136,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,40.0,VL,,215.93984962406012,4413.581706349206,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,40.0,VP,,1261.6923956717192,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,39.0,55.0,CAM,270.8563492063492,270.8563492063492,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,40.0,39.0,PEATON,3664.642857142858,3664.642857142858,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,40.0,39.0,VL,,106.36363636363637,3295.51265513168,,Escenario anual de ventana12h bajo proxies; no estimacion24h,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,40.0,39.0,VP,,316.6600522470197,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,40.0,40.0,VL,,57.06766917293233,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,40.0,51.0,VL,,35.45454545454545,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,51.0,31.0,PEATON,1672.075187969925,1672.075187969925,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,51.0,31.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,51.0,34.0,VL,,94.28571428571428,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,55.0,39.0,CAM,424.2857142857143,424.2857142857143,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,55.0,39.0,PEATON,717.6,717.6,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.
+B,conservador,55.0,39.0,VL,,314.68728639781267,,,,,False,Faltante no equivale a cero. Lacustre operacional y terrestre12h no son exposiciones directamente sumables.

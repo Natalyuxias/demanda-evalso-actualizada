@@ -1,0 +1,4 @@
+﻿escenario,registros_relevantes,extremos_relevantes,extremos_adicionales_propuestos,extremos_completos_si_se_acepta,cobertura_extremos_pct,registros_OD_completos_adicionales,registros_OD_completos_si_se_acepta,cobertura_registros_pct,estado,unidad
+Referencia actual,316,632,0,558,88.29,0,244,77.22,Actual sin cambios,Entrevistas/registros de interceptación; no viajes únicos ni vehículos expandidos
+Propuesta A: coordenadas individuales,316,632,11,569,90.03,11,255,80.7,Condicional a adoptar propuesta; NO aplicado,Entrevistas/registros de interceptación; no viajes únicos ni vehículos expandidos
+Propuesta A+B: incluye respaldo nominal sin coordenada,316,632,29,587,92.88,27,271,85.76,Condicional a adoptar propuesta; NO aplicado,Entrevistas/registros de interceptación; no viajes únicos ni vehículos expandidos

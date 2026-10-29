@@ -1,0 +1,89 @@
+{
+  "fuentes": [
+    {
+      "id": "ARISTO107",
+      "fuente": "Informe ARISTO.pdf",
+      "pagina_impresa": "187–188",
+      "tabla": "107",
+      "contenido_verificado": "Informe describe flujos totales por sentido y dia; cruce08nov2025 figuraenp188.",
+      "uso": "Lectura diaria de exposicion, compatible con multiples filas porfecha."
+    },
+    {
+      "id": "ARISTO138",
+      "fuente": "Informe ARISTO.pdf",
+      "pagina_impresa": "207",
+      "tabla": "138",
+      "contenido_verificado": "Verano:CCaPI01feb2026;PIaCC27ene y01feb2026.",
+      "uso": "Fechas de observacion y totalesagregados; no identifica zarpe individual."
+    },
+    {
+      "id": "ARISTO169",
+      "fuente": "Informe ARISTO.pdf",
+      "pagina_impresa": "223",
+      "tabla": "169",
+      "contenido_verificado": "Normal:10mayo2026ambossentidos.",
+      "uso": "Fechaobservacion; componentes discrepantes se conservan segunEtapa1."
+    },
+    {
+      "id": "ARISTO78",
+      "fuente": "Informe ARISTO.pdf",
+      "pagina_impresa": "173",
+      "tabla": "78",
+      "contenido_verificado": "Planencuestas08nov2025:CC09y16;PI12y20.",
+      "uso": "Dos operaciones planificadas por sentido, no bitacora de zarpes efectivamente realizados."
+    },
+    {
+      "id": "ARISTO38",
+      "fuente": "Informe ARISTO.pdf",
+      "pagina_impresa": "111–112",
+      "tabla": "38",
+      "contenido_verificado": "LaTehuelche:martes1por sentido;domingo2por sentido.",
+      "uso": "27ene2026martesPI1;01feb2026domingoPI2,CC2. Programa historico, aplicacion aenerofebrero condicionada."
+    },
+    {
+      "id": "NAVIERA_MAY2026",
+      "fuente": "Itinerario Semanal de Barcazas04–19mayo",
+      "url": "https://www.navieraustral.cl/itinerario-semanal-de-barcazas-04-19-mayo/",
+      "consulta": "2026-10-29",
+      "contenido_verificado": "10may2026:CC16h yPI19h,unzarpeprogramadoporsentido; semana04–10may9tramos/sentido sin clasificar ordinario/especial.",
+      "uso": "Denominador programado del10may=1. No certifica realizacion ni cambiafrecuenciaordinaria8confirmadaporusuario."
+    },
+    {
+      "id": "USUARIO_11_8",
+      "fuente": "Confirmacion operacional anterior delusuario en config_matrices_od.json",
+      "contenido_verificado": "11zarpesordinarios/sentido/semana dic–abr;8may–nov;no carga peligrosa.",
+      "uso": "Escenario programado; no frecuencia efectiva ni total de contingencias."
+    },
+    {
+      "id": "CAP3_NO_LACUSTRE",
+      "fuente": "Cap3inventario local eInformeARISTO§3.2.1–3.2.3",
+      "contenido_verificado": "Tráficomensual aereo,PNCterrestre,pasosfronterizos,turismo. Figura9p46 pertenece al traficoAEREO.",
+      "uso": "No transferir esos ratios automaticamente aLaTehuelche; invierno/otoño lacustre noidentificado."
+    }
+  ],
+  "central_propuesta": "operacional_programado",
+  "hash_balance_etapa1": "662d0b71175017888b549bbf51c9a86953d4eec50148917ed8f13331fde719b7",
+  "regla_12meses": {
+    "1": "Verano",
+    "2": "Verano",
+    "3": "Otoño",
+    "4": "Otoño",
+    "5": "Otoño",
+    "6": "Otoño",
+    "7": "Otoño",
+    "8": "Otoño",
+    "9": "Primavera",
+    "10": "Primavera",
+    "11": "Primavera",
+    "12": "Verano"
+  },
+  "invierno": "Central1NormalmayoProxy,sincrecimiento. Conservadorbaseigualcentral, agenteprincipalpuedeaplicarproxyPNCempiricoI/Psoloparaclasescompatibles. No se identifico serie propia ferry para calibrar ratio invierno/otoño",
+  "limitaciones": [
+    "La frecuencia11/8 es ordinaria programada, no operaciones efectivas verificadas.",
+    "No se estiman cierres meteorologicos ni desvio contingencias con porcentajes inventados.",
+    "El año normalizado no reconstruye cierres, carena o servicio de reemplazo efectivo de2026.",
+    "Escenarios conservador/alto no son intervalos estadisticos; conservador pendiente deproxyPNCcompatible porclase, sininventarporcentajes. No cubren toda incertidumbre de composicionOD, geografia, extranjeros o invierno.",
+    "La asignacion OtoñoVPagrupado frente VL deotras campañas impide un totalanualVL puro sinhipotesis adicional; integrar vehiculosprivadoscomunes porclase compatible.",
+    "Ceros medidos permanecen ceros del estimador no ceros estructurales. NaN nunca se convierte en0."
+  ]
+}

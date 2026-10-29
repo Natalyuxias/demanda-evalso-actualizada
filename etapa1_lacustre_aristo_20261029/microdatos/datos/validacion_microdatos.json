@@ -1,0 +1,314 @@
+{
+  "verificaciones": {
+    "290_originales": true,
+    "264_validas": true,
+    "ID2_unico": true,
+    "enlace_uno_a_uno": true,
+    "no_sumar_hojas": true,
+    "campana_consistente": false,
+    "sentido_consistente": true,
+    "55_zonas": true,
+    "originales_intactos": true
+  },
+  "sha256_fuentes": {
+    "Cap 6/BBDD EOD/Base de datos agregada.xlsx": "edf91ef5ce840362ecdf7d7d33477d6a9da6fa1495e158f29015b7b390d2d8ef",
+    "Cap 8/BBDD_para_Pijas_actualizada_EOD_Final.xlsx": "5677427d1f909a6a48b1011be02cb40da9367ec87223d79b2b9a6ddb1d2d6685",
+    "Cap 6/BBDD EOD/DiccionarioAPP.xlsx": "d4191d6d33e2fc668cfc504be60388bf874c6115ecf4706f12ce54b722184e28"
+  },
+  "originales": 290,
+  "validas": 264,
+  "no_validas_en_BBDD2": 26,
+  "campana_sentido_usuario": [
+    {
+      "campana": "Normal",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Camión o furgón de carga",
+      "entrevistas": 4
+    },
+    {
+      "campana": "Normal",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Pasajero (peatón)",
+      "entrevistas": 25
+    },
+    {
+      "campana": "Normal",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Vehículo privado",
+      "entrevistas": 12
+    },
+    {
+      "campana": "Normal",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Camión o furgón de carga",
+      "entrevistas": 3
+    },
+    {
+      "campana": "Normal",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Pasajero (peatón)",
+      "entrevistas": 32
+    },
+    {
+      "campana": "Normal",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Vehículo privado",
+      "entrevistas": 9
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Auto",
+      "entrevistas": 10
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Camioneta",
+      "entrevistas": 9
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Camión o furgón de carga",
+      "entrevistas": 7
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Pasajero (peatón)",
+      "entrevistas": 19
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Auto",
+      "entrevistas": 15
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Camioneta",
+      "entrevistas": 7
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Camión o furgón de carga",
+      "entrevistas": 3
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Moto",
+      "entrevistas": 1
+    },
+    {
+      "campana": "Primavera",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Pasajero (peatón)",
+      "entrevistas": 5
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Auto",
+      "entrevistas": 26
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Camioneta",
+      "entrevistas": 16
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Chile Chico a Pto. Ibáñez",
+      "tipo_usuario_BBDD2": "Pasajero (peatón)",
+      "entrevistas": 18
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Auto",
+      "entrevistas": 19
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Camioneta",
+      "entrevistas": 16
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Camión o furgón de carga",
+      "entrevistas": 2
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Pasajero de bus",
+      "entrevistas": 2
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Pasajeros en BUS de turismo",
+      "entrevistas": 1
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Pasajeros en TRANSFER",
+      "entrevistas": 1
+    },
+    {
+      "campana": "Verano",
+      "sentido_cruce": "De Pto. Ibáñez a Chile Chico",
+      "tipo_usuario_BBDD2": "Pasajeros en VAN de turismo",
+      "entrevistas": 2
+    }
+  ],
+  "extremos_sin_zona": {
+    "origen": 20,
+    "destino": 4
+  },
+  "nombre_ID_BBDD2": [
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 7,
+      "nombre_BBDD2": "Chile Chico",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 39.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 12,
+      "nombre_BBDD2": "Coyhaique",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 31.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 42,
+      "nombre_BBDD2": "Río Ibáñez",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 40.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 33,
+      "nombre_BBDD2": "Puerto Varas",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 9.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 11,
+      "nombre_BBDD2": "Cochrane",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 36.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 2,
+      "nombre_BBDD2": "Aysén",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 33.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 60,
+      "nombre_BBDD2": "Metropolitana",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Región",
+      "zona_modelacion_ARISTO": NaN,
+      "metodo": "Pendiente: nombre BBDD2 sin equivalencia exacta documentada"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 69,
+      "nombre_BBDD2": "Santa Cruz",
+      "pais_BBDD2": "Argentina",
+      "nivel_BBDD2": "Provincia",
+      "zona_modelacion_ARISTO": NaN,
+      "metodo": "Pendiente: nombre BBDD2 sin equivalencia exacta documentada"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 55,
+      "nombre_BBDD2": "Biobío",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Región",
+      "zona_modelacion_ARISTO": NaN,
+      "metodo": "Pendiente: nombre BBDD2 sin equivalencia exacta documentada"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 31,
+      "nombre_BBDD2": "Puerto Montt",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 1.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 10,
+      "nombre_BBDD2": "Cochamó",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 3.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "origen",
+      "codigo_BBDD2": 71,
+      "nombre_BBDD2": "Internacional",
+      "pais_BBDD2": "Argentina",
+      "nivel_BBDD2": "Provincia",
+      "zona_modelacion_ARISTO": NaN,
+      "metodo": "Pendiente: nombre BBDD2 sin equivalencia exacta documentada"
+    },
+    {
+      "extremo": "destino",
+      "codigo_BBDD2": 9,
+      "nombre_BBDD2": "Cisnes",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 34.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "destino",
+      "codigo_BBDD2": 50,
+      "nombre_BBDD2": "Tortel",
+      "pais_BBDD2": "Chile",
+      "nivel_BBDD2": "Comuna",
+      "zona_modelacion_ARISTO": 38.0,
+      "metodo": "Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2"
+    },
+    {
+      "extremo": "destino",
+      "codigo_BBDD2": 65,
+      "nombre_BBDD2": "Chubut",
+      "pais_BBDD2": "Argentina",
+      "nivel_BBDD2": "Provincia",
+      "zona_modelacion_ARISTO": NaN,
+      "metodo": "Pendiente: nombre BBDD2 sin equivalencia exacta documentada"
+    }
+  ]
+}

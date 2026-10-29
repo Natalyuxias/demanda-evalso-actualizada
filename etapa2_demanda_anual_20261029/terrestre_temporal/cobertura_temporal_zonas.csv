@@ -1,0 +1,9 @@
+zona_origen,zona_destino,segmento,nivel,comuna_origen,comuna_destino,campanas_con_flujo,dos_campanas,pantallas,advertencia
+31,39,CAM,zonas,Coihaique,Chile Chico,Otoño|Verano,True,E1003,Ningun ano observado completo; dos campanas solo habilitan escenario bajo supuestos
+31,39,VL,zonas,Coihaique,Chile Chico,Otoño|Verano,True,E0701|E0702,Ningun ano observado completo; dos campanas solo habilitan escenario bajo supuestos
+33,39,VL,zonas,Aisén,Chile Chico,Verano,False,E0702,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+39,31,CAM,zonas,Chile Chico,Coihaique,Otoño,False,E1003,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+39,31,VL,zonas,Chile Chico,Coihaique,Otoño|Verano,True,E0701,Ningun ano observado completo; dos campanas solo habilitan escenario bajo supuestos
+39,34,VL,zonas,Chile Chico,Cisnes,Verano,False,E0701,Sin dos campanas: anual faltante y aporte parcial de meses con perfil propio
+39,40,VL,zonas,Chile Chico,Río Ibáñez,Otoño|Verano,True,E0702|E1003,Ningun ano observado completo; dos campanas solo habilitan escenario bajo supuestos
+40,39,VL,zonas,Río Ibáñez,Chile Chico,Otoño|Verano,True,E1003,Ningun ano observado completo; dos campanas solo habilitan escenario bajo supuestos

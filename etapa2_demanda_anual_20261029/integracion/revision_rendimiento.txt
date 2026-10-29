@@ -1,0 +1,15 @@
+REVISIÓN DE RENDIMIENTO — sin reejecutar ni modificar la entrega
+
+Evidencia: /tmp/etapa2_entrega_01/validacion.json registra segundos_integracion=10,94. El script toma ese tiempo DESPUÉS de CSV y cuatro Excel, pero ANTES de generar HTML y el manifiesto/hash final. Por ello no mide todo el proceso ni identifica por sí solo un cuello de botella. Los cuatro Excel existentes suman aproximadamente1,05MiB. El integrador ya reutiliza CSV aprobados y usa Workbook(write_only=True); no reconstruye redes, no relee Excel originales y no hace búsquedas de caminos.
+
+Tres acciones concretas, por prioridad:
+
+1. Medir y cerrar por fases. Añadir en la próxima ejecución normal tiempos separados de lectura/hash, integración, cada Excel, HTML y manifiesto; registrar tiempo TOTAL al final. Entregar los resultados ya validados sin esperar rondas adicionales de coordinación/documentación. Reutilizar la entrega y hashes actuales mientras no cambien entradas; no correr toda la tubería solo para ensayar optimizaciones.
+
+2. Si la escritura Excel concentra tiempo, sustituir la conversión frame.astype(object).where(...).to_dict('records') dentro de workbook por iteración itertuples(index=False,name=None), normalizando valores faltantes al escribir. Evita construir diccionarios y copias intermedias para cada celda; conserva escritura secuencial y el formato. No implementarlo ahora sin necesidad: con11s medidos la ganancia absoluta potencial es pequeña, no está cuantificada.
+
+3. Paralelizar solo lo demostrado independiente y útil. Las cuatro escrituras Excel tienen archivos distintos y podrían enviarse a ThreadPoolExecutor(max_workers=2) con cada Workbook exclusivo de una tarea; esperar todas las tareas antes de hash/verificación final. Adoptarlo SOLO si la medición evidencia espera de E/S y mejora real. La creación de celdas openpyxl ejecuta mucho Python y puede estar limitada porGIL; los hilos no garantizan reducción. Procesos con4 copias de tablas aumentarían RAM y arranque, sin justificación para estos tamaños. Mantener el máximo de2 si se prueba posteriormente, sin escritores compartidos.
+
+Threading: posible únicamente para E/S independiente; no recomendado como cambio inmediato sin perfil. Asyncio: no aporta paralelismoCPU y openpyxl/pandas son llamadas síncronas locales; envolverlas enasync no las vuelve más rápidas. En esta entrega el tiempo percibido largo no se explica por10,94s de cálculo/exportación; coordinación, documentación y espera constituyen una hipótesis más plausible, pero no fueron cronometradas y no deben presentarse como medición.
+
+No se ejecutó pipeline, no se modificó entrega, no se añadieron cálculos de demanda ni pruebas extensas.

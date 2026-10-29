@@ -1,0 +1,7 @@
+﻿parametro,tarifa_nominal_CLP,tarifa_referencia_dic2025_CLP,factor_IPC_enero2026_a_dic2025,unidad,fuente,estatus
+VL_hasta_5_5m,21270,21182.756357670223,0.9958982772764562,CLP/tramo/unidad,InformeARISTO Tabla52p121; config_atributos.json/tarifas_ARISTO_tabla52_p121,"Tarifa histórica nominal; fechaenero2026imputada paraIPC,no vigencia exacta verificada"
+adulto_general,2550,2539.5406070549634,0.9958982772764562,CLP/tramo/unidad,InformeARISTO Tabla52p121; config_atributos.json/tarifas_ARISTO_tabla52_p121,"Tarifa histórica nominal; fechaenero2026imputada paraIPC,no vigencia exacta verificada"
+metro_lineal,7310,7280.016406890894,0.9958982772764562,CLP/metrolineal,InformeARISTO Tabla52p121; config_atributos.json/tarifas_ARISTO_tabla52_p121,"Tarifa histórica nominal; fechaenero2026imputada paraIPC,no vigencia exacta verificada"
+moto,4230,4212.64971287941,0.9958982772764562,CLP/tramo/unidad,InformeARISTO Tabla52p121; config_atributos.json/tarifas_ARISTO_tabla52_p121,"Tarifa histórica nominal; fechaenero2026imputada paraIPC,no vigencia exacta verificada"
+bicicleta,1620,1613.355209187859,0.9958982772764562,CLP/tramo/unidad,InformeARISTO Tabla52p121; config_atributos.json/tarifas_ARISTO_tabla52_p121,"Tarifa histórica nominal; fechaenero2026imputada paraIPC,no vigencia exacta verificada"
+carga_general_kg,30,29.876948318293685,0.9958982772764562,CLP/kg,InformeARISTO Tabla52p121,Carga general separada; no tarifa de camion ni tonelada devehiculo; equipajepasajero incluye50kg segunnota

@@ -1,0 +1,13 @@
+ENTREGA FINAL: resultados/entrega_02/informe_resultados.html
+
+Excel: 01_homologacion_cerrada.xlsx; 02_matrices_OD.xlsx; 03_auditoria_112.xlsx; 04_pantallas_y_expansion.xlsx.
+
+Las 29 homologaciones aprobadas se aplicaron como capa adicional. Los ocho extremos pendientes no se imputaron. No se alteraron originales ni resultados anteriores.
+
+Las 112 entrevistas fueron auditadas. Hay 109 compatibles con el corredor chileno observado; 93 tienen factor compatible y 64 corresponden a las pantallas elegidas. Sus estimaciones auxiliares tienen cobertura parcial y exposicion de 12 horas, sin anualizacion. No representan itinerarios completos demostrados por Chile. La matriz principal queda sin flujos identificados; no es demanda cero.
+
+Ver comandos reproducibles, evidencias, limitaciones y fuentes en el informe HTML y scripts/. Se requiere conservar insumos originales, capa geografica previa e insumos_decisiones/. Para repetir, elegir siempre una carpeta de salida NUEVA.
+
+La entrega_01 se conserva como version anterior. La entrega_02 mejora la separacion explicita de campos principales y auxiliares, con identicos resultados numericos.
+
+Git: commit c605ac09147cb2648b8613cd9314d6d6df53ebf4. El push autorizado se intento y fallo por DNS (Could not resolve host: github.com). No se publico en GitHub. Los Excel y datos privados permanecen locales. Detalle en publicacion_estado.json.

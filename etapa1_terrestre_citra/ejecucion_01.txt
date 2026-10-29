@@ -1,0 +1,81 @@
+Originales leídos;29 homologaciones aplicadas; estratos: 265 compatibles: 186
+Rutas revalidadas: 112 principal: 0 corredor auxiliar: 109
+{
+  "estado": "correcto",
+  "verificaciones": {
+    "8828_registros_originales_unicos": true,
+    "17656_extremos_conservados": true,
+    "29_aprobaciones_aplicadas_solo_en_sus_claves": true,
+    "8_pendientes_sin_imputar": true,
+    "112_auditadas_exactamente": true,
+    "22_seleccionadas_antes_reproducidas": true,
+    "denominadores_antes_de_todo_filtro": true,
+    "balance_F_N_por_estrato": true,
+    "ningun_peso_de_estrato_inconsistente": true,
+    "una_pantalla_por_OD_zonal_y_campana_clase": true,
+    "no_suma_pantallas_alternativas": true,
+    "balance_detallado_zonal_auxiliar": true,
+    "principal_no_se_rellena_si_no_hay_identificacion": true,
+    "testigos_Argentina_sin_repetir_nodos": true,
+    "sin_mezclar_personas_o_pesos_24h": true,
+    "Excel112_unicos_y_decisiones_conservadas": true,
+    "fuentes_y_entregas_anteriores_intactas": true
+  },
+  "cohorte": 112,
+  "homologaciones_aplicadas": 29,
+  "pendientes_no_imputados": 8,
+  "aceptadas_principal": 0,
+  "aceptadas_corredor_auxiliar": 109,
+  "corredor_con_factor": 93,
+  "seleccionadas_corredor": 64,
+  "seleccionadas_con_factor": 64,
+  "celdas_auxiliares_con_flujo": 13,
+  "celdas_principales_con_flujo": 0,
+  "estratos": 265,
+  "estratos_compatibles": 186,
+  "archivos_protegidos": 76,
+  "resultados_xlsx": [
+    {
+      "archivo": "02_matrices_OD.xlsx",
+      "sha256": "4e8851106697a56ac98d9a7b49193bcec80349d36efe0f12311bdc307738a3d6"
+    },
+    {
+      "archivo": "01_homologacion_cerrada.xlsx",
+      "sha256": "a7d585baaf0de1f1e54d775940869fee8386456130176c7ae0636f0724e4ad57"
+    },
+    {
+      "archivo": "03_auditoria_112.xlsx",
+      "sha256": "0c1b9af2fb2f5178fe8574411de8a2d61c7db6b6fe9b6d49c1037f3d0f3ab79e"
+    },
+    {
+      "archivo": "04_pantallas_y_expansion.xlsx",
+      "sha256": "a5e9994b2e4004dcf94fd6be92aa02450239dc683d7fc50f53b400aed45fab82"
+    }
+  ],
+  "fuentes_code": [
+    {
+      "archivo": "pantallas.py",
+      "sha256": "16f91380b90cffc3e5fb61419151ba31ebfd76d7be546cab97f2bd8e5cd5ade7"
+    },
+    {
+      "archivo": "preparar_insumos.py",
+      "sha256": "61378d485e729a83893b1898769cd6480a1279691d0a8e43faa890ab46b1032d"
+    },
+    {
+      "archivo": "red.py",
+      "sha256": "e1eaaf96f7103201e92efb1be1bf98e8a10b3275a8fb0ffd4a6d0c158ef408d5"
+    },
+    {
+      "archivo": "fuentes.py",
+      "sha256": "61b42343daaa4e724b6c121e0207e4044901a8993ba6d3685ffaec14f9cb459d"
+    },
+    {
+      "archivo": "informe.py",
+      "sha256": "949255efef9d2ddad1f4ea2df78185e5a54edf0a4e14f76b2ea686605486385e"
+    },
+    {
+      "archivo": "correr_etapa1.py",
+      "sha256": "ff9980b7448424322d8773fd005b077ea27251247eb94be6dfe09b4b27d5d522"
+    }
+  ]
+}

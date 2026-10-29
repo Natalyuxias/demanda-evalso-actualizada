@@ -1,0 +1,416 @@
+{
+  "/home/nataly/Escritorio/Anexos/Cap 6/BBDD EOD/Base de datos agregada.xlsx": [
+    {
+      "hoja": "Semi-diccionario",
+      "filas": 115,
+      "columnas": 15
+    },
+    {
+      "hoja": "Hoja1",
+      "filas": 21,
+      "columnas": 11
+    },
+    {
+      "hoja": "BBDD-1",
+      "filas": 19849,
+      "columnas": 101
+    },
+    {
+      "hoja": "BBDD-2 (solo válidas)",
+      "filas": 18530,
+      "columnas": 23
+    },
+    {
+      "hoja": "Tabla dinámica",
+      "filas": 501,
+      "columnas": 42
+    },
+    {
+      "hoja": "Puntos de medición",
+      "filas": 3739,
+      "columnas": 49
+    },
+    {
+      "hoja": "Cálculo de puntos",
+      "filas": 3739,
+      "columnas": 39
+    },
+    {
+      "hoja": "TD Encuestas",
+      "filas": 179,
+      "columnas": 11
+    },
+    {
+      "hoja": "BBDD Transb",
+      "filas": 232,
+      "columnas": 27
+    },
+    {
+      "hoja": "TD Transb",
+      "filas": 54,
+      "columnas": 8
+    },
+    {
+      "hoja": "Hoja5",
+      "filas": 15,
+      "columnas": 3
+    },
+    {
+      "hoja": "BBDD PF",
+      "filas": 4572,
+      "columnas": 28
+    },
+    {
+      "hoja": "TD PF",
+      "filas": 77,
+      "columnas": 8
+    },
+    {
+      "hoja": "BBDD Carr",
+      "filas": 2001,
+      "columnas": 43
+    },
+    {
+      "hoja": "TD Carr",
+      "filas": 33,
+      "columnas": 8
+    },
+    {
+      "hoja": "ArcosSentido",
+      "filas": 15,
+      "columnas": 7
+    }
+  ],
+  "/home/nataly/Escritorio/Anexos/Cap 6/BBDD EOD/DiccionarioAPP.xlsx": [
+    {
+      "hoja": "Hoja1",
+      "filas": 164,
+      "columnas": 6
+    }
+  ],
+  "/home/nataly/Escritorio/Anexos/Cap 6/Mediciones de flujo/Consolidado Flujos.xlsx": [
+    {
+      "hoja": "Transbordadores",
+      "filas": 232,
+      "columnas": 27
+    },
+    {
+      "hoja": "Pasos Fronterizos",
+      "filas": 4569,
+      "columnas": 28
+    },
+    {
+      "hoja": "Carretera",
+      "filas": 2001,
+      "columnas": 28
+    },
+    {
+      "hoja": "TD",
+      "filas": 158,
+      "columnas": 5
+    },
+    {
+      "hoja": "TD 2",
+      "filas": 33,
+      "columnas": 3
+    },
+    {
+      "hoja": "Consolidado",
+      "filas": 6804,
+      "columnas": 29
+    }
+  ],
+  "/home/nataly/Escritorio/Anexos/Cap 8/Matrices Situación Actual.xlsx": [
+    {
+      "hoja": "Primavera VL",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Primavera VP",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Verano VL",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Verano VP",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Otoño VL",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Otoño VP",
+      "filas": 274,
+      "columnas": 61
+    }
+  ],
+  "/home/nataly/Escritorio/Anexos/Cap 8/EOD_Puntos_Pasada_Final.xlsx": [
+    {
+      "hoja": "Diccionario",
+      "filas": 69,
+      "columnas": 12
+    },
+    {
+      "hoja": "Puntos por OD",
+      "filas": 3735,
+      "columnas": 30
+    },
+    {
+      "hoja": "nodos_puntos_pasada",
+      "filas": 110,
+      "columnas": 13
+    },
+    {
+      "hoja": "Puntos por OD (2)",
+      "filas": 3734,
+      "columnas": 31
+    },
+    {
+      "hoja": "Puntos por OD (3)",
+      "filas": 3734,
+      "columnas": 70
+    },
+    {
+      "hoja": "Puntos por OD (Ordenados)",
+      "filas": 3734,
+      "columnas": 36
+    },
+    {
+      "hoja": "Pares y cant usuarios",
+      "filas": 3734,
+      "columnas": 36
+    },
+    {
+      "hoja": "Dic Rutas",
+      "filas": 705,
+      "columnas": 8
+    },
+    {
+      "hoja": "Tabla final",
+      "filas": 706,
+      "columnas": 26
+    },
+    {
+      "hoja": "Rutas Terrestres",
+      "filas": 537,
+      "columnas": 21
+    },
+    {
+      "hoja": "Hoja2",
+      "filas": 277,
+      "columnas": 5
+    },
+    {
+      "hoja": "Primavera VL",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Primavera VP",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Verano VL",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Verano VP",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Otoño VL",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "Otoño VP",
+      "filas": 274,
+      "columnas": 61
+    },
+    {
+      "hoja": "arcos_ptocontrol",
+      "filas": 154,
+      "columnas": 15
+    }
+  ],
+  "/home/nataly/Escritorio/Anexos/Cap 8/BBDD_para_Pijas_actualizada_EOD_Final.xlsx": [
+    {
+      "hoja": "Arcos por OD",
+      "filas": 3734,
+      "columnas": 33
+    },
+    {
+      "hoja": "Zonas",
+      "filas": 56,
+      "columnas": 3
+    },
+    {
+      "hoja": "Pijas",
+      "filas": 3734,
+      "columnas": 85
+    },
+    {
+      "hoja": "TD Pijas",
+      "filas": 383,
+      "columnas": 82
+    }
+  ],
+  "/home/nataly/Escritorio/Anexos/eod aysen/EOD Aysen Abril 2026.xlsx": [
+    {
+      "hoja": "EOD",
+      "filas": 3521,
+      "columnas": 16
+    },
+    {
+      "hoja": "Flujos",
+      "filas": 3841,
+      "columnas": 22
+    }
+  ],
+  "/home/nataly/Escritorio/Anexos/eod aysen/Mediciones Aysen Abril 2026.xlsx": [
+    {
+      "hoja": "Laboral",
+      "filas": 9689,
+      "columnas": 22
+    },
+    {
+      "hoja": "Sabado",
+      "filas": 9689,
+      "columnas": 22
+    },
+    {
+      "hoja": "Domingo",
+      "filas": 9689,
+      "columnas": 22
+    },
+    {
+      "hoja": "Diagramas",
+      "filas": 504,
+      "columnas": 20
+    }
+  ],
+  "/home/nataly/Escritorio/Anexos/eod aysen/Mediciones Flujo  Aysen Enero 2026 vf.xlsx": [
+    {
+      "hoja": "MURAL",
+      "filas": 152,
+      "columnas": 121
+    },
+    {
+      "hoja": "CUADROS",
+      "filas": 199,
+      "columnas": 48
+    },
+    {
+      "hoja": "PERIODOS",
+      "filas": 1429,
+      "columnas": 101
+    },
+    {
+      "hoja": "BBDD",
+      "filas": 29682,
+      "columnas": 40
+    },
+    {
+      "hoja": "Figuras",
+      "filas": 29683,
+      "columnas": 3
+    }
+  ],
+  "/home/nataly/Escritorio/Anexos/eod aysen/EOD Aysen Febrero 2026 vf.xlsx": [
+    {
+      "hoja": "MURAL",
+      "filas": 267,
+      "columnas": 164
+    },
+    {
+      "hoja": "EOD",
+      "filas": 5414,
+      "columnas": 36
+    },
+    {
+      "hoja": "Flujos",
+      "filas": 1921,
+      "columnas": 23
+    },
+    {
+      "hoja": "Figuras",
+      "filas": 21,
+      "columnas": 3
+    }
+  ],
+  "/home/nataly/Escritorio/demanda_evalso/eod_filtrada/matriz_od_expandida_filtrada.xlsx": [
+    {
+      "hoja": "Matriz relevante",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Leer primero",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Cobertura",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Sensibilidad",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Rutas confirmadas",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Rutas no confirmadas",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Muestral incluida",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Controles expansión",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Sensibilidad detallada",
+      "filas": null,
+      "columnas": null
+    }
+  ],
+  "/home/nataly/Escritorio/demanda_evalso/eod_filtrada/matriz_od_con_km.xlsx": [
+    {
+      "hoja": "Matriz con km",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Distancias individuales",
+      "filas": null,
+      "columnas": null
+    },
+    {
+      "hoja": "Criterios",
+      "filas": null,
+      "columnas": null
+    }
+  ]
+}

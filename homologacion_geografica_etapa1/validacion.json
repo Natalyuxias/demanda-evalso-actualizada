@@ -1,0 +1,53 @@
+{
+  "estado": "correcto",
+  "comprobaciones": {
+    "8828_registros_originales": true,
+    "17656_extremos": true,
+    "IDs_unicos_y_conservados": true,
+    "claves_extremos_unicas": true,
+    "literales_coinciden_con_auxiliar_anterior": true,
+    "decisiones_formulario_y_filtro_coinciden": true,
+    "campos_previos_sin_modificar": true,
+    "ambiguos_sin_asignacion_final": true,
+    "zonas_en_catalogo_55": true,
+    "CUT_y_zona_concordantes": true,
+    "55_no_confundida_con_comuna": true,
+    "revision_solo_relevantes": true,
+    "pruebas_geograficas_adversas_correctas": true,
+    "celdas_originales_y_hashes_verificados_tras_Excel": true,
+    "lectura_Excel_Registros CITRA": true,
+    "lectura_Excel_Extremos": true,
+    "fuentes_y_formularios_hash_sin_cambios": true
+  },
+  "registros": 8828,
+  "extremos": 17656,
+  "grupos_revision_prioritaria": 20,
+  "grupos_pendientes_relevantes": 46,
+  "filas_fuente_preservadas_con_sha": 8828,
+  "campos_fuente": "Todas las columnas originales de EOD por posición y encabezado; no deduplicadas; tipo y valor exactos en registro_original_JSON",
+  "sha256_excel": "ca543c34d70b3ee8463c87d102a3bbca01b321f35137c12402448d1ead5d65b7",
+  "codigo_sha256": "431993249ecea1f1106905a84ff5bc5b256e6ef301c2e9880b99c58ec53a5c98",
+  "configuracion_sha256": "0ded337ee9a953c74c2b06bea947a6ebd071a99c7549dd5c4001840578b3fd48",
+  "fuentes_controladas": 20,
+  "pruebas_reglas": {
+    "estado": "correcto",
+    "pruebas": {
+      "Mallin_Grande_11401_zona39": true,
+      "comuna_no_localidad_Puerto_Ibanez": true,
+      "Puerto_Ibanez_zona40_no_ID42": true,
+      "texto_y_comuna_contradictorios_sin_asignar": true,
+      "coordenada_no_prevalece_sobre_conflicto": true,
+      "Aysen_regional_no_conflicto_comunal": true,
+      "coordenadas_y_JSON_originales_intactos": true,
+      "nombre_internacional_y_punto_Chile_pendiente": true,
+      "cero_coordenadas_no_asignado": true,
+      "limite_poligono_no_asignado": true,
+      "punto_sin_contraste_textual_no_asignado": true,
+      "macrozona55_sin_CUT_inventado": true,
+      "nombre_calle_no_se_convierte_en_comuna": true,
+      "etiqueta_ambigua_IBANEZ_sin_asignar": true,
+      "cola_comunal_no_es_segunda_localidad": true
+    }
+  },
+  "alcance": "Geografía únicamente; decisiones de área preservadas. No estimación, expansión, calibración ni proyección."
+}

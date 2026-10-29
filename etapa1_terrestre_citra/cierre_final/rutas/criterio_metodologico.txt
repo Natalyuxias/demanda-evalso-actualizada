@@ -1,0 +1,20 @@
+CLASIFICACIÓN FINAL DEL CORREDOR (SUBAGENTE B)
+
+Resultado sobre la cohorte cerrada de 112: A=109; B=0; C=3. Los valores no constituyen una clasificación de las 8.828 entrevistas completas. Los 109 son el mismo conjunto compatible con el corredor observado en entrega_02: no se recalcularon rutas ni se incorporaron geografías pendientes.
+
+A significa alta confianza INFERIDA en la compatibilidad con el terrestre chileno alrededor del lago. No certifica itinerario íntegramente chileno, no es ruta declarada, no es una probabilidad estimada de elección y no equivale a demanda capturable por Bahía Jara–Levicán.
+
+La inferencia combina: (1) OD homologado y pertinente al corredor R7–R265, (2) interceptación en control chileno, (3) sentido compatible con trayectoria chilena, (4) inexistencia de alternativa ferry compatible en las trayectorias ya comprobadas, (5) ausencia de evidencia internacional contradictoria y (6) comparación descriptiva de alternativas terrestres. El trayecto mixto más corto compatible con el control y sentido agrega entre 200,83 y 543,46 km y dos pasos fronterizos. Las razones de distancia van de 1,54 a 4,31; estas cifras describen los casos, no son umbrales seleccionados para decidir. No se supone que el usuario elige siempre la ruta más corta.
+
+Para evitar el criterio anterior, la existencia matemática de una alternativa argentina no veta A. Una alternativa no dominada en distancia, un enlace ferry compatible, evidencia internacional, o información insuficiente para comparar lleva a B. Las contradicciones de geometría/OD/sentido llevan a C. No se ha forzado una cantidad positiva en B. Las incertidumbres generales permanecen en cada registro A aunque no se lo reclasifique en B únicamente por falta universal de itinerario declarado.
+
+Tiempos, velocidades, trámites, esperas y habilitación fronteriza por fecha y tipo de vehículo NO están acreditados por esta caché. No se inventaron tiempos ni se supuso cierre de pasos. Por lo tanto, distancia y número de cruces no prueban dominio en tiempo o costo generalizado. La expresión alta confianza es cualitativa por convergencia de evidencia, dependiente del alcance de corredor observado; no expresa certeza individual. No se identifican paradas intermedias eventualmente no declaradas.
+
+C: O03227 conserva la geografía aprobada, pero su localización no acredita paso por el control observado en el camino de referencia; no se fuerza la ubicación al topónimo. O03254 y O03278 mantienen extremos sin homologación completa y no se imputan. Ninguno se elimina.
+
+La fuente conservada es resultados/entrega_02/csv/auditoria_112.csv; el CSV final conserva sus columnas y agrega categoria, motivo y advertencias. Los arcos y el testigo argentino ya calculados permanecen por registro. La nueva clasificación no depende del factor de expansión: 16 de los 109 A carecen de factor válido y deben seguir sin flujo expandido. La selección de pantallas se aplica después, sin sumar controles en serie.
+
+Reproducción:
+python etapa1_terrestre_citra/cierre_final/rutas/clasificar_rutas.py --auditoria etapa1_terrestre_citra/resultados/entrega_02/csv/auditoria_112.csv --salida RUTA_NUEVA
+
+Ver salida definitiva en rutas/entrega_final/clasificacion_112.csv y resumen_rutas.json. El archivo de la raíz rutas/clasificacion_112.csv es la primera salida conservada; usar entrega_final para integrar. Seis pruebas sintéticas verifican la distinción A/B/C sin usar microdatos.

@@ -1,0 +1,61 @@
+{
+  "estado": "correcto",
+  "pruebas": {
+    "universo_8828_unicas": true,
+    "cohorte_112_exacta_y_sin_duplicacion": true,
+    "cohorte_subconjunto_295_incluidas": true,
+    "hash_y_coordenadas_112_identicos_capa_cerrada": true,
+    "ninguna_ruta_completa_declarada_en_cohorte": true
+  },
+  "universo_original": 8828,
+  "incluidas_alcance_previo": 295,
+  "cohorte_reauditada": 112,
+  "incluidas_fuera_cohorte": 183,
+  "rutas_previas_fuera_cohorte": {
+    "Desconocida": 105,
+    "Probable": 78
+  },
+  "porcentaje_entrevistas_incluidas_reauditadas_NO_cuota_demanda": 37.96610169491525,
+  "OD_incompletos_cohorte": 2,
+  "entrevistas_compatibles_corredor_previo": 109,
+  "localidades_OD_cohorte": 18,
+  "pares_localidad_auxiliar": 17,
+  "pares_zonales_auxiliar": 6,
+  "celdas_detalladas_auxiliar_campana_clase": 25,
+  "celdas_detalladas_con_flujo_previo": 19,
+  "celdas_detalladas_flujo_faltante_previo": 6,
+  "celdas_zonales_auxiliar_campana_clase": 13,
+  "cobertura_no_observada": [
+    "Los183incluidos anteriores con ruta probable/desconocida no se transforman en alta confianza ni en ceros: no fueron esta cohorte.",
+    "La muestra112 no es censo del mercado ni cantidad total de vehiculos.",
+    "Ausencia de OD en la muestra no indica cero estructural de demanda.",
+    "Aforos y OD solo en jornadas08–20 compatibles de verano/otoño; sin noche, invierno, anualizacion ni estacionalidad.",
+    "SoloVL/CAM; no estima pasajeros o peatones ni sustituye demanda lacustre.",
+    "Localidades originales se conservan; zonas no resuelven accesos intrazonales exactos.",
+    "La matriz no cubre todo flujo regional ni todo el mercado beneficiable por el cruce.",
+    "Comparaciones entre controles en distintas fechas incluyen variacion temporal y error de muestra; no son prueba directa de inconsistencia o adicionalidad."
+  ],
+  "viabilidad_propuesta": "B — Utilizable parcialmente",
+  "justificacion": "Existen aforos EOD compatibles y fracciones OD expandibles, pero la cobertura de alcance/ruta, temporal y de muestreo impide una demanda terrestre total. La ausencia de itinerario exacto no vuelve inutilizable al corredor observado.",
+  "recomendacion": "Utilizar CITRA como referencia parcial del corredor, separada por categorias de confianza y exposicion; ARISTO lacustre como bloque independiente. No sumar fuentes o pantallas, no completar faltantes por logit ni por comuna. Cerrar revision manual y seguir a etapas posteriores con limites explicitos.",
+  "aristo_terrestre_existente": {
+    "fuente_existente": "demanda_lago_github/outputs/matrices_od_referencia/matriz_od_terrestre.csv",
+    "sha256": "2f3ba0a432c50290ea3bfaad133208cd8acd70485736d1fd290f63e8a3dc8121",
+    "filas_estructura": 86,
+    "filas_flujo_existente": 9,
+    "entrevistas_OD_en_filas_con_flujo": 22,
+    "horas_ventana": [
+      10.0
+    ],
+    "control": "ODC-3 Cerro Castillo",
+    "evidencia": "Declaracion expresa sin transbordador ni frontera segun grado_evidencia, pasos_fronterizos y procedimiento del CSV existente",
+    "limitaciones": "Referencia terrestre parcial; un control; pocas observaciones OD comparables; no24h; noinvierno; no permite completar el terrestre total. No se sumo a CITRA ni se implemento alternativa."
+  },
+  "fuentes_cache_sha256": {
+    "etapa1_terrestre_citra/resultados/entrega_02/csv/auditoria_112.csv": "9c82b22d5522b23c03fa3552aa19853ae5923655de1b3ebbea0e1f19d7f24cd0",
+    "etapa1_terrestre_citra/resultados/entrega_02/csv/homologacion_cerrada_registros.csv": "ef425115d204539e9298c4f052b0014f78416707fdd40903afd7fcf58a39bbbd",
+    "etapa1_terrestre_citra/resultados/entrega_02/csv/matriz_auxiliar_corredor_detallada.csv": "24fe6a59a32e850716594059c73a8d548db3b931a5021fac45afda0bfb4bce1c",
+    "etapa1_terrestre_citra/resultados/entrega_02/csv/matriz_auxiliar_corredor_zonas.csv": "eabba221351cc8188d13a7a01f4fa34824de0a75f63aab946c92f3bf0e4b04ff",
+    "etapa1_terrestre_citra/insumos_decisiones/alcance_y_clasificacion_anteriores.csv": "aa44555ac6b3507899d6ccb0a2fae09714c0ba121f4f97a78270dbaa75a19861"
+  }
+}

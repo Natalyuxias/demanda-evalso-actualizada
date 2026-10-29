@@ -1,0 +1,47 @@
+{
+  "bruta_cruce": 290,
+  "validas_en_BBDD2": 264,
+  "campanas_validas": {
+    "Verano": 103,
+    "Normal": 85,
+    "Primavera": 76
+  },
+  "tipos_validos": {
+    "Pasajero (peatón)": 99,
+    "Auto": 70,
+    "Camioneta": 48,
+    "Vehículo privado": 21,
+    "Camión o furgón de carga": 19,
+    "Pasajeros en VAN de turismo": 2,
+    "Pasajero de bus": 2,
+    "Moto": 1,
+    "Pasajeros en BUS de turismo": 1,
+    "Pasajeros en TRANSFER": 1
+  },
+  "Nacionalidad": {
+    "bruta": {
+      "Desconocida": 182,
+      "Chilena": 103,
+      "Extranjera": 5
+    },
+    "valida": {
+      "Desconocida": 161,
+      "Chilena": 98,
+      "Extranjera": 5
+    },
+    "por_tipo_valido": "{('Auto', 'Chilena'): 1, ('Auto', 'Desconocida'): 69, ('Camioneta', 'Desconocida'): 48, ('Camión o furgón de carga', 'Desconocida'): 19, ('Moto', 'Desconocida'): 1, ('Pasajero (peatón)', 'Chilena'): 94, ('Pasajero (peatón)', 'Extranjera'): 5, ('Pasajero de bus', 'Chilena'): 2, ('Pasajeros en BUS de turismo', 'Desconocida'): 1, ('Pasajeros en TRANSFER', 'Desconocida'): 1, ('Pasajeros en VAN de turismo', 'Desconocida'): 2, ('Vehículo privado', 'Chilena'): 1, ('Vehículo privado', 'Desconocida'): 20}"
+  },
+  "Patente": {
+    "bruta": {
+      "Chilena": 172,
+      "Desconocida": 108,
+      "Extranjera": 10
+    },
+    "valida": {
+      "Chilena": 151,
+      "Desconocida": 103,
+      "Extranjera": 10
+    },
+    "por_tipo_valido": "{('Auto', 'Chilena'): 66, ('Auto', 'Extranjera'): 4, ('Camioneta', 'Chilena'): 42, ('Camioneta', 'Extranjera'): 6, ('Camión o furgón de carga', 'Chilena'): 19, ('Moto', 'Chilena'): 1, ('Pasajero (peatón)', 'Chilena'): 1, ('Pasajero (peatón)', 'Desconocida'): 98, ('Pasajero de bus', 'Desconocida'): 2, ('Pasajeros en BUS de turismo', 'Desconocida'): 1, ('Pasajeros en TRANSFER', 'Chilena'): 1, ('Pasajeros en VAN de turismo', 'Desconocida'): 2, ('Vehículo privado', 'Chilena'): 21}"
+  }
+}

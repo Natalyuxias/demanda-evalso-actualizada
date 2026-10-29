@@ -1,0 +1,30 @@
+{
+  "fuentes": {
+    "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/resultados/entrega_final/csv/base_unificada_anual.csv": "e5496173d773e02b7414c75c155adfdf2a7b93beb9c97ac13f212d3d52a9ff5f",
+    "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/resultados/entrega_final/csv/aristo_anual_detalle.csv": "277ebea4b2c80823927021d6d1824e94874194c1e8aae7d15750439fae0c94e4",
+    "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/resultados/entrega_final/csv/citra_anual_localidades.csv": "ec96689b522e97725fc95c96997a3e80b2694d5a12143394abba9433a252b060",
+    "/home/nataly/Escritorio/Anexos/etapa2_demanda_anual_20261029/resultados/entrega_final/csv/aristo_resumen_escenarios.csv": "f46241d45017940dcba25e2f357e00bc1aecf78665a8b2035af11ac3a4e0bcf2",
+    "/home/nataly/Escritorio/Anexos/etapa3_proyecciones_20261029/parametros/factores_propuestos_rebasados_2026.csv": "ce5d624f77eab62abad9cfd53b6b5ac05e520b31ae382a3fd6d907d9dfc19d6d",
+    "/home/nataly/Escritorio/Anexos/etapa3_proyecciones_20261029/parametros/elasticidades_por_segmento.csv": "3504703b122833c0963ea50d0f030343ca9a5475fe63324c317c9d0f57482c61",
+    "/home/nataly/Escritorio/Anexos/etapa3_proyecciones_20261029/parametros/PIB_anual_2026_2050.csv": "7c32feec1d76c9b7c47241e1e89770f5f997dde2379a9e3530bb6a7840df040c",
+    "/home/nataly/Escritorio/Anexos/etapa3_proyecciones_20261029/parametros/resumen_parametros.json": "717c1908049fe0524800efddca23cb12450884b6a8b8b255c01eeac0ae15265c"
+  },
+  "script_sha256": "4f0c8c6c003f8b2d6636ab54958a187fbdf6e7340dbb94c7eb1169d7ef1e188e",
+  "verificaciones": {
+    "base2026_sin_doble_crecimiento": true,
+    "solo_2030_2040_2050": true,
+    "tres_escenarios_crecimiento": true,
+    "base_Etapa2_central_sin_mezclar_escenarios": true,
+    "faltantes_preservados": true,
+    "CITRA_24h_sigue_faltante": true,
+    "residuales_ARISTO_conservados": true,
+    "escenarios_ordenados": true,
+    "datos_fuente_intactos": true,
+    "sin_regresiones_encuestas_rutas_capacidad": true,
+    "balance_fisico_proyectado": true
+  },
+  "segundos": 4.09,
+  "filas_proyeccion_zonas": 1548,
+  "archivo_excel_sha256": "6bec3921919656b6fb94a5a8922d23f716088bafa249ca0b58955c0ff6f9abdf",
+  "archivo_HTML_sha256": "1ee31a682b7233a697732e0d91e8397fb591ad5ba618d7460cbe378e416925de"
+}

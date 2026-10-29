@@ -1,0 +1,12 @@
+{
+  "commit_local": "7aeffaf46a64c30ceed857458620fe35af688bc2",
+  "push_realizado": false,
+  "error_push": "Could not resolve host: github.com",
+  "entrega_vigente": "etapa1_lacustre_aristo_20261029/resultados/entrega_final",
+  "paquete": "etapa1_lacustre_aristo_20261029/entrega_lacustre_ARISTO_final.zip",
+  "paquete_sha256": "6fe6e449e9f3c321000cfb6485ab1a36a431ce88d048bbc4f5b5178620721031",
+  "pruebas_aprobadas": 96,
+  "verificaciones_matriz": 13,
+  "fuentes_originales_y_CITRA_conservadas": true,
+  "git_limpio": true
+}

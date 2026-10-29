@@ -1,0 +1,343 @@
+﻿version,escenario,vista,sentido_cruce,segmento,unidad,temporada_destino,campana,componente,aporte_temporada
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Primavera,Primavera,residual,0.0
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Verano,Verano,residual,0.0
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Invierno,Otoño,residual,0.0
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Otoño,Otoño,residual,0.0
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Primavera,Primavera,residual,0.0
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Verano,Verano,residual,0.0
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Invierno,Otoño,observado_asignado,525.7142857142857
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Otoño,Otoño,observado_asignado,656.4285714285714
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Primavera,Primavera,observado_asignado,312.0
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Verano,Verano,residual,141.42857142857144
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Primavera,Primavera,residual,52.0
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Verano,Verano,residual,70.71428571428572
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,4941.714285714286
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,6170.428571428572
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,2808.0
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,observado_asignado,12956.428571428572
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,residual,762.1428571428573
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,observado_asignado,492.6315789473684
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,residual,27.368421052631575
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Verano,Verano,observado_asignado,3959.9999999999995
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,1787.4285714285713
+A,alto,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2231.857142857143
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Primavera,Primavera,residual,52.0
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Verano,Verano,residual,0.0
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Invierno,Otoño,residual,0.0
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Otoño,Otoño,residual,0.0
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Primavera,Primavera,residual,0.0
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Verano,Verano,residual,0.0
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Invierno,Otoño,observado_asignado,420.57142857142856
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Otoño,Otoño,observado_asignado,525.1428571428572
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Primavera,Primavera,observado_asignado,156.0
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,observado_asignado,282.8571428571429
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,residual,353.57142857142856
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Primavera,Primavera,observado_asignado,312.0
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Verano,Verano,residual,70.71428571428572
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,OTRO_PASAJERO,,Verano,Verano,residual,
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,6518.857142857143
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,8139.714285714286
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,3588.0
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Verano,Verano,residual,8485.714285714286
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Primavera,Primavera,observado_asignado,779.9999999999999
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,observado_asignado,2816.4755639097743
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,residual,365.6672932330828
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,1682.285714285714
+A,alto,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2100.5714285714284
+A,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,1787.4285714285713
+A,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2231.857142857143
+A,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,492.6315789473684
+A,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,79.36842105263158
+A,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,3959.9999999999995
+A,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,70.71428571428572
+A,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,1682.285714285714
+A,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2100.5714285714284
+A,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,1092.0
+A,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,52.0
+A,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,2816.4755639097743
+A,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,436.38157894736844
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Primavera,Primavera,residual,0.0
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Verano,Verano,residual,0.0
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Invierno,Otoño,residual,0.0
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Otoño,Otoño,residual,0.0
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Primavera,Primavera,residual,0.0
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Verano,Verano,residual,0.0
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Invierno,Otoño,observado_asignado,525.7142857142857
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Otoño,Otoño,observado_asignado,656.4285714285714
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Primavera,Primavera,observado_asignado,312.0
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Verano,Verano,residual,141.42857142857144
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Primavera,Primavera,residual,52.0
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Verano,Verano,residual,70.71428571428572
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,4941.714285714286
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,6170.428571428572
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,2808.0
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,observado_asignado,12956.428571428572
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,residual,762.1428571428573
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,observado_asignado,492.6315789473684
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,residual,27.368421052631575
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Verano,Verano,observado_asignado,3959.9999999999995
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,1787.4285714285713
+A,central,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2231.857142857143
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Primavera,Primavera,residual,52.0
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Verano,Verano,residual,0.0
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Invierno,Otoño,residual,0.0
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Otoño,Otoño,residual,0.0
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Primavera,Primavera,residual,0.0
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Verano,Verano,residual,0.0
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Invierno,Otoño,observado_asignado,420.57142857142856
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Otoño,Otoño,observado_asignado,525.1428571428572
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Primavera,Primavera,observado_asignado,156.0
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,observado_asignado,188.57142857142856
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,residual,235.71428571428572
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Primavera,Primavera,observado_asignado,312.0
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Verano,Verano,residual,47.14285714285714
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,OTRO_PASAJERO,,Verano,Verano,residual,
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,6518.857142857143
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,8139.714285714286
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,3588.0
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Verano,Verano,residual,5657.142857142857
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Primavera,Primavera,observado_asignado,779.9999999999999
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,observado_asignado,1877.6503759398495
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,residual,243.77819548872182
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,1682.285714285714
+A,central,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2100.5714285714284
+A,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,1787.4285714285713
+A,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2231.857142857143
+A,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,492.6315789473684
+A,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,79.36842105263158
+A,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,3959.9999999999995
+A,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,70.71428571428572
+A,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,1682.285714285714
+A,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2100.5714285714284
+A,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,1092.0
+A,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,52.0
+A,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,1877.6503759398495
+A,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,290.92105263157896
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Primavera,Primavera,residual,0.0
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Verano,Verano,residual,0.0
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Invierno,Otoño,residual,0.0
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Otoño,Otoño,residual,0.0
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Primavera,Primavera,residual,0.0
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Verano,Verano,residual,0.0
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Invierno,Otoño,observado_asignado,426.9968253968254
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Otoño,Otoño,observado_asignado,656.4285714285714
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Primavera,Primavera,observado_asignado,312.0
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Verano,Verano,residual,141.42857142857144
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Primavera,Primavera,residual,52.0
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Verano,Verano,residual,70.71428571428572
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,4941.714285714286
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,6170.428571428572
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,2808.0
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,observado_asignado,12956.428571428572
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,residual,762.1428571428573
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,observado_asignado,492.6315789473684
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,residual,27.368421052631575
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Verano,Verano,observado_asignado,3959.9999999999995
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,796.2046067549827
+A,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2231.857142857143
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Primavera,Primavera,residual,52.0
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Verano,Verano,residual,0.0
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Invierno,Otoño,residual,0.0
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Otoño,Otoño,residual,0.0
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Primavera,Primavera,residual,0.0
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Verano,Verano,residual,0.0
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Invierno,Otoño,observado_asignado,341.59746031746033
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Otoño,Otoño,observado_asignado,525.1428571428572
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Primavera,Primavera,observado_asignado,156.0
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,observado_asignado,188.57142857142856
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,residual,235.71428571428572
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Primavera,Primavera,observado_asignado,312.0
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Verano,Verano,residual,47.14285714285714
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,OTRO_PASAJERO,,Verano,Verano,residual,
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,6518.857142857143
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,8139.714285714286
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,3588.0
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Verano,Verano,residual,5657.142857142857
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Primavera,Primavera,observado_asignado,779.9999999999999
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,observado_asignado,1877.6503759398495
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,residual,243.77819548872182
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,749.3690416517483
+A,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2100.5714285714284
+A,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,796.2046067549827
+A,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2231.857142857143
+A,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,492.6315789473684
+A,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,79.36842105263158
+A,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,3959.9999999999995
+A,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,70.71428571428572
+A,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,749.3690416517483
+A,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2100.5714285714284
+A,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,1092.0
+A,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,52.0
+A,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,1877.6503759398495
+A,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,290.92105263157896
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Primavera,Primavera,residual,0.0
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Verano,Verano,residual,0.0
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Invierno,Otoño,residual,0.0
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Otoño,Otoño,residual,0.0
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Primavera,Primavera,residual,0.0
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Verano,Verano,residual,0.0
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Invierno,Otoño,observado_asignado,525.7142857142857
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Otoño,Otoño,observado_asignado,656.4285714285714
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Primavera,Primavera,observado_asignado,312.0
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Verano,Verano,residual,141.42857142857144
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Primavera,Primavera,residual,52.0
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Verano,Verano,residual,70.71428571428572
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,4941.714285714286
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,6170.428571428572
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,2808.0
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,observado_asignado,12956.428571428572
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,residual,762.1428571428573
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,observado_asignado,492.6315789473684
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,residual,27.368421052631575
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Verano,Verano,observado_asignado,3959.9999999999995
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,1787.4285714285713
+B,alto,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2231.857142857143
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Primavera,Primavera,residual,52.0
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Verano,Verano,residual,0.0
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Invierno,Otoño,residual,0.0
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Otoño,Otoño,residual,0.0
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Primavera,Primavera,residual,0.0
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Verano,Verano,residual,0.0
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Invierno,Otoño,observado_asignado,420.57142857142856
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Otoño,Otoño,observado_asignado,525.1428571428572
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Primavera,Primavera,observado_asignado,156.0
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,imputado,353.57142857142856
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,observado_asignado,282.8571428571429
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Primavera,Primavera,observado_asignado,312.0
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Verano,Verano,residual,70.71428571428572
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,OTRO_PASAJERO,,Verano,Verano,residual,
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,6518.857142857143
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,8139.714285714286
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,3588.0
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Verano,Verano,residual,8485.714285714286
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Primavera,Primavera,observado_asignado,779.9999999999999
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,observado_asignado,2816.4755639097743
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,residual,365.6672932330828
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,1682.285714285714
+B,alto,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2100.5714285714284
+B,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,1787.4285714285713
+B,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2231.857142857143
+B,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,492.6315789473684
+B,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,79.36842105263158
+B,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,3959.9999999999995
+B,alto,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,70.71428571428572
+B,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,1682.285714285714
+B,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2100.5714285714284
+B,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,1092.0
+B,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,52.0
+B,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,2816.4755639097743
+B,alto,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,436.38157894736844
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Primavera,Primavera,residual,0.0
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Verano,Verano,residual,0.0
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Invierno,Otoño,residual,0.0
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Otoño,Otoño,residual,0.0
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Primavera,Primavera,residual,0.0
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Verano,Verano,residual,0.0
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Invierno,Otoño,observado_asignado,525.7142857142857
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Otoño,Otoño,observado_asignado,656.4285714285714
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Primavera,Primavera,observado_asignado,312.0
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Verano,Verano,residual,141.42857142857144
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Primavera,Primavera,residual,52.0
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Verano,Verano,residual,70.71428571428572
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,4941.714285714286
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,6170.428571428572
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,2808.0
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,observado_asignado,12956.428571428572
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,residual,762.1428571428573
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,observado_asignado,492.6315789473684
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,residual,27.368421052631575
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Verano,Verano,observado_asignado,3959.9999999999995
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,1787.4285714285713
+B,central,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2231.857142857143
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Primavera,Primavera,residual,52.0
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Verano,Verano,residual,0.0
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Invierno,Otoño,residual,0.0
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Otoño,Otoño,residual,0.0
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Primavera,Primavera,residual,0.0
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Verano,Verano,residual,0.0
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Invierno,Otoño,observado_asignado,420.57142857142856
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Otoño,Otoño,observado_asignado,525.1428571428572
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Primavera,Primavera,observado_asignado,156.0
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,imputado,235.71428571428572
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,observado_asignado,188.57142857142856
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Primavera,Primavera,observado_asignado,312.0
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Verano,Verano,residual,47.14285714285714
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,OTRO_PASAJERO,,Verano,Verano,residual,
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,6518.857142857143
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,8139.714285714286
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,3588.0
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Verano,Verano,residual,5657.142857142857
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Primavera,Primavera,observado_asignado,779.9999999999999
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,observado_asignado,1877.6503759398495
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,residual,243.77819548872182
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,1682.285714285714
+B,central,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2100.5714285714284
+B,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,1787.4285714285713
+B,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2231.857142857143
+B,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,492.6315789473684
+B,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,79.36842105263158
+B,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,3959.9999999999995
+B,central,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,70.71428571428572
+B,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,1682.285714285714
+B,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2100.5714285714284
+B,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,1092.0
+B,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,52.0
+B,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,1877.6503759398495
+B,central,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,290.92105263157896
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Primavera,Primavera,residual,0.0
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BICI,bicicletas,Verano,Verano,residual,0.0
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Invierno,Otoño,residual,0.0
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Otoño,Otoño,residual,0.0
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Primavera,Primavera,residual,0.0
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,BUS_TP,buses,Verano,Verano,residual,0.0
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Invierno,Otoño,observado_asignado,426.9968253968254
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Otoño,Otoño,observado_asignado,656.4285714285714
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Primavera,Primavera,observado_asignado,312.0
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,CAM,vehículos,Verano,Verano,residual,141.42857142857144
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Primavera,Primavera,residual,52.0
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,MOTO,motocicletas,Verano,Verano,residual,70.71428571428572
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,4941.714285714286
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,6170.428571428572
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,2808.0
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,observado_asignado,12956.428571428572
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,PEATON,personas_peatones,Verano,Verano,residual,762.1428571428573
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,observado_asignado,492.6315789473684
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Primavera,Primavera,residual,27.368421052631575
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VL,vehículos,Verano,Verano,observado_asignado,3959.9999999999995
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,796.2046067549827
+B,conservador,clases_originales,Chile Chico → Puerto Ibáñez,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2231.857142857143
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Primavera,Primavera,residual,52.0
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BICI,bicicletas,Verano,Verano,residual,0.0
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Invierno,Otoño,residual,0.0
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Otoño,Otoño,residual,0.0
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Primavera,Primavera,residual,0.0
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,BUS_TP,buses,Verano,Verano,residual,0.0
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Invierno,Otoño,observado_asignado,341.59746031746033
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Otoño,Otoño,observado_asignado,525.1428571428572
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Primavera,Primavera,observado_asignado,156.0
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,imputado,235.71428571428572
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,CAM,vehículos,Verano,Verano,observado_asignado,188.57142857142856
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Primavera,Primavera,observado_asignado,312.0
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,MOTO,motocicletas,Verano,Verano,residual,47.14285714285714
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,OTRO_PASAJERO,,Verano,Verano,residual,
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Invierno,Otoño,observado_asignado,6518.857142857143
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Otoño,Otoño,observado_asignado,8139.714285714286
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Primavera,Primavera,observado_asignado,3588.0
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,PEATON,personas_peatones,Verano,Verano,residual,5657.142857142857
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Primavera,Primavera,observado_asignado,779.9999999999999
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,observado_asignado,1877.6503759398495
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VL,vehículos,Verano,Verano,residual,243.77819548872182
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Invierno,Otoño,observado_asignado,749.3690416517483
+B,conservador,clases_originales,Puerto Ibáñez → Chile Chico,VP,unidades_privadas_heterogeneas,Otoño,Otoño,observado_asignado,2100.5714285714284
+B,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,796.2046067549827
+B,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2231.857142857143
+B,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,492.6315789473684
+B,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,79.36842105263158
+B,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,3959.9999999999995
+B,conservador,privados_compatibles_no_aditiva,Chile Chico → Puerto Ibáñez,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,70.71428571428572
+B,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Invierno,Otoño,observado_asignado,749.3690416517483
+B,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Otoño,Otoño,observado_asignado,2100.5714285714284
+B,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,observado_asignado,1092.0
+B,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Primavera,Primavera,residual,52.0
+B,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,observado_asignado,1877.6503759398495
+B,conservador,privados_compatibles_no_aditiva,Puerto Ibáñez → Chile Chico,PRIVADOS_COMPATIBLES,unidades privadas agregadas (VL+moto+bicicleta); no VL estricto,Verano,Verano,residual,290.92105263157896

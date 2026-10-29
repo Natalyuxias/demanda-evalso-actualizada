@@ -1,0 +1,15 @@
+{
+  "version": "2026-10-29",
+  "regla": "Solo método y alcance agregado; ninguna celda OD/flujo, coordenada o clave individual",
+  "archivos": [
+    {
+      "archivo": "results/etapa1_citra/resumen_publico.json",
+      "sha256": "826c2a6313da37aeb7394ec4ae07be4b219647971f6faf5f7121c7b4df486474"
+    },
+    {
+      "archivo": "results/etapa1_citra/resumen_publico.html",
+      "sha256": "fd4d816d475d617eb82c627167cd7bbe49e26134182c8c72a93c56cbbea35923"
+    }
+  ],
+  "excluidos": "Todos los Excel/HTML/CSV detallados y los insumos de decisiones reservados."
+}

@@ -1,0 +1,158 @@
+{
+  "entrega_vigente": "etapa1_lacustre_aristo_20261029/resultados/entrega_final",
+  "archivos": [
+    {
+      "archivo": "resultados/entrega_final/manifest_integridad.json",
+      "sha256": "a0de34ab8bb05dd8e7bd94edc7cbb3014ab80239785cad7c826b1b7f0c113b5c",
+      "archivo_en_zip": "resultados/entrega_final/manifest_integridad.json"
+    },
+    {
+      "archivo": "resultados/entrega_final/03_conteos_factores_comparacion.xlsx",
+      "sha256": "8423bf5abf7db60a0676cde08dd1cf3d4e31b01d9f6fd2b1bb1546636dc9be7b",
+      "archivo_en_zip": "resultados/entrega_final/03_conteos_factores_comparacion.xlsx"
+    },
+    {
+      "archivo": "resultados/entrega_final/validacion.json",
+      "sha256": "c07abf23dca2e9739dd4546bbab25cb89cba70589a63412a9ef8834b1838f4f3",
+      "archivo_en_zip": "resultados/entrega_final/validacion.json"
+    },
+    {
+      "archivo": "resultados/entrega_final/04_pasajeros_extranjeros.xlsx",
+      "sha256": "c3857405312e932f8c45a5f66ffc0eef74c5c50766755bdd0e33b68cb0052fa2",
+      "archivo_en_zip": "resultados/entrega_final/04_pasajeros_extranjeros.xlsx"
+    },
+    {
+      "archivo": "resultados/entrega_final/01_matrices_lacustres.xlsx",
+      "sha256": "86ee8442eafbc0164360226a7a3405bdefc5b1a779f9d647d99ee36b5a00a01f",
+      "archivo_en_zip": "resultados/entrega_final/01_matrices_lacustres.xlsx"
+    },
+    {
+      "archivo": "resultados/entrega_final/02_auditoria_encuestas.xlsx",
+      "sha256": "451f5556d8be7bb73fa199476f49e7a3abb7227b11e301af4ee083635c72ddf7",
+      "archivo_en_zip": "resultados/entrega_final/02_auditoria_encuestas.xlsx"
+    },
+    {
+      "archivo": "resultados/entrega_final/informe_lacustre.html",
+      "sha256": "bbec6d08f4cd4c3694e62d05e0f677e08b39f907390f4453b2c036db1e8aa2d7",
+      "archivo_en_zip": "resultados/entrega_final/informe_lacustre.html"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/auditoria_264.csv",
+      "sha256": "c3c83c638a63803fb25b6c45bf503f8a05c219207f33cc984173c26f8feee190",
+      "archivo_en_zip": "resultados/entrega_final/csv/auditoria_264.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/referencias_originales.csv",
+      "sha256": "ac1d4322880e61468f8b9ae4725cab6c5fa8a5c33d0dc2050d111130ea2a88a4",
+      "archivo_en_zip": "resultados/entrega_final/csv/referencias_originales.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/comparacion_07.csv",
+      "sha256": "7dbe914c714bc1821ea8dc257d198de77f0b177e55e6b31ed8c6453b454398f7",
+      "archivo_en_zip": "resultados/entrega_final/csv/comparacion_07.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/extranjeros_indicadores_separados.csv",
+      "sha256": "5d69ff99816eff3e7cc514f253b3770d623591220c56a922e878a5f4db2887c9",
+      "archivo_en_zip": "resultados/entrega_final/csv/extranjeros_indicadores_separados.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/matriz_zonas_ARISTO.csv",
+      "sha256": "a075e61b9d1446c9306fec264ce82169ab102517c6d5cd70ad6d951900a2d4a9",
+      "archivo_en_zip": "resultados/entrega_final/csv/matriz_zonas_ARISTO.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/matriz_por_fecha.csv",
+      "sha256": "8049f84e6ef7c969b7c564cce59669cf38d8d27ae3ec708dbb03e810691aeb22",
+      "archivo_en_zip": "resultados/entrega_final/csv/matriz_por_fecha.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/factores_y_N_fecha.csv",
+      "sha256": "34cb0f2851aded4609605ff992e7e9be258682dc9e0c38579dd68366149efc16",
+      "archivo_en_zip": "resultados/entrega_final/csv/factores_y_N_fecha.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/balance_por_campana.csv",
+      "sha256": "52ccf4d26b19fc924465e93f30e67cb8e9ab0ff79a5707ed2db2c65b62723b2e",
+      "archivo_en_zip": "resultados/entrega_final/csv/balance_por_campana.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/matriz_detalle_BBDD2.csv",
+      "sha256": "df0d8ac2905822ba82fd841eba785b05fd41b198e9f11012063758ee30a8587f",
+      "archivo_en_zip": "resultados/entrega_final/csv/matriz_detalle_BBDD2.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/contraste_perfil_campana_vs_fecha.csv",
+      "sha256": "0f0cc1b8636daeb33f3e2f04805b0aec8d706e0f30d0c5fbae150d564ccf2c47",
+      "archivo_en_zip": "resultados/entrega_final/csv/contraste_perfil_campana_vs_fecha.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/balance_por_fecha.csv",
+      "sha256": "662d0b71175017888b549bbf51c9a86953d4eec50148917ed8f13331fde719b7",
+      "archivo_en_zip": "resultados/entrega_final/csv/balance_por_fecha.csv"
+    },
+    {
+      "archivo": "resultados/entrega_final/csv/OD_parciales_sin_zona.csv",
+      "sha256": "912cde8bf94a8a63f23c497eb24ca21d1ecb64fc82764dee579eaec5519777dc",
+      "archivo_en_zip": "resultados/entrega_final/csv/OD_parciales_sin_zona.csv"
+    },
+    {
+      "archivo": "LEER_PRIMERO.txt",
+      "sha256": "311cba6239150fa8ba487cded0bcbd0fb668d5cfb3d034d29ea97a773f093dfb",
+      "archivo_en_zip": "LEER_PRIMERO.txt"
+    },
+    {
+      "archivo": "entorno_ejecucion.json",
+      "sha256": "ffb5190ff71032b34188c4ff3c27f7216feaac15af2860491dc78d22287309e4",
+      "archivo_en_zip": "entorno_ejecucion.json"
+    },
+    {
+      "archivo": "integridad_antes.json",
+      "sha256": "dc4a46a7b34864a5ea3bac793598e71eecf565a8e866e8217be6bf3d90b17317",
+      "archivo_en_zip": "integridad_antes.json"
+    },
+    {
+      "archivo": "microdatos/preparar_microdatos.py",
+      "sha256": "f19ef8d1a14a1e5607ad1a7c93d8352ae813d0477f3bfa1ca7d4db30f1e95078",
+      "archivo_en_zip": "codigo/microdatos/preparar_microdatos.py"
+    },
+    {
+      "archivo": "aforos/auditar_aforos_lacustres.py",
+      "sha256": "ab85f78ca2b122aba999f1678e9a9730f7a356002dbc748937501d706e749551",
+      "archivo_en_zip": "codigo/aforos/auditar_aforos_lacustres.py"
+    },
+    {
+      "archivo": "usuarios/auditar_usuarios.py",
+      "sha256": "50d54b21492f09938b550e707e3961eb5d1515d7698a2fb125293e7cba033428",
+      "archivo_en_zip": "codigo/usuarios/auditar_usuarios.py"
+    },
+    {
+      "archivo": "comparacion/comparar_07.py",
+      "sha256": "4fd55bf98e0885893d0d20c2c95068c90ffe43ad0c6af544621a44f750fd55b2",
+      "archivo_en_zip": "codigo/comparacion/comparar_07.py"
+    },
+    {
+      "archivo": "integracion/consolidar_aristo.py",
+      "sha256": "e5daba8acc5dc29e8d5bf04a43d43555661f72b4f32d3253753d67f0531f5964",
+      "archivo_en_zip": "codigo/integracion/consolidar_aristo.py"
+    },
+    {
+      "archivo": "integracion/reproducir_lacustre.py",
+      "sha256": "61a12ad83f683e169711a377c231440d6b88a2e4d7297035395b6b5c8bea908a",
+      "archivo_en_zip": "codigo/integracion/reproducir_lacustre.py"
+    },
+    {
+      "archivo": "integracion/test_lacustre.py",
+      "sha256": "ed227bef069efb4c026a384b09827c67dc8d9acb08dc0908ef8b006e2af2d876",
+      "archivo_en_zip": "codigo/integracion/test_lacustre.py"
+    },
+    {
+      "archivo": "integracion/informe_lacustre.py",
+      "sha256": "a89b374f37ecaec281bdff560cc8596697e909949ddf41435a64ba0627d1f6f2",
+      "archivo_en_zip": "codigo/integracion/informe_lacustre.py"
+    }
+  ],
+  "pruebas_sinteticas_aprobadas": 96,
+  "validaciones_matriz": 13,
+  "nota": "Paquete privado; no incluye fuentes originales, requiere conservar Anexos. Código de las cuatro tareas y del orquestador incluido."
+}

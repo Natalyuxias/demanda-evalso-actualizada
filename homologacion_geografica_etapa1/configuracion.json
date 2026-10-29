@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "crs_coordenadas_originales_JSON": "EPSG:4326",
+  "crs_distancias": "EPSG:32718",
+  "margen_preventivo_limite_m": 250,
+  "max_grupos_revision_prioritaria": 20,
+  "regla_limite": "Umbral preventivo de revisión, no precisión certificada del geocodificador ni del polígono.",
+  "fuentes": [
+    "eod aysen/EOD Aysen Febrero 2026 vf.xlsx",
+    "eod aysen/EOD Aysen Abril 2026.xlsx"
+  ],
+  "regla_localidad": "No asignar localidad por cercanía; conservar literal. Referencias espaciales solo contrastan topónimos explícitos.",
+  "regla_ambiguedad": "CUT/comuna/zona finales vacíos cuando hay conflicto o falta contraste suficiente; candidatos quedan separados.",
+  "regla_prioridad": "Incluidos en filtro vigente y excluidos provisionales con ambiguo_relevante=True. Decisiones No no se reabren.",
+  "regla_fuera_cobertura": "No inventar CUT fuera de polígonos disponibles. Macrozona55 solo para nombres explícitos identificados en diagnóstico.",
+  "regla_modelacion": "55 zonas de hoja Zonas, homologadas por CUT y nombre; nunca ID de BBDD-2."
+}

@@ -1,0 +1,89 @@
+{
+  "estado": "correcto",
+  "fuente": "Cap 8/Factores de proyección de flujos.xlsx",
+  "sha256": "3d9fe018daa3972ffe343c827811c34166efa15ed8197ca9bc13ddc4ac93f1c0",
+  "beta_Aysen_privados": 3.36831632287041,
+  "beta_Aysen_CAM": 2.14413849315727,
+  "sin_beta_peatones_o_lacustre_propio": true,
+  "formula": "Q(t)=Q(2026)*(PIB(t)/PIB(2026))**beta",
+  "rebase": "No aplicar2026ni factor2025Primavera encima base2026; factor2026=1en todos escenarios.",
+  "escenarios": {
+    "central": "PIBBase ARISTO,βregionalAysén",
+    "alto": "PIBOptimista ARISTO,mismaβ",
+    "conservador": "PIBBaseARISTOmenos0.5puntosporcentuales2027–2050; SUPUESTOnuestro simetrico, noescenarioestimadoARISTO"
+  },
+  "advertencias": [
+    "Tabla179NOcontienepeatones. Su crecimiento usa proxyprivados declarado, manteniendo unidades de personas.",
+    "No hay estimacionpropia de ferry: extrapolacion del ritmodecarretera, noidentifica cambiosdeoferta, turismo, captacion oinduccion.",
+    "Tabla182PDF tiene aparente desalineacion de contraste entreclases/temporadas respectoExcel. Se conservan factoresExcel yrecalculados conPIB/beta, sinusarTabla182directamente.",
+    "Primavera originalesbase2025; Verano/Inviernobase2026 segunInforme p243. Rebaseunico2026 elimina doblecrecimiento."
+  ],
+  "archivos": {
+    "PIB_anual_2026_2050.csv": 25,
+    "elasticidades_por_segmento.csv": 8,
+    "factores_propuestos_rebasados_2026.csv": 600,
+    "factores_locales_ARISTO_2030_2040_2050.csv": 72
+  },
+  "celdas_beta": {
+    "privados": "Ruta!D7",
+    "CAM": "Ruta!D11"
+  },
+  "PIB_periodos": [
+    {
+      "desde": 2026,
+      "hasta": 2026,
+      "tasa_base": 0.02,
+      "tasa_alto": 0.025,
+      "tasa_conservadora_SUPUESTO": 0.015,
+      "fuente": "InformeARISTO Tabla181p241; ExcelPIB columnasB/C filas35–59"
+    },
+    {
+      "desde": 2027,
+      "hasta": 2027,
+      "tasa_base": 0.025,
+      "tasa_alto": 0.030000000000000002,
+      "tasa_conservadora_SUPUESTO": 0.02,
+      "fuente": "InformeARISTO Tabla181p241; ExcelPIB columnasB/C filas35–59"
+    },
+    {
+      "desde": 2028,
+      "hasta": 2030,
+      "tasa_base": 0.021,
+      "tasa_alto": 0.026000000000000002,
+      "tasa_conservadora_SUPUESTO": 0.016,
+      "fuente": "InformeARISTO Tabla181p241; ExcelPIB columnasB/C filas35–59"
+    },
+    {
+      "desde": 2031,
+      "hasta": 2035,
+      "tasa_base": 0.018,
+      "tasa_alto": 0.023,
+      "tasa_conservadora_SUPUESTO": 0.012999999999999998,
+      "fuente": "InformeARISTO Tabla181p241; ExcelPIB columnasB/C filas35–59"
+    },
+    {
+      "desde": 2036,
+      "hasta": 2040,
+      "tasa_base": 0.017,
+      "tasa_alto": 0.022000000000000002,
+      "tasa_conservadora_SUPUESTO": 0.012,
+      "fuente": "InformeARISTO Tabla181p241; ExcelPIB columnasB/C filas35–59"
+    },
+    {
+      "desde": 2041,
+      "hasta": 2045,
+      "tasa_base": 0.016,
+      "tasa_alto": 0.021,
+      "tasa_conservadora_SUPUESTO": 0.011,
+      "fuente": "InformeARISTO Tabla181p241; ExcelPIB columnasB/C filas35–59"
+    },
+    {
+      "desde": 2046,
+      "hasta": 2050,
+      "tasa_base": 0.015,
+      "tasa_alto": 0.02,
+      "tasa_conservadora_SUPUESTO": 0.009999999999999998,
+      "fuente": "InformeARISTO Tabla181p241; ExcelPIB columnasB/C filas35–59"
+    }
+  ]
+}

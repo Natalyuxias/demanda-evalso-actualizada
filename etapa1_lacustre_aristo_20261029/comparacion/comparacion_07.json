@@ -1,0 +1,99 @@
+{
+  "no_ejecutado_07": true,
+  "filas_matriz_historica": 127,
+  "entrevistas_matriz_historica": 264,
+  "unidad_historica": "Viajes diarios promedio por perfil de campana y frecuencia semanal asumida",
+  "unidad_requerida_actual": "Flujo observado en exposicion conciliada, sin frecuencia ni anualizacion",
+  "frecuencias_historicas": {
+    "1": 11,
+    "2": 11,
+    "3": 11,
+    "4": 11,
+    "5": 8,
+    "6": 8,
+    "7": 8,
+    "8": 8,
+    "9": 8,
+    "10": 8,
+    "11": 8,
+    "12": 11
+  },
+  "diferencias_metodologicas": [
+    {
+      "tema": "Universo lacustre",
+      "decision": "Reutilizar",
+      "evidencia": "lake=d.loc[d.ruta.eq(barcaza_actual)]",
+      "razon": "Interceptacion del cruce actual conserva OD largos; no limita barcaza al nucleo comunal.",
+      "control_recomendado": "264 ID2 validos unicos, enlace uno a uno BBDD1/BBDD2 y sentidos originales."
+    },
+    {
+      "tema": "Unidad temporal",
+      "decision": "Reemplazar en esta etapa",
+      "evidencia": "per_sailing*frequency/7",
+      "razon": "El resultado historico es promedio diario semanal condicionado a frecuencia; no es flujo observado de la jornada.",
+      "control_recomendado": "Mantener fecha y zarpe/conjunto de operaciones realmente cubierto; no usar 11/8frecuencias ni /7."
+    },
+    {
+      "tema": "Fila igual zarpe",
+      "decision": "Revalidar",
+      "evidencia": "media_por_fila_zarpe; filas_contadas_asimiladas_a_zarpes",
+      "razon": "La propia salida historica reconoce un supuesto de exposicion; una fila no certifica una unica operacion.",
+      "control_recomendado": "Identificar que embarques agrupa cada fila desde fuente/documentacion; medias no equivalentes si exposiciones difieren."
+    },
+    {
+      "tema": "Perfiles estacionales",
+      "decision": "Reemplazar en esta etapa",
+      "evidencia": "mes_representativo_barcaza y periodo_barcaza config",
+      "razon": "Transferir campanas a septiembre/enero/mayo y a estaciones completas excede la estimacion observada.",
+      "control_recomendado": "Presentar solo periodos medidos; no extrapolar invierno ni anualizar."
+    },
+    {
+      "tema": "Asignacion OD",
+      "decision": "Reutilizar condicionada",
+      "evidencia": "q=rr.flujo_dia*r.n/n",
+      "razon": "La proporcion OD es transparente y conserva flujo cuando F y N son compatibles; el factor no certifica muestreo ni no respuesta.",
+      "control_recomendado": "Usar F*n_OD/N en la misma campana, direccion, clase y exposicion conciliada; sin muestra conservar flujo sin OD."
+    },
+    {
+      "tema": "PEATON persona/grupo",
+      "decision": "Revalidar antes de estimar",
+      "evidencia": "PEATON se agrupa por size; no se lee tamano de grupo",
+      "razon": "Contar entrevistas como personas supone mecanismo individual; si se selecciona un representante por grupo puede requerirse ponderacion por tamano.",
+      "control_recomendado": "Distinguir estimador por respuestas individuales de sensibilidad por grupos; no multiplicar F ya contado en personas por ocupacion."
+    },
+    {
+      "tema": "Pasajeros totales",
+      "decision": "No reutilizar como total",
+      "evidencia": "OTRO_PASAJERO sin conteo compatible; campos ocupacion no leidos",
+      "razon": "La matriz no calcula ocupantes de autos/camiones/motos ni pasajeros de buses/VAN/transfer; peatones no son todos los pasajeros.",
+      "control_recomendado": "Mantener vehiculos, peatones y ocupantes separados; total de personas solo si dominios son excluyentes y completos."
+    },
+    {
+      "tema": "VL y privados ARISTO",
+      "decision": "Revalidar componentes",
+      "evidencia": "VL suma vehiculos livianos+Camioneta+Minivan+Van+Casa Rodante; privados=VL+MOTO+BICI",
+      "razon": "Privados original incorpora motos/bicis; no equivale a VL. sum(min_count=1) puede ocultar componentes ausentes.",
+      "control_recomendado": "No tratar blancos como cero sin regla documentada; separar motos/bicis y reconciliar privados originales por formula."
+    },
+    {
+      "tema": "Nacionalidad/patente/OD extranjero",
+      "decision": "Agregar capa nueva",
+      "evidencia": "07 no selecciona ni calcula estos campos",
+      "razon": "No existe separacion de usuarios extranjeros en las matrices historicas; conservar demanda fisica completa.",
+      "control_recomendado": "Tres indicadores distintos con intersecciones y desconocidos; no sumar como personas extranjeras."
+    },
+    {
+      "tema": "Geografia",
+      "decision": "Reutilizar con limite",
+      "evidencia": "resolver_lugar Rio Ibanez por texto; Nombre origen/destino BBDD2",
+      "razon": "No asimila Rio Ibanez a Puerto Ibanez, pero BBDD2 no es zonificacion de55zonas.",
+      "control_recomendado": "Mantener campos originales BBDD1/BBDD2 y capa comuna/ARISTO independiente; no autocompletar localidades."
+    }
+  ],
+  "fuentes": {
+    "demanda_lago_github/scripts/07_matrices_od_referencia.py": "b35272761f330330e26779a4d9db7ca4e35c7b4a2a24c7e619c045664178c25d",
+    "demanda_lago_github/outputs/matrices_od_referencia/matriz_od_barcaza.csv": "a7a748b7639156ac1a7103a24552f805c19ba4aba159de7907930cf91672e832",
+    "demanda_lago_github/outputs/matrices_od_referencia/conservacion_flujos_barcaza.csv": "16a520c17aa9746ba647c4b91dffbe4e324110c5d343b95981850684ad8cb7e7",
+    "demanda_lago_github/data/templates/config_matrices_od.json": "354eba337ec256f162c240e8ec89af81e662bdab329a859469124261ab5748fe"
+  }
+}

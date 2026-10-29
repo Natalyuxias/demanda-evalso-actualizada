@@ -1,0 +1,21 @@
+﻿campo_o_grupo,contenido_propuesto,naturaleza
+fuente,"CITRA / ARISTO; archivo, hoja y fila",Observado / trazabilidad
+id_registro_privado,"Clave estable dentro de fuente, nunca nombre o patente",Trazabilidad
+campana_fecha_ventana,"Fechas reales, sentido, punto y horas cubiertas",Observado
+unidad_y_clase,Vehículo VL/CAM/MOTO/BICI/bus o persona; clasificación original y homologada,Observado y regla documentada
+origen_destino_original,"Texto literal y JSON originales, conservados privados",Observado
+lat_lon_originales_crs,"Coordenada original, validez, precisión y CRS; no sustituir por referencia",Observado con calidad por verificar
+localidad_normalizada,"Nombre propuesto, alias y localidad/sector/comuna diferenciados","Homologado, con evidencia"
+comuna_cut,Código administrativo y polígono/version,Homologado
+id_geografico_bbdd2,Identificador original ARISTO; distinto del código zonal,Observado
+zona_modelacion_aristo,"Código 1–55 y regla de agrupación, separado de comuna",Homologado
+estado_homologacion,confirmado / provisional / ambiguo / no localizable; fuente y revisor,Control de calidad
+ruta_y_evidencia,barcaza interceptada / tierra Chile inferida / probable / desconocida / Argentina o mixta,"Observado o inferido, nunca equivalentes"
+area_y_factibilidad,pertenencia separada de ruta; mantener motivo y decisiones manuales,"Decisión de alcance, no elección"
+control_y_pantalla,"pantalla elegida, exclusividad por OD y otras estimaciones excluidas de suma",Diseño de consolidación
+n_y_N_y_F,"n OD ruta, N todas entrevistas compatibles del estrato y F conteo de clase",Observados con incidencias
+factor_y_procedencia,"entregado / calculado / imputado; fórmula, compatibilidad y estrato",Calculado o supuesto
+flujo_valor_estado,valor nullable y estado: observado / expandido condicional / imputado / desconocido / cero muestral / cero estructural documentado,Nunca rellenar faltantes con cero
+cobertura_temporal_espacial,"jornada, zarpe, sentido, fechas, parcialidad y marco de población",Metadatos obligatorios
+nacionalidad_patente_OD_internacional,Tres indicadores independientes más desconocido/no aplica; no reemplazar residencia,"Observados, depurados sin equivalencias"
+version_validacion,"hash de fuente, versión de reglas, fecha y balances",Reproducibilidad

@@ -1,0 +1,13 @@
+﻿estacion,Sentido Viaje,segmento,respuestas,valores_positivos,media,minimo,maximo
+Otoño,De Chile Chico a Pto. Ibáñez,CAM,4,4,1.75,1.0,3.0
+Otoño,De Chile Chico a Pto. Ibáñez,VL,12,12,2.4166666666666665,1.0,4.0
+Otoño,De Pto. Ibáñez a Chile Chico,CAM,3,3,1.3333333333333333,1.0,2.0
+Otoño,De Pto. Ibáñez a Chile Chico,VL,9,9,2.0,1.0,4.0
+Primavera,De Chile Chico a Pto. Ibáñez,CAM,7,7,1.5714285714285714,1.0,3.0
+Primavera,De Chile Chico a Pto. Ibáñez,VL,19,19,1.894736842105263,1.0,5.0
+Primavera,De Pto. Ibáñez a Chile Chico,CAM,3,3,2.0,1.0,3.0
+Primavera,De Pto. Ibáñez a Chile Chico,MOTO,1,1,7.0,7.0,7.0
+Primavera,De Pto. Ibáñez a Chile Chico,VL,22,22,2.409090909090909,1.0,5.0
+Verano,De Chile Chico a Pto. Ibáñez,VL,42,42,3.5,1.0,12.0
+Verano,De Pto. Ibáñez a Chile Chico,CAM,2,2,2.0,2.0,2.0
+Verano,De Pto. Ibáñez a Chile Chico,VL,35,35,3.342857142857143,2.0,5.0

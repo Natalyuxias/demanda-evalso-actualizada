@@ -1,0 +1,346 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cierre CITRA: demanda observada del corredor</title><style>body{font:16px/1.6 system-ui,sans-serif;color:#203d43;max-width:1250px;margin:auto;padding:28px}h1{line-height:1.2}h2{margin-top:38px;border-bottom:2px solid #bed6d5}a{color:#096c8c}.box{padding:20px;background:#e8f2f0;border-left:6px solid #287c7b}.warn{background:#fff1d7;padding:18px}.scroll{overflow:auto}table{border-collapse:collapse;font-size:13px;width:100%;margin:20px 0}td,th{padding:9px;border:1px solid #cbd9d8;text-align:left;vertical-align:top;min-width:85px}th{background:#215d65;color:white}.cards{display:flex;gap:15px;flex-wrap:wrap}.card{padding:16px;background:#eff5f5;min-width:130px}.card strong{display:block;font-size:28px}pre{white-space:pre-wrap;background:#eef4f3;padding:15px}li{margin:9px 0}small{color:#536d71}@media print{body{font-size:11px}.scroll{overflow:visible}table{font-size:8px}}</style><body><h1>Demanda observada del corredor terrestre: cierre de viabilidad de CITRA</h1><p>Bahía Jara–Levicán · Etapa 1 · 29 de octubre de 2026 · Informe local reservado</p><div class="box"><strong>Conclusión B: CITRA es utilizable parcialmente.</strong> Permite una referencia empírica del corredor terrestre para ciertos OD, clases y jornadas medidas. No permite una matriz terrestre total del proyecto ni justificar por sí sola todas las celdas. Recomendación: continuar con CITRA como bloque terrestre parcial y ARISTO lacustre como bloque independiente; hacer explícitos los faltantes. La evaluación de viabilidad de CITRA queda cerrada con esta conclusión, sin otra ronda manual.</div><div class="cards"><div class="card"><strong>112</strong>entrevistas auditadas</div><div class="card"><strong>109</strong>A: alta confianza inferida</div><div class="card"><strong>0</strong>B: corredor incierto</div><div class="card"><strong>3</strong>C: excluidas</div><div class="card"><strong>93</strong>A/B con factor válido</div><div class="card"><strong>64</strong>usadas en pantallas elegidas</div></div><p>Son cantidades de entrevistas, no flujos de vehículos. Los flujos están en las matrices por pantalla y ventana.</p><ul><li><a href="01_matrices_corredor.xlsx">Matrices por localidades, zonas ARISTO y fecha/pantalla</a>.</li><li><a href="02_auditoria_112.xlsx">Auditoría individual A/B/C y decisiones de utilización</a>.</li><li><a href="03_factores_expansion.xlsx">Factores, fuentes y cobertura temporal</a>.</li><li><a href="04_pantallas_contrastes.xlsx">Pantallas, solapamientos y contrastes</a>.</li><li><a href="resumen_validacion.json">Resumen y validaciones</a> · <a href="manifest_integridad.json">Manifiesto de fuentes y resultados</a>.</li></ul><h2>1. Qué se estima y qué evidencia se conserva</h2><p>La magnitud principal es la fracción OD de vehículos interceptados en un corredor terrestre pertinente, expandida con aforos compatibles. El aforo y la interceptación son observados; la atribución de alta confianza a la ruta chilena es inferida. No se certifica el país de todo el itinerario ni se estima captación de Bahía Jara–Levicán.</p><p>Se usa exclusivamente la homologación cerrada de la entrega anterior: las 29 decisiones aprobadas, las localidades y coordenadas originales y los 8 extremos pendientes se mantienen. Puerto Río Tranquilo conserva su advertencia de proximidad al límite; no se desplaza su coordenada ni se asigna una localidad a una cabecera por conveniencia.</p>
+<h3>Clasificación reproducible</h3><ul><li><strong>A, alta confianza inferida:</strong> OD homologado pertinente, control y sentido compatibles con la trayectoria chilena, corredor R7–R265 acreditado, sin explicación lacustre compatible ni evidencia internacional contradictoria. Se contrasta además la alternativa mixta argentina y sus cruces.</li><li><strong>B, terrestre incierto:</strong> corredor pertinente pero alternativa lacustre compatible, evidencia internacional o comparación de alternativas insuficiente/no favorable a la inferencia chilena. La categoría se implementó y verificó con pruebas; no aparecen casos B en esta cohorte cerrada. Esto no implica incertidumbre nula.</li><li><strong>C, excluido del mercado principal:</strong> OD no determinado o control/sentido/trayectoria incompatibles. Quedan 3 entrevistas en la auditoría: dos con geografía incompleta y una con posición incompatible con el paso por el control de referencia. No se eliminan ni imputan.</li></ul><p>En los 109 A, los testigos argentinos ya documentados agregan <strong>200.83–543.46 km</strong> y dos cruces fronterizos. Las razones de distancia son 1.54–4.31. Estas cifras describen los casos: no se eligió un umbral de desvío ni se supone que todos minimizan distancia. La comparación apoya una inferencia cualitativa junto con las otras evidencias; no demuestra dominio en tiempo o costo.</p><p><strong>No verificado:</strong> tiempos por itinerario, velocidades, esperas, trámites y habilitación fronteriza por fecha/clase, paradas intermedias y ruta individual efectivamente elegida. No se inventaron tiempos ni se supuso cierre de pasos. Por eso A no es una probabilidad calibrada ni una ruta declarada. La mera existencia matemática de Argentina dejó de ser un veto automático.</p>
+<h2>2. Expansión y período representado</h2><p><code>Q_OD,s = F_s × n_OD,s / N_s</code>. F es el aforo EOD de la misma campaña, fecha, control, sentido y clase en 08–20; N son todas las entrevistas originales compatibles de ese estrato, antes de filtrar el proyecto; n es el subconjunto OD/A/B. Cambiar la clasificación modifica n, nunca N.</p><p>La auditoría existente se reutilizó y cotejó con sus Excel firmados por SHA-256. Hay 186 estratos válidos de 265 en el conjunto original. En la cohorte de 112 intervienen <strong>15 válidos de 17</strong>. Dos estratos siguen bloqueados: 03-02, E0701 NS VL, por filas EOD idénticas no resueltas; 12-05, E0702 SN VL, por grilla/intervalos repetidos. No se deduplicaron entrevistas ni se corrigieron fechas sin evidencia.</p><p>Se conservan validaciones de 48 intervalos de 15 minutos, clases vehiculares, componentes, fechas y horas, aforo compatible y N no superior a F. No se sustituyen aforos EOD por conteos urbanos. El balance N×factor=F comprueba aritmética, no certifica selección aleatoria ni ausencia de sesgo por no respuesta. La codificación otoñal VL/CAM mantiene el criterio de ejes/carga de la revisión anterior; el manual original de codificación sigue pendiente de certificación.</p><p>Las matrices resumen la <strong>media de las jornadas válidas de una sola pantalla y sentido</strong>, incluyendo jornadas válidas con cero muestral; las tablas por fecha presentan Q directamente para cada día. No se promedian solo días con encuestas positivas. Si un OD detallado no tiene muestra expandible en el cordón elegido, su flujo queda faltante. Un cero diario o de categoría indica cero muestral del estimador; no ausencia poblacional. No se extrapola a 24 horas, campaña completa o año. No se mezclan vehículos, ocupantes, pasajeros o peatones.</p>
+<h2>3. Pantallas y contraste entre controles</h2><p>Se conserva la selección reproducible de 13 pantallas entre 23 candidatas porque no cambiaron la población elegible de 109 entrevistas, los factores ni las geometrías. La selección es una por OD zonal ordenado, campaña, sentido de control y segmento; las localidades se agregan dentro de ese mismo cordón. El orden prioriza factor compatible, cobertura de los subOD conocidos, condición de corte y exposición válida, con desempate fijo. No se busca el mayor flujo ni se agrega una pantalla diferente por cada subOD para completar artificialmente la celda zonal.</p><p>Se identificaron 12 pares con superposición potencial, todos en serie para algún trayecto; ninguna rama paralela independiente quedó demostrada. No se suman. Cinco pares comparten fecha, pero solo dos tienen además cobertura geométrica completa comparable. Los demás contrastes describen fechas o poblaciones distintas.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id_OD_zonal</th>
+      <th>fecha</th>
+      <th>control_1</th>
+      <th>control_2</th>
+      <th>entrevistas_1</th>
+      <th>entrevistas_2</th>
+      <th>F_1</th>
+      <th>F_2</th>
+      <th>N_1</th>
+      <th>N_2</th>
+      <th>Q_1</th>
+      <th>Q_2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>39|40|Verano|VL</td>
+      <td>2026-02-04</td>
+      <td>E0702</td>
+      <td>E1003</td>
+      <td>3.0000</td>
+      <td>18.0000</td>
+      <td>138.0000</td>
+      <td>78.0000</td>
+      <td>111.0000</td>
+      <td>56.0000</td>
+      <td>3.7297</td>
+      <td>25.0714</td>
+    </tr>
+    <tr>
+      <td>40|39|Verano|VL</td>
+      <td>2026-02-04</td>
+      <td>E0702</td>
+      <td>E1003</td>
+      <td>10.0000</td>
+      <td>19.0000</td>
+      <td>482.0000</td>
+      <td>109.0000</td>
+      <td>146.0000</td>
+      <td>82.0000</td>
+      <td>33.0137</td>
+      <td>25.2561</td>
+    </tr>
+  </tbody>
+</table></div><div class="warn"><strong>Discrepancia que limita el uso de una celda:</strong> Chile Chico→Río Ibáñez, Verano VL, 04-02: E0702 estima 3,73 y E1003 25,07 vehículos/12h, una razón de 6,72. La diferencia persiste en Chile Chico→Puerto Río Tranquilo: 3,73 frente a 23,68. El sentido inverso da 33,01 frente a 25,26. La cobertura geométrica no acredita idénticas poblaciones muestrales ni enlaza entrevistas entre controles. Con los datos disponibles no se determina cuál estima mejor. La selección fija produce una referencia condicionada, acompañada por ambos contrastes; no se promedian ni suman para resolver la diferencia. No debe utilizarse esa celda como valor puntual único incuestionado.</div>
+<h2>4. Matriz de referencia del corredor</h2><p>Las 13 celdas siguientes corresponden a 6 pares zonales ordenados por campaña/clase. No representan 13 OD geográficos distintos. Los valores se mantienen iguales a la estimación de corredor antes auxiliar; cambia su alcance como resultado principal autorizado y se añade la clasificación A/B/C. <strong>No se calcula un total del proyecto sumándolos</strong>: sus fechas, clases, pantallas y componentes no observados requieren mantener la exposición por celda.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>comuna_origen</th>
+      <th>comuna_destino</th>
+      <th>zona_origen</th>
+      <th>zona_destino</th>
+      <th>campana</th>
+      <th>segmento</th>
+      <th>control</th>
+      <th>sentido_control</th>
+      <th>fechas_representadas</th>
+      <th>entrevistas_con_factor</th>
+      <th>flujo_A_12h</th>
+      <th>flujo_B_12h</th>
+      <th>flujo_corredor_12h</th>
+      <th>OD_detallados_sin_flujo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Coihaique</td>
+      <td>Chile Chico</td>
+      <td>31</td>
+      <td>39</td>
+      <td>Otoño</td>
+      <td>CAM</td>
+      <td>E1003</td>
+      <td>PO</td>
+      <td>2026-05-12|2026-05-14</td>
+      <td>1</td>
+      <td>1.4167</td>
+      <td>0.0000</td>
+      <td>1.4167</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Coihaique</td>
+      <td>Chile Chico</td>
+      <td>31</td>
+      <td>39</td>
+      <td>Otoño</td>
+      <td>VL</td>
+      <td>E0701</td>
+      <td>NS</td>
+      <td>2026-05-14|2026-05-19</td>
+      <td>1</td>
+      <td>6.2222</td>
+      <td>0.0000</td>
+      <td>6.2222</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Coihaique</td>
+      <td>Chile Chico</td>
+      <td>31</td>
+      <td>39</td>
+      <td>Verano</td>
+      <td>CAM</td>
+      <td>E1003</td>
+      <td>SN</td>
+      <td>2026-02-04</td>
+      <td>1</td>
+      <td>1.3333</td>
+      <td>0.0000</td>
+      <td>1.3333</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Coihaique</td>
+      <td>Chile Chico</td>
+      <td>31</td>
+      <td>39</td>
+      <td>Verano</td>
+      <td>VL</td>
+      <td>E0702</td>
+      <td>NS</td>
+      <td>2026-02-04</td>
+      <td>12</td>
+      <td>39.6164</td>
+      <td>0.0000</td>
+      <td>39.6164</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Aisén</td>
+      <td>Chile Chico</td>
+      <td>33</td>
+      <td>39</td>
+      <td>Verano</td>
+      <td>VL</td>
+      <td>E0702</td>
+      <td>NS</td>
+      <td>2026-02-04</td>
+      <td>2</td>
+      <td>6.6027</td>
+      <td>0.0000</td>
+      <td>6.6027</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Chile Chico</td>
+      <td>Coihaique</td>
+      <td>39</td>
+      <td>31</td>
+      <td>Otoño</td>
+      <td>CAM</td>
+      <td>E1003</td>
+      <td>OP</td>
+      <td>2026-05-12|2026-05-14</td>
+      <td>1</td>
+      <td>1.0714</td>
+      <td>0.0000</td>
+      <td>1.0714</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Chile Chico</td>
+      <td>Coihaique</td>
+      <td>39</td>
+      <td>31</td>
+      <td>Otoño</td>
+      <td>VL</td>
+      <td>E0701</td>
+      <td>SN</td>
+      <td>2026-05-14|2026-05-19</td>
+      <td>4</td>
+      <td>11.3333</td>
+      <td>0.0000</td>
+      <td>11.3333</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Chile Chico</td>
+      <td>Coihaique</td>
+      <td>39</td>
+      <td>31</td>
+      <td>Verano</td>
+      <td>VL</td>
+      <td>E0701</td>
+      <td>SN</td>
+      <td>2026-02-03</td>
+      <td>1</td>
+      <td>4.0125</td>
+      <td>0.0000</td>
+      <td>4.0125</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Chile Chico</td>
+      <td>Cisnes</td>
+      <td>39</td>
+      <td>34</td>
+      <td>Verano</td>
+      <td>VL</td>
+      <td>E0701</td>
+      <td>SN</td>
+      <td>2026-02-03</td>
+      <td>1</td>
+      <td>4.0125</td>
+      <td>0.0000</td>
+      <td>4.0125</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Chile Chico</td>
+      <td>Río Ibáñez</td>
+      <td>39</td>
+      <td>40</td>
+      <td>Otoño</td>
+      <td>VL</td>
+      <td>E0702</td>
+      <td>SN</td>
+      <td>2026-05-13</td>
+      <td>1</td>
+      <td>8.6875</td>
+      <td>0.0000</td>
+      <td>8.6875</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Chile Chico</td>
+      <td>Río Ibáñez</td>
+      <td>39</td>
+      <td>40</td>
+      <td>Verano</td>
+      <td>VL</td>
+      <td>E1003</td>
+      <td>NS</td>
+      <td>2026-02-04</td>
+      <td>18</td>
+      <td>25.0714</td>
+      <td>0.0000</td>
+      <td>25.0714</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Río Ibáñez</td>
+      <td>Chile Chico</td>
+      <td>40</td>
+      <td>39</td>
+      <td>Otoño</td>
+      <td>VL</td>
+      <td>E1003</td>
+      <td>PO</td>
+      <td>2026-05-12|2026-05-14</td>
+      <td>2</td>
+      <td>4.5051</td>
+      <td>0.0000</td>
+      <td>4.5051</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Río Ibáñez</td>
+      <td>Chile Chico</td>
+      <td>40</td>
+      <td>39</td>
+      <td>Verano</td>
+      <td>VL</td>
+      <td>E1003</td>
+      <td>SN</td>
+      <td>2026-02-04</td>
+      <td>19</td>
+      <td>25.2561</td>
+      <td>0.0000</td>
+      <td>25.2561</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div><h3>Cobertura de entrevistas por campaña y clase</h3><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campana</th>
+      <th>segmento</th>
+      <th>entrevistas</th>
+      <th>alta_confianza_A</th>
+      <th>inciertas_B</th>
+      <th>excluidas_C</th>
+      <th>con_factor</th>
+      <th>utilizadas_flujo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Otoño</td>
+      <td>CAM</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Otoño</td>
+      <td>VL</td>
+      <td>19</td>
+      <td>16</td>
+      <td>0</td>
+      <td>3</td>
+      <td>14</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>CAM</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Verano</td>
+      <td>VL</td>
+      <td>89</td>
+      <td>89</td>
+      <td>0</td>
+      <td>0</td>
+      <td>78</td>
+      <td>53</td>
+    </tr>
+  </tbody>
+</table></div><p>Hay 25 celdas detalladas por localidad/campaña/clase: 19 tienen flujo y 6 permanecen faltantes en la pantalla elegida. Se conservan 17 pares detallados y las diferencias de localidad dentro de una comuna. Las coordenadas y localidades originales permanecen en la auditoría individual y en la capa geográfica cerrada anterior.</p>
+<h2>5. Cobertura faltante y decisión final</h2><p>El universo original contiene 8.828 entrevistas. El alcance anterior incluyó 295; esta cohorte revisa 112, un 37,97% de esas entrevistas, <strong>no un porcentaje del flujo</strong>. Las otras 183 (78 probables y 105 desconocidas en la clasificación anterior) no se vuelven ceros ni viajes irrelevantes. No se reabrió su clasificación. La estimación actual es la fracción identificada dentro de la cohorte, no un censo de todos los viajes pertinentes.</p><ul><li>Solo ventanas 08–20 y jornadas compatibles de verano/otoño; falta noche, invierno y representación anual.</li><li>No existe protocolo completo de selección/no respuesta para certificar representatividad del reparto OD dentro del estrato.</li><li>Las celdas con muestra pequeña y los controles discrepantes requieren conservar sensibilidad; no se añade un intervalo estadístico ficticio.</li><li>No se observan todos los OD del mercado beneficiable ni los accesos precisos de cada viaje. No se incorpora toda una comuna o carretera por pertenencia geográfica.</li><li>La ruta individual sigue inferida y los pasos no se verificaron operativamente por fecha. Las localidades distantes se conservan cuando el recorrido resulta pertinente.</li><li>Las fuentes lacustres, pasajeros y vehículos de ARISTO permanecen separadas; no se estimaron ni sumaron aquí.</li></ul>
+<p><strong>Decisión B — utilizable parcialmente.</strong> Hay evidencia empírica real: aforos EOD medidos, OD pertinentes, factores compatibles y pantallas seleccionadas sin suma de cordones. Hay límites materiales que impiden A (utilizable como referencia suficientemente amplia del terrestre total): cobertura parcial de muestra y días, estratos bloqueados y falta de coherencia en un contraste importante. Esto no justifica C, porque existen estimaciones parciales respaldadas y la ausencia de ruta absoluta no invalida la interceptación observada.</p>
+<p><strong>Recomendación concreta:</strong> conservar CITRA como referencia terrestre parcial con esta matriz, las alternativas de pantalla y los faltantes explícitos; continuar con ARISTO para el bloque lacustre independiente. No usar ARISTO para rellenar automáticamente los faltantes terrestres ni sumar ambos bloques hasta verificar compatibilidad temporal, espacial y de unidad. La discrepancia Chile Chico→Río Ibáñez debe mantenerse como sensibilidad de referencia, no como una estimación puntual resuelta. No se necesita otra ronda manual para concluir esta viabilidad.</p>
+<p>La alternativa de usar únicamente ARISTO no se implementó. La referencia terrestre histórica ya existente se apoya en ODC-3 Cerro Castillo y una ventana de 10h, por lo que tampoco completaría automáticamente el terrestre total. Esta observación es contexto de un cálculo anterior, no una nueva auditoría ni demanda recalculada. Dado que el resultado es B, se recomienda retener la evidencia parcial de CITRA.</p>
+<h2>6. Trazabilidad, fuentes y reproducción</h2><ul><li>CITRA: EOD Aysen Febrero 2026 vf.xlsx y EOD Aysen Abril 2026.xlsx, hojas EOD y Flujos. Claves de fuente por entrevista: archivo/fila_excel; por estrato: fuente_aforo, filas_aforo_fuente y filas_entrevistas_fuente.</li><li>Mediciones Aysen (23-02-26).kmz y red/nodos/puntos de pasada de Cap 7/SIG Red_Vial_Final: controles y trayectorias de la auditoría previa. No se volvió a reconstruir la red.</li><li>Homologación aprobada y SIG/COMUNAS/Zonificación: entrega_02/01_homologacion_cerrada.xlsx. No se intercambian CUT, zonas ARISTO y códigos BBDD-2.</li><li>Cache de entrega_02: auditoria_112.csv, estratos_y_factores.csv, seleccion_pantallas.csv, relaciones_entre_controles.csv y estimaciones_por_dia_y_pantalla.csv, cotejados con sus Excel y hashes.</li><li>Revisión paralela: aforos/resumen_aforos.json; rutas/entrega_final/resumen_rutas.json; pantallas/resumen_pantallas.json; cobertura/resumen_cobertura.json. Los scripts de cada tarea producen sus propios archivos.</li></ul><p>El manifiesto de integridad registra rutas y hashes de entradas, scripts y resultados. Se cotejaron los 112 registros completos y se conservaron coordenadas, decisiones y geografía previa. No se ejecutaron logit, imputaciones Etapa 13, captación, demanda inducida, estacionalidad ni proyecciones.</p>
+<pre>python etapa1_terrestre_citra/cierre_final/integracion/estimar_corredor.py \
+  --cache etapa1_terrestre_citra/resultados/entrega_02 \
+  --revision etapa1_terrestre_citra/cierre_final \
+  --salida etapa1_terrestre_citra/resultados/NUEVA_ENTREGA_FINAL</pre>
+<p>La reproducción desde originales conserva el generador previo de entrega_02, sus insumos y comandos, y después ejecuta los scripts de clasificación/contraste/validación actuales. Si las entradas no cambiaron, se reutiliza la caché verificada. Toda entrega nueva requiere carpeta nueva; no se sobrescriben las anteriores. Los cuatro roles se ejecutaron con tres subagentes activos como máximo: aforos, rutas y pantallas en paralelo; cobertura reutilizó el cupo de aforos al terminar.</p><p><small>Integración: 6.55 segundos; 0 búsquedas de rutas nuevas. Las validaciones metodológicas se conservaron. Los Excel, CSV y este informe contienen celdas pequeñas y evidencia individual: permanecen locales, fuera de GitHub.</small></p></body></html>

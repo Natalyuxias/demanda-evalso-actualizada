@@ -1,0 +1,55 @@
+﻿CUT_REG,CUT_PROV,CUT_COM,REGION,PROVINCIA,COMUNA,Zona
+100,10001,200001,Argentina,Provincia de Santa Cruz,Provincia de Santa Cruz,51
+100,10002,200002,Argentina,Provincia del Chubut,Provincia del Chubut,52
+100,10003,200003,Argentina,Provincia de Río Negro,Provincia de Río Negro,53
+100,10004,200004,Argentina,Provincia Tierra del Fuego,Provincia Tierra del Fuego,54
+11,113,11302,Aysén del General Carlos Ibáñez del Campo,Capitán Prat,O'Higgins,37
+12,121,12102,Magallanes y de la Antártica Chilena,Magallanes,Laguna Blanca,42
+11,113,11303,Aysén del General Carlos Ibáñez del Campo,Capitán Prat,Tortel,38
+10,101,10105,Los Lagos,Llanquihue,Frutillar,5
+12,121,12101,Magallanes y de la Antártica Chilena,Magallanes,Punta Arenas,41
+10,103,10304,Los Lagos,Osorno,Puyehue,23
+10,101,10103,Los Lagos,Llanquihue,Cochamó,3
+10,101,10108,Los Lagos,Llanquihue,Maullín,8
+10,101,10106,Los Lagos,Llanquihue,Los Muermos,6
+10,101,10107,Los Lagos,Llanquihue,Llanquihue,7
+10,102,10205,Los Lagos,Chiloé,Dalcahue,14
+12,124,12402,Magallanes y de la Antártica Chilena,Última Esperanza,Torres del Paine,50
+12,123,12302,Magallanes y de la Antártica Chilena,Tierra del Fuego,Primavera,47
+10,102,10203,Los Lagos,Chiloé,Chonchi,12
+10,104,10401,Los Lagos,Palena,Chaitén,27
+10,101,10109,Los Lagos,Llanquihue,Puerto Varas,9
+11,114,11401,Aysén del General Carlos Ibáñez del Campo,General Carrera,Chile Chico,39
+11,111,11102,Aysén del General Carlos Ibáñez del Campo,Coihaique,Lago Verde,32
+11,112,11203,Aysén del General Carlos Ibáñez del Campo,Aisén,Guaitecas,35
+11,111,11101,Aysén del General Carlos Ibáñez del Campo,Coihaique,Coihaique,31
+12,123,12301,Magallanes y de la Antártica Chilena,Tierra del Fuego,Porvenir,46
+10,102,10207,Los Lagos,Chiloé,Queilén,16
+10,101,10102,Los Lagos,Llanquihue,Calbuco,2
+10,101,10101,Los Lagos,Llanquihue,Puerto Montt,1
+10,103,10305,Los Lagos,Osorno,Río Negro,24
+11,112,11201,Aysén del General Carlos Ibáñez del Campo,Aisén,Aisén,33
+10,101,10104,Los Lagos,Llanquihue,Fresia,4
+12,124,12401,Magallanes y de la Antártica Chilena,Última Esperanza,Natales,49
+10,104,10403,Los Lagos,Palena,Hualaihué,29
+10,102,10209,Los Lagos,Chiloé,Quemchi,18
+11,114,11402,Aysén del General Carlos Ibáñez del Campo,General Carrera,Río Ibáñez,40
+11,112,11202,Aysén del General Carlos Ibáñez del Campo,Aisén,Cisnes,34
+10,104,10402,Los Lagos,Palena,Futaleufú,28
+10,102,10206,Los Lagos,Chiloé,Puqueldón,15
+12,121,12104,Magallanes y de la Antártica Chilena,Magallanes,San Gregorio,44
+10,103,10302,Los Lagos,Osorno,Puerto Octay,21
+10,103,10306,Los Lagos,Osorno,San Juan de la Costa,25
+10,103,10301,Los Lagos,Osorno,Osorno,20
+10,103,10303,Los Lagos,Osorno,Purranque,22
+11,113,11301,Aysén del General Carlos Ibáñez del Campo,Capitán Prat,Cochrane,36
+10,102,10208,Los Lagos,Chiloé,Quellón,17
+12,123,12303,Magallanes y de la Antártica Chilena,Tierra del Fuego,Timaukel,48
+10,102,10210,Los Lagos,Chiloé,Quinchao,19
+12,121,12103,Magallanes y de la Antártica Chilena,Magallanes,Río Verde,43
+10,102,10201,Los Lagos,Chiloé,Castro,10
+12,122,12201,Magallanes y de la Antártica Chilena,Antártica Chilena,Cabo de Hornos,45
+10,102,10204,Los Lagos,Chiloé,Curaco de Vélez,13
+10,104,10404,Los Lagos,Palena,Palena,30
+10,103,10307,Los Lagos,Osorno,San Pablo,26
+10,102,10202,Los Lagos,Chiloé,Ancud,11

@@ -1,0 +1,17 @@
+ENTREGA VIGENTE: resultados/entrega_final/informe_etapa2.html
+
+Los cuatro Excel contienen demanda lacustre anual A/B, CITRA anual parcial de ventana12h, base unificada sin sumar fuentes y supuestos/balances/extranjeros. Todos los anuales son escenarios del año2026normalizado; no tráfico anual efectivamente observado.
+
+Cálculo/CSV/Excel medidos:10,94s, HTML/manifiesto fuera del cronómetro. Revisión de rendimiento en integracion/revision_rendimiento.txt. No se repitió auditoría original, red o logit.
+
+Reproducir desde cachés ya validadas (desde Anexos):
+python etapa2_demanda_anual_20261029/integracion/consolidar_etapa2.py --anexos . --etapa2 etapa2_demanda_anual_20261029 --salida /tmp/ETAPA2_NUEVA_ENTREGA
+
+Regenerar tareas separadas en carpetas NUEVAS antes de integrar:
+A: aristo_OD/construir_versiones_OD.py --cache etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv --salida NUEVA/aristo_OD/resultados
+B: lacustre_temporal/anualizacion_lacustre.py --balance etapa1_lacustre_aristo_20261029/resultados/entrega_final/csv/balance_por_fecha.csv --central operacional_programado --salida NUEVA/lacustre_temporal/final
+C: terrestre_temporal/final/anualizar_citra.py --fuente-citra etapa1_terrestre_citra/resultados/cierre_final_04 --pnc "Cap 3/Flujos vehiculares/Flujos_Vehiculares_PNC_2024-2022-2020-2018-2016-2014.xlsx" --salida NUEVA/terrestre_temporal/final
+D: compatibilidad/preparar_compatibilidad.py (ver --help para rutas de ambas referencias).
+A/B/C/D escriben en carpetas distintas. Para NUEVA, conservar el archivo integridad_referencias_antes.json y el esquema de carpetas; el integrador exige los nombres de caché anteriores. Todos los comandos se ejecutan con python y rutas completas a los scripts distribuidos.
+
+No se publican datos. La subida a GitHub quedó cancelada. Originales y entregas Etapa1 intactos. No completar CITRA con ARISTO. Privados compatibles es una vista alternativa, no sumable con VL/motos/bicis/VP.

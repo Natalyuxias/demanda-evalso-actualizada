@@ -1,0 +1,9 @@
+{
+  "estado": "correcto",
+  "comprobaciones_internas": 15,
+  "archivos_anteriores_y_fuentes_intactos": 45,
+  "enlaces_locales_validos": true,
+  "37_extremos_y_36_registros_conservados": true,
+  "coherencia_ganancia_OD_y_pendientes": true,
+  "solo_propuesta_sin_aplicar": true
+}

@@ -1,0 +1,18 @@
+Entrega definitiva de microdatos: microdatos/final/.
+El subdirectorio datos/ conserva la primera lectura, cuya comprobación de campaña detectó Normal/Otoño. No usarla para integración; usar final/.
+
+El script preparar_microdatos.py lee BBDD-1 y BBDD-2 (solo válidas) y enlaza una a una por ID 2. Interceptación en Ruta Pto. Ibáñez–Chile Chico: 290 originales y 264 contenidos en la hoja válida. No se suman hojas ni se filtra por núcleo geográfico. Se conserva toda la extensión OD, incluidos internacionales.
+
+microdatos_ferry_264.csv conserva todas las columnas originales mediante prefijos b1__/b2__, filas de las dos hojas, coordenadas, búsquedas y direcciones. Homologación a zonas55 es capa adicional. ID origen/destino BBDD2 no es zona de modelación. No se asignan localidades a partir de comunas. No se alteran coordenadas geocodificadas.
+
+Homologación exacta por nombre catálogo Zonas de Cap8. Provincias argentinas SantaCruz yChubut se enlazan con Provincia de/del del catálogo. Regiones declaradas Metropolitana yBiobío se agregan a RestoChile55 sin inventar comuna/localidad. Seis registros tienen un extremo Internacional sin zona defendible (5orígenes,1destino); mantenerlos como OD observado de geografía parcial, no repartir a zonas por hipótesis.
+
+BBDD1 llama Normal a85 entrevistas que BBDD2 llama Otoño. Todas son de2026-05-10. Se usa campana BBDD2 Otoño y se conservan ambas etiquetas originales. No se cambia la fecha ni se anualiza.
+
+Importante sobre banderas: los26 originales no contenidos en BBDD2 tienen Validada=1. Los264 seleccionados tienen Validada=0. El nombre del campo no debe interpretarse sin su convención. Una entrevista seleccionada (ID30946,peatón Otoño) tiene Duplicada=1 en BBDD1 pero está incluida una sola vez por ID2 en BBDD2; se conserva con alerta, sin inventar cuál registro eliminar. Los23restantes excluidos tienen Revisada=1 y3tienen Duplicada=1. La pertenencia a BBDD2 define esta selección aprobada.
+
+No son flujos expandidos: los264 son entrevistas, los290 originales no son una muestra adicional. Ocupantes/grupos/nacionalidad/patente son campos independientes pendientes de tratamiento de unidades por agente especializado. No sumar ocupantes, peatones y vehículos.
+
+Reproducción desde Anexos:
+python etapa1_lacustre_aristo_20261029/microdatos/preparar_microdatos.py --anexos . --salida CARPETA_NUEVA
+La salida se detiene si existe microdatos_ferry_264.csv. Los hashes originales figuran en validacion_microdatos.json; las9 comprobaciones de final/ son verdaderas. No se ejecuta ningún modelo, red o expansión.

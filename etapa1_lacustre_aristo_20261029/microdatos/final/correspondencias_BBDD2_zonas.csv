@@ -1,0 +1,25 @@
+﻿extremo,codigo_BBDD2,nombre_BBDD2,pais_BBDD2,nivel_BBDD2,zona_modelacion_ARISTO,metodo
+origen,7,Chile Chico,Chile,Comuna,39.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+origen,12,Coyhaique,Chile,Comuna,31.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+origen,42,Río Ibáñez,Chile,Comuna,40.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+origen,33,Puerto Varas,Chile,Comuna,9.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+origen,11,Cochrane,Chile,Comuna,36.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+origen,2,Aysén,Chile,Comuna,33.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+origen,60,Metropolitana,Chile,Región,55.0,"Región chilena declarada fuera de regiones de cobertura 10/11/12; catálogo original Resto de Chile (macrozona, no localidad)"
+origen,69,Santa Cruz,Argentina,Provincia,51.0,Provincia argentina declarada BBDD2 coincide con catálogo Zonas omitiendo prefijo Provincia de/del
+origen,55,Biobío,Chile,Región,55.0,"Región chilena declarada fuera de regiones de cobertura 10/11/12; catálogo original Resto de Chile (macrozona, no localidad)"
+origen,31,Puerto Montt,Chile,Comuna,1.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+origen,10,Cochamó,Chile,Comuna,3.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+origen,71,Internacional,Argentina,Provincia,,Pendiente: nombre BBDD2 sin equivalencia unívoca documentada
+origen,71,Internacional,Internacional,-,,Pendiente: nombre BBDD2 sin equivalencia unívoca documentada
+destino,12,Coyhaique,Chile,Comuna,31.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+destino,31,Puerto Montt,Chile,Comuna,1.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+destino,9,Cisnes,Chile,Comuna,34.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+destino,42,Río Ibáñez,Chile,Comuna,40.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+destino,2,Aysén,Chile,Comuna,33.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+destino,7,Chile Chico,Chile,Comuna,39.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+destino,50,Tortel,Chile,Comuna,38.0,Nombre exacto normalizado en catálogo original Zonas; no es ID BBDD2
+destino,65,Chubut,Argentina,Provincia,52.0,Provincia argentina declarada BBDD2 coincide con catálogo Zonas omitiendo prefijo Provincia de/del
+destino,69,Santa Cruz,Argentina,Provincia,51.0,Provincia argentina declarada BBDD2 coincide con catálogo Zonas omitiendo prefijo Provincia de/del
+destino,71,Internacional,Internacional,-,,Pendiente: nombre BBDD2 sin equivalencia unívoca documentada
+destino,60,Metropolitana,Chile,Región,55.0,"Región chilena declarada fuera de regiones de cobertura 10/11/12; catálogo original Resto de Chile (macrozona, no localidad)"

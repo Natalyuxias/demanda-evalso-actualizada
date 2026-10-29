@@ -1,0 +1,71 @@
+{
+  "esquema_canonico": [
+    "fuente",
+    "version_OD",
+    "alternativa_observada",
+    "nivel_geografico",
+    "origen_original",
+    "destino_original",
+    "origen",
+    "destino",
+    "zona_origen",
+    "zona_destino",
+    "segmento",
+    "unidad_fisica",
+    "anio",
+    "mes",
+    "escenario",
+    "flujo",
+    "unidad_temporal",
+    "ventana_observada",
+    "campana_fuente",
+    "fecha_fuente",
+    "control",
+    "sentido_control",
+    "alcance_espacial",
+    "estado_dato",
+    "imputacion_geografica",
+    "imputacion_temporal",
+    "factor_crecimiento"
+  ],
+  "prohibicion_suma_actual": true,
+  "causa": "CITRAestimaanual deventana08a20 (24hnoidentificado);ARISTOestimaoperaciones debarcaza porfechas/frecuencias. Aunconvehiculos iguales, no son unidades temporales homogéneas para sumarterrestre+lacustre.",
+  "puede_consolidar_tabla_larga": true,
+  "puede_sumar_como_mercado_total": false,
+  "comparacion_permitida": "Contraste con etiquetas explicitas de ventana/exposicion, sin total modal/mercado conjunto",
+  "reglas": [
+    "No combinar escenarios distintos enunasuma.",
+    "No sumar versionesOD_A yOD_B:representanmismoaforo con tratamiento deperfil diferente.",
+    "Celdas sin OD o zona conservar como residuos; no distribuir desdeotra fuente.",
+    "CITRAestacorredor parcial,ARISTOcruceactual: mantenerfuente ymecanismodeobservacion; no es disponibilidadcomun de alternativas.",
+    "No transformar localidades de unacomuna en cabecera; codigosBBDD2noson55zonas.",
+    "Anuales zonales deperfiles propios ysumasdesubODcomunes tienen soportesdiferentes: no forzarbalanceconimputaciones.",
+    "No sumar aforo peatonal y vehiculoscomo personas; pasajeros totales desconocidos.",
+    "Perfiles extranjeros se mantienen como indicadores independientes; no restar automaticamente nacionalidad/patente/ODinternacional de demanda fisica.",
+    "Anualizacion describeaño normalizado, no crecimiento; factorcrecimiento1."
+  ],
+  "pruebas": {
+    "citra_clave_unica": true,
+    "citra_24h_faltante": true,
+    "citra_anual_solo365diasproxy": true,
+    "citra_parcial_no_convertido_aanual": true,
+    "segmentos_lacustres_observados": [
+      "BICI",
+      "BUS_TP",
+      "CAM",
+      "MOTO",
+      "OTRO_PASAJERO",
+      "PEATON",
+      "VL",
+      "VP"
+    ],
+    "segmentos_citra_observados": [
+      "CAM",
+      "VL"
+    ]
+  },
+  "fuentes": {
+    "etapa2_demanda_anual_20261029/terrestre_temporal/anuales_zonas.csv": "dae95d6769d587f3602e4fb754dbe2e7954d671fe2fda823b4c39c63364012fb",
+    "etapa2_demanda_anual_20261029/aristo_OD/resultados/matriz_fecha_OD_version_A.csv": "1de103edba8bddc7062a1701b7a9b28135cbf88b0b358746ee9d9ea2845d9ce1"
+  }
+}

@@ -1,0 +1,17 @@
+﻿version,segmento,unidad,F_observado,observado_asignado,imputado,residual,residual_externo,residual_sinperfil
+A,BICI,bicicletas,1.0,0.0,0.0,1.0,0.0,1.0
+A,BUS_TP,buses,0.0,0.0,0.0,0.0,0.0,0.0
+A,CAM,vehículos,29.0,22.0,0.0,7.0,0.0,7.0
+A,MOTO,motocicletas,9.0,6.0,0.0,3.0,0.0,3.0
+A,OTRO_PASAJERO,,,0.0,0.0,,0.0,0.0
+A,PEATON,personas_peatones,546.0,415.22222222222223,0.0,130.77777777777777,10.777777777777779,120.0
+A,VL,vehículos,126.0,120.30263157894737,0.0,5.697368421052632,5.697368421052632,0.0
+A,VP,unidades_privadas_heterogeneas,33.0,33.0,0.0,0.0,0.0,0.0
+B,BICI,bicicletas,1.0,0.0,0.0,1.0,0.0,1.0
+B,BUS_TP,buses,0.0,0.0,0.0,0.0,0.0,0.0
+B,CAM,vehículos,29.0,22.0,5.0,2.0,0.0,2.0
+B,MOTO,motocicletas,9.0,6.0,0.0,3.0,0.0,3.0
+B,OTRO_PASAJERO,,,0.0,0.0,,0.0,0.0
+B,PEATON,personas_peatones,546.0,415.22222222222223,0.0,130.77777777777777,10.777777777777779,120.0
+B,VL,vehículos,126.0,120.30263157894737,0.0,5.697368421052632,5.697368421052632,0.0
+B,VP,unidades_privadas_heterogeneas,33.0,33.0,0.0,0.0,0.0,0.0

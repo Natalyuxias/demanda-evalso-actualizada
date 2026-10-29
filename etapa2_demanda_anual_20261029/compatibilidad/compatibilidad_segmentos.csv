@@ -1,0 +1,8 @@
+segmento_CITRA,segmento_ARISTO,compatibilidad_fisica,razon
+VL,VL,Condicionada,Vehiculos livianos; verificar mismos subtipos y exclusiones; ARISTOVPnoequivaleVL
+CAM,CAM,Condicionada,Camiones; conciliar ejes/furgones y no agregar toneladas a vehiculos
+,VP,No sumable a VL,Privados agrega categoriasfisicas heterogeneas; no es vehiculo liviano puro
+,PEATON,Sin bloque terrestre equivalente,Personas peatones; ausenciaCITRAnoesdemanda cero
+,MOTO,Sin bloque terrestre equivalente,Motocicletas; no imputar desdeVL
+,BICI,Sin bloque terrestre equivalente,Bicicletas; no imputar desdeVL
+,BUS_TP,Sin bloque terrestre equivalente,Buses no pasajeros; no sumarocupantes ni entrevistasdepaxbus como buses

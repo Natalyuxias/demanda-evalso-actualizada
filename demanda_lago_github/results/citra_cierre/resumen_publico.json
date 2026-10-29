@@ -1,0 +1,18 @@
+{
+  "estado": "Cierre de viabilidad de CITRA",
+  "viabilidad": "B — Utilizable parcialmente",
+  "resultado_principal": "Demanda observada del corredor, expandida proporcionalmente en jornadas medidas",
+  "clasificacion": "Alta confianza inferida / corredor incierto / excluido; no rutas individuales declaradas",
+  "exposicion": "Ventanas de 12 horas por clase, fecha, pantalla y sentido; sin anualizacion",
+  "expansion": "Q_OD = F * n_OD / N; N original compatible anterior a todo filtro",
+  "pantallas": "Una pantalla por OD ordenado, campana y segmento; alternativas no sumadas",
+  "limitaciones": [
+    "Cobertura parcial de OD y jornadas",
+    "Representatividad y no respuesta no certificadas",
+    "Hay discrepancias entre controles comparables",
+    "Tiempos, habilitacion fronteriza e itinerarios individuales no observados"
+  ],
+  "recomendacion": "Conservar CITRA terrestre parcial y ARISTO lacustre como bloques independientes; sin rellenar faltantes ni sumar automaticamente fuentes",
+  "datos_reservados": "Matrices, Excel, identificadores, coordenadas y flujos por celda permanecen locales",
+  "procedimiento": "Reutiliza cache verificada; no recalcula caminos ni utiliza logit"
+}

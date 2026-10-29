@@ -1,0 +1,17 @@
+{
+  "estado": "correcto",
+  "comprobaciones": {
+    "enlaces_locales_validos": true,
+    "fuentes_y_resultados_conservan_hash": true,
+    "matriz_CITRA_73_filas": true,
+    "rutas_total_73": true,
+    "entrevistas_seleccionadas_110": true,
+    "factores_seleccionados_101": true,
+    "sin_OD_nucleo_en_matrices_interregionales": true
+  },
+  "archivos_con_hash_verificado": 54,
+  "enlaces_revisados": 83,
+  "enlaces_rotos": [],
+  "fuentes_modificadas_desde_lectura": [],
+  "alcance": "Auditoría descriptiva, enlaces y conservación; no ejecución de modelos ni certificación estadística."
+}

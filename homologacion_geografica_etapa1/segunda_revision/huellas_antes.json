@@ -1,0 +1,182 @@
+[
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/entorno.json",
+    "sha256": "98dda9814ce9d250e98dfac77589775917f405d997b9bdf0a957562c6c9ef2c5"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/pruebas_reglas.txt",
+    "sha256": "a1dd970c1083802180c4324540b467447ffa28b6f229fd0c2faab2e0ed3dbc46"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/verificacion_reglas.json",
+    "sha256": "a185dc4ca99aa0eff55801e2133f09bb618a767a723f7180913394f6f5b57b21"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/configuracion.json",
+    "sha256": "0ded337ee9a953c74c2b06bea947a6ebd071a99c7549dd5c4001840578b3fd48"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/revision_prioritaria.csv",
+    "sha256": "35b488074e0050fdc246ec353e0b6ab05535d617fe8d7086a84582a3e661846d"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/homologacion_CITRA_ARISTO.xlsx",
+    "sha256": "ca543c34d70b3ee8463c87d102a3bbca01b321f35137c12402448d1ead5d65b7"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/LEER_PRIMERO.txt",
+    "sha256": "1b19ea0eb49dfa0b0bca052a065ace2734607fae507ae4b0a25a39dfbe26ea1a"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/validacion.json",
+    "sha256": "3f220ed2eca649f12aed22f7443cdb0d4e0dea608063a105d0990c2f52271e06"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/ejecucion.txt",
+    "sha256": "d80aa091ff98549916a4651eb1e3f7e61aabe008a57806e565c064ddd8001d6e"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/correspondencias_por_registro.csv",
+    "sha256": "b397411dd13ffa2d786734e8c86b8a9363e0078a2a44e586c7709ebf9b3ab77c"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/pendientes_relevantes.csv",
+    "sha256": "62004cf1f2da745f9030cc99748b2484bdd99fc1a58f43af5ea0bfdec5bb9feb"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/resumen_cobertura.csv",
+    "sha256": "f7b06ab40c0e613f3a5ecdaee07cef56b2198b06ad7328667a4c9193353dce7d"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/huellas_antes.json",
+    "sha256": "93b09e02fc807ebb6a84c7e83037623c889d55185ead989a6a70e8609baee28e"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/extremos_homologados.csv",
+    "sha256": "9d2268f0d3eafc880e2e2a71cf670813e43f128594cf5a1285bea5a67676db21"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/decisiones_previas.csv",
+    "sha256": "f8fe234731f229a747c46691b5b6a358641558fc09bd450aced34df566540552"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/estados.csv",
+    "sha256": "1d748cc9ff569e27ebfb3d1022ed6cc7f8e457b9f6587d185e08f41141122cc9"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/scripts/homologar_geografia.py",
+    "sha256": "431993249ecea1f1106905a84ff5bc5b256e6ef301c2e9880b99c58ec53a5c98"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/homologacion_geografica_etapa1/scripts/verificar_reglas.py",
+    "sha256": "5b158398f9bf7a794eb958b9c78ff95db5b3a55668528f32b972c8fe428256b5"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/eod aysen/EOD Aysen Febrero 2026 vf.xlsx",
+    "sha256": "21cd1d25cc4008d286cb8b5672124c464b98ae1c462c971b6c5e519fa5e6206e"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/eod aysen/EOD Aysen Abril 2026.xlsx",
+    "sha256": "f7815ba954be53f6d977c5838b2cff95d009fb88c0dce7aa8dde76fe8e2e677e"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.shp",
+    "sha256": "543d803dbcdf5564f566ea09244b075dba3bf5f52fd6dbdf491827d1a2e8ae63"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.dbf",
+    "sha256": "2a4458879c23c7bd0c760b02cec6bd858f8981e863e3fc94f832e7aad6884885"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.shx",
+    "sha256": "f626247ef124edfc752e76ccfa2b8df60542153cad084bb624b2c8a9774c39fe"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.prj",
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 7/SIG Red_Vial_Final/Zonificación.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.shp",
+    "sha256": "2ed8b9b05b102d7b0facb7390814631863d12c475b54518dc53274cbc40556db"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.dbf",
+    "sha256": "97226eae8ee97e8e8d24650ee56e68fcff37cb55e8cf12c91c5d138ef02cb420"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.shx",
+    "sha256": "7c93643f6bfca463e0c829ba33de37a534e1b97268dd3f257b202e4b18ca72f6"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.prj",
+    "sha256": "65b667c7ed65a5255bb2dbce78203eacac541840ac381fba0afc6d1b630b9e52"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/IDE/COMUNAS.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/Cap 8/BBDD_para_Pijas_actualizada_EOD_Final.xlsx",
+    "sha256": "5677427d1f909a6a48b1011be02cb40da9367ec87223d79b2b9a6ddb1d2d6685"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/diagnostico_etapa1_2026-10-28/propuesta_correspondencias_geograficas.csv",
+    "sha256": "2d8a2ea8bf86f6f3973a67566856b8b138289cec813bffc474e6c76502713303"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/matriz_od_proyecto/tablas/referencias_localidades.csv",
+    "sha256": "0746900c25fca803af8df5adb88940dd286161f6b3e5bf5d0d0c2c081e29515d"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/eod_filtrada/tablas/referencias_recuperadas.csv",
+    "sha256": "fb2f7d4bf4db512b90bcc0974afc33dc7c22c932be016df13f6b8620ebf8fc2f"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/eod_filtrada/tablas/base_completa_filtrada.csv",
+    "sha256": "be692902eb414040472c0911a513c650388410cacdfb1b09ed3fab43f4f6f329"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/analisis_eod/tablas/eod_recuperada_local.csv",
+    "sha256": "6c37a8c5e5a6f73a1f1850356fa62c3009d16856ed79be3f6ba7914f4edf4140"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/eod_filtrada/revision_manual_prioritaria.xlsx",
+    "sha256": "e30741fbb54594df48654146a2bbc0dfe9084e0429eb6341a32b48cdf5a4937c"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/matriz_od_proyecto/revision_area_influencia.xlsx",
+    "sha256": "56693ba5bd7ad515bc498064d712700cc721f5ccd0528e112d496f832b20b72c"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/demanda_evalso/analisis_eod/tablas/catalogo_puntos.csv",
+    "sha256": "9f87cdbf9edf4514d83fd8ef79324be1dde18c67d74aa69e61849db324c4f35e"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/MINSAL/Establecimientos_Salud.qmd",
+    "sha256": "71cdc6c02e8c981ae4908b16d74013bca0406c962ee44b79733ef35047293d29"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/MINSAL/Establecimientos_Salud.prj",
+    "sha256": "65b667c7ed65a5255bb2dbce78203eacac541840ac381fba0afc6d1b630b9e52"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/MINSAL/Establecimientos_Salud.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/MINSAL/Establecimientos_Salud.shx",
+    "sha256": "fba69d0a5e75d945906393adb2c3bf52dd1d67d4a457316eee84213cb9589022"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/MINSAL/Establecimientos_Salud.dbf",
+    "sha256": "f9bf444484e040766c342d1b51b422f6ff577ebe71ec403be810ea5086eab532"
+  },
+  {
+    "archivo": "/home/nataly/Escritorio/Anexos/SIG/Coberturas/MINSAL/Establecimientos_Salud.shp",
+    "sha256": "276d560ed25a9646ef6f169df3fb6dc7566eb727b420777acf7da5518df4afcd"
+  }
+]

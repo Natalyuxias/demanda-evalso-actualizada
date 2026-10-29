@@ -1,0 +1,13 @@
+id_OD_zonal,control_1,sentido_1,control_2,sentido_2,relacion,se_suman,decision
+31|39|Otoño|VL,E0701,NS,E1003,PO,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+31|39|Verano|VL,E0701,NS,E0702,NS,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+31|39|Verano|VL,E0701,NS,E1003,SN,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+31|39|Verano|VL,E0702,NS,E1003,SN,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+39|31|Otoño|CAM,E0702,SN,E1003,OP,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+39|31|Otoño|VL,E0701,SN,E0702,SN,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+39|31|Verano|VL,E0701,SN,E0702,SN,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+39|31|Verano|VL,E0701,SN,E1003,NS,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+39|31|Verano|VL,E0702,SN,E1003,NS,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+39|40|Otoño|VL,E0701,SN,E0702,SN,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+39|40|Verano|VL,E0702,SN,E1003,NS,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.
+40|39|Verano|VL,E0702,NS,E1003,SN,En serie para al menos un recorrido OD: riesgo de contar el mismo viaje,False,Una sola pantalla; sin suma incluso si la red permite ramas no certificadas.

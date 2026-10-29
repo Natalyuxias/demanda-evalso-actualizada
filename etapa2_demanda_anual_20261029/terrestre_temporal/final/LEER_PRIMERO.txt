@@ -1,0 +1,6 @@
+ENTREGA FINAL C: 3 escenarios Conservador/Central/Alto. Alto=Central: no extremo superior justificado sin cambiar pantalla ni introducir porcentaje. Ventana08-20;24h no estimable.
+5 OD zonales/clase tienen verano y otono y reciben escenario anual de ventana12h. Solo4 OD detallados reciben anual; otros conservan aportes parciales90o92dias y anual faltante.
+La anualizacion depende de transferencia de dias muestrales a todos los dias de cada mes y de proxiesOtono para invierno/primavera. No es conteo anual observado ni totalcorredor/proyecto.
+PNC2024I/P se usa solo para sensibilidad invierno, sin equivalencia exacta de control/sentido/clase/ventana. RatiosVP se entregan como proxy vialheterogeneo para decision del principal; no se aplican a peatones.
+No sumar resultados zonales directos y agregados desde localidades: tienen soporte distinto. Consultar supuestos_validacion.json y contrastes_pantallas_conservados.csv (incluye diferencia6.72).
+2pruebas sinteticas aprobadas; validaciones_temporales.json con7comprobaciones.

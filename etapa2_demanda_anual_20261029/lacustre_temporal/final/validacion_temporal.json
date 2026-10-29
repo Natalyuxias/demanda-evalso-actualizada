@@ -1,0 +1,10 @@
+{
+  "estado": "correcto",
+  "anio": 2026,
+  "dias": 365,
+  "filas_factores": 441,
+  "estratos_exposicion": 6,
+  "sin_crecimiento": true,
+  "conservador_menor_central_menor_alto": true,
+  "sin_bitacora_operacion_efectiva": true
+}

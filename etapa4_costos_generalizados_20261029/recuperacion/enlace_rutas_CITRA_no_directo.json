@@ -1,0 +1,29 @@
+{
+  "estado": "enlace_no_directo_no_se_calcularon_tiempos_ni_COV",
+  "fuente": "etapa1_terrestre_citra/resultados/entrega_02/csv/auditoria_112.csv",
+  "sha256": "9c82b22d5522b23c03fa3552aa19853ae5923655de1b3ebbea0e1f19d7f24cd0",
+  "entrevistas": 112,
+  "rutas_cacheadas": 110,
+  "sin_ruta": 2,
+  "rutas_con_extremos_fraccionados": 110,
+  "rutas_con_ID_arco_repetido_por_subdivision": 110,
+  "campos_disponibles": [
+    "arcos_camino_Chile",
+    "nodos_camino_Chile",
+    "km_referencia_Chile"
+  ],
+  "campos_faltantes": [
+    "longitud_km_de_cada_subarco",
+    "fraccion_terminal_de_arco",
+    "posicion_longitudinal_de_cada_nodo_sobre_arco",
+    "weight_por_edge_del_grafo_segmentado"
+  ],
+  "evidencia_codigo": "etapa1_terrestre_citra/scripts/red.py: __init__ subdividearcos yguardaweight=e[km]*(pb-pa)/geom.length enself.G; arcs() soloexportaIDoriginal ykm()exportasuma",
+  "riesgos": [
+    "SumarcadaIDcompleto repetidoduplicarialongitud/costo.",
+    "ColapsarIDsrepetidosignorafraccionesoriginal/destino.",
+    "kmTOTALnopermitedesagregarconcertezaentre2arcos terminalesconvelocidades/costosdistintos."
+  ],
+  "decision": "Preservarkmcacheadossinrecalcular; tiempos/COVfaltantesparaestosOD. Reutilizarpilotoscompletosyaauditados para soporteidentificado. No reconstruirred ni geocodificar enestaetapa.",
+  "nota_precio_nueva_etapa": "PrincipalhomologaCOVdic2025aCLPenero2026dividiendo0.9958982773; tarifasnominales yVSTusuario10047,mesVST/tarifaconvencionalincierto."
+}

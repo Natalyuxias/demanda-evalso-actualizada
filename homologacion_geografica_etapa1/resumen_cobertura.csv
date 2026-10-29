@@ -1,0 +1,37 @@
+﻿campana,universo,indicador,cantidad,denominador,porcentaje,unidad
+febrero,Base completa,Registros conservados,5308,5308,100.0,registros
+febrero,Base completa,Extremos conservados,10616,10616,100.0,extremos
+febrero,Base completa,"Extremos con comuna, CUT y zona",4912,10616,46.27,extremos
+febrero,Base completa,Extremos con alguna zona,5007,10616,47.16,extremos
+febrero,Base completa,Registros con ambos extremos completos,1608,5308,30.29,registros
+febrero,Base completa,Extremos pendientes o parciales,5704,10616,53.73,extremos
+febrero,Relevantes para revisión,Registros conservados,253,253,100.0,registros
+febrero,Relevantes para revisión,Extremos conservados,506,506,100.0,extremos
+febrero,Relevantes para revisión,"Extremos con comuna, CUT y zona",448,506,88.54,extremos
+febrero,Relevantes para revisión,Extremos con alguna zona,455,506,89.92,extremos
+febrero,Relevantes para revisión,Registros con ambos extremos completos,197,253,77.87,registros
+febrero,Relevantes para revisión,Extremos pendientes o parciales,58,506,11.46,extremos
+abril,Base completa,Registros conservados,3520,3520,100.0,registros
+abril,Base completa,Extremos conservados,7040,7040,100.0,extremos
+abril,Base completa,"Extremos con comuna, CUT y zona",5430,7040,77.13,extremos
+abril,Base completa,Extremos con alguna zona,5455,7040,77.49,extremos
+abril,Base completa,Registros con ambos extremos completos,2168,3520,61.59,registros
+abril,Base completa,Extremos pendientes o parciales,1610,7040,22.87,extremos
+abril,Relevantes para revisión,Registros conservados,63,63,100.0,registros
+abril,Relevantes para revisión,Extremos conservados,126,126,100.0,extremos
+abril,Relevantes para revisión,"Extremos con comuna, CUT y zona",110,126,87.3,extremos
+abril,Relevantes para revisión,Extremos con alguna zona,111,126,88.1,extremos
+abril,Relevantes para revisión,Registros con ambos extremos completos,47,63,74.6,registros
+abril,Relevantes para revisión,Extremos pendientes o parciales,16,126,12.7,extremos
+Todas,Base completa,Registros conservados,8828,8828,100.0,registros
+Todas,Base completa,Extremos conservados,17656,17656,100.0,extremos
+Todas,Base completa,"Extremos con comuna, CUT y zona",10342,17656,58.57,extremos
+Todas,Base completa,Extremos con alguna zona,10462,17656,59.25,extremos
+Todas,Base completa,Registros con ambos extremos completos,3776,8828,42.77,registros
+Todas,Base completa,Extremos pendientes o parciales,7314,17656,41.43,extremos
+Todas,Relevantes para revisión,Registros conservados,316,316,100.0,registros
+Todas,Relevantes para revisión,Extremos conservados,632,632,100.0,extremos
+Todas,Relevantes para revisión,"Extremos con comuna, CUT y zona",558,632,88.29,extremos
+Todas,Relevantes para revisión,Extremos con alguna zona,566,632,89.56,extremos
+Todas,Relevantes para revisión,Registros con ambos extremos completos,244,316,77.22,registros
+Todas,Relevantes para revisión,Extremos pendientes o parciales,74,632,11.71,extremos

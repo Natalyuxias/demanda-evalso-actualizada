@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/microdatos/preparar_microdatos.py", line 57, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--anexos',default='.');p.add_argument('--salida',required=True);x=p.parse_args();main(x.anexos,x.salida)
+                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nataly/Escritorio/Anexos/etapa1_lacustre_aristo_20261029/microdatos/preparar_microdatos.py", line 54, in main
+    assert all(checks.values()), checks
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'290_originales': True, '264_validas': True, 'ID2_unico': True, 'enlace_uno_a_uno': True, 'no_sumar_hojas': True, 'campana_consistente': np.False_, 'sentido_consistente': np.True_, '55_zonas': True, 'originales_intactos': True}

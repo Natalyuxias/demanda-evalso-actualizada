@@ -1,0 +1,7 @@
+﻿campana,sentido_cruce,fechas_medidas,dias_con_medicion,filas_conteo,operaciones_programadas_fechas_muestra,operaciones_efectivas_certificadas,fuente_denominador_programado,advertencia
+Otoño,Chile Chico → Puerto Ibáñez,2026-05-10,1,1,1,False,NAVIERA_MAY2026+ARISTO169,Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.
+Otoño,Puerto Ibáñez → Chile Chico,2026-05-10,1,1,1,False,NAVIERA_MAY2026+ARISTO169,Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.
+Primavera,Chile Chico → Puerto Ibáñez,2025-11-08,1,2,2,False,ARISTO78,Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.
+Primavera,Puerto Ibáñez → Chile Chico,2025-11-08,1,2,2,False,ARISTO78,Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.
+Verano,Chile Chico → Puerto Ibáñez,2026-02-01,1,2,2,False,ARISTO38+138,Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.
+Verano,Puerto Ibáñez → Chile Chico,2026-01-27|2026-02-01,2,2,3,False,ARISTO38+138,Plan no certifica bitacora efectiva; una fila no se identifica automaticamente como un zarpe.

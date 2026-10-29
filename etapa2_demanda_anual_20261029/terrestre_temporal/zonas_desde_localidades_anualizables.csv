@@ -1,0 +1,17 @@
+zona_origen,zona_destino,segmento,escenario,anio,anual12h_subOD_con_dos_campanas,subOD_con_anual,subOD_total,alcance
+31,39,CAM,central_12h_invierno_otono,2026,,0,2,Subconjunto de localidades comunes a ambas campanas; no total zonal
+31,39,CAM,sensibilidad_12h_invierno_PNC2024,2026,,0,2,Subconjunto de localidades comunes a ambas campanas; no total zonal
+31,39,VL,central_12h_invierno_otono,2026,4088.097412480974,1,5,Subconjunto de localidades comunes a ambas campanas; no total zonal
+31,39,VL,sensibilidad_12h_invierno_PNC2024,2026,3921.9976593945544,1,5,Subconjunto de localidades comunes a ambas campanas; no total zonal
+33,39,VL,central_12h_invierno_otono,2026,,0,2,Subconjunto de localidades comunes a ambas campanas; no total zonal
+33,39,VL,sensibilidad_12h_invierno_PNC2024,2026,,0,2,Subconjunto de localidades comunes a ambas campanas; no total zonal
+39,31,CAM,central_12h_invierno_otono,2026,,0,1,Subconjunto de localidades comunes a ambas campanas; no total zonal
+39,31,CAM,sensibilidad_12h_invierno_PNC2024,2026,,0,1,Subconjunto de localidades comunes a ambas campanas; no total zonal
+39,31,VL,central_12h_invierno_otono,2026,1919.4583333333333,1,3,Subconjunto de localidades comunes a ambas campanas; no total zonal
+39,31,VL,sensibilidad_12h_invierno_PNC2024,2026,1768.1889153439151,1,3,Subconjunto de localidades comunes a ambas campanas; no total zonal
+39,34,VL,central_12h_invierno_otono,2026,,0,1,Subconjunto de localidades comunes a ambas campanas; no total zonal
+39,34,VL,sensibilidad_12h_invierno_PNC2024,2026,,0,1,Subconjunto de localidades comunes a ambas campanas; no total zonal
+39,40,VL,central_12h_invierno_otono,2026,4520.133928571428,1,3,Subconjunto de localidades comunes a ambas campanas; no total zonal
+39,40,VL,sensibilidad_12h_invierno_PNC2024,2026,4288.224563492064,1,3,Subconjunto de localidades comunes a ambas campanas; no total zonal
+40,39,VL,central_12h_invierno_otono,2026,3392.3248905565974,1,2,Subconjunto de localidades comunes a ambas campanas; no total zonal
+40,39,VL,sensibilidad_12h_invierno_PNC2024,2026,3175.8785087902156,1,2,Subconjunto de localidades comunes a ambas campanas; no total zonal

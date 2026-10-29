@@ -1,0 +1,9 @@
+{
+  "sin_flujo24h": true,
+  "cinco_celdas_zonales_y_cuatro_detalladas_con_dos_campanas": true,
+  "solo_anual_con365dias_de_perfil_proxy": true,
+  "sin_suma_pantallas": true,
+  "alto_igual_central_sin_incremento_inventado": true,
+  "conservador_no_supera_central": true,
+  "sin_frecuencia_barcaza_ni_ARISTO_OD": true
+}

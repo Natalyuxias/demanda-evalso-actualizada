@@ -1,0 +1,71 @@
+{
+  "estado": "correcto",
+  "comprobaciones": {
+    "20_grupos_hoja_vigente": true,
+    "37_extremos_sin_perder_duplicar": true,
+    "36_registros_distintos": true,
+    "solo_registros_relevantes": true,
+    "literales_y_coordenadas_originales_intactos": true,
+    "hash_por_registro_contra_original": true,
+    "decisiones_previas_copiadas": true,
+    "manuales_sin_asignacion_propuesta": true,
+    "CUT_zona_catalogo_correcto": true,
+    "A_geometria_y_limite_o_respaldo_oficial_verificados": true,
+    "B_sin_coordenadas_imputadas": true,
+    "ninguna_propuesta_aplicada": true,
+    "Excel_37_extremos_unicos": true,
+    "Excel_literales_preservados": true,
+    "fuentes_y_entrega_anterior_sin_cambios": true
+  },
+  "grupos": 20,
+  "extremos": 37,
+  "registros": 36,
+  "resueltos_con_coordenada": 11,
+  "resueltos_nominales_sin_coordenada": 18,
+  "extremos_manual": 8,
+  "grupos_manual": 7,
+  "cobertura_condicional": [
+    {
+      "escenario": "Referencia actual",
+      "registros_relevantes": 316,
+      "extremos_relevantes": 632,
+      "extremos_adicionales_propuestos": 0,
+      "extremos_completos_si_se_acepta": 558,
+      "cobertura_extremos_pct": 88.29,
+      "registros_OD_completos_adicionales": 0,
+      "registros_OD_completos_si_se_acepta": 244,
+      "cobertura_registros_pct": 77.22,
+      "estado": "Actual sin cambios",
+      "unidad": "Entrevistas/registros de interceptación; no viajes únicos ni vehículos expandidos"
+    },
+    {
+      "escenario": "Propuesta A: coordenadas individuales",
+      "registros_relevantes": 316,
+      "extremos_relevantes": 632,
+      "extremos_adicionales_propuestos": 11,
+      "extremos_completos_si_se_acepta": 569,
+      "cobertura_extremos_pct": 90.03,
+      "registros_OD_completos_adicionales": 11,
+      "registros_OD_completos_si_se_acepta": 255,
+      "cobertura_registros_pct": 80.7,
+      "estado": "Condicional a adoptar propuesta; NO aplicado",
+      "unidad": "Entrevistas/registros de interceptación; no viajes únicos ni vehículos expandidos"
+    },
+    {
+      "escenario": "Propuesta A+B: incluye respaldo nominal sin coordenada",
+      "registros_relevantes": 316,
+      "extremos_relevantes": 632,
+      "extremos_adicionales_propuestos": 29,
+      "extremos_completos_si_se_acepta": 587,
+      "cobertura_extremos_pct": 92.88,
+      "registros_OD_completos_adicionales": 27,
+      "registros_OD_completos_si_se_acepta": 271,
+      "cobertura_registros_pct": 85.76,
+      "estado": "Condicional a adoptar propuesta; NO aplicado",
+      "unidad": "Entrevistas/registros de interceptación; no viajes únicos ni vehículos expandidos"
+    }
+  ],
+  "archivos_protegidos": 45,
+  "sha256_excel": "2141321c6a283878a1fe48039d6defcaf0b4ed71b77ec1e0011e9d0ca1b402c6",
+  "sha256_codigo": "f5f248eebf2e820b21e58c9b599f0b3325b7f8a86ffdae15495371252bb929a7"
+}
