@@ -1,0 +1,157 @@
+{
+  "anios": [
+    2026,
+    2030,
+    2040,
+    2050
+  ],
+  "versiones_ARISTO": [
+    "A",
+    "B"
+  ],
+  "version_informe": "B",
+  "crecimiento": "central",
+  "factor_CITRA_12_24": 1.2,
+  "vst": 10047,
+  "escenarios": [
+    "conservador",
+    "central",
+    "alto"
+  ],
+  "nudos_ahorro_relativo": [
+    -1.0,
+    -0.2,
+    0.0,
+    0.05,
+    0.15,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "curvas": {
+    "privados": {
+      "conservador": [
+        0,
+        0,
+        0,
+        0.03,
+        0.1,
+        0.25,
+        0.4,
+        0.65
+      ],
+      "central": [
+        0,
+        0,
+        0,
+        0.1,
+        0.3,
+        0.55,
+        0.75,
+        0.9
+      ],
+      "alto": [
+        0,
+        0.01,
+        0.05,
+        0.2,
+        0.5,
+        0.75,
+        0.9,
+        0.97
+      ]
+    },
+    "camiones": {
+      "conservador": [
+        0,
+        0,
+        0,
+        0.02,
+        0.08,
+        0.2,
+        0.35,
+        0.6
+      ],
+      "central": [
+        0,
+        0,
+        0,
+        0.08,
+        0.25,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "alto": [
+        0,
+        0.005,
+        0.03,
+        0.15,
+        0.4,
+        0.65,
+        0.85,
+        0.95
+      ]
+    },
+    "peatones": {
+      "conservador": [
+        0,
+        0,
+        0,
+        0.05,
+        0.15,
+        0.3,
+        0.5,
+        0.75
+      ],
+      "central": [
+        0,
+        0,
+        0,
+        0.2,
+        0.45,
+        0.7,
+        0.85,
+        0.95
+      ],
+      "alto": [
+        0,
+        0.01,
+        0.03,
+        0.3,
+        0.6,
+        0.85,
+        0.95,
+        0.99
+      ]
+    }
+  },
+  "familia": {
+    "VL": "privados",
+    "VP": "privados",
+    "CAM": "camiones",
+    "PEATON": "peatones"
+  },
+  "factibilidad": {
+    "privados": 1.0,
+    "camiones": 1.0,
+    "peatones": 1.0
+  },
+  "cola_comun": "CG del núcleo no es costo absoluto. Costo exterior común no negativo implica Aentre min(delta/core,0) y max(delta/core,0). Escenarios usan probabilidades en extremos o su punto medio: conservadorcota inferior,centralmedio,altosuperior. No se inventa A puntual; con delta<=0 central/conservadorp0 y altof(0).",
+  "buses": {
+    "tarifa_referencia": 10000,
+    "km_referencia": 121.956,
+    "tarifa_Cerro": 8000,
+    "tarifa_lacustre": 2550,
+    "factor_tarifa_integrada": 1.0,
+    "factor_tiempo_bus_sobre_VL": 1.0
+  },
+  "justificacion_curvas": "Supuestos propios no calibrados. En ahorro5% el caso central transfiere10% privados,8% camiones y20% peatones con bus coordinado; a30%,55/50/70%. La respuesta de carga es menor por fricciones operacionales; peatones mayor solo si existen ambos buses coordinados hipotéticos. Las cotas conservadoras y altas representan incertidumbre de respuesta, no tasas históricas ni intervalos estadísticos.",
+  "preferencias_no_observadas": "Solo alto admite captación con ahorro<=0: hasta5%privados,3%camiones/peatones al empate. No es evidencia de disposición real.",
+  "operacion": "Costos y atributos previos fijos; nav80min nuevo, SBO14/12 y nuevo14 semanales/sentido; nave adicional independiente. Factibilidad1 es supuesto de disponibilidad operacional, NO comprobación de capacidad.",
+  "peso_cota_superior_cola_comun": {
+    "conservador": 0.0,
+    "central": 0.5,
+    "alto": 1.0
+  }
+}
