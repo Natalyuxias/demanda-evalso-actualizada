@@ -1,6 +1,276 @@
-<!doctype html><html lang="es"><meta charset="utf-8"><title>Demanda oficial de alternativas</title><style>body{font:16px system-ui;max-width:1400px;margin:32px auto;padding:0 20px;color:#17374a}p{line-height:1.5}table{border-collapse:collapse;display:block;overflow:auto;font-size:12px}td,th{padding:8px;border-bottom:1px solid #ddd;text-align:left}th{background:#eaf2f7}</style><h1>Demanda oficial de las tres alternativas</h1>
-<p>Actualización de parámetros sobre las mismas matrices y proyecciones centrales, curvas de transferencia e inducción incremental de las Etapas1–6. Las alternativas se evalúan por separado; no compiten entre sí ni se suman. Referencia ARISTOB; A queda como contraste independiente.</p>
-<h2>Configuraciones oficiales</h2><table class="dataframe">
+<!doctype html><html lang="es"><meta charset="utf-8"><title>Consolidación oficial de demanda</title><style>body{font:16px system-ui;max-width:1450px;margin:30px auto;padding:0 20px;color:#17364a}p{line-height:1.5}table{border-collapse:collapse;display:block;overflow:auto;font-size:12px;margin:16px 0}th,td{padding:8px;border-bottom:1px solid #ddd;text-align:left}th{background:#eaf2f7}details{margin:20px 0}summary{font-weight:bold;cursor:pointer}</style>
+<h1>Consolidación oficial de demanda · Bahía Jara–Levicán</h1>
+<p><b>Frecuencia definitiva común para ambos cruces: 11 zarpes por semana y sentido en diciembre–abril y 8 en mayo–noviembre.</b> Se reemplazó el parámetro anterior del nuevo cruce y se recalcularon los resultados oficiales en estas mismas ubicaciones. Las fuentes y los contrastes históricos permanecen intactos.</p>
+<h2>1. Cómo leer la demanda</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>concepto</th>
+      <th>definicion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frecuencia oficial</td>
+      <td>Ambos cruces11alta(dic–abr)/8baja(may–nov), por semana y sentido. Reemplaza14delnuevo, sin modificar contrastes históricos.</td>
+    </tr>
+    <tr>
+      <td>Observado</td>
+      <td>Entrevistas y aforos de campañas, con su fecha/control/ventana. No son demanda anual ni se suman pantallas en serie.</td>
+    </tr>
+    <tr>
+      <td>Referencia2026</td>
+      <td>Anualización ya aprobada y supuestos de cobertura heredados. Aporte en meses con perfil no equivale a anual completo.</td>
+    </tr>
+    <tr>
+      <td>SBO</td>
+      <td>Misma demanda existente/proyectada conservada por procedencia; rutas tierra y ferryactual optimizado107min11/8. No constituye una nueva medición.</td>
+    </tr>
+    <tr>
+      <td>CP</td>
+      <td>Desvío al nuevo cruce por curvas originales, resto en procedencia; inducción incremental repartida con esas mismas cuotas.</td>
+    </tr>
+    <tr>
+      <td>Mercado compatible</td>
+      <td>Solo cohortes con captación calculable. Las participaciones se dividen por ese mercado, no por demanda regional desconocida.</td>
+    </tr>
+    <tr>
+      <td>Residuales</td>
+      <td>Demanda conocida sin repartoCP calculable. Se conserva separada; los totales de rutasCP son aportes modelados y no la suman artificialmente.</td>
+    </tr>
+    <tr>
+      <td>Vista del equipo</td>
+      <td>Tablas de presentación utilizan ARISTOB; A se conserva solo en hojas técnicas originales. No sumarA/B.</td>
+    </tr>
+    <tr>
+      <td>Unidades</td>
+      <td>VL,CAM,VP ypeatones separados; VPheterogéneo no esVLestricto. Peatones no son pasajeros totales.</td>
+    </tr>
+    <tr>
+      <td>Ambos sentidos</td>
+      <td>Las filasAmbos sentidos son agregados: no sumarlas con sus dos componentes. Días no se duplican; denominador porzarpe de ambos sentidos incluye dos exposiciones.</td>
+    </tr>
+  </tbody>
+</table>
+<h2>2. Demanda de referencia normalizada2026</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>fuente</th>
+      <th>segmento</th>
+      <th>unidad</th>
+      <th>Q_referencia</th>
+      <th>estimacion_heredada</th>
+      <th>imputacion_geografica</th>
+      <th>imputacion_temporal_adicional</th>
+      <th>anual_ARISTO_completo_si_disponible</th>
+      <th>anual_CITRA_cubierto_con_supuestos</th>
+      <th>anio</th>
+      <th>alcance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ARISTO</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>3,161.57</td>
+      <td>3,161.57</td>
+      <td>235.71</td>
+      <td>0.00</td>
+      <td>3,161.57</td>
+      <td>No estimable</td>
+      <td>2026</td>
+      <td>Aporte de clases originales. Ver anualcompleto: VL/VPpueden representar períodos complementarios, no clases plenamenteobservadas todoelaño</td>
+    </tr>
+    <tr>
+      <td>ARISTO</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>51,542.43</td>
+      <td>51,542.43</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>51,542.43</td>
+      <td>No estimable</td>
+      <td>2026</td>
+      <td>Aporte de clases originales. Ver anualcompleto: VL/VPpueden representar períodos complementarios, no clases plenamenteobservadas todoelaño</td>
+    </tr>
+    <tr>
+      <td>ARISTO</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>7,381.43</td>
+      <td>7,381.43</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>2026</td>
+      <td>Aporte de clases originales. Ver anualcompleto: VL/VPpueden representar períodos complementarios, no clases plenamenteobservadas todoelaño</td>
+    </tr>
+    <tr>
+      <td>ARISTO</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>2026</td>
+      <td>Aporte de clases originales. Ver anualcompleto: VL/VPpueden representar períodos complementarios, no clases plenamenteobservadas todoelaño</td>
+    </tr>
+    <tr>
+      <td>CITRA</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>1,673.79</td>
+      <td>418.69</td>
+      <td>0.00</td>
+      <td>1,255.10</td>
+      <td>No estimable</td>
+      <td>1,673.79</td>
+      <td>2026</td>
+      <td>Anual del mercado cubierto:1,20yrellenoestacional ya aprobados; NO totalterrestre</td>
+    </tr>
+    <tr>
+      <td>CITRA</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>30,811.78</td>
+      <td>20,196.24</td>
+      <td>0.00</td>
+      <td>10,615.54</td>
+      <td>No estimable</td>
+      <td>30,811.78</td>
+      <td>2026</td>
+      <td>Anual del mercado cubierto:1,20yrellenoestacional ya aprobados; NO totalterrestre</td>
+    </tr>
+  </tbody>
+</table><p>La demanda observada de campaña y los factores están separados en las hojas CampañasARISTO/CITRA y AforosyfactoresCITRA. La referencia2026 no es un conteo anual observado. Las clases VL/VP deARISTO tienen definiciones y coberturas temporales distintas; cuando no hay anual completo, el campo correspondiente queda faltante. CITRA es solo el mercado cubierto, con las imputaciones previamente aceptadas.</p>
+<h2>3. Frecuencias y alternativas vigentes</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>mes</th>
+      <th>dias_normalizados2026</th>
+      <th>actual_zarpes_semana_sentido</th>
+      <th>nuevo_zarpes_semana_sentido</th>
+      <th>t_horario_actual_h</th>
+      <th>t_horario_nuevo_h</th>
+      <th>estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>31</td>
+      <td>11</td>
+      <td>11</td>
+      <td>3.82</td>
+      <td>3.82</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>28</td>
+      <td>11</td>
+      <td>11</td>
+      <td>3.82</td>
+      <td>3.82</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>31</td>
+      <td>11</td>
+      <td>11</td>
+      <td>3.82</td>
+      <td>3.82</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>30</td>
+      <td>11</td>
+      <td>11</td>
+      <td>3.82</td>
+      <td>3.82</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>31</td>
+      <td>8</td>
+      <td>8</td>
+      <td>5.25</td>
+      <td>5.25</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>30</td>
+      <td>8</td>
+      <td>8</td>
+      <td>5.25</td>
+      <td>5.25</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>31</td>
+      <td>8</td>
+      <td>8</td>
+      <td>5.25</td>
+      <td>5.25</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>31</td>
+      <td>8</td>
+      <td>8</td>
+      <td>5.25</td>
+      <td>5.25</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>30</td>
+      <td>8</td>
+      <td>8</td>
+      <td>5.25</td>
+      <td>5.25</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>31</td>
+      <td>8</td>
+      <td>8</td>
+      <td>5.25</td>
+      <td>5.25</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>30</td>
+      <td>8</td>
+      <td>8</td>
+      <td>5.25</td>
+      <td>5.25</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>31</td>
+      <td>11</td>
+      <td>11</td>
+      <td>3.82</td>
+      <td>3.82</td>
+      <td>VIGENTE; no espera física</td>
+    </tr>
+  </tbody>
+</table><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>id</th>
@@ -17,7 +287,7 @@
       <td>A1</td>
       <td>Convencional</td>
       <td>P-20a</td>
-      <td>31.140</td>
+      <td>31.14</td>
       <td>43</td>
       <td>Tipo La Tehuelche</td>
       <td>Rampa fija</td>
@@ -26,7 +296,7 @@
       <td>A2</td>
       <td>Rápida con linkspan</td>
       <td>P-20d</td>
-      <td>24.620</td>
+      <td>24.62</td>
       <td>39</td>
       <td>Tipo Capitán Wellmann / nueva MOP</td>
       <td>Puente basculante (linkspan)</td>
@@ -35,28 +305,380 @@
       <td>A3</td>
       <td>Rápida con rampa fija</td>
       <td>P-20b</td>
-      <td>22.600</td>
+      <td>22.60</td>
       <td>39</td>
       <td>Tipo Capitán Wellmann / nueva MOP</td>
       <td>Muelles y rampa fija</td>
     </tr>
   </tbody>
-</table><p>Distancia lacustre7,3millas náuticas=13,5196km. Nuevo servicio14zarpes semanales por sentido en las tres alternativas. Rampa/linkspan no alteran por sí mismos ningún tiempo. El acceso de ripio se representa con el tipoHDM4I1RBM1 y50km/h; solo cambia la longitud de cada trazado.</p>
-<h2>SBO común</h2><p>PuertoIbáñez–ChileChico utiliza CapitánWellmann en reemplazo deLaTehuelche,107min y11salidas semanales por sentido en diciembre–abril,8en mayo–noviembre. La sustitución pertenece aSBO; se conservan exactamente sus atributos conproyecto. La terrestre tampoco cambia. Presentación documentada anteriormente:2hvehículos y1hpeatones, incluida operación previa alzarpe, sin añadir otros15min. Desembarque30min para todos por decisión basada en el antecedente verbal entregado. Estas referencias no son mediciones individuales.</p>
-<h2>Demanda central2026–2050</h2><table class="dataframe">
+</table>
+<p>SBOcomún: terrestre y PuertoIbáñez–ChileChico con CapitánWellmann,107min yfrecuencia11/8. Conproyecto coexisten esas dos rutas sin cambios y una nueva alternativa, evaluando A1/A2/A3por separado. Navegación43/39/39min; anticipación2hvehículos/1hpeatones como referenciaoperador transferida; desembarque30min para todos. No se diferencia tiempo por rampa. VST10047; COVARISTO/HDM4; accesos31,14/24,62/22,60km. Buses coordinados son hipotéticos y mantienen su tarifa por distancia.</p>
+<h2>4. SBO: demanda anual por ruta</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>anio</th>
+      <th>segmento</th>
+      <th>unidad</th>
+      <th>D_tierra_SBO</th>
+      <th>D_actual_SBO</th>
+      <th>Q_referencia</th>
+      <th>Q_compatible</th>
+      <th>D_residual_existente</th>
+      <th>definicion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>1,673.79</td>
+      <td>3,161.57</td>
+      <td>4,835.36</td>
+      <td>4,693.93</td>
+      <td>141.43</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>0.00</td>
+      <td>51,542.43</td>
+      <td>51,542.43</td>
+      <td>40,020.64</td>
+      <td>11,521.79</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>30,811.78</td>
+      <td>7,381.43</td>
+      <td>38,193.21</td>
+      <td>37,326.75</td>
+      <td>866.46</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.00</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>0.00</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>1,826.00</td>
+      <td>3,449.09</td>
+      <td>5,275.08</td>
+      <td>5,120.79</td>
+      <td>154.29</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>0.00</td>
+      <td>54,305.70</td>
+      <td>54,305.70</td>
+      <td>42,166.21</td>
+      <td>12,139.49</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>33,322.51</td>
+      <td>7,982.91</td>
+      <td>41,305.42</td>
+      <td>40,368.35</td>
+      <td>937.06</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.00</td>
+      <td>8,437.91</td>
+      <td>8,437.91</td>
+      <td>8,437.91</td>
+      <td>0.00</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>2,171.92</td>
+      <td>4,102.49</td>
+      <td>6,274.41</td>
+      <td>6,090.90</td>
+      <td>183.52</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>0.00</td>
+      <td>60,263.13</td>
+      <td>60,263.13</td>
+      <td>46,791.91</td>
+      <td>13,471.22</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2040</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>38,953.55</td>
+      <td>9,331.91</td>
+      <td>48,285.46</td>
+      <td>47,190.05</td>
+      <td>1,095.41</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2040</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.00</td>
+      <td>9,863.80</td>
+      <td>9,863.80</td>
+      <td>9,863.80</td>
+      <td>0.00</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>2,533.04</td>
+      <td>4,784.60</td>
+      <td>7,317.64</td>
+      <td>7,103.61</td>
+      <td>214.03</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>0.00</td>
+      <td>66,089.20</td>
+      <td>66,089.20</td>
+      <td>51,315.63</td>
+      <td>14,773.58</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2050</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>44,736.84</td>
+      <td>10,717.39</td>
+      <td>55,454.22</td>
+      <td>54,196.18</td>
+      <td>1,258.04</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+    <tr>
+      <td>2050</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.00</td>
+      <td>11,328.24</td>
+      <td>11,328.24</td>
+      <td>11,328.24</td>
+      <td>0.00</td>
+      <td>Total conocido de referencia sinproyecto: compatible+residual; no totalesregionales</td>
+    </tr>
+  </tbody>
+</table><p>Las tablas estacionales separan Norte→Sur,Sur→Norte y ambos sentidos. El total conocido es mercado compatible más residual; no toda la demanda regional. El repartoCPsolo se conoce para el soporte y no convierte los residuales en ceros.</p>
+<h2>5. Comparación central del nuevo cruce</h2><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>alternativa_proyecto</th>
       <th>anio</th>
       <th>segmento</th>
       <th>unidad</th>
-      <th>D_tierra_SBO</th>
-      <th>D_actual_SBO</th>
-      <th>D_tierra_CP_total</th>
-      <th>D_actual_CP_total</th>
-      <th>D_existente_nuevo</th>
-      <th>D_inducida_nuevo</th>
-      <th>D_nuevo_CP_total</th>
+      <th>A1</th>
+      <th>A2</th>
+      <th>A3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>312.17</td>
+      <td>341.91</td>
+      <td>351.25</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>8,425.13</td>
+      <td>10,427.90</td>
+      <td>11,008.72</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2026</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>0.00</td>
+      <td>1.58</td>
+      <td>47.04</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2026</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.00</td>
+      <td>9.95</td>
+      <td>76.59</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>340.56</td>
+      <td>373.01</td>
+      <td>383.20</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>8,876.82</td>
+      <td>10,986.96</td>
+      <td>11,598.92</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2030</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>0.00</td>
+      <td>1.71</td>
+      <td>50.87</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2030</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.00</td>
+      <td>10.76</td>
+      <td>82.83</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>405.08</td>
+      <td>443.67</td>
+      <td>455.79</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>9,850.62</td>
+      <td>12,192.25</td>
+      <td>12,871.34</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2040</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>0.00</td>
+      <td>1.99</td>
+      <td>59.47</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2040</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.00</td>
+      <td>12.58</td>
+      <td>96.83</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>472.43</td>
+      <td>517.44</td>
+      <td>531.57</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>10,802.95</td>
+      <td>13,370.96</td>
+      <td>14,115.71</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2050</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>0.00</td>
+      <td>2.29</td>
+      <td>68.29</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>2050</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>0.00</td>
+      <td>14.45</td>
+      <td>111.21</td>
+    </tr>
+  </tbody>
+</table><p>Incluye demanda desviada existente más inducción incremental asignada al nuevo. Los proyectos son mutuamente excluyentes; no sumar sus columnas ni unidades distintas. VP no es VL estricto; los peatones no son todos los pasajeros.</p>
+<details><summary>Demanda anual central de las tres rutas — todos los años y alternativas</summary><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>alternativa_proyecto</th>
+      <th>anio</th>
+      <th>segmento</th>
+      <th>unidad</th>
+      <th>ruta_transporte</th>
+      <th>demanda_SBO_conocida</th>
+      <th>demanda_SBO_compatible</th>
+      <th>demanda_CP_existente</th>
+      <th>demanda_CP_inducida</th>
+      <th>demanda_CP_total_modelada</th>
+      <th>participacion_CP_compatible</th>
       <th>D_residual_existente</th>
     </tr>
   </thead>
@@ -66,678 +688,3122 @@
       <td>2026</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>1,673.786</td>
-      <td>3,161.571</td>
-      <td>1,294.579</td>
-      <td>3,020.143</td>
-      <td>379.206</td>
-      <td>0.000</td>
-      <td>379.206</td>
-      <td>141.429</td>
+      <td>Terrestre por Chile</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,361.61</td>
+      <td>0.00</td>
+      <td>1,361.61</td>
+      <td>0.29</td>
+      <td>141.43</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2026</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>51,542.429</td>
-      <td>0.000</td>
-      <td>19,652.443</td>
-      <td>20,587.987</td>
-      <td>177.717</td>
-      <td>20,765.704</td>
-      <td>11,521.791</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>11,521.79</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2026</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>30,811.783</td>
-      <td>7,381.429</td>
-      <td>30,811.783</td>
-      <td>5,809.265</td>
-      <td>705.706</td>
-      <td>0.000</td>
-      <td>705.706</td>
-      <td>866.458</td>
+      <td>Terrestre por Chile</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>0.00</td>
+      <td>30,811.78</td>
+      <td>0.83</td>
+      <td>866.46</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2026</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>7,802.143</td>
-      <td>0.000</td>
-      <td>6,003.562</td>
-      <td>1,798.581</td>
-      <td>0.000</td>
-      <td>1,798.581</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2030</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>1,826.000</td>
-      <td>3,449.085</td>
-      <td>1,412.308</td>
-      <td>3,294.795</td>
-      <td>413.692</td>
-      <td>0.000</td>
-      <td>413.692</td>
-      <td>154.290</td>
+      <td>Terrestre por Chile</td>
+      <td>1,826.00</td>
+      <td>1,826.00</td>
+      <td>1,485.44</td>
+      <td>0.00</td>
+      <td>1,485.44</td>
+      <td>0.29</td>
+      <td>154.29</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2030</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>54,305.700</td>
-      <td>0.000</td>
-      <td>20,706.041</td>
-      <td>21,691.742</td>
-      <td>187.244</td>
-      <td>21,878.986</td>
-      <td>12,139.492</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>12,139.49</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2030</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>33,322.505</td>
-      <td>7,982.910</td>
-      <td>33,322.505</td>
-      <td>6,282.637</td>
-      <td>763.211</td>
-      <td>0.000</td>
-      <td>763.211</td>
-      <td>937.062</td>
+      <td>Terrestre por Chile</td>
+      <td>33,322.51</td>
+      <td>33,322.51</td>
+      <td>33,322.51</td>
+      <td>0.00</td>
+      <td>33,322.51</td>
+      <td>0.83</td>
+      <td>937.06</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2030</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>8,437.907</td>
-      <td>0.000</td>
-      <td>6,492.766</td>
-      <td>1,945.140</td>
-      <td>0.000</td>
-      <td>1,945.140</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2040</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>2,171.923</td>
-      <td>4,102.491</td>
-      <td>1,679.861</td>
-      <td>3,918.972</td>
-      <td>492.063</td>
-      <td>0.000</td>
-      <td>492.063</td>
-      <td>183.519</td>
+      <td>Terrestre por Chile</td>
+      <td>2,171.92</td>
+      <td>2,171.92</td>
+      <td>1,766.85</td>
+      <td>0.00</td>
+      <td>1,766.85</td>
+      <td>0.29</td>
+      <td>183.52</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2040</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>60,263.127</td>
-      <td>0.000</td>
-      <td>22,977.529</td>
-      <td>24,071.362</td>
-      <td>207.785</td>
-      <td>24,279.148</td>
-      <td>13,471.215</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>13,471.22</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2040</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>38,953.547</td>
-      <td>9,331.911</td>
-      <td>38,953.547</td>
-      <td>7,344.316</td>
-      <td>892.183</td>
-      <td>0.000</td>
-      <td>892.183</td>
-      <td>1,095.412</td>
+      <td>Terrestre por Chile</td>
+      <td>38,953.55</td>
+      <td>38,953.55</td>
+      <td>38,953.55</td>
+      <td>0.00</td>
+      <td>38,953.55</td>
+      <td>0.83</td>
+      <td>1,095.41</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2040</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>9,863.796</td>
-      <td>0.000</td>
-      <td>7,589.954</td>
-      <td>2,273.842</td>
-      <td>0.000</td>
-      <td>2,273.842</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2050</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>2,533.043</td>
-      <td>4,784.601</td>
-      <td>1,959.167</td>
-      <td>4,570.568</td>
-      <td>573.877</td>
-      <td>0.000</td>
-      <td>573.877</td>
-      <td>214.033</td>
+      <td>Terrestre por Chile</td>
+      <td>2,533.04</td>
+      <td>2,533.04</td>
+      <td>2,060.62</td>
+      <td>0.00</td>
+      <td>2,060.62</td>
+      <td>0.29</td>
+      <td>214.03</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2050</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>66,089.202</td>
-      <td>0.000</td>
-      <td>25,198.934</td>
-      <td>26,398.516</td>
-      <td>227.874</td>
-      <td>26,626.390</td>
-      <td>14,773.576</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>14,773.58</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2050</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>44,736.838</td>
-      <td>10,717.386</td>
-      <td>44,736.838</td>
-      <td>8,434.700</td>
-      <td>1,024.642</td>
-      <td>0.000</td>
-      <td>1,024.642</td>
-      <td>1,258.044</td>
+      <td>Terrestre por Chile</td>
+      <td>44,736.84</td>
+      <td>44,736.84</td>
+      <td>44,736.84</td>
+      <td>0.00</td>
+      <td>44,736.84</td>
+      <td>0.83</td>
+      <td>1,258.04</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>2050</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>11,328.238</td>
-      <td>0.000</td>
-      <td>8,716.807</td>
-      <td>2,611.431</td>
-      <td>0.000</td>
-      <td>2,611.431</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2026</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>1,673.786</td>
-      <td>3,161.571</td>
-      <td>1,240.468</td>
-      <td>3,020.143</td>
-      <td>433.318</td>
-      <td>0.000</td>
-      <td>433.318</td>
-      <td>141.429</td>
+      <td>Terrestre por Chile</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,331.87</td>
+      <td>0.00</td>
+      <td>1,331.87</td>
+      <td>0.28</td>
+      <td>141.43</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2026</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>51,542.429</td>
-      <td>0.000</td>
-      <td>18,082.316</td>
-      <td>22,184.533</td>
-      <td>238.883</td>
-      <td>22,423.415</td>
-      <td>11,521.791</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>11,521.79</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2026</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>30,811.783</td>
-      <td>7,381.429</td>
-      <td>30,786.435</td>
-      <td>5,572.034</td>
-      <td>973.516</td>
-      <td>0.276</td>
-      <td>973.792</td>
-      <td>866.458</td>
+      <td>Terrestre por Chile</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>0.00</td>
+      <td>30,811.78</td>
+      <td>0.83</td>
+      <td>866.46</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2026</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>7,802.143</td>
-      <td>0.000</td>
-      <td>5,688.870</td>
-      <td>2,113.273</td>
-      <td>0.000</td>
-      <td>2,113.273</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2030</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>1,826.000</td>
-      <td>3,449.085</td>
-      <td>1,353.276</td>
-      <td>3,294.795</td>
-      <td>472.724</td>
-      <td>0.000</td>
-      <td>472.724</td>
-      <td>154.290</td>
+      <td>Terrestre por Chile</td>
+      <td>1,826.00</td>
+      <td>1,826.00</td>
+      <td>1,452.99</td>
+      <td>0.00</td>
+      <td>1,452.99</td>
+      <td>0.28</td>
+      <td>154.29</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2030</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>54,305.700</td>
-      <td>0.000</td>
-      <td>19,051.738</td>
-      <td>23,373.881</td>
-      <td>251.689</td>
-      <td>23,625.570</td>
-      <td>12,139.492</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>12,139.49</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2030</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>33,322.505</td>
-      <td>7,982.910</td>
-      <td>33,295.091</td>
-      <td>6,026.075</td>
-      <td>1,052.844</td>
-      <td>0.298</td>
-      <td>1,053.142</td>
-      <td>937.062</td>
+      <td>Terrestre por Chile</td>
+      <td>33,322.51</td>
+      <td>33,322.51</td>
+      <td>33,322.51</td>
+      <td>0.00</td>
+      <td>33,322.51</td>
+      <td>0.83</td>
+      <td>937.06</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2030</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>8,437.907</td>
-      <td>0.000</td>
-      <td>6,152.432</td>
-      <td>2,285.475</td>
-      <td>0.000</td>
-      <td>2,285.475</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2040</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>2,171.923</td>
-      <td>4,102.491</td>
-      <td>1,609.645</td>
-      <td>3,918.972</td>
-      <td>562.278</td>
-      <td>0.000</td>
-      <td>562.278</td>
-      <td>183.519</td>
+      <td>Terrestre por Chile</td>
+      <td>2,171.92</td>
+      <td>2,171.92</td>
+      <td>1,728.25</td>
+      <td>0.00</td>
+      <td>1,728.25</td>
+      <td>0.28</td>
+      <td>183.52</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2040</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>60,263.127</td>
-      <td>0.000</td>
-      <td>21,141.745</td>
-      <td>25,938.035</td>
-      <td>279.300</td>
-      <td>26,217.335</td>
-      <td>13,471.215</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>13,471.22</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2040</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>38,953.547</td>
-      <td>9,331.911</td>
-      <td>38,921.500</td>
-      <td>7,044.399</td>
-      <td>1,230.760</td>
-      <td>0.349</td>
-      <td>1,231.109</td>
-      <td>1,095.412</td>
+      <td>Terrestre por Chile</td>
+      <td>38,953.55</td>
+      <td>38,953.55</td>
+      <td>38,953.55</td>
+      <td>0.00</td>
+      <td>38,953.55</td>
+      <td>0.83</td>
+      <td>1,095.41</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2040</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>9,863.796</td>
-      <td>0.000</td>
-      <td>7,192.107</td>
-      <td>2,671.688</td>
-      <td>0.000</td>
-      <td>2,671.688</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2050</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>2,533.043</td>
-      <td>4,784.601</td>
-      <td>1,877.276</td>
-      <td>4,570.568</td>
-      <td>655.767</td>
-      <td>0.000</td>
-      <td>655.767</td>
-      <td>214.033</td>
+      <td>Terrestre por Chile</td>
+      <td>2,533.04</td>
+      <td>2,533.04</td>
+      <td>2,015.61</td>
+      <td>0.00</td>
+      <td>2,015.61</td>
+      <td>0.28</td>
+      <td>214.03</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2050</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>66,089.202</td>
-      <td>0.000</td>
-      <td>23,185.672</td>
-      <td>28,445.654</td>
-      <td>306.302</td>
-      <td>28,751.956</td>
-      <td>14,773.576</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>14,773.58</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2050</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>44,736.838</td>
-      <td>10,717.386</td>
-      <td>44,700.033</td>
-      <td>8,090.255</td>
-      <td>1,413.486</td>
-      <td>0.401</td>
-      <td>1,413.887</td>
-      <td>1,258.044</td>
+      <td>Terrestre por Chile</td>
+      <td>44,736.84</td>
+      <td>44,736.84</td>
+      <td>44,736.84</td>
+      <td>0.00</td>
+      <td>44,736.84</td>
+      <td>0.83</td>
+      <td>1,258.04</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>2050</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>11,328.238</td>
-      <td>0.000</td>
-      <td>8,259.893</td>
-      <td>3,068.344</td>
-      <td>0.000</td>
-      <td>3,068.344</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2026</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>1,673.786</td>
-      <td>3,161.571</td>
-      <td>1,224.244</td>
-      <td>3,020.143</td>
-      <td>449.542</td>
-      <td>0.000</td>
-      <td>449.542</td>
-      <td>141.429</td>
+      <td>Terrestre por Chile</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,322.53</td>
+      <td>0.00</td>
+      <td>1,322.53</td>
+      <td>0.28</td>
+      <td>141.43</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2026</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>51,542.429</td>
-      <td>0.000</td>
-      <td>17,745.099</td>
-      <td>22,541.346</td>
-      <td>274.567</td>
-      <td>22,815.913</td>
-      <td>11,521.791</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>11,521.79</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2026</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>30,811.783</td>
-      <td>7,381.429</td>
-      <td>30,779.128</td>
-      <td>5,516.944</td>
-      <td>1,037.338</td>
-      <td>0.458</td>
-      <td>1,037.797</td>
-      <td>866.458</td>
+      <td>Terrestre por Chile</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>0.00</td>
+      <td>30,811.78</td>
+      <td>0.83</td>
+      <td>866.46</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2026</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>7,802.143</td>
-      <td>0.000</td>
-      <td>5,616.010</td>
-      <td>2,186.132</td>
-      <td>0.000</td>
-      <td>2,186.132</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2030</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>1,826.000</td>
-      <td>3,449.085</td>
-      <td>1,335.577</td>
-      <td>3,294.795</td>
-      <td>490.423</td>
-      <td>0.000</td>
-      <td>490.423</td>
-      <td>154.290</td>
+      <td>Terrestre por Chile</td>
+      <td>1,826.00</td>
+      <td>1,826.00</td>
+      <td>1,442.80</td>
+      <td>0.00</td>
+      <td>1,442.80</td>
+      <td>0.28</td>
+      <td>154.29</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2030</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>54,305.700</td>
-      <td>0.000</td>
-      <td>18,696.442</td>
-      <td>23,749.824</td>
-      <td>289.287</td>
-      <td>24,039.111</td>
-      <td>12,139.492</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>12,139.49</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2030</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>33,322.505</td>
-      <td>7,982.910</td>
-      <td>33,287.189</td>
-      <td>5,966.496</td>
-      <td>1,121.866</td>
-      <td>0.496</td>
-      <td>1,122.362</td>
-      <td>937.062</td>
+      <td>Terrestre por Chile</td>
+      <td>33,322.51</td>
+      <td>33,322.51</td>
+      <td>33,322.51</td>
+      <td>0.00</td>
+      <td>33,322.51</td>
+      <td>0.83</td>
+      <td>937.06</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2030</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>8,437.907</td>
-      <td>0.000</td>
-      <td>6,073.635</td>
-      <td>2,364.271</td>
-      <td>0.000</td>
-      <td>2,364.271</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2040</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>2,171.923</td>
-      <td>4,102.491</td>
-      <td>1,588.593</td>
-      <td>3,918.972</td>
-      <td>583.331</td>
-      <td>0.000</td>
-      <td>583.331</td>
-      <td>183.519</td>
+      <td>Terrestre por Chile</td>
+      <td>2,171.92</td>
+      <td>2,171.92</td>
+      <td>1,716.13</td>
+      <td>0.00</td>
+      <td>1,716.13</td>
+      <td>0.28</td>
+      <td>183.52</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2040</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>60,263.127</td>
-      <td>0.000</td>
-      <td>20,747.473</td>
-      <td>26,355.219</td>
-      <td>321.022</td>
-      <td>26,676.241</td>
-      <td>13,471.215</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>13,471.22</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2040</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>38,953.547</td>
-      <td>9,331.911</td>
-      <td>38,912.263</td>
-      <td>6,974.751</td>
-      <td>1,311.446</td>
-      <td>0.580</td>
-      <td>1,312.026</td>
-      <td>1,095.412</td>
+      <td>Terrestre por Chile</td>
+      <td>38,953.55</td>
+      <td>38,953.55</td>
+      <td>38,953.55</td>
+      <td>0.00</td>
+      <td>38,953.55</td>
+      <td>0.83</td>
+      <td>1,095.41</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2040</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>9,863.796</td>
-      <td>0.000</td>
-      <td>7,099.996</td>
-      <td>2,763.800</td>
-      <td>0.000</td>
-      <td>2,763.800</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2050</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>2,533.043</td>
-      <td>4,784.601</td>
-      <td>1,852.724</td>
-      <td>4,570.568</td>
-      <td>680.319</td>
-      <td>0.000</td>
-      <td>680.319</td>
-      <td>214.033</td>
+      <td>Terrestre por Chile</td>
+      <td>2,533.04</td>
+      <td>2,533.04</td>
+      <td>2,001.47</td>
+      <td>0.00</td>
+      <td>2,001.47</td>
+      <td>0.28</td>
+      <td>214.03</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2050</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>0.000</td>
-      <td>66,089.202</td>
-      <td>0.000</td>
-      <td>22,753.282</td>
-      <td>28,903.171</td>
-      <td>352.057</td>
-      <td>29,255.228</td>
-      <td>14,773.576</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>14,773.58</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2050</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>44,736.838</td>
-      <td>10,717.386</td>
-      <td>44,689.424</td>
-      <td>8,010.267</td>
-      <td>1,506.152</td>
-      <td>0.666</td>
-      <td>1,506.818</td>
-      <td>1,258.044</td>
+      <td>Terrestre por Chile</td>
+      <td>44,736.84</td>
+      <td>44,736.84</td>
+      <td>44,736.84</td>
+      <td>0.00</td>
+      <td>44,736.84</td>
+      <td>0.83</td>
+      <td>1,258.04</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>2050</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>0.000</td>
-      <td>11,328.238</td>
-      <td>0.000</td>
-      <td>8,154.106</td>
-      <td>3,174.131</td>
-      <td>0.000</td>
-      <td>3,174.131</td>
-      <td>0.000</td>
+      <td>Terrestre por Chile</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>3,161.57</td>
+      <td>3,020.14</td>
+      <td>3,020.14</td>
+      <td>0.00</td>
+      <td>3,020.14</td>
+      <td>0.64</td>
+      <td>141.43</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>51,542.43</td>
+      <td>40,020.64</td>
+      <td>31,595.50</td>
+      <td>0.00</td>
+      <td>31,595.50</td>
+      <td>0.79</td>
+      <td>11,521.79</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>7,381.43</td>
+      <td>6,514.97</td>
+      <td>6,514.97</td>
+      <td>0.00</td>
+      <td>6,514.97</td>
+      <td>0.17</td>
+      <td>866.46</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>0.00</td>
+      <td>7,802.14</td>
+      <td>1.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>3,449.09</td>
+      <td>3,294.79</td>
+      <td>3,294.79</td>
+      <td>0.00</td>
+      <td>3,294.79</td>
+      <td>0.64</td>
+      <td>154.29</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>54,305.70</td>
+      <td>42,166.21</td>
+      <td>33,289.39</td>
+      <td>0.00</td>
+      <td>33,289.39</td>
+      <td>0.79</td>
+      <td>12,139.49</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>7,982.91</td>
+      <td>7,045.85</td>
+      <td>7,045.85</td>
+      <td>0.00</td>
+      <td>7,045.85</td>
+      <td>0.17</td>
+      <td>937.06</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>8,437.91</td>
+      <td>8,437.91</td>
+      <td>8,437.91</td>
+      <td>0.00</td>
+      <td>8,437.91</td>
+      <td>1.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>4,102.49</td>
+      <td>3,918.97</td>
+      <td>3,918.97</td>
+      <td>0.00</td>
+      <td>3,918.97</td>
+      <td>0.64</td>
+      <td>183.52</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>60,263.13</td>
+      <td>46,791.91</td>
+      <td>36,941.29</td>
+      <td>0.00</td>
+      <td>36,941.29</td>
+      <td>0.79</td>
+      <td>13,471.22</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>9,331.91</td>
+      <td>8,236.50</td>
+      <td>8,236.50</td>
+      <td>0.00</td>
+      <td>8,236.50</td>
+      <td>0.17</td>
+      <td>1,095.41</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>9,863.80</td>
+      <td>9,863.80</td>
+      <td>9,863.80</td>
+      <td>0.00</td>
+      <td>9,863.80</td>
+      <td>1.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>4,784.60</td>
+      <td>4,570.57</td>
+      <td>4,570.57</td>
+      <td>0.00</td>
+      <td>4,570.57</td>
+      <td>0.64</td>
+      <td>214.03</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>66,089.20</td>
+      <td>51,315.63</td>
+      <td>40,512.67</td>
+      <td>0.00</td>
+      <td>40,512.67</td>
+      <td>0.79</td>
+      <td>14,773.58</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>10,717.39</td>
+      <td>9,459.34</td>
+      <td>9,459.34</td>
+      <td>0.00</td>
+      <td>9,459.34</td>
+      <td>0.17</td>
+      <td>1,258.04</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>11,328.24</td>
+      <td>11,328.24</td>
+      <td>11,328.24</td>
+      <td>0.00</td>
+      <td>11,328.24</td>
+      <td>1.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>3,161.57</td>
+      <td>3,020.14</td>
+      <td>3,020.14</td>
+      <td>0.00</td>
+      <td>3,020.14</td>
+      <td>0.64</td>
+      <td>141.43</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>51,542.43</td>
+      <td>40,020.64</td>
+      <td>29,593.48</td>
+      <td>21.16</td>
+      <td>29,614.63</td>
+      <td>0.74</td>
+      <td>11,521.79</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>7,381.43</td>
+      <td>6,514.97</td>
+      <td>6,513.39</td>
+      <td>0.00</td>
+      <td>6,513.39</td>
+      <td>0.17</td>
+      <td>866.46</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,792.19</td>
+      <td>0.00</td>
+      <td>7,792.19</td>
+      <td>1.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>3,449.09</td>
+      <td>3,294.79</td>
+      <td>3,294.79</td>
+      <td>0.00</td>
+      <td>3,294.79</td>
+      <td>0.64</td>
+      <td>154.29</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>54,305.70</td>
+      <td>42,166.21</td>
+      <td>31,180.03</td>
+      <td>22.29</td>
+      <td>31,202.32</td>
+      <td>0.74</td>
+      <td>12,139.49</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>7,982.91</td>
+      <td>7,045.85</td>
+      <td>7,044.14</td>
+      <td>0.00</td>
+      <td>7,044.14</td>
+      <td>0.17</td>
+      <td>937.06</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>8,437.91</td>
+      <td>8,437.91</td>
+      <td>8,427.14</td>
+      <td>0.00</td>
+      <td>8,427.14</td>
+      <td>1.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>4,102.49</td>
+      <td>3,918.97</td>
+      <td>3,918.97</td>
+      <td>0.00</td>
+      <td>3,918.97</td>
+      <td>0.64</td>
+      <td>183.52</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>60,263.13</td>
+      <td>46,791.91</td>
+      <td>34,600.53</td>
+      <td>24.74</td>
+      <td>34,625.27</td>
+      <td>0.74</td>
+      <td>13,471.22</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>9,331.91</td>
+      <td>8,236.50</td>
+      <td>8,234.51</td>
+      <td>0.00</td>
+      <td>8,234.51</td>
+      <td>0.17</td>
+      <td>1,095.41</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>9,863.80</td>
+      <td>9,863.80</td>
+      <td>9,851.21</td>
+      <td>0.00</td>
+      <td>9,851.21</td>
+      <td>1.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>4,784.60</td>
+      <td>4,570.57</td>
+      <td>4,570.57</td>
+      <td>0.00</td>
+      <td>4,570.57</td>
+      <td>0.64</td>
+      <td>214.03</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>66,089.20</td>
+      <td>51,315.63</td>
+      <td>37,945.62</td>
+      <td>27.13</td>
+      <td>37,972.75</td>
+      <td>0.74</td>
+      <td>14,773.58</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>10,717.39</td>
+      <td>9,459.34</td>
+      <td>9,457.05</td>
+      <td>0.00</td>
+      <td>9,457.05</td>
+      <td>0.17</td>
+      <td>1,258.04</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>11,328.24</td>
+      <td>11,328.24</td>
+      <td>11,313.79</td>
+      <td>0.00</td>
+      <td>11,313.79</td>
+      <td>1.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>3,161.57</td>
+      <td>3,020.14</td>
+      <td>3,020.14</td>
+      <td>0.00</td>
+      <td>3,020.14</td>
+      <td>0.64</td>
+      <td>141.43</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>51,542.43</td>
+      <td>40,020.64</td>
+      <td>29,014.07</td>
+      <td>35.94</td>
+      <td>29,050.01</td>
+      <td>0.73</td>
+      <td>11,521.79</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>7,381.43</td>
+      <td>6,514.97</td>
+      <td>6,467.93</td>
+      <td>0.00</td>
+      <td>6,467.93</td>
+      <td>0.17</td>
+      <td>866.46</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,725.55</td>
+      <td>0.00</td>
+      <td>7,725.55</td>
+      <td>0.99</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>3,449.09</td>
+      <td>3,294.79</td>
+      <td>3,294.79</td>
+      <td>0.00</td>
+      <td>3,294.79</td>
+      <td>0.64</td>
+      <td>154.29</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>54,305.70</td>
+      <td>42,166.21</td>
+      <td>30,569.56</td>
+      <td>37.87</td>
+      <td>30,607.42</td>
+      <td>0.73</td>
+      <td>12,139.49</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>7,982.91</td>
+      <td>7,045.85</td>
+      <td>6,994.98</td>
+      <td>0.00</td>
+      <td>6,994.98</td>
+      <td>0.17</td>
+      <td>937.06</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>8,437.91</td>
+      <td>8,437.91</td>
+      <td>8,355.07</td>
+      <td>0.00</td>
+      <td>8,355.07</td>
+      <td>0.99</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>4,102.49</td>
+      <td>3,918.97</td>
+      <td>3,918.97</td>
+      <td>0.00</td>
+      <td>3,918.97</td>
+      <td>0.64</td>
+      <td>183.52</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>60,263.13</td>
+      <td>46,791.91</td>
+      <td>33,923.09</td>
+      <td>42.02</td>
+      <td>33,965.11</td>
+      <td>0.73</td>
+      <td>13,471.22</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>9,331.91</td>
+      <td>8,236.50</td>
+      <td>8,177.03</td>
+      <td>0.00</td>
+      <td>8,177.03</td>
+      <td>0.17</td>
+      <td>1,095.41</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>9,863.80</td>
+      <td>9,863.80</td>
+      <td>9,766.96</td>
+      <td>0.00</td>
+      <td>9,766.96</td>
+      <td>0.99</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>4,784.60</td>
+      <td>4,570.57</td>
+      <td>4,570.57</td>
+      <td>0.00</td>
+      <td>4,570.57</td>
+      <td>0.64</td>
+      <td>214.03</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>66,089.20</td>
+      <td>51,315.63</td>
+      <td>37,202.68</td>
+      <td>46.08</td>
+      <td>37,248.76</td>
+      <td>0.73</td>
+      <td>14,773.58</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>10,717.39</td>
+      <td>9,459.34</td>
+      <td>9,391.05</td>
+      <td>0.00</td>
+      <td>9,391.05</td>
+      <td>0.17</td>
+      <td>1,258.04</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Puerto Ibáñez–Chile Chico</td>
+      <td>11,328.24</td>
+      <td>11,328.24</td>
+      <td>11,217.03</td>
+      <td>0.00</td>
+      <td>11,217.03</td>
+      <td>0.99</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>312.17</td>
+      <td>0.00</td>
+      <td>312.17</td>
+      <td>0.07</td>
+      <td>141.43</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>8,425.13</td>
+      <td>0.00</td>
+      <td>8,425.13</td>
+      <td>0.21</td>
+      <td>11,521.79</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>866.46</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>340.56</td>
+      <td>0.00</td>
+      <td>340.56</td>
+      <td>0.07</td>
+      <td>154.29</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>8,876.82</td>
+      <td>0.00</td>
+      <td>8,876.82</td>
+      <td>0.21</td>
+      <td>12,139.49</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>937.06</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>405.08</td>
+      <td>0.00</td>
+      <td>405.08</td>
+      <td>0.07</td>
+      <td>183.52</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>9,850.62</td>
+      <td>0.00</td>
+      <td>9,850.62</td>
+      <td>0.21</td>
+      <td>13,471.22</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1,095.41</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>472.43</td>
+      <td>0.00</td>
+      <td>472.43</td>
+      <td>0.07</td>
+      <td>214.03</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>10,802.95</td>
+      <td>0.00</td>
+      <td>10,802.95</td>
+      <td>0.21</td>
+      <td>14,773.58</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1,258.04</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>341.91</td>
+      <td>0.00</td>
+      <td>341.91</td>
+      <td>0.07</td>
+      <td>141.43</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>10,427.16</td>
+      <td>0.74</td>
+      <td>10,427.90</td>
+      <td>0.26</td>
+      <td>11,521.79</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1.58</td>
+      <td>0.00</td>
+      <td>1.58</td>
+      <td>0.00</td>
+      <td>866.46</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>9.95</td>
+      <td>0.00</td>
+      <td>9.95</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>373.01</td>
+      <td>0.00</td>
+      <td>373.01</td>
+      <td>0.07</td>
+      <td>154.29</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>10,986.18</td>
+      <td>0.78</td>
+      <td>10,986.96</td>
+      <td>0.26</td>
+      <td>12,139.49</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1.71</td>
+      <td>0.00</td>
+      <td>1.71</td>
+      <td>0.00</td>
+      <td>937.06</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>10.76</td>
+      <td>0.00</td>
+      <td>10.76</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>443.67</td>
+      <td>0.00</td>
+      <td>443.67</td>
+      <td>0.07</td>
+      <td>183.52</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>12,191.38</td>
+      <td>0.86</td>
+      <td>12,192.25</td>
+      <td>0.26</td>
+      <td>13,471.22</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1.99</td>
+      <td>0.00</td>
+      <td>1.99</td>
+      <td>0.00</td>
+      <td>1,095.41</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>12.58</td>
+      <td>0.00</td>
+      <td>12.58</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>517.44</td>
+      <td>0.00</td>
+      <td>517.44</td>
+      <td>0.07</td>
+      <td>214.03</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>13,370.01</td>
+      <td>0.95</td>
+      <td>13,370.96</td>
+      <td>0.26</td>
+      <td>14,773.58</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>2.29</td>
+      <td>0.00</td>
+      <td>2.29</td>
+      <td>0.00</td>
+      <td>1,258.04</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>14.45</td>
+      <td>0.00</td>
+      <td>14.45</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>351.25</td>
+      <td>0.00</td>
+      <td>351.25</td>
+      <td>0.07</td>
+      <td>141.43</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>11,006.57</td>
+      <td>2.15</td>
+      <td>11,008.72</td>
+      <td>0.27</td>
+      <td>11,521.79</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>47.04</td>
+      <td>0.00</td>
+      <td>47.04</td>
+      <td>0.00</td>
+      <td>866.46</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>76.59</td>
+      <td>0.00</td>
+      <td>76.59</td>
+      <td>0.01</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>383.20</td>
+      <td>0.00</td>
+      <td>383.20</td>
+      <td>0.07</td>
+      <td>154.29</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>11,596.65</td>
+      <td>2.27</td>
+      <td>11,598.92</td>
+      <td>0.27</td>
+      <td>12,139.49</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>50.87</td>
+      <td>0.00</td>
+      <td>50.87</td>
+      <td>0.00</td>
+      <td>937.06</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>82.83</td>
+      <td>0.00</td>
+      <td>82.83</td>
+      <td>0.01</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>455.79</td>
+      <td>0.00</td>
+      <td>455.79</td>
+      <td>0.07</td>
+      <td>183.52</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>12,868.82</td>
+      <td>2.52</td>
+      <td>12,871.34</td>
+      <td>0.27</td>
+      <td>13,471.22</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>59.47</td>
+      <td>0.00</td>
+      <td>59.47</td>
+      <td>0.00</td>
+      <td>1,095.41</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>96.83</td>
+      <td>0.00</td>
+      <td>96.83</td>
+      <td>0.01</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>531.57</td>
+      <td>0.00</td>
+      <td>531.57</td>
+      <td>0.07</td>
+      <td>214.03</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>personas_peatones</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>14,112.95</td>
+      <td>2.76</td>
+      <td>14,115.71</td>
+      <td>0.27</td>
+      <td>14,773.58</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>VL</td>
+      <td>vehículos</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>68.29</td>
+      <td>0.00</td>
+      <td>68.29</td>
+      <td>0.00</td>
+      <td>1,258.04</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>VP</td>
+      <td>unidades_privadas_heterogeneas</td>
+      <td>Bahía Jara–Levicán</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>111.21</td>
+      <td>0.00</td>
+      <td>111.21</td>
+      <td>0.01</td>
+      <td>0.00</td>
     </tr>
   </tbody>
-</table><p>Las cantidades son aportes del mercado cubierto e imputaciones identificadas. VP mantiene unidad heterogénea; no se suma comoVLestricto. Peatones no representan todos los pasajeros transportados. Los residuales de cada fuente permanecen separados; las cifras no completan el mercado terrestre desconocido.</p>
-<h2>Costos y metodología</h2><p>Se conserva cada CG terrestre y el COV/fare previo. La actualización del ferryactual cambia navegación, presentación, desembarque y0,25×168/f. En el nuevo cruce se reemplaza una sola vez X73531,14km por31,14/24,62/22,60km, sumando la diferencia de tiempo a50km/h y COV por km del mismo tipoHDM4. El troncal y los16,7km del acceso sur permanecen, sin duplicación. En buses, esa diferencia modifica tarifa por kilómetro, no COVdeautomóvil.</p>
-<p>La captación utiliza las mismas curvas por ahorro relativo respecto de cada procedencia. La inducción es solo el incremento adicional del mínimo de costo frenteSBO, con las mismas elasticidades. Se distribuye usando las nuevas participaciones de transferencia del mismo caso. Las tres curvas se ejecutan con elasticidadcentral; la sensibilidad±0,1se ejecuta sobre captacióncentral, sin mezclar todas las combinaciones.</p>
-<h2>Cobertura y residuales</h2><table class="dataframe">
+</table></details>
+<details><summary>Procedencia anual de la demanda del nuevo cruce</summary><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>alternativa_proyecto</th>
+      <th>anio</th>
+      <th>segmento</th>
+      <th>D_desviada_tierra</th>
+      <th>D_desviada_actual</th>
+      <th>D_inducida_nuevo</th>
+      <th>D_nuevo_CP_total</th>
+      <th>porcentaje_captacion_existente_compatible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>312.17</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>312.17</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>8,425.13</td>
+      <td>0.00</td>
+      <td>8,425.13</td>
+      <td>0.21</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2026</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>340.56</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>340.56</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>8,876.82</td>
+      <td>0.00</td>
+      <td>8,876.82</td>
+      <td>0.21</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2030</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>405.08</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>405.08</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>9,850.62</td>
+      <td>0.00</td>
+      <td>9,850.62</td>
+      <td>0.21</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2040</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>472.43</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>472.43</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>10,802.95</td>
+      <td>0.00</td>
+      <td>10,802.95</td>
+      <td>0.21</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>2050</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>341.91</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>341.91</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>10,427.16</td>
+      <td>0.74</td>
+      <td>10,427.90</td>
+      <td>0.26</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>1.58</td>
+      <td>0.00</td>
+      <td>1.58</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2026</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>9.95</td>
+      <td>0.00</td>
+      <td>9.95</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>373.01</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>373.01</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>10,986.18</td>
+      <td>0.78</td>
+      <td>10,986.96</td>
+      <td>0.26</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>1.71</td>
+      <td>0.00</td>
+      <td>1.71</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2030</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>10.76</td>
+      <td>0.00</td>
+      <td>10.76</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>443.67</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>443.67</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>12,191.38</td>
+      <td>0.86</td>
+      <td>12,192.25</td>
+      <td>0.26</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>1.99</td>
+      <td>0.00</td>
+      <td>1.99</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2040</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>12.58</td>
+      <td>0.00</td>
+      <td>12.58</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>517.44</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>517.44</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>13,370.01</td>
+      <td>0.95</td>
+      <td>13,370.96</td>
+      <td>0.26</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>2.29</td>
+      <td>0.00</td>
+      <td>2.29</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>2050</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>14.45</td>
+      <td>0.00</td>
+      <td>14.45</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>CAM</td>
+      <td>351.25</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>351.25</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>11,006.57</td>
+      <td>2.15</td>
+      <td>11,008.72</td>
+      <td>0.28</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>47.04</td>
+      <td>0.00</td>
+      <td>47.04</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2026</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>76.59</td>
+      <td>0.00</td>
+      <td>76.59</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>CAM</td>
+      <td>383.20</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>383.20</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>11,596.65</td>
+      <td>2.27</td>
+      <td>11,598.92</td>
+      <td>0.28</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>50.87</td>
+      <td>0.00</td>
+      <td>50.87</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2030</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>82.83</td>
+      <td>0.00</td>
+      <td>82.83</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>CAM</td>
+      <td>455.79</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>455.79</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>12,868.82</td>
+      <td>2.52</td>
+      <td>12,871.34</td>
+      <td>0.28</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>59.47</td>
+      <td>0.00</td>
+      <td>59.47</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2040</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>96.83</td>
+      <td>0.00</td>
+      <td>96.83</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>CAM</td>
+      <td>531.57</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>531.57</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>PEATON</td>
+      <td>0.00</td>
+      <td>14,112.95</td>
+      <td>2.76</td>
+      <td>14,115.71</td>
+      <td>0.28</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>68.29</td>
+      <td>0.00</td>
+      <td>68.29</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>2050</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>111.21</td>
+      <td>0.00</td>
+      <td>111.21</td>
+      <td>0.01</td>
+    </tr>
+  </tbody>
+</table></details>
+<h2>6. Sensibilidades oficiales</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>alternativa_proyecto</th>
+      <th>escenario_captacion</th>
+      <th>escenario_elasticidad</th>
+      <th>segmento</th>
+      <th>D_existente_nuevo</th>
+      <th>D_inducida_nuevo</th>
+      <th>D_nuevo_CP_total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A1</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>476.80</td>
+      <td>0.00</td>
+      <td>476.80</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>12,270.32</td>
+      <td>0.00</td>
+      <td>12,270.32</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>VL</td>
+      <td>402.88</td>
+      <td>0.00</td>
+      <td>402.88</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>VP</td>
+      <td>356.23</td>
+      <td>0.00</td>
+      <td>356.23</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>312.17</td>
+      <td>0.00</td>
+      <td>312.17</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>8,425.13</td>
+      <td>0.00</td>
+      <td>8,425.13</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>central</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>central</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>CAM</td>
+      <td>312.17</td>
+      <td>0.00</td>
+      <td>312.17</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>PEATON</td>
+      <td>8,425.13</td>
+      <td>0.00</td>
+      <td>8,425.13</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>CAM</td>
+      <td>312.17</td>
+      <td>0.00</td>
+      <td>312.17</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>PEATON</td>
+      <td>8,425.13</td>
+      <td>0.00</td>
+      <td>8,425.13</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>130.53</td>
+      <td>0.00</td>
+      <td>130.53</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>2,396.84</td>
+      <td>0.00</td>
+      <td>2,396.84</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>VL</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>VP</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>526.49</td>
+      <td>0.00</td>
+      <td>526.49</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>14,723.33</td>
+      <td>1.66</td>
+      <td>14,724.99</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>VL</td>
+      <td>438.33</td>
+      <td>0.00</td>
+      <td>438.33</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>VP</td>
+      <td>403.86</td>
+      <td>0.00</td>
+      <td>403.86</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>341.91</td>
+      <td>0.00</td>
+      <td>341.91</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>10,427.16</td>
+      <td>0.74</td>
+      <td>10,427.90</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>central</td>
+      <td>VL</td>
+      <td>1.58</td>
+      <td>0.00</td>
+      <td>1.58</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>central</td>
+      <td>VP</td>
+      <td>9.95</td>
+      <td>0.00</td>
+      <td>9.95</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>CAM</td>
+      <td>341.91</td>
+      <td>0.00</td>
+      <td>341.91</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>PEATON</td>
+      <td>10,427.16</td>
+      <td>0.95</td>
+      <td>10,428.11</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>VL</td>
+      <td>1.58</td>
+      <td>0.00</td>
+      <td>1.58</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>VP</td>
+      <td>9.95</td>
+      <td>0.00</td>
+      <td>9.95</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>CAM</td>
+      <td>341.91</td>
+      <td>0.00</td>
+      <td>341.91</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>PEATON</td>
+      <td>10,427.16</td>
+      <td>0.53</td>
+      <td>10,427.69</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>VL</td>
+      <td>1.58</td>
+      <td>0.00</td>
+      <td>1.58</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>VP</td>
+      <td>9.95</td>
+      <td>0.00</td>
+      <td>9.95</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>143.63</td>
+      <td>0.00</td>
+      <td>143.63</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>3,160.74</td>
+      <td>0.18</td>
+      <td>3,160.93</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>VL</td>
+      <td>0.47</td>
+      <td>0.00</td>
+      <td>0.47</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>VP</td>
+      <td>2.99</td>
+      <td>0.00</td>
+      <td>2.99</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>541.89</td>
+      <td>0.00</td>
+      <td>541.89</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>15,445.67</td>
+      <td>4.05</td>
+      <td>15,449.72</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>VL</td>
+      <td>524.46</td>
+      <td>0.00</td>
+      <td>524.46</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>alto</td>
+      <td>central</td>
+      <td>VP</td>
+      <td>505.00</td>
+      <td>0.00</td>
+      <td>505.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>351.25</td>
+      <td>0.00</td>
+      <td>351.25</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>11,006.57</td>
+      <td>2.15</td>
+      <td>11,008.72</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>central</td>
+      <td>VL</td>
+      <td>47.04</td>
+      <td>0.00</td>
+      <td>47.04</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>central</td>
+      <td>VP</td>
+      <td>76.59</td>
+      <td>0.00</td>
+      <td>76.59</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>CAM</td>
+      <td>351.25</td>
+      <td>0.00</td>
+      <td>351.25</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>PEATON</td>
+      <td>11,006.57</td>
+      <td>2.76</td>
+      <td>11,009.33</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>VL</td>
+      <td>47.04</td>
+      <td>0.00</td>
+      <td>47.04</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>mayor_induccion</td>
+      <td>VP</td>
+      <td>76.59</td>
+      <td>0.00</td>
+      <td>76.59</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>CAM</td>
+      <td>351.25</td>
+      <td>0.00</td>
+      <td>351.25</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>PEATON</td>
+      <td>11,006.57</td>
+      <td>1.54</td>
+      <td>11,008.12</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>VL</td>
+      <td>47.04</td>
+      <td>0.00</td>
+      <td>47.04</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>central</td>
+      <td>menor_induccion</td>
+      <td>VP</td>
+      <td>76.59</td>
+      <td>0.00</td>
+      <td>76.59</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>CAM</td>
+      <td>147.59</td>
+      <td>0.00</td>
+      <td>147.59</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>PEATON</td>
+      <td>3,365.47</td>
+      <td>0.54</td>
+      <td>3,366.00</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>VL</td>
+      <td>11.52</td>
+      <td>0.00</td>
+      <td>11.52</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>conservador</td>
+      <td>central</td>
+      <td>VP</td>
+      <td>22.98</td>
+      <td>0.00</td>
+      <td>22.98</td>
+    </tr>
+  </tbody>
+</table><p>Las curvas y elasticidades no cambiaron. Todos estos casos usan frecuencia11/8común. El Excel conserva además sensibilidades operacionales anteriores y proyecciones de crecimiento, expresamente marcadas como históricos/no vigentes cuando sus parámetros difieren. No se usan los logits exploratorios para esta estimación.</p>
+<h2>7. Usuarios extranjeros: qué se puede afirmar</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>indicador</th>
+      <th>universo_aplicable_muestra</th>
+      <th>entrevistas_indicador_positivo</th>
+      <th>entrevistas_otro_valor</th>
+      <th>fuera_del_universo_indicador</th>
+      <th>demanda_anual_extranjera_completa</th>
+      <th>estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>OD_internacional</td>
+      <td>264.00</td>
+      <td>13.00</td>
+      <td>251.00</td>
+      <td>0.00</td>
+      <td>No estimable</td>
+      <td>No sumar entreindicadores: pueden identificar lasmismaspersonas; otrovalor no significa residencianacional</td>
+    </tr>
+    <tr>
+      <td>nacionalidad_declarada_peaton</td>
+      <td>99.00</td>
+      <td>5.00</td>
+      <td>94.00</td>
+      <td>165.00</td>
+      <td>No estimable</td>
+      <td>No sumar entreindicadores: pueden identificar lasmismaspersonas; otrovalor no significa residencianacional</td>
+    </tr>
+    <tr>
+      <td>patente_vehicular</td>
+      <td>159.00</td>
+      <td>10.00</td>
+      <td>149.00</td>
+      <td>105.00</td>
+      <td>No estimable</td>
+      <td>No sumar entreindicadores: pueden identificar lasmismaspersonas; otrovalor no significa residencianacional</td>
+    </tr>
+    <tr>
+      <td>residencia_extranjera</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>No hay clasificación agregada país de residencia enentregasfinales. Existencia de LugarResidencia enformulario no proporciona país validado.</td>
+    </tr>
+  </tbody>
+</table><p>Nacionalidad, patente, OD internacional y residencia son indicadores distintos y solapados. No se suman como personas extranjeras diferentes. Extranjerosreferencia conserva los aportes expandidos en meses caracterizados, sin presentarlos como un anual completo. No hay enlace defendible para repartir nacionalidades entre las rutasCP: las magnitudes anuales poralternativa se marcan no estimables y no se aplican proporciones generales. Clasificación no desagregable enCP no significa que todas las personas encuestadas carecieran de información.</p>
+<h2>8. Cobertura, exposición y límites</h2><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>alternativa_proyecto</th>
@@ -760,12 +3826,12 @@
       <td>ARISTO</td>
       <td>BICI</td>
       <td>bicicletas</td>
-      <td>52.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>52.000</td>
+      <td>52.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>52.00</td>
     </tr>
     <tr>
       <td>A1</td>
@@ -773,12 +3839,12 @@
       <td>ARISTO</td>
       <td>BUS_TP</td>
       <td>buses</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A1</td>
@@ -786,12 +3852,12 @@
       <td>ARISTO</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>3,161.571</td>
-      <td>3,020.143</td>
-      <td>2,099.750</td>
-      <td>2,527.821</td>
-      <td>0.000</td>
-      <td>141.429</td>
+      <td>3,161.57</td>
+      <td>3,020.14</td>
+      <td>2,099.75</td>
+      <td>2,527.82</td>
+      <td>0.00</td>
+      <td>141.43</td>
     </tr>
     <tr>
       <td>A1</td>
@@ -799,25 +3865,25 @@
       <td>ARISTO</td>
       <td>MOTO</td>
       <td>motocicletas</td>
-      <td>481.857</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>481.857</td>
+      <td>481.86</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>481.86</td>
     </tr>
     <tr>
       <td>A1</td>
       <td>B</td>
       <td>ARISTO</td>
       <td>OTRO_PASAJERO</td>
-      <td>Sin estimación</td>
-      <td>Sin estimación</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>Sin estimación</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>No estimable</td>
     </tr>
     <tr>
       <td>A1</td>
@@ -825,12 +3891,12 @@
       <td>ARISTO</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>51,542.429</td>
-      <td>40,020.638</td>
-      <td>40,020.638</td>
-      <td>40,020.638</td>
-      <td>0.000</td>
-      <td>11,521.791</td>
+      <td>51,542.43</td>
+      <td>40,020.64</td>
+      <td>40,020.64</td>
+      <td>40,020.64</td>
+      <td>0.00</td>
+      <td>11,521.79</td>
     </tr>
     <tr>
       <td>A1</td>
@@ -838,12 +3904,12 @@
       <td>ARISTO</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>7,381.429</td>
-      <td>6,514.971</td>
-      <td>4,411.195</td>
-      <td>2,426.079</td>
-      <td>0.000</td>
-      <td>866.458</td>
+      <td>7,381.43</td>
+      <td>6,514.97</td>
+      <td>4,411.20</td>
+      <td>2,426.08</td>
+      <td>0.00</td>
+      <td>866.46</td>
     </tr>
     <tr>
       <td>A1</td>
@@ -851,12 +3917,12 @@
       <td>ARISTO</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>7,802.143</td>
-      <td>7,802.143</td>
-      <td>7,802.143</td>
-      <td>7,802.143</td>
-      <td>0.000</td>
-      <td>0.000</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A1</td>
@@ -864,12 +3930,12 @@
       <td>CITRA</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>1,673.786</td>
-      <td>1,673.786</td>
-      <td>1,673.786</td>
-      <td>1,673.786</td>
-      <td>1,255.100</td>
-      <td>0.000</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,255.10</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A1</td>
@@ -877,12 +3943,12 @@
       <td>CITRA</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>30,811.783</td>
-      <td>30,811.783</td>
-      <td>30,811.783</td>
-      <td>25,006.362</td>
-      <td>10,615.539</td>
-      <td>0.000</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>25,006.36</td>
+      <td>10,615.54</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A2</td>
@@ -890,12 +3956,12 @@
       <td>ARISTO</td>
       <td>BICI</td>
       <td>bicicletas</td>
-      <td>52.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>52.000</td>
+      <td>52.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>52.00</td>
     </tr>
     <tr>
       <td>A2</td>
@@ -903,12 +3969,12 @@
       <td>ARISTO</td>
       <td>BUS_TP</td>
       <td>buses</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A2</td>
@@ -916,12 +3982,12 @@
       <td>ARISTO</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>3,161.571</td>
-      <td>3,020.143</td>
-      <td>2,099.750</td>
-      <td>2,527.821</td>
-      <td>0.000</td>
-      <td>141.429</td>
+      <td>3,161.57</td>
+      <td>3,020.14</td>
+      <td>2,099.75</td>
+      <td>2,527.82</td>
+      <td>0.00</td>
+      <td>141.43</td>
     </tr>
     <tr>
       <td>A2</td>
@@ -929,25 +3995,25 @@
       <td>ARISTO</td>
       <td>MOTO</td>
       <td>motocicletas</td>
-      <td>481.857</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>481.857</td>
+      <td>481.86</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>481.86</td>
     </tr>
     <tr>
       <td>A2</td>
       <td>B</td>
       <td>ARISTO</td>
       <td>OTRO_PASAJERO</td>
-      <td>Sin estimación</td>
-      <td>Sin estimación</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>Sin estimación</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>No estimable</td>
     </tr>
     <tr>
       <td>A2</td>
@@ -955,12 +4021,12 @@
       <td>ARISTO</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>51,542.429</td>
-      <td>40,020.638</td>
-      <td>40,020.638</td>
-      <td>40,020.638</td>
-      <td>0.000</td>
-      <td>11,521.791</td>
+      <td>51,542.43</td>
+      <td>40,020.64</td>
+      <td>40,020.64</td>
+      <td>40,020.64</td>
+      <td>0.00</td>
+      <td>11,521.79</td>
     </tr>
     <tr>
       <td>A2</td>
@@ -968,12 +4034,12 @@
       <td>ARISTO</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>7,381.429</td>
-      <td>6,514.971</td>
-      <td>4,411.195</td>
-      <td>2,426.079</td>
-      <td>0.000</td>
-      <td>866.458</td>
+      <td>7,381.43</td>
+      <td>6,514.97</td>
+      <td>4,411.20</td>
+      <td>2,426.08</td>
+      <td>0.00</td>
+      <td>866.46</td>
     </tr>
     <tr>
       <td>A2</td>
@@ -981,12 +4047,12 @@
       <td>ARISTO</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>7,802.143</td>
-      <td>7,802.143</td>
-      <td>7,802.143</td>
-      <td>7,802.143</td>
-      <td>0.000</td>
-      <td>0.000</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A2</td>
@@ -994,12 +4060,12 @@
       <td>CITRA</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>1,673.786</td>
-      <td>1,673.786</td>
-      <td>1,673.786</td>
-      <td>1,673.786</td>
-      <td>1,255.100</td>
-      <td>0.000</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,255.10</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A2</td>
@@ -1007,12 +4073,12 @@
       <td>CITRA</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>30,811.783</td>
-      <td>30,811.783</td>
-      <td>30,811.783</td>
-      <td>25,006.362</td>
-      <td>10,615.539</td>
-      <td>0.000</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>25,006.36</td>
+      <td>10,615.54</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A3</td>
@@ -1020,12 +4086,12 @@
       <td>ARISTO</td>
       <td>BICI</td>
       <td>bicicletas</td>
-      <td>52.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>52.000</td>
+      <td>52.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>52.00</td>
     </tr>
     <tr>
       <td>A3</td>
@@ -1033,12 +4099,12 @@
       <td>ARISTO</td>
       <td>BUS_TP</td>
       <td>buses</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A3</td>
@@ -1046,12 +4112,12 @@
       <td>ARISTO</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>3,161.571</td>
-      <td>3,020.143</td>
-      <td>2,099.750</td>
-      <td>2,527.821</td>
-      <td>0.000</td>
-      <td>141.429</td>
+      <td>3,161.57</td>
+      <td>3,020.14</td>
+      <td>2,099.75</td>
+      <td>2,527.82</td>
+      <td>0.00</td>
+      <td>141.43</td>
     </tr>
     <tr>
       <td>A3</td>
@@ -1059,25 +4125,25 @@
       <td>ARISTO</td>
       <td>MOTO</td>
       <td>motocicletas</td>
-      <td>481.857</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>481.857</td>
+      <td>481.86</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>481.86</td>
     </tr>
     <tr>
       <td>A3</td>
       <td>B</td>
       <td>ARISTO</td>
       <td>OTRO_PASAJERO</td>
-      <td>Sin estimación</td>
-      <td>Sin estimación</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>0.000</td>
-      <td>Sin estimación</td>
+      <td>No estimable</td>
+      <td>No estimable</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>No estimable</td>
     </tr>
     <tr>
       <td>A3</td>
@@ -1085,12 +4151,12 @@
       <td>ARISTO</td>
       <td>PEATON</td>
       <td>personas_peatones</td>
-      <td>51,542.429</td>
-      <td>40,020.638</td>
-      <td>40,020.638</td>
-      <td>40,020.638</td>
-      <td>0.000</td>
-      <td>11,521.791</td>
+      <td>51,542.43</td>
+      <td>40,020.64</td>
+      <td>40,020.64</td>
+      <td>40,020.64</td>
+      <td>0.00</td>
+      <td>11,521.79</td>
     </tr>
     <tr>
       <td>A3</td>
@@ -1098,12 +4164,12 @@
       <td>ARISTO</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>7,381.429</td>
-      <td>6,514.971</td>
-      <td>4,411.195</td>
-      <td>2,426.079</td>
-      <td>0.000</td>
-      <td>866.458</td>
+      <td>7,381.43</td>
+      <td>6,514.97</td>
+      <td>4,411.20</td>
+      <td>2,426.08</td>
+      <td>0.00</td>
+      <td>866.46</td>
     </tr>
     <tr>
       <td>A3</td>
@@ -1111,12 +4177,12 @@
       <td>ARISTO</td>
       <td>VP</td>
       <td>unidades_privadas_heterogeneas</td>
-      <td>7,802.143</td>
-      <td>7,802.143</td>
-      <td>7,802.143</td>
-      <td>7,802.143</td>
-      <td>0.000</td>
-      <td>0.000</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>7,802.14</td>
+      <td>0.00</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A3</td>
@@ -1124,12 +4190,12 @@
       <td>CITRA</td>
       <td>CAM</td>
       <td>vehículos</td>
-      <td>1,673.786</td>
-      <td>1,673.786</td>
-      <td>1,673.786</td>
-      <td>1,673.786</td>
-      <td>1,255.100</td>
-      <td>0.000</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,673.79</td>
+      <td>1,255.10</td>
+      <td>0.00</td>
     </tr>
     <tr>
       <td>A3</td>
@@ -1137,17 +4203,16 @@
       <td>CITRA</td>
       <td>VL</td>
       <td>vehículos</td>
-      <td>30,811.783</td>
-      <td>30,811.783</td>
-      <td>30,811.783</td>
-      <td>25,006.362</td>
-      <td>10,615.539</td>
-      <td>0.000</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>30,811.78</td>
+      <td>25,006.36</td>
+      <td>10,615.54</td>
+      <td>0.00</td>
     </tr>
   </tbody>
-</table><h2>Limitaciones y equivalentes</h2><p>El empalme norte enPuertoIbáñez1021es la referencia heredada: las longitudes oficiales se sustituyen bajo esa continuidad topológica. No se reconstruyó la red para certificar empalmes nuevos. Los costos imputados y núcleos deODexternos mantienen sus restricciones. La inducción excluye los costos de núcleo sin costo exterior absoluto. Buses nuevos son hipótesis operacionales aún no costeadas.</p>
-<p>El Excel incluye equivalentes diarios y por zarpe por temporada/sentido. Son promedios normalizados, no demanda punta ni operación efectiva, y no determinan todavía la capacidad necesaria. CITRA mantiene sus OD parciales, factor1,20 y cobertura temporal ya acordada. La penalización por frecuencia no es espera física medida. Los precios siguen siendo CLPenero2026convencionales de las etapas previas, no costos sociales puros.</p>
-<h2>Validaciones y reproducción</h2><table class="dataframe">
+</table><p>Los equivalentes diarios y porzarpe son promedios del soporte, no horas punta. En filas Ambos sentidos se suman los flujos y se divide por dos exposiciones de servicio; por sentido se usa una. La penalización0,25×168/f es inconveniencia por frecuencia, no espera física medida. Los costos de colaexterna no valorada conservan sus restricciones y se excluyen de inducción. El empalme norte heredado sigue siendo una aproximación; no se reconstruyó la red.</p>
+<h2>9. Validaciones y archivos</h2><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>validacion</th>
@@ -1184,7 +4249,15 @@
       <td>True</td>
     </tr>
     <tr>
-      <td>Nuevafrecuencia14sentido</td>
+      <td>Ambos cruces mismo horario11/8</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Ambos cruces misma exposición11/8</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Frecuencia oficial nuevo11/8</td>
       <td>True</td>
     </tr>
     <tr>
@@ -1240,4 +4313,4 @@
       <td>True</td>
     </tr>
   </tbody>
-</table><p><a href="demanda_oficial_tres_alternativas.xlsx">Descargar Excel</a>. DesdeAnexos:<code>python actualizacion_oficial_alternativas_20261029/codigo/calcular.py</code>. Parámetros editables en<code>codigo/configuracion.json</code>. READMEprincipal documenta el flujo y resultados. Entregas anteriores verificadas intactas por huellas. Siguiente etapa:capacidad operacional, inversión,O&amp;Myevaluaciónsocial.</p></html>
+</table><p>Además se verificaron las agregaciones de las tablas del equipo, las cuotas del mercado compatible y la igualdad de frecuencias de ambos cruces. <a href="demanda_oficial_tres_alternativas.xlsx">Excel oficial completo</a>. Reproducción:<code>python actualizacion_oficial_alternativas_20261029/codigo/calcular.py</code>. El READMEprincipal y codigo/configuracion.json definen las ubicaciones y parámetros vigentes. Esta consolidación no estima capacidad ni beneficios sociales.</p></html>

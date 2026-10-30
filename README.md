@@ -50,7 +50,7 @@ La decisión de utilizar 30 minutos de desembarque se aplica al servicio actual 
 | 2. Rápida con linkspan | P-20d | 24,62 km | Tipo Capitán Wellmann / nueva barcaza MOP | Puente basculante | 39 min |
 | 3. Rápida con rampa fija | P-20b | 22,60 km | Tipo Capitán Wellmann / nueva barcaza MOP | Muelles y rampa fija | 39 min |
 
-La distancia lacustre de referencia es de 7,3 millas náuticas. Cada nuevo servicio utiliza inicialmente 14 zarpes semanales por sentido y una embarcación adicional independiente. La frecuencia óptima, la flota necesaria y su capacidad se evalúan posteriormente.
+La distancia lacustre de referencia es de 7,3 millas náuticas. La frecuencia oficial común **11/8** reemplaza las anteriores referencias a 14 para el nuevo cruce. Cada nuevo servicio utiliza **11 zarpes semanales por sentido en diciembre–abril y 8 en mayo–noviembre**, exactamente igual al cruce actual y una embarcación adicional independiente. La frecuencia óptima, la flota necesaria y su capacidad se evalúan posteriormente.
 
 En cada situación con proyecto coexisten la ruta terrestre, Puerto Ibáñez–Chile Chico con los atributos de la SBO y **una** de las alternativas nuevas. Los costos de las dos rutas existentes son iguales entre SBO y con proyecto.
 
@@ -160,3 +160,9 @@ No modificar originales ni borrar entregas anteriores. No publicar microdatos, i
 Los resultados distinguen observado, expandido, imputado, supuesto y fuera de soporte. Los faltantes no equivalen a cero. Vehículos, unidades VP y personas se mantienen separados; nacionalidad, patente y OD internacional tampoco se consideran equivalentes a residencia.
 
 La siguiente etapa utiliza esta demanda para revisar capacidad y frecuencia operacional. Después corresponde completar inversión, operación y mantenimiento —incluidos buses y tecnologías portuarias— y la evaluación social. Los flujos equivalentes por día o zarpe son referencias para esa revisión, no una prueba de suficiencia de capacidad.
+
+## Consolidación para el equipo
+
+El Excel oficial se actualiza en su ubicación existente. Incluye guía de lectura, campañas observadas, referencia anual2026, SBO, tablas de las tres rutas por alternativa/año/temporada/sentido, procedencia, sensibilidades y extranjeros. Las tablas para compartir utilizan ARISTOB; A permanece como contraste independiente. Las sensibilidades operacionales históricas se identifican expresamente como **no vigentes**: conservan los parámetros con que se calcularon y no representan la frecuencia oficial11/8.
+
+La desagregación de extranjeros de cada rutaCP no se estima si falta una correspondencia defendible entre indicadores y OD; no se aplican proporciones generales. Los indicadores de nacionalidad, patente, ODinternacional y residencia no se suman ni se consideran equivalentes.

@@ -57,7 +57,10 @@
       "puerto": "Muelles y rampa fija"
     }
   ],
-  "frecuencia_nuevo": 14,
+  "frecuencia_nuevo": {
+    "alta": 11,
+    "baja": 8
+  },
   "distancia_navegacion_millas": 7.3,
   "velocidad_acceso_kmh": {
     "VL": 50,
@@ -118,5 +121,13 @@
   "fuente_desembarque": "Decisión usuario:30min para todos, información verbal ejecutivo NavieraAustral (rango15/30/45según vehículos), no observación porOD.",
   "hipotesis_accesos": "P20a/d/b como caminos ripio tipoI1RBM1a50km/h. Se sustituye una sola vez el tramo X73531,14km; se conservan sur16,7km y restantes arcos. Empalme norte1021 es referencia heredada, no verificación nueva de los tres proyectos; si cambian empalmes se requerirá actualizar componente troncal.",
   "cobertura": "Demanda/proyecciones centrales congeladas, CITRA1,20 y temporadas imputadas heredadas, ARISTOA/Bindependientes; VPperfilVLsolo costos, no recodificación de flujos.",
-  "equivalentes": "Días y zarpes equivalentes de año2026normalizado365días por coherencia con proyección; no operación medida ni demanda pico. Zarpes por sentido, sin multiplicar por2."
+  "equivalentes": "Días normalizados2026; zarpes11/8porsemana/sentido para ambos cruces. Ambos sentidos usa doble exposición; no son demanda punta ni operación efectiva.",
+  "frecuencia_nuevo_meses_alta": [
+    12,
+    1,
+    2,
+    3,
+    4
+  ],
+  "frecuencias_oficiales": "Idénticas para ambos cruces:11diciembre–abril,8mayo–noviembre. Reemplaza la configuración oficial anterior de14para el nuevo. No modifica fuentes/contrastes históricos."
 }

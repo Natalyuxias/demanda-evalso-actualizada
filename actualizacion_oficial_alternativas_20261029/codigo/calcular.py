@@ -1,11 +1,12 @@
 """Actualizaciónoficial parametrizada; fórmulas deEtapas5–6 sin reconstruir entradas.
 python actualizacion_oficial_alternativas_20261029/codigo/calcular.py
-Requiere pandas,numpy,openpyxl. --config archivo.json --salida carpeta_nueva.
+Requiere pandas,numpy,openpyxl. --config archivo.json --salida (opcional; entrega oficial se actualiza enresultados).
 """
 from pathlib import Path
 import argparse,json,hashlib,calendar,unicodedata
 import pandas as pd
 import numpy as np
+from tablas_equipo import construir_tablas_equipo, informe_equipo
 P=Path(__file__).resolve().parent.parent;R=P.parent
 ap=argparse.ArgumentParser();ap.add_argument('--config',type=Path,default=P/'codigo/configuracion.json');ap.add_argument('--salida',type=Path,default=P/'resultados');args=ap.parse_args();C=json.loads(args.config.read_text());O=args.salida;O.mkdir(parents=True,exist_ok=True)
 paths={'cierre6':R/'etapa6_cierre_incremental_20261029/resultados/demanda_inducida_incremental_final.xlsx','cfg_captacion':R/'etapa5_transferencia_principal_20261029/codigo/configuracion.json','cfg_elasticidades':R/'etapa6_demanda_inducida_20261029/codigo/configuracion.json','atributos4':R/'etapa4_costos_generalizados_20261029/resultados/costos_generalizados_etapa4.xlsx','componentes5':R/'etapa5_logit_preliminar_20261029/resultados/captacion_logit_preliminar.xlsx','buses5':R/'etapa5_ampliacion_peatones_20261029/resultados/ampliacion_peatones_sensibilidad.xlsx','tramos':R/'demanda_lago_github/outputs/etapa12/tramos_proyecto.csv'}
@@ -47,15 +48,15 @@ def components(source,o,d,seg,t,alt):
 # Exposiciónequivalente y horario: mismaSBO para las3alternativas.
 season={}
 for t,months in C['meses_temporada'].items():
- ds=np.array([calendar.monthrange(2026,m)[1] for m in months]);oldfs=np.array([14 if m in C['SBO']['meses_alta'] else 12 for m in months]);newfs=np.array([C['SBO']['frecuencia_alta'] if m in C['SBO']['meses_alta'] else C['SBO']['frecuencia_baja'] for m in months])
- season[t]={'days':int(ds.sum()),'oldhor':float(np.average(42/oldfs,weights=ds)),'hor':float(np.average(C['w_horario']*168/newfs,weights=ds)),'zactual':float(np.sum(ds*newfs/7))}
+ ds=np.array([calendar.monthrange(2026,m)[1] for m in months]);oldfs=np.array([14 if m in C['SBO']['meses_alta'] else 12 for m in months]);newfs=np.array([C['SBO']['frecuencia_alta'] if m in C['SBO']['meses_alta'] else C['SBO']['frecuencia_baja'] for m in months]);proyfs=np.array([C['frecuencia_nuevo']['alta'] if m in C['frecuencia_nuevo_meses_alta'] else C['frecuencia_nuevo']['baja'] for m in months])
+ season[t]={'days':int(ds.sum()),'oldhor':float(np.average(42/oldfs,weights=ds)),'hor':float(np.average(C['w_horario']*168/newfs,weights=ds)),'zactual':float(np.sum(ds*newfs/7)),'hor_nuevo':float(np.average(C['w_horario']*168/proyfs,weights=ds)),'znuevo':float(np.sum(ds*proyfs/7))}
 b['ocupacion']=b.segmento.map({'VL':1.98,'VP':1.98,'CAM':1.,'PEATON':1.})
 b['anticipacion_nueva_h']=b.segmento.map(C['anticipacion_h'])
 b['T_horario_actual']=b.temporada.map({t:v['hor'] for t,v in season.items()})
 b['T_horario_actual_anterior']=b.temporada.map({t:v['oldhor'] for t,v in season.items()})
 b['dias_equivalentes']=b.temporada.map({t:v['days'] for t,v in season.items()})
 b['zarpes_actual_sentido_temporada']=b.temporada.map({t:v['zactual'] for t,v in season.items()})
-b['zarpes_nuevo_sentido_temporada']=b.dias_equivalentes*C['frecuencia_nuevo']/7
+b['zarpes_nuevo_sentido_temporada']=b.temporada.map({t:v['znuevo'] for t,v in season.items()})
 b['CG_actual_SBO']=b.CG_actual+C['VST']*b.ocupacion*((C['SBO']['navegacion_min']-120)/60+(b.anticipacion_nueva_h-.25)+(C['desembarque_h']-.25)+(b.T_horario_actual-b.T_horario_actual_anterior))
 b['CG_tierra_SBO']=b.CG_tierra
 b['CG_origen_SBO']=b.CG_actual_SBO.where(b.fuente.eq('ARISTO'),b.CG_tierra_SBO)
@@ -85,7 +86,7 @@ for project in C['alternativas']:
  q=b.copy();q['alternativa_proyecto']=project['id'];q['nombre_proyecto']=project['nombre'];q['acceso']=project['acceso'];q['km_acceso_norte']=project['km_acceso'];q['nave']=project['nave'];q['infraestructura']=project['puerto']
  dk=project['km_acceso']-C['km_acceso_referencia'];q['delta_km_acceso']=dk;q['delta_tiempo_vial_h']=dk/q.segmento.map(C['velocidad_acceso_kmh']);q['delta_COV_acceso']=dk*q.segmento.map(covrate)
  q['delta_tarifa_buses']=np.where(q.segmento.eq('PEATON'),dk*C['tarifa_bus_km'],0.)
- q['tiempo_navegacion_nuevo_h']=project['navegacion_min']/60;q['tiempo_presentacion_h']=q.anticipacion_nueva_h;q['tiempo_desembarque_h']=C['desembarque_h'];q['tiempo_horario_nuevo_h']=C['w_horario']*168/C['frecuencia_nuevo'];q['distancia_lacustre_km']=C['distancia_navegacion_millas']*1.852
+ q['tiempo_navegacion_nuevo_h']=project['navegacion_min']/60;q['tiempo_presentacion_h']=q.anticipacion_nueva_h;q['tiempo_desembarque_h']=C['desembarque_h'];q['tiempo_horario_nuevo_h']=q.temporada.map({t:v['hor_nuevo'] for t,v in season.items()});q['distancia_lacustre_km']=C['distancia_navegacion_millas']*1.852
  q['nuevo_km_actualizado']=q.nuevo_km_base+dk;q['nuevo_h_vial_actualizado']=q.nuevo_h_base+q.delta_tiempo_vial_h;q['nuevo_COV_actualizado']=q.nuevo_cov_base+q.delta_COV_acceso;q['nuevo_tarifa_buses_actualizada']=q.get('nuevo_tarifa_bus_base',np.nan)+q.delta_tarifa_buses
  q['CG_nuevo_CP']=q.CG_nuevo+q.delta_COV_acceso+q.delta_tarifa_buses+C['VST']*q.ocupacion*(q.delta_tiempo_vial_h+(project['navegacion_min']-80)/60+(q.anticipacion_nueva_h-.25)+(C['desembarque_h']-.25)+(q.tiempo_horario_nuevo_h-3))
  q['nuevo_tiempo_total_h']=q.nuevo_h_vial_actualizado+q.tiempo_navegacion_nuevo_h+q.tiempo_presentacion_h+q.tiempo_desembarque_h+q.tiempo_horario_nuevo_h+q.nuevo_transbordo_adicional_h.fillna(0)
@@ -129,7 +130,7 @@ keys=['alternativa_proyecto','version_referencia','escenario_captacion','escenar
 metrics=['Q_referencia','D_tierra_SBO','D_actual_SBO','D_existente_nuevo','D_desviada_tierra','D_desviada_actual','D_tierra_CP_existente','D_actual_CP_existente','D_inducida_incremental','D_inducida_tierra','D_inducida_actual','D_inducida_nuevo','D_tierra_CP_total','D_actual_CP_total','D_nuevo_CP_total','D_residual_existente','D_base_fuera_soporte_induccion']
 summary=d.groupby(keys,dropna=False)[metrics].sum(min_count=1).reset_index()
 summary['alcance']='Aportesestimados yescenarios demercado cubierto; CITRAno totalterrestre, A/Bindependientes; no sumartiposincompatibles'
-byperiod=d.groupby(keys+['temporada','direccion_cruce'],dropna=False)[metrics].sum(min_count=1).reset_index();byperiod['dias_equivalentes']=byperiod.temporada.map({t:v['days'] for t,v in season.items()});byperiod['zarpes_nuevo_equiv']=byperiod.dias_equivalentes*C['frecuencia_nuevo']/7
+byperiod=d.groupby(keys+['temporada','direccion_cruce'],dropna=False)[metrics].sum(min_count=1).reset_index();byperiod['dias_equivalentes']=byperiod.temporada.map({t:v['days'] for t,v in season.items()});byperiod['zarpes_nuevo_equiv']=byperiod.temporada.map({t:v['znuevo'] for t,v in season.items()})
 byperiod['nuevo_diario_equiv']=byperiod.D_nuevo_CP_total/byperiod.dias_equivalentes;byperiod['nuevo_por_zarpe_equiv']=byperiod.D_nuevo_CP_total/byperiod.zarpes_nuevo_equiv
 # Modelo oficialdetallado deja disponibles los componentes sin repetir metadatos largos en todaslasfilas.
 cov=d[(d.anio==2026)&d.escenario_captacion.eq('central')&d.escenario_elasticidad.eq('central')].copy()
@@ -148,7 +149,9 @@ check('Servicioactual idénticoSBO/CP',np.allclose(costs.CG_actual_SBO,costs.CG_
 check('COVHDM4sin actualizaciónmetodológica',abs(covrate['VL']-216/C['ipc_enero2026_a_dic2025'])<1e-8 and abs(covrate['CAM']-1103/C['ipc_enero2026_a_dic2025'])<1e-8)
 check('Desembarque30min igualtodos',costs.tiempo_desembarque_h.eq(.5).all())
 check('Presentaciónsin doble15min',costs.tiempo_presentacion_h.eq(costs.segmento.map(C['anticipacion_h'])).where(costs.segmento.isin(C['anticipacion_h']),True).all())
-check('Nuevafrecuencia14sentido',costs.tiempo_horario_nuevo_h.eq(3).all())
+check('Ambos cruces mismo horario11/8',np.allclose(costs.tiempo_horario_nuevo_h,costs.T_horario_actual))
+check('Ambos cruces misma exposición11/8',np.allclose(costs.zarpes_nuevo_sentido_temporada,costs.zarpes_actual_sentido_temporada))
+check('Frecuencia oficial nuevo11/8',C['frecuencia_nuevo']=={'alta':11,'baja':8})
 check('Probabilidades0a1',d.p_nuevo.dropna().between(0,1).all())
 m=d[d.p_nuevo.notna()&d.Q_referencia.notna()]
 check('Conservación existenteCP',np.allclose(m.D_tierra_CP_existente+m.D_actual_CP_existente+m.D_existente_nuevo,m.Q_referencia))
@@ -181,23 +184,26 @@ notes=pd.DataFrame([
  ['Exposición','Promedios diarios/porzarpe equivalentes del soporte y temporada, no mediciones ni horaspunta. Año2026normalizado365días; frecuencia porunsentido. CITRA factor1,20no completa demanda geográficafaltante.'],
  ['Totalyriesgo','Los totales sonaportes estimados. Residuales ycostos no comparables permanecen identificados. No sumarA/B, alternativas excluyentes ounidades distintas. Desagregacionescomunales sonproxies, no localidadesobservadas.'],
  ['Siguienteetapa','Capacidad,flotayprogramación, inversiones ycostosdeoperación/mantenimiento,evaluaciónsocial. No se calculan enestaentrega.'],
- ['Reproducir','python actualizacion_oficial_alternativas_20261029/codigo/calcular.py; --config archivo.json --salida carpeta_nueva. No ejecutaetapasprevias ni EOD/red.']
+ ['Reproducir','python actualizacion_oficial_alternativas_20261029/codigo/calcular.py; --config archivo.json --salida (opcional; entrega oficial se actualiza enresultados). No ejecutaetapasprevias ni EOD/red.']
 ],columns=['tema','detalle'])
 trace=pd.DataFrame([{'fuente':k,'archivo':str(p),'sha256':hashes[k]} for k,p in paths.items()])
 central=summary[(summary.version_referencia==C['version_informe'])&summary.escenario_captacion.eq('central')&summary.escenario_elasticidad.eq('central')&summary.segmento.isin(['VL','CAM','VP','PEATON'])]
-sheets={'Resumen oficial':summary,'Temporadas y equivalentes':byperiod,'Demanda detallada':d[cols],'Costos por alternativa':costs,'Alternativas y parametros':params,'Cobertura y residuales':coverage,'Supuestos y limites':notes,'Curvas heredadas':pd.DataFrame([{'familia':f,'escenario':sc,'ahorros':str(cc['nudos_ahorro_relativo']),'probabilidades':str(pp)} for f,dd in cc['curvas'].items() for sc,pp in dd.items()]),'Elasticidades heredadas':pd.DataFrame(ec['elasticidades']).T.reset_index(names='segmento'),'Extranjeros heredados':foreign,'Validaciones':checks,'Trazabilidad':trace}
+costs_export=costs.rename(columns={'CG_SBO':'CG_fuente_historica_SBO','CG_actual':'CG_fuente_historica_actual','CG_nuevo':'CG_fuente_historica_nuevo','CG_tierra':'CG_terrestre_base_invariable','T_horario_actual_anterior':'horario_fuente_historica_actual'})
+sheets={'Resumen oficial':summary,'Temporadas y equivalentes':byperiod,'Demanda detallada':d[cols],'Costos por alternativa':costs_export,'Alternativas y parametros':params,'Cobertura y residuales':coverage,'Supuestos y limites':notes,'Curvas heredadas':pd.DataFrame([{'familia':f,'escenario':sc,'ahorros':str(cc['nudos_ahorro_relativo']),'probabilidades':str(pp)} for f,dd in cc['curvas'].items() for sc,pp in dd.items()]),'Elasticidades heredadas':pd.DataFrame(ec['elasticidades']).T.reset_index(names='segmento'),'Extranjeros heredados':foreign,'Validaciones':checks,'Trazabilidad':trace}
+extra,metadata=construir_tablas_equipo(R,C,b,d,costs,summary,byperiod,coverage)
+sheets={**extra,**sheets}
 with pd.ExcelWriter(O/'demanda_oficial_tres_alternativas.xlsx',engine='openpyxl') as w:
  for name,df in sheets.items():
   df.to_excel(w,sheet_name=name,index=False);ws=w.book[name];ws.freeze_panes='D2';ws.auto_filter.ref=ws.dimensions
   for col in ws.columns:
    ws.column_dimensions[col[0].column_letter].width=min(45,max(14,len(str(col[0].value or ''))+2))
    for cell in col[1:]:
-    if isinstance(cell.value,float):cell.number_format='#,##0.0000'
+    if isinstance(cell.value,float):cell.number_format='0.0%' if any(t in str(df.columns[cell.column-1]).lower() for t in ['participacion','porcentaje','fraccion']) else '#,##0.0000'
 fmt=lambda df:df.to_html(index=False,border=0,na_rep='Sin estimación',float_format=lambda v:f'{v:,.3f}')
 show=central[['alternativa_proyecto','anio','segmento','unidad','D_tierra_SBO','D_actual_SBO','D_tierra_CP_total','D_actual_CP_total','D_existente_nuevo','D_inducida_nuevo','D_nuevo_CP_total','D_residual_existente']]
 page=f'''<!doctype html><html lang="es"><meta charset="utf-8"><title>Demanda oficial de alternativas</title><style>body{{font:16px system-ui;max-width:1400px;margin:32px auto;padding:0 20px;color:#17374a}}p{{line-height:1.5}}table{{border-collapse:collapse;display:block;overflow:auto;font-size:12px}}td,th{{padding:8px;border-bottom:1px solid #ddd;text-align:left}}th{{background:#eaf2f7}}</style><h1>Demanda oficial de las tres alternativas</h1>
 <p>Actualización de parámetros sobre las mismas matrices y proyecciones centrales, curvas de transferencia e inducción incremental de las Etapas1–6. Las alternativas se evalúan por separado; no compiten entre sí ni se suman. Referencia ARISTO{C['version_informe']}; A queda como contraste independiente.</p>
-<h2>Configuraciones oficiales</h2>{fmt(pd.DataFrame(C['alternativas']))}<p>Distancia lacustre7,3millas náuticas=13,5196km. Nuevo servicio14zarpes semanales por sentido en las tres alternativas. Rampa/linkspan no alteran por sí mismos ningún tiempo. El acceso de ripio se representa con el tipoHDM4I1RBM1 y50km/h; solo cambia la longitud de cada trazado.</p>
+<h2>Configuraciones oficiales (frecuencia común11/8)</h2>{fmt(pd.DataFrame(C['alternativas']))}<p>Distancia lacustre7,3millas náuticas=13,5196km. Nuevo servicio11zarpes semanales por sentido enalta y8enbaja en las tres alternativas. Rampa/linkspan no alteran por sí mismos ningún tiempo. El acceso de ripio se representa con el tipoHDM4I1RBM1 y50km/h; solo cambia la longitud de cada trazado.</p>
 <h2>SBO común</h2><p>PuertoIbáñez–ChileChico utiliza CapitánWellmann en reemplazo deLaTehuelche,107min y11salidas semanales por sentido en diciembre–abril,8en mayo–noviembre. La sustitución pertenece aSBO; se conservan exactamente sus atributos conproyecto. La terrestre tampoco cambia. Presentación documentada anteriormente:2hvehículos y1hpeatones, incluida operación previa alzarpe, sin añadir otros15min. Desembarque30min para todos por decisión basada en el antecedente verbal entregado. Estas referencias no son mediciones individuales.</p>
 <h2>Demanda central2026–2050</h2>{fmt(show)}<p>Las cantidades son aportes del mercado cubierto e imputaciones identificadas. VP mantiene unidad heterogénea; no se suma comoVLestricto. Peatones no representan todos los pasajeros transportados. Los residuales de cada fuente permanecen separados; las cifras no completan el mercado terrestre desconocido.</p>
 <h2>Costos y metodología</h2><p>Se conserva cada CG terrestre y el COV/fare previo. La actualización del ferryactual cambia navegación, presentación, desembarque y0,25×168/f. En el nuevo cruce se reemplaza una sola vez X73531,14km por31,14/24,62/22,60km, sumando la diferencia de tiempo a50km/h y COV por km del mismo tipoHDM4. El troncal y los16,7km del acceso sur permanecen, sin duplicación. En buses, esa diferencia modifica tarifa por kilómetro, no COVdeautomóvil.</p>
@@ -205,5 +211,6 @@ page=f'''<!doctype html><html lang="es"><meta charset="utf-8"><title>Demanda ofi
 <h2>Cobertura y residuales</h2>{fmt(coverage[coverage.version_referencia.eq('B')])}<h2>Limitaciones y equivalentes</h2><p>El empalme norte enPuertoIbáñez1021es la referencia heredada: las longitudes oficiales se sustituyen bajo esa continuidad topológica. No se reconstruyó la red para certificar empalmes nuevos. Los costos imputados y núcleos deODexternos mantienen sus restricciones. La inducción excluye los costos de núcleo sin costo exterior absoluto. Buses nuevos son hipótesis operacionales aún no costeadas.</p>
 <p>El Excel incluye equivalentes diarios y por zarpe por temporada/sentido. Son promedios normalizados, no demanda punta ni operación efectiva, y no determinan todavía la capacidad necesaria. CITRA mantiene sus OD parciales, factor1,20 y cobertura temporal ya acordada. La penalización por frecuencia no es espera física medida. Los precios siguen siendo CLPenero2026convencionales de las etapas previas, no costos sociales puros.</p>
 <h2>Validaciones y reproducción</h2>{fmt(checks)}<p><a href="demanda_oficial_tres_alternativas.xlsx">Descargar Excel</a>. DesdeAnexos:<code>python actualizacion_oficial_alternativas_20261029/codigo/calcular.py</code>. Parámetros editables en<code>codigo/configuracion.json</code>. READMEprincipal documenta el flujo y resultados. Entregas anteriores verificadas intactas por huellas. Siguiente etapa:capacidad operacional, inversión,O&amp;Myevaluaciónsocial.</p></html>'''
+page=informe_equipo(C,extra,summary,coverage,checks,metadata)
 (O/'informe_alternativas_oficiales.html').write_text(page,encoding='utf-8')
 print(json.dumps({'validaciones':len(checks),'filas':len(d),'central2026':central[central.anio.eq(2026)][['alternativa_proyecto','segmento','D_existente_nuevo','D_inducida_nuevo','D_nuevo_CP_total']].to_dict('records')},ensure_ascii=False))
