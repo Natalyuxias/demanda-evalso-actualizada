@@ -1,0 +1,122 @@
+{
+  "anios": [
+    2026,
+    2030,
+    2040,
+    2050
+  ],
+  "version_informe": "B",
+  "VST": 10047,
+  "SBO": {
+    "nave": "Capitán Wellmann (reemplaza La Tehuelche)",
+    "navegacion_min": 107,
+    "frecuencia_alta": 11,
+    "frecuencia_baja": 8,
+    "meses_alta": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "anticipacion_h": {
+    "VL": 2,
+    "VP": 2,
+    "CAM": 2,
+    "PEATON": 1
+  },
+  "desembarque_h": 0.5,
+  "w_horario": 0.25,
+  "alternativas": [
+    {
+      "id": "A1",
+      "nombre": "Convencional",
+      "acceso": "P-20a",
+      "km_acceso": 31.14,
+      "navegacion_min": 43,
+      "nave": "Tipo La Tehuelche",
+      "puerto": "Rampa fija"
+    },
+    {
+      "id": "A2",
+      "nombre": "Rápida con linkspan",
+      "acceso": "P-20d",
+      "km_acceso": 24.62,
+      "navegacion_min": 39,
+      "nave": "Tipo Capitán Wellmann / nueva MOP",
+      "puerto": "Puente basculante (linkspan)"
+    },
+    {
+      "id": "A3",
+      "nombre": "Rápida con rampa fija",
+      "acceso": "P-20b",
+      "km_acceso": 22.6,
+      "navegacion_min": 39,
+      "nave": "Tipo Capitán Wellmann / nueva MOP",
+      "puerto": "Muelles y rampa fija"
+    }
+  ],
+  "frecuencia_nuevo": 14,
+  "distancia_navegacion_millas": 7.3,
+  "velocidad_acceso_kmh": {
+    "VL": 50,
+    "VP": 50,
+    "CAM": 50,
+    "PEATON": 50
+  },
+  "perfil_acceso_HDM4": "I1RBM1",
+  "km_acceso_referencia": 31.14,
+  "ipc_enero2026_a_dic2025": 0.9958982772764562,
+  "tarifa_bus_km": 81.99678572599954,
+  "tarifa_lacustre_peaton": 2550,
+  "meses_temporada": {
+    "Verano": [
+      12,
+      1,
+      2
+    ],
+    "Otoño": [
+      3,
+      4,
+      5
+    ],
+    "Invierno": [
+      6,
+      7,
+      8
+    ],
+    "Primavera": [
+      9,
+      10,
+      11
+    ]
+  },
+  "casos": [
+    {
+      "captacion": "conservador",
+      "elasticidad": "central"
+    },
+    {
+      "captacion": "central",
+      "elasticidad": "menor_induccion"
+    },
+    {
+      "captacion": "central",
+      "elasticidad": "central"
+    },
+    {
+      "captacion": "central",
+      "elasticidad": "mayor_induccion"
+    },
+    {
+      "captacion": "alto",
+      "elasticidad": "central"
+    }
+  ],
+  "fuente_anticipacion": "Referencia operador ya documentada en config_atributos.json y docs/04:2h vehículos,1hpeatones; vigencia actual no reconsultada. Para nuevo cruce se transfiere como supuesto; no se añade otro embarque15min.",
+  "fuente_desembarque": "Decisión usuario:30min para todos, información verbal ejecutivo NavieraAustral (rango15/30/45según vehículos), no observación porOD.",
+  "hipotesis_accesos": "P20a/d/b como caminos ripio tipoI1RBM1a50km/h. Se sustituye una sola vez el tramo X73531,14km; se conservan sur16,7km y restantes arcos. Empalme norte1021 es referencia heredada, no verificación nueva de los tres proyectos; si cambian empalmes se requerirá actualizar componente troncal.",
+  "cobertura": "Demanda/proyecciones centrales congeladas, CITRA1,20 y temporadas imputadas heredadas, ARISTOA/Bindependientes; VPperfilVLsolo costos, no recodificación de flujos.",
+  "equivalentes": "Días y zarpes equivalentes de año2026normalizado365días por coherencia con proyección; no operación medida ni demanda pico. Zarpes por sentido, sin multiplicar por2."
+}
