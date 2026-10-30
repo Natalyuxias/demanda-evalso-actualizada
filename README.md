@@ -15,7 +15,28 @@ La ejecución parametrizada se encuentra en [actualizacion_oficial_alternativas_
 | Implementación | [codigo/calcular.py](actualizacion_oficial_alternativas_20261029/codigo/calcular.py) |
 | Parámetros editables | [codigo/configuracion.json](actualizacion_oficial_alternativas_20261029/codigo/configuracion.json) |
 
-Desde la carpeta `Anexos`, ejecutar:
+Para revisar la entrega, empiece por **LEER PRIMERO** en el Excel. Las hojas principales, en orden, son:
+
+1. **Demanda actual 2026:** ARISTO y CITRA separados, por temporada y segmento, con aportes anuales, unidades y cobertura.
+2. **Demanda anual:** resultados centrales de las tres rutas para A1, A2 y A3, evaluadas por separado.
+3. **Demanda estacional:** temporada y sentido, con equivalentes diarios y por zarpe.
+4. **Captacion e induccion:** procedencia de los desvíos, inducción incremental y total del nuevo cruce.
+5. **Sensibilidades:** casos vigentes y parámetros; los contrastes históricos están separados y marcados como no vigentes.
+6. **Insumos evaluacion social:** detalle por OD, procedencia, proyecto, ruta, temporada, segmento y año; demanda SBO/CP, distancias, tiempos, COV privados, tarifas y CG disponibles.
+
+Las hojas grises al final conservan el respaldo técnico. Las tablas principales utilizan una sola referencia aprobada; no suman versiones ni escenarios. **0** es un cero calculado; **—** significa no aplicable; **ND**, información insuficiente. La demanda fuera del soporte se presenta como cantidad separada. No sumar los totales de ambos sentidos con sus componentes, ni las alternativas entre sí.
+
+El CG combina costos monetarios privados y un VST social común; no es un costo social puro. Los costos de recursos y COV sociales aún no calculados permanecen **ND**. Las tarifas están separadas y no deben contarse como consumo adicional de recursos. Los indicadores muestrales de extranjeros no permiten una desagregación anual por alternativa; los restantes viajes no se consideran automáticamente nacionales.
+
+Para actualizar **solo la presentación**, sin recalcular demanda ni costos:
+
+```bash
+python actualizacion_oficial_alternativas_20261029/codigo/presentar_resultados.py
+```
+
+Este comando lee el Excel oficial existente, conserva los valores de sus hojas técnicas, reorganiza las tablas y reemplaza el mismo Excel e informe HTML. No lee encuestas, no modifica configuraciones y no ejecuta el modelo. Verifica que los valores de respaldo permanezcan iguales, admitiendo únicamente el redondeo de almacenamiento de Excel.
+
+Para reproducir el cálculo completo autorizado en la etapa anterior, desde `Anexos`:
 
 ```bash
 python actualizacion_oficial_alternativas_20261029/codigo/calcular.py

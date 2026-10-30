@@ -213,4 +213,7 @@ page=f'''<!doctype html><html lang="es"><meta charset="utf-8"><title>Demanda ofi
 <h2>Validaciones y reproducción</h2>{fmt(checks)}<p><a href="demanda_oficial_tres_alternativas.xlsx">Descargar Excel</a>. DesdeAnexos:<code>python actualizacion_oficial_alternativas_20261029/codigo/calcular.py</code>. Parámetros editables en<code>codigo/configuracion.json</code>. READMEprincipal documenta el flujo y resultados. Entregas anteriores verificadas intactas por huellas. Siguiente etapa:capacidad operacional, inversión,O&amp;Myevaluaciónsocial.</p></html>'''
 page=informe_equipo(C,extra,summary,coverage,checks,metadata)
 (O/'informe_alternativas_oficiales.html').write_text(page,encoding='utf-8')
+# Presentación final: solo reorganiza valores ya calculados y preserva respaldos.
+from presentar_resultados import presentar
+presentar(O)
 print(json.dumps({'validaciones':len(checks),'filas':len(d),'central2026':central[central.anio.eq(2026)][['alternativa_proyecto','segmento','D_existente_nuevo','D_inducida_nuevo','D_nuevo_CP_total']].to_dict('records')},ensure_ascii=False))
